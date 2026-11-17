@@ -86,7 +86,7 @@ Joins two ropes or cords of any thickness and is very hard to slip. Good for sli
 2. Wrap the working part tightly around the rope and loop, working toward the end, for about 1 1/2 times the rope's diameter.
 3. Pass the working end through the loop.
 4. Pull the tail at the other end to drag the loop under the wraps. Trim both ends.
-For nylon rope, you can also melt the end with a flame. Press the soft end flat with a wet finger only after it has cooled for a few seconds, because molten nylon burns skin badly.
+For nylon rope, you can also melt the end with a flame, outdoors. Never touch molten nylon: it sticks to skin and burns deeply. Let the end cool completely before you handle it.
 
 See [[cordage-rope]] to make your own rope, and [[fasteners-joinery]] for lashings.
 `
@@ -111,6 +111,8 @@ Cord ties shelters, lashes tools, makes snares, fishing line, bowstrings, nets, 
 
 Use bark from fallen or already-cut trees. Stripping a ring of bark from a living tree kills it.
 
+Wear gloves when you gather stinging nettle. Dogbane and milkweed are poisonous to eat and their sap can irritate skin, so wash your hands after handling them.
+
 ## Prepare the fiber
 1. **Stalks (dogbane, milkweed, nettle):** Let dried stalks stand or lie until brittle. Crush them with a stone or mallet and rub or scrape away the woody bits until only silky fibers remain.
 2. **Inner bark:** Peel strips, then soak them in water for 1–2 weeks. The layers separate into long ribbons.
@@ -134,7 +136,7 @@ Twist firmly and keep the thickness even. Weak spots break first.
 - **Doubling:** Hold a loop of cord and twist two strands together to double the strength.
 
 ## Paracord
-Standard 550 paracord (Type III) has a minimum breaking strength of 550 lb (250 kg) and 7 inner strands. Pull the inner strands out to use as thread, fishing line, or snare wire. The outer sheath keeps the strands protected.
+Standard 550 paracord (Type III) has a minimum breaking strength of 550 lb (250 kg) and usually 7 inner strands (the military spec allows 7–9). Pull the inner strands out to use as thread, fishing line, or snare wire. The outer sheath keeps the strands protected.
 
 ## Leather thong
 Cut a spiral from a round of leather or hide, from the outside toward the center, about 1/4–1/2 in wide, to get a very long strip.
@@ -281,15 +283,16 @@ Soap and candles are worth learning now. The lye in soap is dangerous, so read t
 
 - Wear chemical goggles, rubber gloves, long sleeves, and closed shoes.
 - Work outdoors or in a well-ventilated space.
-- Add lye to water slowly, never water to lye. Mix with a stainless steel or heavy plastic (HDPE #2 or #5) spoon.
+- Add lye to cool water slowly, never water to lye. Mix with a stainless steel or heavy plastic (HDPE #2 or #5) spoon.
 - Use stainless steel, heavy plastic, or glass containers only. Never aluminum, tin, copper, or non-stick.
 - Use 100% sodium hydroxide with no additives (check the label).
-- Skin contact: Flush with cool running water for at least 15–20 minutes. Do not use vinegar on skin.
-- Eye contact: Flush with water for at least 15–20 minutes and get medical help. See [[chest-abdomen-eye]].
+- Skin contact: Brush off any dry lye, take off wet clothing, and flush with cool running water for at least 15–20 minutes. Do not use vinegar or any other neutralizer on skin or in the eyes: the reaction makes heat and can deepen the burn.
+- Eye contact: Flush with water at once, holding the eyelids open, for at least 20 minutes (the CDC advises 30 minutes for lye), and get medical help (911, or Poison Control 1-800-222-1222). See [[chest-abdomen-eye]].
+- If swallowed: rinse the mouth, do not make the person vomit, do not give vinegar or anything to "neutralize" it, and call Poison Control (1-800-222-1222) or 911 at once.
 - Weigh every ingredient on a kitchen scale in grams. Never measure by cups or spoons.
 
 ## Cold-process soap with a safety margin
-These amounts include about a 6–8% superfat (extra fat) so the soap is mild and a small mistake does not leave it lye-heavy. Use a lye calculator whenever you can, especially for mixed oils or other fats. These figures cover a single fat only.
+These amounts include about 6–9% superfat (extra fat) so the soap is mild and a small mistake does not leave it lye-heavy. Use a lye calculator whenever you can, especially for mixed oils or other fats. These figures cover a single fat only.
 
 | Fat (1,000 g) | Lye | Water |
 |---|---|---|
@@ -363,16 +366,18 @@ Rawhide is dried, untanned skin. It is hard when dry and strong. It shrinks as i
 
 ## Brain tanning (soft, flexible leather)
 This traditional method produces soft buckskin. Every animal's brain is enough to tan its hide, and the method works on small hides.
+
+> WARNING: Never use the brain of an animal that looked sick or acted strangely or was found dead. Do not handle or use the brain or spinal cord of deer, elk, or moose, especially where chronic wasting disease (CWD) occurs: the CDC advises hunters to avoid these tissues, and the prion that causes it is not destroyed by cooking or drying. Ask your state wildlife agency.
 1. Flesh the hide, and remove the hair (see rawhide) or keep it on for fur.
 2. Mash or blend the brain with warm water until milky, about a cup of water per brain. Do not boil it.
 3. Work this solution into the wet hide for 15–30 minutes and let it soak 2–4 hours.
 4. Wring the hide in a cloth to remove moisture.
 5. Keep stretching and pulling the hide while it dries. Rub it over a rope or smooth edge. This takes hours. It must be worked until dry. If it dries still, it stiffens and has to be wetted again.
-6. To make it more water resistant, smoke it. Hang the hide as a sleeve over a smoky fire of punky wood for about an hour per side.
+6. To make it more water resistant, smoke it outdoors. Hang the hide as a sleeve over a smoky fire of punky wood for about an hour per side.
 
 ## Bark (vegetable) tanning
 Tannins in bark preserve a hide and make it durable leather.
-1. Collect oak, hemlock, willow or chestnut bark, or sumac leaves. Crush it small.
+1. Collect oak, hemlock (the evergreen tree, not poison hemlock), willow or chestnut bark, or leaves of true sumac (staghorn or smooth, with upright red berry clusters). Never use poison sumac (drooping white berries, wet swampy ground). Crush it small.
 2. Steep it in water for a day or more until it makes a dark tea.
 3. Soak the dehaired, fleshed hide in a weak solution first, then in stronger solutions over days to weeks. Thick hides can take months.
 4. Cut a small piece to check. The cross-section should be brown all the way.
@@ -385,7 +390,7 @@ Rabbit and squirrel skins can be brain tanned with the fur on. Keep the hair sid
 The long tendons along a deer's back and legs make strong thread.
 1. Peel off the tendons. Dry them hard.
 2. Pound the dried tendon until it splits into fine fibers.
-3. Wet a few fibers in your mouth and twist them into thread. As it dries it sets hard like glue.
+3. Wet a few fibers with water and twist them into thread. As it dries it sets hard like glue.
 
 ## Leather care
 Keep leather dry. Rub it with tallow, neatsfoot oil, or a mix of tallow and beeswax when it stiffens. Do not leave it near fire. See [[sewing-mending]] for sewing, and [[cordage-rope]] for thongs.
@@ -402,7 +407,7 @@ These are the old trades that turn raw materials into useful things. Start with 
 
 ## Charcoal
 Charcoal burns hotter and cleaner than wood. It stores well and is lightweight.
-1. Use a steel can or drum with a tight lid. Punch a small hole (1/4 in) in the lid.
+1. Use a steel can or drum with a tight lid that never held fuel, solvents, or chemicals (leftover vapor can explode or give off toxic fumes). Punch a small hole (1/4 in) in the lid.
 2. Fill it with dry hardwood pieces, thumb to wrist thickness.
 3. Set it in a hot fire. Wood gas and smoke come out of the hole and burn as a flame.
 4. When the flame and smoke stop (usually 1–2 hours), pull the can from the fire and plug the hole with mud or a stopper.
@@ -414,7 +419,7 @@ Expect 15–25% of the wood weight. A pit works too: dig a trench, burn wood unt
 Charcoal can improve the taste of water but does not make it safe. See [[water-filters]].
 
 ## Wood-ash lye and potash
-1. Burn hardwood to white ash. Keep it dry.
+1. Burn clean, untreated hardwood to white ash. Keep it dry.
 2. Set up a wooden barrel or bucket with a hole near the bottom. Put straw and gravel in the bottom as a filter.
 3. Fill with ash. Slowly pour rainwater over the top.
 4. Collect the brown liquid that drips out. This is lye.
@@ -422,13 +427,13 @@ Charcoal can improve the taste of water but does not make it safe. See [[water-f
 6. Boil the lye dry in an iron pot and you get potash (potassium carbonate), the crude salt left behind.
 Use it for soap (see [[soap-candles]]), nixtamalizing corn ([[making-staples]]), and removing hair from hides ([[leather-hides]]).
 
-> WARNING: Ash lye is caustic. Wear gloves and goggles and use no aluminum.
+> WARNING: Ash lye is caustic. Wear gloves and goggles and use no aluminum. For a splash on skin or in the eyes, flush with water for at least 20 minutes (30 for the eyes) and see [[soap-candles]].
 
 ## Salt
 Seawater is about 3.5% salt. A gallon yields about 4–5 oz (about 130 g). Boil it down in a wide pot or dry it in shallow pans in the sun. See [[making-staples]].
 
 ## Vinegar
-Put apple scraps and cores in a jar with water and a little sugar. Cover with cloth. Stir daily for a week or two, strain, and let it sit for several weeks until sour. A "mother" (gelatinous layer) forms. Use it to start the next batch. See [[fermenting-pickling]].
+Put apple scraps and cores in a jar with water and a little sugar. Cover with cloth. Stir daily for a week or two, strain, and let it sit for several weeks until sour. A "mother" (gelatinous layer) forms. Use it to start the next batch. Home-made vinegar has an unknown strength, so do not use it for canning or storage pickling. Use store-bought vinegar labeled 5% acidity. See [[fermenting-pickling]].
 
 ## Pine pitch glue
 Collect hard pine resin. Heat it very gently in a can set in a pot of hot water, never over an open flame because resin burns fiercely. Stir in powdered charcoal (about 1 part to 2 parts resin) and a little fine fiber. Dip it onto a stick. It hardens on cooling and softens when heated again.
@@ -447,7 +452,7 @@ Collect hard pine resin. Heat it very gently in a can set in a pot of hot water,
 6. Unglazed pottery is porous. Good for storing water and cooling it, and for dry goods.
 7. Do not use lead glazes on anything that touches food.
 
-> WARNING: Quicklime (made by burning limestone) reacts violently with water and burns skin. Wear protection and add lime to water, not water to lime.
+> WARNING: Quicklime (made by burning limestone) reacts violently with water, gets very hot, can spatter, and burns skin and eyes. Work outdoors in goggles and gloves, add small lumps of lime to a large amount of water a little at a time, and never add water to lime.
 `
   },
   {
@@ -557,7 +562,7 @@ Animals need daily water (a horse may drink 5–10 gallons), hay or forage (abou
 Canoes, kayaks, and rowboats move people and cargo on lakes and rivers. A river carries you 2–4 mph with the current.
 
 - Wear a life jacket (PFD) at all times.
-- Cold water kills fast. The "1-10-1" rule: 1 minute of cold shock, about 10 minutes of useful movement, and about 1 hour before unconsciousness from hypothermia (in water at about 60 °F or colder).
+- Cold water kills fast. Treat any water below 70 °F (21 °C) with caution. In the first minutes, cold shock can cause gasping and loss of breathing control (worst at 50–60 °F / 10–15 °C), and arm and leg strength fades quickly. People often drown from this long before hypothermia sets in, so the life jacket matters most.
 - If you capsize, stay with the boat and climb on it.
 - Load low and keep your weight centered. Do not stand in a small boat.
 - Stay away from rapids, low-head dams, and "strainers" (trees in fast current).
@@ -670,7 +675,7 @@ Right now, you can build a stockpile of materials legally: ask neighbors for scr
 | Hazard | Where | What to do |
 |---|---|---|
 | Collapse | Damaged or fire-weakened buildings | Do not enter if walls lean, floors sag, or there are large cracks |
-| Asbestos | Pre-1980 insulation, pipe wrap, vinyl floor tile, popcorn ceilings | Do not break, sand, or sweep. Leave it alone |
+| Asbestos | Older buildings (EPA: common before 1987): insulation, pipe wrap, vinyl floor tile, popcorn ceilings | Do not break, sand, or sweep. Leave it alone |
 | Lead paint | Houses built before 1978 | Do not sand, burn, or scrape. Wash hands |
 | Electricity | Downed or damaged wires | Assume every wire is live. Stay back |
 | Gas | Smell of rotten eggs | Leave at once. Do not turn on switches |

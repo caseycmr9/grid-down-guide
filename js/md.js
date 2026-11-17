@@ -31,8 +31,9 @@
   var CALLOUT_RE = /^(WARNING|DANGER|CAUTION|TIP|NOTE|IMPORTANT|STOP|CALL)\s*:\s*/i;
   var LIST_RE = /^(\s*)([-*]|\d+[.)])\s+(.*)$/;
 
+  var FIG_RE = /^\s*\[\[fig:([a-z0-9-]+)\]\]\s*$/;
   function isBlockStart(l) {
-    return /^#{2,3}\s/.test(l) || /^\s*>/.test(l) || /^\s*\|/.test(l) || LIST_RE.test(l) || /^-{3,}\s*$/.test(l);
+    return /^#{2,3}\s/.test(l) || /^\s*>/.test(l) || /^\s*\|/.test(l) || LIST_RE.test(l) || /^-{3,}\s*$/.test(l) || FIG_RE.test(l);
   }
 
   function parse(src) {
@@ -48,6 +49,7 @@
         i++; continue;
       }
       if (/^-{3,}\s*$/.test(l)) { blocks.push({ t: 'hr' }); i++; continue; }
+      if ((m = FIG_RE.exec(l))) { blocks.push({ t: 'fig', id: m[1] }); i++; continue; }
 
       if (/^\s*>/.test(l)) {
         var buf = [];
@@ -131,6 +133,11 @@
         case 'h2': out.push('<h2>' + inline(b.x, ctx) + '</h2>'); break;
         case 'h3': out.push('<h3>' + inline(b.x, ctx) + '</h3>'); break;
         case 'hr': out.push('<hr>'); break;
+        case 'fig':
+          var d = g.GDG_DIAGRAMS && g.GDG_DIAGRAMS[b.id];
+          if (d) out.push('<figure class="fig" role="img" aria-label="' + esc(d.alt || d.title) + '">' + d.svg +
+            '<figcaption><b>' + esc(d.title) + '</b>' + (d.caption ? '. ' + esc(d.caption) : '') + '</figcaption></figure>');
+          break;
         case 'p': out.push('<p>' + inline(b.x, ctx) + '</p>'); break;
         case 'callout':
           var k = LABELS[b.kind] ? b.kind : 'note';
@@ -190,6 +197,12 @@
     return out;
   }
 
+  function figs(src) {
+    var out = [], re = /^\s*\[\[fig:([a-z0-9-]+)\]\]\s*$/gm, m;
+    while ((m = re.exec(String(src)))) out.push(m[1]);
+    return out;
+  }
+
   /* Returns an array of human-readable problems (empty = clean). */
   function lint(src) {
     var probs = [];
@@ -211,5 +224,5 @@
     return probs;
   }
 
-  g.MD = { render: render, parse: parse, plain: plain, links: links, lint: lint, esc: esc };
+  g.MD = { render: render, parse: parse, plain: plain, links: links, figs: figs, lint: lint, esc: esc };
 })(typeof window !== 'undefined' ? window : this);

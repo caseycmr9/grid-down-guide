@@ -17,11 +17,11 @@ Print this page and keep it in your kit. Details and context are in the linked g
 | Adult compression depth | 2–2.4 in (5–6 cm) |
 | Child / infant depth | about 2 in (5 cm) / about 1.5 in (4 cm) |
 | Burn cooling | 10–20 minutes under cool running water |
-| Eye or chemical flush | 15–20 minutes of running water |
+| Eye or chemical flush | 15–20 minutes of running water (30 or more for lye and other strong alkalis) |
 | Tourniquet position | 2–3 in (5–7 cm) above the wound, never on a joint; write down the time |
 | Heart attack aspirin | chew 325 mg (or 4 low-dose 81 mg) unless allergic |
 | Epinephrine auto-injector | 0.3 mg at 30 kg (66 lb) and up; 0.15 mg at 15–30 kg |
-| Heat stroke | body temperature above 104 °F (40 °C): cool immediately |
+| Heat stroke | body temperature of 103 °F (39.4 °C) or higher: cool immediately |
 | Rewarming frostbite | warm (not hot) water, about 99–102 °F (37–39 °C) |
 | Oral rehydration solution | 1 liter clean water + 6 level tsp sugar + 1/2 level tsp salt |
 | Poison Control (US) | 1-800-222-1222 |
@@ -33,12 +33,12 @@ See [[cpr]], [[severe-bleeding]], [[burns]], [[allergic-reaction]], [[dehydratio
 | Situation | Number |
 |---|---|
 | Minimum water | 1 gallon (4 L) per person per day |
-| Boiling | rolling boil 1 minute (3 minutes above 6,500 ft / 2,000 m) |
+| Boiling | rolling boil 1 minute (3 minutes above 5,000 ft / 1,500 m) |
 | Bleach 5–6% | 8 drops per gallon (2 drops per liter), wait 30 minutes |
 | Bleach 8.25% | 6 drops per gallon, wait 30 minutes |
 | Cloudy water | filter first, then double the bleach dose |
 | Sunlight (SODIS) | clear bottle in full sun about 6 hours (2 days if overcast) |
-| Latrine from water | at least 200 ft (60 m); from a well at least 100 ft (30 m), more is better |
+| Latrine from water | at least 200 ft (60 m) from streams and lakes (CDC minimum is 100 ft / 30 m); from a well at least 100 ft (30 m), and 150 ft (45 m) or more is better |
 
 See [[chemical-disinfection]], [[boiling-water]], [[water-needs]].
 
@@ -71,9 +71,9 @@ See [[generator-safety]], [[heating-home]], [[fire-safety]].
 ## Weather and disasters
 | Situation | Number |
 |---|---|
-| Lightning | 30–30 rule: if flash-to-bang is 30 seconds or less go inside; wait 30 minutes after the last thunder |
+| Lightning | when thunder roars, go inside; wait 30 minutes after the last thunder (flash-to-bang of 30 seconds or less is already too close) |
 | Distance to lightning | 5 seconds between flash and thunder is about 1 mile |
-| Floodwater | 6 in can knock you down; 12 in can float a car; 2 ft can carry away SUVs |
+| Floodwater | 6 in of fast water can knock you down; 12 in can carry away most cars; 2 ft can carry away SUVs and trucks |
 | Earthquake | Drop, Cover, Hold On |
 | Fallout | get inside, stay inside at least 24 hours, stay tuned |
 
@@ -82,7 +82,7 @@ See [[severe-storms-tornado]], [[flood]], [[earthquake]], [[radiation-nuclear]].
 ## Survival and navigation
 | Situation | Number |
 |---|---|
-| Rule of 3s | 3 minutes air · 3 hours shelter in harsh weather · 3 days water · 3 weeks food |
+| Rule of 3s (rough guide, not exact limits) | 3 minutes air · 3 hours shelter in harsh weather · 3 days water · 3 weeks food |
 | Distress signal | three of anything: whistle blasts, fires, flashes |
 | Walking speed | about 3 mph (5 km/h) on level ground |
 | Pack weight | about 20% of body weight or less |
@@ -139,12 +139,12 @@ Formulas: **°C = (°F − 32) × 5 ÷ 9** and **°F = °C × 9 ÷ 5 + 32**.
 
 | °F | °C | What it is |
 |---|---|---|
-| −4 | −20 | Freeze fish 7 days to kill parasites |
+| −4 | −20 | Freezing fish this cold for 7 days is the usual parasite guideline; many home freezers are not that cold, so cook fish to 145 °F |
 | 32 | 0 | Water freezes |
 | 40 | 4 | Fridge limit; bottom of the danger zone |
-| 60 | 16 | Soil warm enough for warm-season crops |
+| 60 | 16 | Soil warm enough to sow beans and some other warm-season crops (many want 65 °F / 18 °C or more) |
 | 98.6 | 37 | Normal body temperature |
-| 104 | 40 | Heat stroke range |
+| 104 | 40 | Heat stroke range (starts near 103 °F / 39.4 °C) |
 | 140 | 60 | Top of the danger zone |
 | 145 | 63 | Whole cuts of meat, fish |
 | 160 | 71 | Ground meat |
@@ -163,7 +163,7 @@ Formulas: **°C = (°F − 32) × 5 ÷ 9** and **°F = °C × 9 ÷ 5 + 32**.
 |---|---|
 | 1 inch of rain on 1,000 sq ft | about 623 gallons |
 | 1 cord of firewood | 128 cubic ft (4 ft × 4 ft × 8 ft) |
-| 1 five-gallon bucket | holds about 35 lb of rice or 25–30 lb of beans or wheat |
+| 1 five-gallon bucket | holds roughly 30–37 lb of rice, beans, or wheat (varies by food and bucket) |
 | 16d nail | 3.5 in (89 mm) long |
 | 2×4 lumber | actually 1.5 × 3.5 in |
 | 1 square corner | 3-4-5 triangle: measure 3 ft and 4 ft, the diagonal is 5 ft |
@@ -225,7 +225,7 @@ A **dot** is a short signal. A **dash** is three times as long.
 - Gap between words = 7 units.
 
 ### SOS
-**· · ·  − − −  · · ·** (three short, three long, three short). It is a signal, not letters. Send it with a light, a whistle, taps on a pipe, or flashes of a mirror. Repeat with a pause between.
+**· · ·  − − −  · · ·** (three short, three long, three short). It is a distress signal sent run together, not the letters S-O-S spaced out. Send it with a light, a whistle, taps on a pipe, or flashes of a mirror. Repeat with a pause between.
 
 ## Radio procedure words
 | Word | Meaning |
@@ -243,7 +243,7 @@ A **dot** is a short signal. A **dash** is three times as long.
 How to make a distress call: [[emergency-frequencies]].
 
 ## Ground-to-air signals
-Make large symbols at least 10 ft (3 m) tall with high contrast against the ground: stones, logs, clothing, or trampled snow.
+Make symbols as large as you can, at least 10 ft (3 m) long (20 ft / 6 m is better), with high contrast against the ground: stones, logs, clothing, or trampled snow.
 
 | Symbol | Meaning |
 |---|---|
@@ -272,14 +272,15 @@ More: [[signaling-rescue]].
 |---|---|
 | Emergency (police, fire, ambulance) | **911** |
 | Poison Control | **1-800-222-1222** |
-| Suicide & Crisis Lifeline | **988** (call or text) |
-| Disaster Distress Helpline | 1-800-985-5990 |
-| American Red Cross | 1-800-733-2767 |
-| FEMA helpline | 1-800-621-3362 |
-| National Domestic Violence Hotline | 1-800-799-7233 |
+| 988 Suicide & Crisis Lifeline | **988** (call or text) |
+| Disaster Distress Helpline | 1-800-985-5990 (call or text, 24/7) |
+| American Red Cross | 1-800-733-2767 (1-800-RED-CROSS) |
+| FEMA disaster assistance helpline | 1-800-621-3362 (7 a.m. to 10 p.m. in your time zone) |
+| National Domestic Violence Hotline | 1-800-799-7233 (or text START to 88788) |
+| CDC-INFO (health questions) | 1-800-232-4636 |
 | Local community services | **211** |
-| ASPCA Animal Poison Control | 1-888-426-4435 |
-| Pet Poison Helpline | 1-855-764-7661 |
+| ASPCA Animal Poison Control | 1-888-426-4435 (fee may apply) |
+| Pet Poison Helpline | 1-855-764-7661 (fee applies) |
 
 Text-to-911 is not available everywhere. Call if you can. If you must text, say your location and the emergency in the first message.
 
@@ -291,7 +292,7 @@ Text-to-911 is not available everywhere. Call if you can. If you must text, say 
 | Canada | 911 |
 | Australia | 000 |
 | New Zealand | 111 |
-| Many mobile phones | 112 works even without a SIM or signal in your network; the phone finds any available network |
+| Mobile phones abroad | In many countries 112 also works from a mobile phone and may be redirected to the local number. If you know the local number, use it. Any phone still needs a signal from some network. |
 
 ## When you call
 1. Say where you are (address, cross streets, landmarks).
@@ -326,11 +327,12 @@ Approximate values. Brands and varieties differ; check labels when you can.
 | Person | Calories per day |
 |---|---|
 | Child 2–3 years | 1,000–1,400 |
-| Child 4–8 | 1,200–1,800 |
-| Child 9–13 | 1,600–2,200 |
-| Teen | 2,000–3,200 |
-| Adult, light activity | 1,800–2,400 |
-| Adult, active or heavy labor | 2,500–4,000 |
+| Child 4–8 | 1,200–2,000 |
+| Child 9–13 | 1,400–2,600 |
+| Teen | 1,800–3,200 |
+| Adult, light to moderate activity | 1,600–3,000 (women toward the low end, men toward the high end) |
+| Adult, active | 2,200–3,000 |
+| Very hard labor, long hikes, cold weather | 3,000 or more |
 | Pregnant (2nd and 3rd trimester) | add about 340–450 |
 | Breastfeeding | add about 330–500 |
 | Cold weather, heavy work | add several hundred or more |
@@ -342,12 +344,12 @@ A 1,200–1,500 calorie daily ration can keep an adult alive for a limited time 
 |---|---|---|
 | White rice | 1 lb (454 g) | about 1,650 |
 | White rice | 1 cup | about 680 |
-| Dry beans or lentils | 1 lb | about 1,500 |
+| Dry beans or lentils | 1 lb | about 1,500–1,600 |
 | Wheat flour | 1 lb | about 1,650 |
-| Rolled oats | 1 cup | about 300 |
-| Cornmeal | 1 lb | about 1,600 |
-| Pasta | 1 lb | about 1,600 |
-| Nonfat dry milk | 1 lb | about 1,600 |
+| Rolled oats | 1 cup (dry) | about 300 |
+| Cornmeal | 1 lb | about 1,650 |
+| Pasta | 1 lb | about 1,700 |
+| Nonfat dry milk | 1 lb | about 1,650 |
 
 ## Fats and sugars
 | Food | Amount | Calories |
@@ -364,15 +366,15 @@ A 1,200–1,500 calorie daily ration can keep an adult alive for a limited time 
 |---|---|---|
 | Potatoes | 1 lb raw | about 350 |
 | Sweet potatoes | 1 lb raw | about 390 |
-| Winter squash | 1 lb raw | about 170 |
+| Winter squash | 1 lb raw | about 150–200 |
 | Corn, dry kernels | 1 lb | about 1,650 |
 | Canned beans | 15 oz can | about 350 |
 | Eggs | 1 large | about 70 |
 | Nuts (almonds, peanuts) | 1 oz (28 g) | about 160–170 |
 | Canned tuna (in water) | 5 oz can | about 120 |
 | Beef jerky | 1 oz | about 80–115 |
-| Pemmican | 1 lb | about 3,000 |
-| Venison | 1 lb raw | about 600 |
+| Pemmican | 1 lb | about 3,000 (varies with the fat content) |
+| Venison | 1 lb raw | about 550 |
 | Chicken, cooked | 1 lb | about 700–800 |
 
 ## Planning tips
@@ -403,7 +405,7 @@ A 1,200–1,500 calorie daily ration can keep an adult alive for a limited time 
 | Cordage | Rope, string, or twine, including homemade. |
 | Cure (meat) | To preserve meat with salt, sometimes with nitrite and smoke. |
 | Declination | The difference between magnetic north (compass) and true north (map). |
-| EAS | Emergency Alert System. Alerts on radio, TV, and phones. |
+| EAS | Emergency Alert System. Alerts on radio and TV. Phones get a separate system, Wireless Emergency Alerts (WEA). |
 | EMP | Electromagnetic pulse. A burst of energy that can damage electronics. |
 | Epinephrine | A drug that reverses severe allergic reactions. Carried as an auto-injector. |
 | F1 hybrid | A cross of two parent plants. Seeds saved from it will not grow true. |

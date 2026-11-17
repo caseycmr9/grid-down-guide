@@ -46,6 +46,7 @@
 - Set stoves on level, non-flammable ground, clear of tents, eaves, dry grass, and overhanging branches.
 - Keep children and pets back. Wear closed shoes and long sleeves; use pot holders.
 - **Propane leak check:** brush soapy water on fittings; bubbles mean a leak. Turn off and do not use.
+- **Carbon monoxide signs:** headache, dizziness, weakness, upset stomach, vomiting, chest pain, confusion. If anyone has them, get everyone into fresh air and call 911. Keep a battery-powered CO alarm near where people sleep.
 - Never refill a hot stove or lantern.
 - Put out coals completely: soak, stir, soak again. Store cooled ashes in a metal container, away from buildings.
 - If a grease fire starts, smother with a lid. Never use water ([[fire-safety]]).
@@ -129,13 +130,14 @@ Wash dishes with safe water ([[laundry-dishes]]). Keep food scraps and trash awa
 | Poultry (chicken, turkey, duck, whole, parts, ground) | **165 °F (74 °C)** |
 | Leftovers, casseroles, soups when reheated | **165 °F (74 °C)** |
 | Ground beef, pork, lamb, veal, ground game | **160 °F (71 °C)** |
-| Rabbit and other small game | **160 °F (71 °C)** (conservative) |
-| Bear, wild pig, and other animals that may carry Trichinella | **160 °F (71 °C)**, thoroughly |
+| Rabbit, squirrel and other small game | **165 °F (74 °C)** (wild rabbits can carry tularemia) |
+| Bear, wild pig, and other animals that may carry Trichinella | **165 °F (74 °C)**, thoroughly (CDC) |
 | Eggs and egg dishes | **160 °F (71 °C)**; yolks and whites firm |
-| Whole beef, pork, lamb, veal, venison steaks and roasts | **145 °F (63 °C)**, then rest 3 minutes |
+| Whole beef, pork, lamb, veal steaks and roasts | **145 °F (63 °C)**, then rest 3 minutes |
+| Deer, elk and moose meat, any cut | **160 °F (71 °C)** |
 | Fish and shellfish | **145 °F (63 °C)**; opaque and flakes easily |
 
-Wild game has extra risks: see [[game-meat-safety]].
+Wild game has extra risks: see [[game-meat-safety]]. Freezing, curing, drying or smoking alone does not reliably kill the Trichinella worms in game meat (CDC), so cook it.
 
 ## Check your thermometer
 - Ice water (32 °F / 0 °C) and boiling water (212 °F / 100 °C at sea level) should read correctly. At altitude, water boils about 1 °F lower for every 500 ft.
@@ -155,11 +157,14 @@ These clues are less reliable. When unsure, cook it longer or cut food into smal
 - Without refrigeration, **cook only what will be eaten that day**. Cooked rice and pasta left out can grow bacteria that make toxins heat will not destroy.
 - See [[food-safety-basics]].
 
+[[fig:food-temp-zones]]
+
+
 ## Foods that must be cooked right
-> WARNING: **Red kidney beans** (and white kidney beans) contain a toxin that causes severe vomiting and diarrhea. Soak at least 5 hours, **pour off the water**, and boil hard for **at least 10 minutes**. Slow cooking at low heat does not destroy the toxin. Canned beans are already safe.
+> WARNING: **Red kidney beans** (and white kidney beans) contain a toxin that causes severe vomiting and diarrhea. Soak at least 5 hours, **pour off the water**, and boil hard for **at least 30 minutes** (the FDA advises 30 minutes as a safety margin). **Never cook them in a slow cooker** or at low heat; it does not destroy the toxin. Canned beans are already safe.
 
 - **Other beans:** soak, discard the water, and boil until soft ([[cooking-staples]]).
-- **Lima beans and bitter cassava:** can contain cyanide-forming compounds. Peel cassava; boil in plenty of water and discard it. Never eat raw.
+- **Lima beans and cassava (manioc, yuca):** can contain cyanide-forming compounds. Never eat them raw. Boil lima beans well and discard the water. Peel cassava and cook it thoroughly. Bitter cassava needs long traditional processing (grating, soaking or fermenting, pressing, drying), and boiling alone is not enough, so do not eat it unless you know the method.
 - **Raw sprouts** can carry bacteria. Cook them for children, older adults, pregnant women, and sick people.
 - **Raw milk and eggs:** can carry bacteria. Pasteurize milk ([[dairy-basics]]); cook eggs through.
 - **Do not wash raw poultry.** It splashes bacteria; just cook it thoroughly.
@@ -187,11 +192,11 @@ Calories are fuel. Too few and people grow weak, cold, slow, and sick. Plan for 
 | Child (4–8) | 1,400–1,800 |
 | Teen girl | 2,000–2,400 |
 | Teen boy | 2,400–3,200 |
-| Adult woman | 1,800–2,200 |
-| Adult man | 2,200–2,800 |
+| Adult woman | 1,600–2,400 (by age and activity) |
+| Adult man | 2,000–3,000 (by age and activity) |
 | Heavy labor | 3,000–4,000+ |
-| Pregnant (later months) | add about 340–450 |
-| Breastfeeding | add about 330–500 |
+| Pregnant | none extra in the first 3 months; add about 340 in months 4-6 and about 450 in months 7-9 |
+| Breastfeeding | add about 330–500 (about 500 if breastfeeding only) |
 | Cold weather | more, as the body burns fuel to stay warm |
 
 About 1,200–1,500 calories is a short-term emergency minimum, not a plan. Children, pregnant women, and nursing mothers should not be cut back.
@@ -199,15 +204,15 @@ About 1,200–1,500 calories is a short-term emergency minimum, not a plan. Chil
 ## Building blocks
 - **Carbohydrates** (rice, grains, potatoes, beans): the main energy source, 4 calories per gram.
 - **Fat** (oil, lard, nuts, butter): 9 calories per gram. Essential. See [[fats-pemmican]].
-- **Protein** (beans, meat, eggs, dairy, fish): builds and repairs the body. Most adults need about 0.8 g per kg of body weight daily (roughly 50–60 g); more for heavy labor and healing. Beans plus grains over a day supply complete protein.
-- **Water** matters most ([[water-needs]]). **Salt:** adults need about 1,500–2,300 mg of sodium daily; sweating heavily needs more ([[dehydration-ors]]).
+- **Protein** (beans, meat, eggs, dairy, fish): builds and repairs the body. Most adults need about 0.8 g per kg of body weight daily (roughly 46–48 g for an average woman and 56 g for an average man); more for heavy labor and healing. Beans plus grains over a day supply complete protein.
+- **Water** matters most ([[water-needs]]). **Salt:** adults need roughly 1,500 mg of sodium daily (about 2/3 teaspoon of salt) and should stay under about 2,300 mg; sweating heavily needs more ([[dehydration-ors]]).
 
 ## Deficiency diseases and fixes
 A diet of only white rice, corn, or flour slowly causes deficiencies.
 
 | Disease | Missing | Signs | Fix |
 |---|---|---|---|
-| **Scurvy** | Vitamin C | Tired, bleeding gums, bruising, slow-healing wounds, joint pain (after 1–3 months with almost none) | Sauerkraut, potatoes, cabbage, peppers, citrus, sprouts, rose hips ([[wild-berries-fruit]]), pine needle tea ([[trees-inner-bark]]) |
+| **Scurvy** | Vitamin C | Tired, bleeding gums, bruising, slow-healing wounds, joint pain (after 1–3 months with almost none) | Sauerkraut, potatoes, cabbage, peppers, citrus, sprouts, rose hips ([[wild-berries-fruit]]), pine needle tea (true pine, spruce or fir only; never yew; skip it in pregnancy; see [[trees-inner-bark]]) |
 | **Beriberi** | Thiamine (B1) | Numb feet, weakness, swelling, heart trouble | Beans, whole grains, seeds, pork, not just polished rice |
 | **Pellagra** | Niacin (B3) | Sun-sensitive rash, diarrhea, confusion | Treat corn with alkali ([[making-staples]]), eat meat, beans, whole grains |
 | **Rickets, weak bones** | Vitamin D, calcium | Bone pain, bowed legs in children | Sunlight on skin, eggs, fatty fish, liver; dairy, greens, small bony fish |
@@ -262,10 +267,10 @@ Rinse, add to boiling water (or start in cold water), cover, and cook on low hea
 1. **Sort** out stones and bad beans. Rinse.
 2. **Soak** 8 hours (or overnight) in about 3 times as much water. Quick soak: boil 2 minutes, cover, stand 1 hour.
 3. **Drain and use fresh water.**
-4. Boil hard 10 minutes, then simmer until soft. Old beans can take 3 hours or more. A pinch of baking soda helps with hard water or old beans.
+4. Boil hard 10 minutes (30 minutes for kidney beans), then simmer until soft. Old beans can take 3 hours or more. A pinch of baking soda helps with hard water or old beans.
 5. Add salt any time. Add acids (tomato, vinegar) near the end, as they slow softening.
 
-> WARNING: Red and white kidney beans must be boiled hard for at least 10 minutes ([[safe-cooking-temps]]).
+> WARNING: Red and white kidney beans must be boiled hard for at least 30 minutes, never in a slow cooker ([[safe-cooking-temps]]).
 
 ## Grains and porridge
 - **Oats and cornmeal:** stir into boiling water to avoid lumps.
@@ -276,10 +281,10 @@ Rinse, add to boiling water (or start in cold water), cover, and cook on low hea
 1. Bring food and water to a boil in a pot with a tight lid. Rice: 5 minutes; beans or grains: 10–15 minutes.
 2. Put the hot pot straight into a **tightly packed insulated box** (wood or cardboard box lined and stuffed with blankets, hay, towels, or foam), with no gaps. Close it.
 3. Leave 2–4 hours (rice, oats) or 4–8 hours (beans, whole grains).
-4. Food must still be **hot (above 140 °F / 60 °C)**. If not, bring it back to a boil before eating ([[food-safety-basics]]).
+4. Food must still be **hot (above 140 °F / 60 °C)**. If not, bring it back to a boil before eating ([[food-safety-basics]]). Boil kidney beans a full 30 minutes before you box them.
 
 ## Pressure cooker
-It cuts times to about a quarter and saves fuel. Soaked beans take about 8–12 minutes; unsoaked about 25–40. Fill **no more than half full** for beans and grains, which foam and can clog the vent. Follow the maker's manual. Let pressure drop naturally for beans.
+It cuts times a lot and saves fuel. Times vary widely with the bean, the soak and the cooker, so follow the maker's manual. North Dakota State Extension's tests of soaked beans on high pressure gave 15–35 minutes (kidney beans 20–30); other extension tests with longer salted soaks used shorter times. Cook until the beans are fully soft. For kidney beans, soak at least 5 hours, pour off the water, and pressure cook at least 20 minutes, or boil them 30 minutes first ([[safe-cooking-temps]]). Fill **no more than half full** for beans and grains, which foam and can clog the vent. Let pressure drop naturally for beans.
 
 ## At altitude
 Above about 3,000 ft (900 m), water boils at a lower temperature, so beans, rice, and grains take noticeably longer and need extra water. A pressure cooker or longer soaking solves this.
@@ -313,6 +318,8 @@ A starter is flour and water that catches wild yeast from the air and flour. It 
 3. Let rise 4–8 hours (warm: shorter), until puffy and about doubled.
 4. Shape, rest 1–2 hours.
 5. Bake in a **covered pot** (Dutch oven, [[dutch-oven-campfire]]) at 450 °F (230 °C) for 30 minutes covered, 10–15 uncovered, until golden, the loaf sounds hollow, or it reaches about 205 °F (96 °C) inside.
+
+> WARNING: Never eat raw dough or batter. Raw flour can carry germs such as E. coli. Bake or cook it all the way through.
 
 ## Baking powder and soda substitutes
 - 1 tsp baking powder = **¼ tsp baking soda + ½ tsp cream of tartar**.

@@ -23,6 +23,9 @@ Treat what kills fastest first: severe bleeding, then airway, then breathing, th
 - **Normal method (head tilt, chin lift):** one hand on the forehead tilts the head back, fingertips of the other hand lift the chin.
 - **If you suspect a neck or spine injury (jaw thrust):** kneel at the head, place your fingers behind the angles of the jaw, and lift the jaw forward without tilting the head. If this does not open the airway, use the head tilt anyway. **Breathing comes before the spine.**
 
+[[fig:airway-head-tilt-chin-lift]]
+
+
 ## Recovery position
 Use it for a person who is **unresponsive but breathing normally** and who has no suspected spine injury (or if you must leave them or they are vomiting).
 1. Kneel beside them. Straighten their legs. Place the arm nearest you at a right angle to the body, palm up.
@@ -31,6 +34,9 @@ Use it for a person who is **unresponsive but breathing normally** and who has n
 4. Keeping their hand pressed to the cheek, pull the knee toward you to roll them onto their side.
 5. Tilt the head back slightly so the airway stays open. Adjust the top leg so the hip and knee are at right angles.
 6. Keep checking that they are breathing. If they stay in this position more than about 30 minutes, roll them to the other side.
+
+[[fig:recovery-position]]
+
 
 ## Talk to them: SAMPLE history
 If the person is awake, ask these questions (or ask family or bystanders) and write down the answers.
@@ -70,6 +76,9 @@ Do not leave a seriously injured or unresponsive person alone unless it is the o
     tags: ['cardiac arrest', 'heart', 'resuscitation', 'AED', 'defibrillator', 'chest compressions', 'not breathing', 'unconscious', 'CPR'],
     body: `
 ## Do this first (adult)
+
+[[fig:cpr-hand-position]]
+
 1. **Confirm cardiac arrest:** the person is unresponsive and is **not breathing, or only gasping.** Gasping is not breathing.
 2. **Send someone to call 911 and get an AED.** If you are alone with a phone, put it on speaker. If there is no phone service, start CPR anyway.
 3. **Lay them on their back on a firm, flat surface.**
@@ -79,11 +88,17 @@ Do not leave a seriously injured or unresponsive person alone unless it is the o
 
 The **CPR Metronome** in the Tools tab gives you the beat. Without it, push to the beat of "Stayin' Alive" (about 103 per minute).
 
+[[fig:cpr-chest-landmarks]]
+
+
 ## Hands-only or with breaths?
 - **Untrained, or unwilling to give breaths:** hands-only CPR. Push continuously, no stopping.
 - **Trained:** give **30 compressions, then 2 breaths**, and repeat.
 
 ### Giving breaths
+
+[[fig:airway-head-tilt-chin-lift]]
+
 1. Tilt the head back, lift the chin, pinch the nose closed.
 2. Seal your mouth over theirs (use a face shield or pocket mask if you have one).
 3. Blow for about 1 second, just enough to see the chest rise. Give 2 breaths.
@@ -95,7 +110,10 @@ The **CPR Metronome** in the Tools tab gives you the beat. Without it, push to t
 - Children usually stop breathing first (choking, drowning, asthma), so **breaths matter more** for children. If you are alone and unable to call, do about 2 minutes of CPR before leaving to find help.
 
 ## Infant (under 1 year)
-- Lay the baby on a firm surface. Use **two fingers** in the center of the chest just below the nipple line (or two thumbs with your hands wrapped around the chest if two rescuers).
+
+[[fig:infant-cpr-position]]
+
+- Lay the baby on a firm surface. Push in the center of the chest just below the nipple line with the **heel of one hand**, or with **two thumbs** while your hands wrap around the chest. (Current guidelines no longer advise the old two-finger method; it often does not push deep enough.)
 - Push about **1.5 inches (4 cm)**, one-third of the chest depth, at 100 to 120 per minute.
 - **30 compressions to 2 breaths** (15:2 with two rescuers). Cover the baby's mouth and nose with your mouth and give gentle puffs, just enough to see the chest rise.
 
@@ -132,12 +150,17 @@ You may hear ribs crack. That is common and acceptable; keep pushing. CPR can ke
 - **Severe choking:** they cannot cough, speak, cry, or breathe, make no sound, or grab their throat. Lips may turn blue. **Act at once.**
 
 ## Adult or child over 1 year: severe choking
-The Red Cross teaches 5 back blows alternating with 5 abdominal thrusts. The American Heart Association teaches abdominal thrusts alone. Both are in use. This guide gives the Red Cross sequence; if you were trained another way, use what you know and keep going until the object comes out.
+The American Red Cross and the American Heart Association (2025 guidelines) now both teach the same thing: **5 back blows, then 5 abdominal thrusts,** repeated. If you were trained another way, use what you know and keep going until the object comes out.
 
 1. Ask, "Are you choking?" If they nod, say you will help. Send someone to call 911 if possible.
 2. **Give 5 back blows.** Lean the person forward, support the chest with one hand, and strike hard between the shoulder blades with the heel of your other hand.
 3. **Give 5 abdominal thrusts.** Stand behind them and wrap your arms around the waist. Make a fist with the thumb side just above the navel and well below the breastbone. Grasp the fist with your other hand and pull sharply inward and upward.
 4. **Repeat** 5 back blows and 5 thrusts until the object comes out or the person becomes unresponsive.
+
+[[fig:choking-back-blows]]
+
+[[fig:choking-abdominal-thrusts]]
+
 
 ### Pregnant or very large person
 Use **chest thrusts** instead: arms around the chest, fist in the center of the breastbone, pull straight back.
@@ -154,8 +177,11 @@ Make a fist and give yourself abdominal thrusts, or lean hard over the back of a
 **Never do abdominal thrusts on a baby.**
 1. Sit and hold the baby face down along your forearm, resting on your thigh, supporting the head and jaw. The head should be lower than the chest.
 2. Give **5 back blows** between the shoulder blades with the heel of your hand.
-3. Turn the baby face up along your other forearm, still head-low. Give **5 chest thrusts** with two fingers on the center of the breastbone just below the nipple line, about 1.5 inches (4 cm) deep.
+3. Turn the baby face up along your other forearm, still head-low. Give **5 chest thrusts** with the heel of one hand on the center of the breastbone just below the nipple line, about 1.5 inches (4 cm) deep.
 4. Repeat 5 back blows and 5 chest thrusts until the object comes out or the baby becomes unresponsive. Then start infant CPR ([[cpr]]). Look in the mouth before each set of breaths.
+
+[[fig:choking-infant]]
+
 
 ## After choking
 Anyone who needed abdominal thrusts, passed out, or has a lingering cough, pain, or trouble swallowing should be checked by a clinician if possible. Thrusts can bruise or injure internal organs. Watch for belly pain, vomiting, coughing, or noisy breathing over the next day.
@@ -185,9 +211,12 @@ Blood loss can kill in minutes. Act before anything else except scene safety.
 
 Wear gloves or use plastic bags if you can. Wash up afterward.
 
+[[fig:pressure-bandage]]
+
+
 ## Pressure and wound packing
 - Direct pressure alone stops most bleeding if it is hard enough and kept up without peeking.
-- **For a deep wound (stab, gunshot, big gash):** stuff gauze or clean cloth **into the wound** with your fingers, pushing it all the way to the bleeding source and filling the whole cavity. Then press hard on top for **at least 3 minutes** (longer if it keeps bleeding). Hemostatic (clotting) gauze works the same way: pack it in, then press for 3 minutes.
+- **For a deep wound (stab, gunshot, big gash):** stuff gauze or clean cloth **into the wound** with your fingers, pushing it all the way to the bleeding source and filling the whole cavity. Then press hard on top for **at least 10 minutes** with plain gauze or cloth (longer if it keeps bleeding). Hemostatic (clotting) gauze works the same way but faster: pack it in, then press for at least 3 minutes.
 - Wrap tightly with an elastic bandage or strips of cloth. Check that fingers or toes below the wrap are still warm and pink.
 - Elevating the limb and pressing on "pressure points" are not reliable. Do not use them in place of direct pressure.
 - Do not remove embedded objects. Pad around them and press beside them.
@@ -203,6 +232,9 @@ Use it when pressure fails, when blood is spurting or pooling, or when a hand, f
 
 > WARNING: Tourniquets are for arms and legs only. Never use one on the neck, head, chest, or belly.
 
+[[fig:tourniquet-placement]]
+
+
 ### Improvised tourniquet
 A narrow cord, wire, or thin belt can cut skin and fail. Use a **wide strap (at least 1.5 to 2 inches / 4 to 5 cm)**: a belt, a folded triangular bandage, or a strip torn from a shirt.
 1. Wrap it twice around the limb above the wound and tie a half-knot (like the first half of tying a shoe).
@@ -213,7 +245,7 @@ A narrow cord, wire, or thin belt can cut skin and fail. Use a **wide strap (at 
 A limb can usually tolerate a tourniquet for about 2 hours without lasting harm. Risk of permanent damage rises after that, and it grows sharply by 6 hours. **Keep it on and get to care.** Only a trained person should try to convert it to a pressure dressing, and only if the person is not in shock, the limb is not amputated, and the tourniquet has been on under 6 hours. If you are not sure, leave it.
 
 ## Neck, armpit, and groin wounds
-A tourniquet will not work. Pack the wound with gauze and press firmly with your hand or knee for at least 3 minutes and then keep pressing until help arrives. For a neck wound, press on the wound only; do not squeeze the whole neck.
+A tourniquet will not work. Pack the wound with gauze and press firmly with your hand or knee for at least 10 minutes (3 minutes with clotting gauze), and keep pressing until the bleeding stops or help arrives. For a neck wound, press on the wound only; do not squeeze the whole neck.
 
 ## Nosebleed
 1. Sit up and lean **forward** (not back).
@@ -247,6 +279,9 @@ Shock means the body is not getting enough blood flow to the organs. It is **not
 - Little or no urine
 
 ## Do this
+
+[[fig:shock-position]]
+
 1. **Treat the cause.** Stop bleeding ([[severe-bleeding]]), treat the burn, give epinephrine for a severe allergy ([[allergic-reaction]]).
 2. **Call for help** if you can ([[first-aid-basics]]).
 3. **Lay the person flat on their back.** Raise the legs about 12 inches (30 cm) if it does not cause pain. **Do not raise the legs** if you suspect a head, neck, or spine injury, a broken leg or pelvis, or if they are having trouble breathing. In that case, keep them in the most comfortable position (sitting up if they struggle to breathe).
@@ -335,6 +370,9 @@ See also [[bites-stings]], [[burns]], [[improvised-first-aid]], [[disease-preven
     tags: ['burn', 'scald', 'blister', 'fire', 'hot water', 'chemical burn', 'sunburn', 'first degree', 'second degree', 'third degree'],
     body: `
 ## Do this first
+
+[[fig:burn-cooling]]
+
 1. **Stop the burning.** Move away from the heat source. If clothing is on fire: **stop, drop, and roll.** Turn off electricity before touching someone in contact with it.
 2. **Cool the burn with cool running water for 10 to 20 minutes.** Use cool tap water or any clean cool water. This reduces pain and damage, even up to 20 minutes after the injury.
 3. **Remove rings, watches, bracelets, and tight clothing near the burn** before it swells. Do not pull off clothing stuck to the skin.
@@ -408,6 +446,11 @@ Pain at one spot, swelling, bruising, a bent or odd-looking limb, a grating feel
 - Pad the splint with clothing or cloth, especially over bony spots.
 - Tie it firmly **but not tight enough to cut off circulation.** Tie above and below the injury, not on it. Leave fingers and toes visible.
 - Rigid options: boards, sticks, rolled magazines, cardboard folded into a U, a SAM splint, a pillow or rolled blanket. See [[improvised-first-aid]].
+
+[[fig:forearm-splint]]
+
+[[fig:arm-sling]]
+
 
 ## By body part
 - **Collarbone or upper arm:** place the forearm across the chest in a sling, then bind the arm to the body with a swathe (wide strap) around the chest.
@@ -566,7 +609,7 @@ Infants, older adults, people who are exhausted, hungry, drunk, or soaked, and p
     tags: ['heat', 'heat stroke', 'heat exhaustion', 'heat cramps', 'overheating', 'hot', 'sunstroke', 'dehydration', 'hyponatremia', 'summer'],
     body: `
 ## Heat stroke is an emergency
-**Signs:** body temperature over 104 °F (40 °C) plus **confusion, agitation, slurred speech, strange behavior, seizure, or passing out.** Skin may be hot and dry, or the person may still be sweating (common when it happens during exertion).
+**Signs:** body temperature of 103 °F (39.4 °C) or higher plus **confusion, agitation, slurred speech, strange behavior, seizure, or passing out.** Skin may be hot and dry, or the person may still be sweating (common when it happens during exertion).
 
 **Cool first, transport second.** Brain damage and death come from how long the body stays overheated.
 
@@ -581,7 +624,7 @@ Infants, older adults, people who are exhausted, hungry, drunk, or soaked, and p
 6. If they have a seizure or vomit, turn them onto their side. If they stop breathing, start [[cpr]].
 
 ## Heat exhaustion
-**Signs:** heavy sweating, pale and clammy skin, headache, dizziness, nausea or vomiting, muscle cramps, weakness, fast weak pulse, temperature up to about 104 °F (40 °C). They are still thinking clearly.
+**Signs:** heavy sweating, pale and clammy skin, headache, dizziness, nausea or vomiting, muscle cramps, weakness, fast weak pulse, temperature usually below 103 °F (39.4 °C). They are still thinking clearly.
 
 ### Do this
 1. Move to shade or a cool room. Lie down with legs raised.
@@ -628,8 +671,10 @@ Stir until dissolved. A 1-quart (32 oz) bottle is close enough. It should taste 
 
 Packets of oral rehydration salts work too; mix with the amount of water on the label. Make a fresh batch each day and discard after 24 hours.
 
+> WARNING: For a **baby under 12 months**, use store-bought ORS (premixed or packets) if at all possible, and call a doctor or nurse line. A homemade mix is only for when nothing else exists, must be measured exactly, and a sick baby can become dangerously dehydrated very quickly. Never add extra salt.
+
 ## How to give it
-- **Small, frequent sips.** For a child who is vomiting, give a teaspoon every 1 to 2 minutes. If they vomit, wait 10 minutes, then start again slowly. Vomiting often stops once they are rehydrated.
+- **Small, frequent sips.** For a child who is vomiting, give about a teaspoon every 1 to 5 minutes. If they vomit, wait 5 to 10 minutes, then start again slowly. Vomiting often stops once they are rehydrated.
 - **After each loose stool:**
   - Under 2 years: about 1/4 to 1/2 cup (50 to 100 mL)
   - 2 to 10 years: about 1/2 to 1 cup (100 to 200 mL)
@@ -675,6 +720,9 @@ If professional care is reachable, go. If not, keep giving ORS in tiny, steady a
 In North America the dangerous snakes are rattlesnakes, copperheads, cottonmouths (water moccasins), and coral snakes.
 
 ### Do this
+
+[[fig:snakebite-care]]
+
 1. **Move away** from the snake. Do not try to catch or kill it; you do not need to identify it, and most bites happen when people handle snakes.
 2. **Stay calm and keep still.** Walking or running speeds the spread of venom. Have others carry you if possible.
 3. **Remove rings, watches, and tight clothing** from the bitten limb before it swells.
@@ -684,7 +732,7 @@ In North America the dangerous snakes are rattlesnakes, copperheads, cottonmouth
 
 > WARNING: Do NOT cut the bite, suck out the venom, apply a tourniquet, pack in ice, apply electric shock, drink alcohol or caffeine, or use "snakebite kits." These make things worse.
 
-Symptoms include pain, swelling, fang marks, bruising, tingling, a metallic taste, nausea, weakness, and trouble breathing; coral snakes cause drooping eyelids, slurred speech, and weakness more than pain. Pit viper bites (rattlesnakes, copperheads, cottonmouths) mostly damage local tissue; a firm pressure wrap is **not** advised for these. For coral snakes and other nerve-toxin snakes, a firm elastic wrap over the whole limb, with the limb kept still, may slow spread.
+Symptoms include pain, swelling, fang marks, bruising, tingling, a metallic taste, nausea, weakness, and trouble breathing; coral snakes cause drooping eyelids, slurred speech, and weakness more than pain. Pit viper bites (rattlesnakes, copperheads, cottonmouths) mostly damage local tissue; a firm pressure wrap is **not** advised for these and can cause harm. For a coral snake bite, the Red Cross says only a person trained in pressure-immobilization wrapping should consider it, and only when getting to care will take a long time. Otherwise just keep the limb still.
 
 If antivenom is out of reach: keep the person still, calm, warm, and hydrated, treat for [[shock]], keep the wound clean and loosely covered, and monitor breathing. Many healthy adults survive a rattlesnake bite without antivenom, but children, small people, and bites to the head, neck, or trunk are far more dangerous.
 
@@ -748,10 +796,12 @@ Common triggers: peanuts, tree nuts, shellfish, fish, milk, eggs, insect stings,
 1. **Inject epinephrine into the outer middle thigh.** It works through clothing.
    - **0.3 mg auto-injector for a person 66 lb (30 kg) or more**
    - **0.15 mg auto-injector for 33 to 66 lb (15 to 30 kg)**
+   - Babies under 33 lb (15 kg): use the device their doctor prescribed. If only a larger one is at hand in a true emergency, use it.
+   - **Nasal epinephrine spray** (needle-free) is also approved in the US: 2 mg for 66 lb (30 kg) or more, 1 mg for 33 to 66 lb. Spray into one nostril as the label shows.
    - Remove the safety cap, press the tip firmly against the thigh until it clicks, and hold it in place for the time printed on your device (some 3 seconds, some up to 10).
 2. **Call 911** if you can. Everyone who gets epinephrine needs medical observation.
 3. **Lay the person flat with legs raised.** If they have trouble breathing, let them sit up. If they are pregnant, lay them on their left side. If they are vomiting, turn them onto their side. **Do not let them stand or walk;** suddenly standing can cause collapse and death.
-4. **If there is no improvement after 5 to 15 minutes, or symptoms return, give a second dose** with a second auto-injector.
+4. **If there is no improvement after 5 to 15 minutes, or symptoms return, give a second dose** with a new device (a second auto-injector, or a new nasal spray).
 5. If they stop breathing, start [[cpr]].
 6. **Antihistamines** (diphenhydramine or a non-drowsy antihistamine) and a rescue inhaler for wheezing are add-ons only. They do not replace epinephrine.
 7. **Watch for at least 4 to 6 hours.** A second wave of symptoms can occur hours later (up to 72 hours in rare cases). Get medical care if you can.
@@ -825,7 +875,7 @@ Vomiting, confusion, passing out, slow or irregular breathing (fewer than 8 brea
 - Keep medicines in original containers and out of reach.
 
 ## Button batteries and magnets
-A swallowed button battery can burn through the throat in 2 hours. If a child (over 12 months) swallowed one and care is far away, give 2 teaspoons of honey every 10 minutes (up to 6 doses) while heading to care. Swallowed magnets (two or more) can cut through the intestines. Both are emergencies.
+A swallowed button battery can burn through the throat in 2 hours. If a child (over 12 months) swallowed one in the last 12 hours, give 2 teaspoons (10 mL) of honey every 10 minutes (up to 6 doses) while heading to care. Do not delay the trip to give honey; it slows the injury but does not stop it. Swallowed magnets (two or more) can cut through the intestines. Both are emergencies.
 
 ## Plants, mushrooms, and food
 Call Poison Control and keep a sample. See [[deadly-plants]] and [[wild-mushrooms]]. For food poisoning, see [[food-safety-basics]] and [[dehydration-ors]].
@@ -851,7 +901,7 @@ Never mix bleach with ammonia or vinegar; the gas can be deadly. See [[chemical-
 
 ### Do this
 1. **Call 911 / get help now.** Stop all activity. Help them sit down, ideally half-sitting with knees bent.
-2. **Chew and swallow 325 mg of regular aspirin** (or four 81 mg low-dose tablets), unless they are allergic, a doctor has told them never to take it, they have a bleeding problem, or you suspect a stroke instead. Chewing works faster.
+2. **Chew and swallow 325 mg of regular aspirin** (or four 81 mg low-dose tablets; not the coated "enteric" kind if you have a choice), if they are alert and can swallow,, unless they are allergic, a doctor has told them never to take it, they have a bleeding problem, or you suspect a stroke instead. Chewing works faster.
 3. **Nitroglycerin** only if it is prescribed to that person: 1 tablet under the tongue, repeat every 5 minutes up to 3 doses. Do not give it if they have taken Viagra-type drugs in the last 24 to 48 hours or feel very faint.
 4. **Loosen tight clothing,** keep them calm and warm, and do not let them walk around or drive.
 5. **If they collapse and are not breathing,** start [[cpr]] and use an AED if available.
@@ -896,7 +946,7 @@ Rest, aspirin for a suspected heart attack (not for stroke), keep warm, monitor 
 ### Sucking chest wound (open pneumothorax)
 A hole in the chest that makes a sucking or bubbling sound when the person breathes.
 1. **Cover the hole immediately** with a gloved hand while they breathe out, then seal it with a **chest seal**, plastic wrap, foil, or a plastic bag cut to fit, with several inches (about 10 cm) of overlap.
-2. **Tape the seal on three sides** to let air escape (it acts as a one-way valve), or on all four sides if you are ready to lift one edge if breathing gets worse. A vented chest seal is best.
+2. **A vented chest seal is best.** If you must improvise, **tape the seal on three sides** so trapped air can escape (it acts as a one-way valve). If you seal all four sides, be ready to lift an edge the moment breathing gets worse. Experts disagree on sealing: some first aid bodies (AHA/Red Cross, European Resuscitation Council) advise lay helpers to leave the wound open or loosely covered rather than sealed airtight. If breathing gets worse after you seal it, remove the seal.
 3. **Let the person sit up** or lie on the injured side, whichever helps them breathe.
 4. **Watch for worsening:** more and more difficulty breathing, blue lips, a shifting windpipe, swollen neck veins. This is a **tension pneumothorax.** Briefly lift an edge of the seal to let trapped air hiss out ("burp" it), then reseal. Only a trained person can decompress the chest with a needle.
 5. Treat for [[shock]] and get to care.
@@ -921,7 +971,7 @@ Pain with every breath and tenderness over the ribs. Do not wrap the chest tight
 
 ## Eye injuries
 ### Chemical in the eye (an emergency)
-1. **Flush right away** with large amounts of clean, lukewarm water for **15 to 20 minutes.** Hold the eyelids open. Tilt the head so water runs from the nose side outward and away from the other eye. A faucet, bottle, or shower works.
+1. **Flush right away** with large amounts of clean, lukewarm water for **15 to 20 minutes** (**30 minutes or more** for lye, drain cleaner, lime or other strong alkalis). Hold the eyelids open. Tilt the head so water runs from the nose side outward and away from the other eye. A faucet, bottle, or shower works.
 2. Remove contact lenses if they come out easily.
 3. Keep flushing even if it feels better. Alkalis (bleach, drain cleaner, lime, cement) cause the worst damage. Then get care.
 
@@ -1154,6 +1204,9 @@ Cut or fold a cotton square about 36 to 40 inches (90 to 100 cm) across diagonal
 - **Cravat (strip):** fold the point to the base and then in half again twice, giving a band 2 to 3 inches wide. Use it to hold splints, tie legs together, or as a bandage.
 - **No bandage?** Pin the shirt sleeve to the chest, put the hand inside a buttoned shirt, or use a belt or scarf.
 
+[[fig:arm-sling]]
+
+
 ## Splints
 - **Rolled newspaper or magazines** held with tape or string
 - **Sticks, boards, or cardboard** folded into a U
@@ -1162,11 +1215,20 @@ Cut or fold a cotton square about 36 to 40 inches (90 to 100 cm) across diagonal
 - **Buddy splint:** tape a finger to the next finger, or a leg to the other leg
 - Pad every splint with cloth. Immobilize the joints above and below. See [[fractures-sprains]].
 
+[[fig:forearm-splint]]
+
+
 ## Tourniquet
 Use a wide strap (belt, folded triangular bandage) and a stick or rod; never a thin cord. Full steps are in [[severe-bleeding]].
 
+[[fig:tourniquet-placement]]
+
+
 ## Pressure dressing
 Place a thick pad directly on the wound, wrap tightly with an elastic strip, then tie a knot or place a small hard object over the wound under the wrap. Check the fingers or toes for warmth and color.
+
+[[fig:pressure-bandage]]
+
 
 ## Wound irrigation
 - A **plastic bag with a pinhole**, a squeeze bottle with a pinhole in the cap, a **turkey baster**, or a large syringe
@@ -1235,7 +1297,7 @@ Check each person in this order.
 | **Minor (green)** | Walking wounded | Cuts, sprains, minor burns |
 | **Expectant (black)** | Not breathing, or injuries too severe to survive given the resources | Receive comfort care |
 
-**For children,** use a similar approach, but if a child is not breathing give 5 rescue breaths before deciding; children whose breathing rate is outside 15 to 45 per minute are red.
+**For children,** use a similar approach, but if a child is not breathing and still has a pulse, give 5 rescue breaths before deciding; children whose breathing rate is outside 15 to 45 per minute are red.
 
 Mark each person with a colored cloth or write the group on the forehead or arm with a marker, along with the time. **Reassess every 15 to 30 minutes.** People change groups.
 

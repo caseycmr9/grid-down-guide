@@ -102,7 +102,7 @@ This is long-term self-reliance: gardens, animals, preserved food, trade, and co
     tags: ['priorities', 'rule of threes', 'survival basics', 'order'],
     body: `
 ## The Rule of 3s
-A rough guide to how long a healthy adult can last without each basic need. It varies with age, health, and weather, but it shows what to fix first.
+A memory aid for what kills fastest. It says a person can survive about **3 minutes without air, 3 hours without shelter in a harsh environment, 3 days without water, and 3 weeks without food.** It shows what to fix first.
 
 | Without... | Roughly | So the priority is |
 |---|---|---|
@@ -111,7 +111,9 @@ A rough guide to how long a healthy adult can last without each basic need. It v
 | Water | 3 days | Find, treat, and store safe water |
 | Food | 3 weeks | Important, but last |
 
-Add a fourth, **3 seconds: decision.** Stop and think before acting. Panic makes things worse.
+> NOTE: These are rules of thumb, not measured limits. Real times vary a great deal with age, health, weather, and effort. Most people can hold their breath only 30 to 90 seconds, and brain injury can start within minutes without oxygen. In extreme heat or in cold, wet wind, a person can die in well under 3 hours (in heat, usually from heat stroke rather than thirst). The 3 days for water also assumes mild weather and little effort. Healthy people have survived much longer than 3 weeks without food. Do not plan around the numbers; use them to rank your problems.
+
+Some versions add one more rule: take a few seconds to stop and think before you act. That is advice, not a measured limit, but it is good advice. Panic makes things worse.
 
 ## What to do first, in order
 1. **Stop, think, observe, plan.** Take five slow breaths. Look around. What is the biggest danger right now?

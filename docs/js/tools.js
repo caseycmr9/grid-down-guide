@@ -281,7 +281,7 @@
       '<div id="wx" hidden><label class="f">Percent sodium hypochlorite</label><input type="number" id="wp" value="6" min="1" max="12" step="any" inputmode="decimal"></div>' +
       '<label class="chk"><input type="checkbox" id="wc"><span>Water is cloudy or discolored (double the dose, and strain it through clean cloth first)</span></label></div>' +
       '<div class="card" id="wr"></div>' +
-      '<div class="card"><h3>Other ways</h3><ul><li><b>Boil:</b> rolling boil 1 minute (3 minutes above 6,500 ft / 2,000 m). Safest choice if you can.</li><li><b>Pool shock</b> (calcium hypochlorite): see ' + link('chemical-disinfection', 'disinfecting with bleach, pool shock and tablets') + '.</li><li><b>Filters, sunlight, tablets:</b> ' + link('water-filters', 'filters') + ', ' + link('boiling-water', 'sunlight') + '.</li></ul></div>';
+      '<div class="card"><h3>Other ways</h3><ul><li><b>Boil:</b> rolling boil 1 minute (3 minutes above 5,000 ft / 1,500 m). Safest choice if you can.</li><li><b>Pool shock</b> (calcium hypochlorite): see ' + link('chemical-disinfection', 'disinfecting with bleach, pool shock and tablets') + '.</li><li><b>Filters, sunlight, tablets:</b> ' + link('water-filters', 'filters') + ', ' + link('boiling-water', 'sunlight') + '.</li></ul></div>';
     function calc() {
       var v = num($('#wv', el).value, 0), u = $('#wu', el).value, sv = $('#ws', el).value;
       $('#wx', el).hidden = sv !== 'x';
@@ -537,6 +537,10 @@
         '<div class="card"><div class="two"><div><label class="f">Amount</label><input type="number" id="cv" value="1" step="any" inputmode="decimal"></div><div><label class="f">From</label><select id="cu">' +
         UNITS[cat].map(function (u, i) { return '<option value="' + i + '">' + u[0] + ' (' + u[1] + ')</option>'; }).join('') + '</select></div></div></div><div id="cr"></div>';
       $$('#cseg button', el).forEach(function (b) { b.onclick = function () { cat = b.getAttribute('data-k'); draw(); }; });
+      if (App.S.units === 'metric') {   // metric preference: start from the first metric unit of this group
+        var mi = -1; UNITS[cat].forEach(function (u, ix) { if (mi < 0 && /^(L|mL|kg|g|km|m|cm|sq m|ha|kPa|bar|°C)$/.test(u[1])) mi = ix; });
+        if (mi > -1) $('#cu', el).value = String(mi);
+      }
       $('#cv', el).oninput = calc; $('#cu', el).onchange = calc; calc();
     }
     function fmtN(x) { var a = Math.abs(x); return a >= 1000 ? x.toLocaleString(undefined, { maximumFractionDigits: 1 }) : '' + parseFloat(x.toPrecision(5)); }
@@ -567,6 +571,7 @@
   window.GDG_TOOLS = {
     list: LIST,
     zones: zoneData,   // ZIP -> zone/frost lookup (also used by tests)
+    beep: beep, vibrate: vibrate, audio: audio,   // shared with crisis mode
     boot: function (app) { App = app; if (!App.S.timers) App.S.timers = []; setInterval(tickTimers, 1000); }
   };
 })();

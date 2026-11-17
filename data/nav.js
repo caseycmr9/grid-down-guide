@@ -8,7 +8,7 @@
     tags: ['lost', 'missing', 'stop', 'hiking', 'wilderness', 'search and rescue', 'disoriented', 'stranded'],
     body: `
 ## Do this first
-1. **Stop.** Sit down. Do not keep walking "just a little farther." Most people who get seriously lost make it worse in the first hour by moving fast while panicked.
+1. **Stop.** Sit down. Do not keep walking "just a little farther." Many people who get lost make things worse by hurrying while panicked.
 2. **Think.** Breathe slowly for a full minute. When did you last know exactly where you were? Which way did you come from? Does anyone know where you went?
 3. **Observe.** Check yourself for injuries. Check how much water, food, and daylight you have. Look at the weather, the terrain, and any landmark you recognize.
 4. **Plan.** Decide whether to stay or move (below). Then take care of shelter, water, and signals before anything else.
@@ -30,7 +30,7 @@
 - Pick a spot that is visible from the air and from a distance: an open area, a clearing, a rock outcrop. Avoid dense forest if you can.
 - Build shelter first if it is cold, wet, or windy. See [[shelter-priorities]] and [[emergency-shelters]].
 - Make signals. See [[signaling-rescue]]. Three of anything (whistle blasts, fires, flashes) means distress.
-- Find and treat water ([[finding-water]], [[water-safety]]). You can go three weeks without food but only about three days without water. See [[rule-of-3s]].
+- Find and treat water ([[finding-water]], [[water-safety]]). You can last weeks without food but only a few days without water (less in heat). See [[rule-of-3s]].
 - Stay put through the night. Moving in the dark is how people fall, get hurt, and drift farther away.
 
 ## If you must move
@@ -77,7 +77,9 @@ Use two or more methods and compare. Every method here is approximate.
 4. Mark the new tip with a second pebble.
 5. Draw a line through both pebbles. The first pebble is **west**, the second is **east** (roughly). A line crossing it at a right angle points north and south.
 
-For a better result, mark the tip every 15 minutes through the day. The shortest shadow happens at local solar noon, and in the northern hemisphere (mid-latitudes) it points north.
+For a better result, mark the tip every 15 minutes through the day. The shortest shadow happens at local solar noon. In the northern hemisphere (mid-latitudes) that shadow points north; in the southern hemisphere it points south.
+
+[[fig:shadow-stick]]
 
 ## Analog watch method
 You need an old-style watch with hands, set to local standard time. If daylight saving time is in effect, use the point halfway between the hour hand and 1 o'clock instead of 12.
@@ -85,7 +87,7 @@ You need an old-style watch with hands, set to local standard time. If daylight 
 - **Northern hemisphere:** Hold the watch flat. Point the hour hand at the sun. Halfway between the hour hand and 12 is **south**.
 - **Southern hemisphere:** Point 12 at the sun. Halfway between 12 and the hour hand is **north**.
 
-This is less reliable close to the equator. With no analog watch, draw a clock face on paper or in the dirt.
+This is only a rough guide, and it is less reliable close to the equator. With no analog watch, draw a clock face on paper or in the dirt.
 
 ## The North Star (northern hemisphere only)
 Polaris stays almost exactly over true north, within about 1 degree.
@@ -96,15 +98,17 @@ Polaris stays almost exactly over true north, within about 1 degree.
 
 Cassiopeia (a W or M shape) sits on the other side of Polaris from the Big Dipper. Use it when the Dipper is low or hidden. The height of Polaris above the horizon equals your latitude.
 
+[[fig:find-polaris]]
+
 ## Southern Cross (southern hemisphere)
-Find the Southern Cross, a small kite shape of four bright stars. Extend its long axis about 4.5 times its length. Drop straight down from that point to the horizon. That is roughly **south**.
+Find the Southern Cross, a small kite shape of four bright stars. Extend its long axis about 4.5 times its length. Drop straight down from that point to the horizon. That is roughly **south**. Do not confuse it with the larger, dimmer "False Cross" nearby. The true Southern Cross has two bright pointer stars close beside it.
 
 ## Orion and the moon
 - **Orion** rises close to due east and sets close to due west for most of the world. Its three-star belt is a handy pointer.
 - **Crescent moon:** draw a line connecting the two tips of the crescent and continue it down to the horizon. In the northern hemisphere it points roughly south; in the southern, roughly north. This is a rough guide only.
 
 ## Nature signs: mostly unreliable
-Moss does not reliably grow on the north side of trees. Tree rings, ant hills, and bird flight are not dependable. Some weak clues exist (in the northern hemisphere, snow melts first on south-facing slopes, and satellite dishes in North America point southeast to south), but never use them alone.
+Moss does not reliably grow on the north side of trees. Tree rings, ant hills, and bird flight are not dependable. Some weak clues exist (in the northern hemisphere, snow melts first on south-facing slopes, and satellite dishes in the US point toward the southern sky, anywhere from southeast to southwest depending on where you are), but never use them alone.
 
 > TIP: Make a "known direction" mark each time you set up camp: pile rocks pointing north, so you do not need to work it out again.
 
@@ -155,9 +159,11 @@ Baseplate with a ruler edge, a rotating dial (bezel) marked 0-360 degrees, a dir
 3. Correct for declination (below), then follow the bearing as above.
 
 ## Declination
-Map north (true north) and compass north (magnetic) differ. This difference is **declination**. It is printed in the map margin and changes by place and over time. In the continental US it runs from roughly 15 degrees east in the Pacific Northwest to roughly 15 degrees west in Maine.
+Map north (true north) and compass north (magnetic) differ. This difference is **declination**. It is printed in the map margin and changes by place and over time. In the continental US it runs from roughly 15 degrees east in the Pacific Northwest to roughly 15 degrees west in Maine, so it can matter a lot. Check the date and value printed on your map, or look up your area on NOAA's online declination calculator before a crisis.
 
 When converting a **map bearing to a compass bearing**: "east is least" (subtract east declination), "west is best" (add west declination). Many compasses let you set declination once with a small screw. Use the number on your newest map.
+
+[[fig:declination]]
 
 ## Find your position (resection)
 1. Pick two or three landmarks you can find on the map.
@@ -200,23 +206,25 @@ Use a signal mirror or anything shiny: CD, phone screen, foil, a can lid, a watc
 3. Flash in short bursts. Sweep the horizon slowly even when you see no one. The flash can be seen for many miles.
 
 ## Fire and smoke
-- **Night:** a bright fire, ideally three in a triangle about 100 ft (30 m) apart. Keep fuel stacked and ready.
+- **Night:** a bright fire, ideally three in a triangle or a line, evenly spaced about 80-100 ft (25-30 m) apart. If you are alone or short of fuel, one good fire is better than three weak ones. Keep fuel stacked and ready.
 - **Day:** smoke. Add green leaves, moss, or wet material to make thick **white** smoke (shows best against dark trees). Dark smoke from oil-soaked rags or rubber shows best against snow or pale ground but is toxic and hard to control.
 - Prepare a pile with dry tinder under green boughs. Light it only when you hear or see a possible rescuer.
 
 > DANGER: Never leave a signal fire unattended or build it near dry brush or under trees. A signal fire that starts a wildfire can kill you and others.
 
 ## Ground-to-air signals
-Make symbols **at least 10 ft (3 m) long**, with high contrast: stamp them in snow, line them with rocks, branches, or dark clothing on pale ground.
+Make symbols as large as you can, **at least 10 ft (3 m) long** (20 ft / 6 m is better), with high contrast: stamp them in snow, line them with rocks, branches, or dark clothing on pale ground.
 
 | Symbol | Meaning |
 |---|---|
 | V | Need assistance |
-| X | Need medical help / cannot proceed |
+| X | Need medical help |
 | Arrow | We are going this way |
 | Y | Yes |
 | N | No |
 | SOS | Distress |
+
+[[fig:ground-air-signals]]
 
 ## Body signals to an aircraft
 - **Both arms straight up in a V (like a Y):** I need help.
@@ -227,9 +235,9 @@ Wave bright clothing overhead.
 Flash a flashlight, headlamp, or phone light in the SOS pattern: three short, three long, three short. The Flashlight / SOS / Morse tool in the Tools tab does this for you. A vehicle's headlights and horn can be signaled the same way.
 
 ## Electronics
-- **Personal locator beacon (PLB):** works without cell signal. Press and it sends your location by satellite to rescue services. Register it. Keep the antenna clear and in the open.
-- **Satellite messenger or phone satellite SOS:** use if you have one.
-- **Phone:** a text message needs far less signal than a voice call. In the US, 911 calls can connect through any available carrier. Turn on airplane mode to save battery, and check for signal at high points.
+- **Personal locator beacon (PLB):** works without cell signal. Activate it and it sends a distress signal on 406 MHz by satellite to rescue services (most also send your GPS position). Register it with NOAA (required in the US). Keep the antenna up and in the open, with a clear view of the sky.
+- **Satellite messenger or phone satellite SOS:** use if you have one. Phone satellite features work only on certain newer phones and need you to be outside with a clear view of the sky and horizon.
+- **Phone:** a text message needs far less signal than a voice call. In the US, 911 calls can usually connect through any available carrier, even if your own is down. Turn on airplane mode to save battery, and check for signal at high points.
 
 ## Make it easy to find you later
 - If you leave a location, leave a note, an arrow, and a sign at the site.
@@ -270,16 +278,16 @@ The trend matters more than the number. Write the reading down every few hours.
 ## Wind and temperature
 - A sudden wind shift with a temperature drop and clearing sky usually means a **cold front** has passed.
 - Gusts increasing, then a wind shift: a front or thunderstorm is arriving.
-- Smoke rising straight up means stable, high pressure (fair). Smoke that flattens or drifts down means low pressure and possibly worse weather.
+- Smoke rising straight up often goes with stable, high pressure (fair). Smoke that flattens or drifts down often goes with low pressure and possibly worse weather. This is a folk rule: treat it as a hint.
 
-## Folklore that often works (and some that doesn't)
-- **Halo around the moon or sun:** ice crystals in high cloud, often ahead of precipitation within a day. Fairly reliable.
-- **Red sky at night, red sky in morning:** works in mid-latitudes where weather moves west to east. Check the western sky.
+## Folklore: some clues help, none are guarantees
+- **Halo around the moon or sun:** ice crystals in high cloud (cirrostratus), often ahead of rain or snow within about a day. A useful clue, but not every halo is followed by precipitation.
+- **"Red sky at night, sailor's delight; red sky in morning, sailors take warning":** a red sunset can mean dry, stable air to the west, and a red sunrise can mean a storm system is approaching. It only works in the middle latitudes, where weather moves west to east, and it is a rule of thumb: a storm can still miss you or fall apart. Check the western sky.
 - Animal behavior and "bad knees" are not dependable.
 
 ## Lightning
 - Count the seconds between flash and thunder. Divide by 5 for miles (divide by 3 for kilometers).
-- **If thunder follows within 30 seconds (about 6 miles), go indoors or into a hard-topped vehicle.** Wait 30 minutes after the last thunder before going out.
+- **When you hear thunder, go indoors or into a hard-topped vehicle.** Do not wait for the storm to get close: if you can hear thunder, lightning can reach you. Stay in for at least 30 minutes after the last thunder. Each new rumble restarts the 30 minutes. (Thunder within 30 seconds of the flash means the storm is within about 6 miles, which is already too close.)
 - Safe: a building with wiring and plumbing, or a metal-roofed vehicle with windows up.
 - Avoid: open fields, hilltops, isolated trees, water, metal fences, tents, and open shelters.
 - Details and first aid: [[severe-storms-tornado]], [[drowning-electric]].
@@ -288,11 +296,11 @@ The trend matters more than the number. Write the reading down every few hours.
 Signs: heavy rain upstream (even if it is dry where you are), a sudden rise in water, muddy and fast water, a roaring sound, floating debris. **Move to high ground at once.** Never camp in a dry wash or canyon bottom. See [[flood]].
 
 ## Tornado signs
-A dark greenish sky, large hail, a rotating wall cloud, a loud continuous roar like a freight train, and a sudden calm. Go to the lowest interior room or a ditch. See [[severe-storms-tornado]].
+A dark greenish sky, large hail, a rotating wall cloud, a loud continuous roar like a freight train, and a sudden calm. Go to a basement or an interior room away from windows. If you are caught outside with no building, a low ditch is a last resort: lie flat and cover your head. See [[severe-storms-tornado]].
 
 ## Temperature danger
 - **Wind chill:** wind makes cold feel colder and speeds frostbite. See [[hypothermia-frostbite]].
-- **Heat index:** humid heat is dangerous. At a heat index of 103 F (39 C) and above, heat exhaustion and heat stroke become likely with long exposure. See [[heat-illness]].
+- **Heat index:** humid heat is dangerous. At a heat index of 103 F (39 C) and above, the National Weather Service rates conditions as dangerous: heat cramps and heat exhaustion are likely, and heat stroke is possible with long exposure or hard activity. See [[heat-illness]].
 
 ## Keep a weather log
 Record the date, time, temperature, pressure, wind direction, clouds, and rain three times a day. After a few weeks, you will know your local patterns better than any forecast.
@@ -316,12 +324,12 @@ For official alerts, keep a NOAA Weather Radio or hand-crank radio. See [[gettin
 ## How far and how fast
 - A fit adult with a light load walks about 2.5-3 mph (4-5 km/h) on flat ground.
 - With a pack, hills, weather, or fatigue, plan on 1.5-2 mph.
-- **Naismith's rule:** allow 1 hour for every 3 miles (5 km), plus 1 hour for every 2,000 ft (600 m) of climb.
-- Realistic daily distance: 10-15 miles (16-24 km) for a fit adult with a pack. Less for children, the elderly, or the injured.
+- **Naismith's rule:** allow 1 hour for every 3 miles (5 km), plus 1 hour for every 2,000 ft (600 m) of climb. This is a minimum for fit hikers: add time for a heavy pack, children, heat, or rough ground.
+- Realistic daily distance: 8-12 miles (13-19 km) for a fit adult with a pack. Less for children, the elderly, or the injured.
 - A group moves at the speed of its slowest member. Put the slowest in front.
 
 ## Load
-- Carry no more than **20-25% of your body weight**. Heavy loads cause injuries and slow you down.
+- Carry about **20% of your body weight or less** (25% at most if you are fit). Heavy loads cause injuries and slow you down.
 - Water weighs 8.3 lb per gallon (1 L = 2.2 lb). Carry a way to treat water instead of hauling all of it. See [[boiling-water]] and [[chemical-disinfection]].
 - Pack what you will need most (water, snacks, rain gear) where you can reach it without stopping.
 - Children: keep their packs to 10-15% of their weight.
@@ -329,7 +337,7 @@ For official alerts, keep a NOAA Weather Radio or hand-crank radio. See [[gettin
 ## Rest, food, and water
 - Rest 5-10 minutes each hour. Stop early in the day to adjust gear.
 - Eat and drink small amounts often. Do not wait to be thirsty or hungry.
-- Heavy walking burns 2,500-4,000 calories a day. Eat accordingly.
+- Long days of heavy walking with a pack can burn well over 2,500 calories. Eat accordingly.
 
 ## Choosing a route
 - Prefer secondary roads and trails to major highways. Crowds, accidents, and desperate people gather on main routes.
@@ -342,7 +350,7 @@ For official alerts, keep a NOAA Weather Radio or hand-crank radio. See [[gettin
 Avoid it. Falls, lost trails, and exhaustion are much more likely. Travel at night only if heat, danger, or distance demands it, with a red or dim light and a moon to help.
 
 ## Crossing rivers
-> DANGER: Moving water 6 in (15 cm) deep can knock an adult down. Do not cross flood-stage, muddy, or fast water. Find a bridge, wait for the water to drop, or go around.
+> DANGER: Fast-moving water only 6 in (15 cm) deep can knock an adult down. Do not cross flood-stage, muddy, or fast water. Find a bridge, wait for the water to drop, or go around.
 
 If you must cross a safe-looking stream:
 1. Look for a wide, shallow, slow section. Wide is usually shallower.
@@ -353,7 +361,7 @@ If you must cross a safe-looking stream:
 6. Never tie yourself to a rope in the water.
 
 ## Ice
-Walk on lake ice only if it is at least **4 inches (10 cm) of clear, solid ice**. White or snowy ice is weaker. Avoid ice over moving water, near inlets, and around springs. If you fall in: do not climb straight up; kick, spread your arms on the ice, pull out flat, and roll away from the hole. Then get warm immediately. See [[hypothermia-frostbite]].
+Walk on lake ice only if it is at least **4 inches (10 cm) of clear, solid ice**. White or snowy ice is only about half as strong, so it needs twice the thickness. Thickness varies across a lake, so no ice is ever guaranteed safe. Avoid ice over moving water, near inlets, and around springs. If you fall in: do not climb straight up; kick, spread your arms on the ice, pull out flat, and roll away from the hole. Then get warm immediately. See [[hypothermia-frostbite]].
 
 ## Weather and heat
 Rest in the hottest part of the day. Wear loose, light clothing and a hat. In cold, avoid sweating through your layers. See [[clothing-layers]].
@@ -370,7 +378,7 @@ Stop and use [[lost-procedure]]. For navigation, see [[map-compass]] and [[direc
     tags: ['estimate', 'daylight', 'pace count', 'distance', 'height', 'tree', 'river width', 'time', 'measure', 'hand', 'fingers', 'ranger beads'],
     body: `
 ## Daylight left
-Hold your hand at arm's length with fingers together and horizontal, the bottom edge on the horizon and the top toward the sun. Count how many finger widths fit between the horizon and the sun. **Each finger is about 15 minutes**, so four fingers is about an hour. A full hand is about an hour. It is rough, but good enough to decide when to stop and build shelter.
+Hold your hand at arm's length with fingers together and horizontal, the bottom edge on the horizon and the top toward the sun. Count how many finger widths fit between the horizon and the sun. **Each finger is about 15 minutes**, so four fingers (a full hand) is about an hour. It is rough, and it tends to overestimate the daylight you have left, so stop and build shelter earlier than the count says. Check it against a clock on a clear evening.
 
 ## Pace count (how far you have walked)
 1. Walk a measured 100 m (330 ft) on level ground at your normal pace.
@@ -410,7 +418,7 @@ Measure these once and write them down. They are rulers you always carry.
 | Fist width | about 4 in (10 cm) |
 
 ## Time from the sun
-The sun moves about 15 degrees per hour, so one hour is roughly one fist width across the sky at arm's length. Noon is when the sun is highest. Near the equinoxes, sunrise is about 6 a.m. and sunset about 6 p.m., local solar time.
+The sun moves about 15 degrees along its path each hour. A fist at arm's length covers about 10 degrees, so an hour is roughly a fist and a half along the sun's path (less when measured straight up from the horizon). Noon is when the sun is highest. Near the equinoxes, sunrise is about 6 a.m. and sunset about 6 p.m., local solar time.
 
 ## Using these together
 Mix methods and treat each answer as a range. For navigation see [[map-compass]], [[direction-sun-stars]], and [[traveling-on-foot]]. For measuring while building, see [[measuring-squaring]]. The Unit Converter in the Tools tab helps with conversions.
@@ -431,7 +439,7 @@ When phones and internet fail, radios still work. They need only power and someo
 |---|---|---|---|---|
 | CB (Citizens Band) | None | 4 W | 1-5 miles (more with a good antenna) | 40 channels near 27 MHz. Common in trucks. |
 | FRS | None | up to 2 W | 0.5-2 miles | Cheap walkie-talkies. Range claims are exaggerated. |
-| GMRS | FCC license (covers a family) | up to 50 W | 1-5+ miles, more with repeaters | Same band as FRS, more power. |
+| GMRS | FCC license, no exam (covers your immediate family) | up to 50 W | 1-5+ miles, more with repeaters | Same band as FRS, more power. You must be 18 or older to apply. The fee has been $35 for 10 years since 2022; check fcc.gov. |
 | MURS | None | 2 W | 1-3 miles | Five VHF channels. |
 | Amateur (ham) | Exam-based license | 5-100+ W | Local to worldwide | The most capable. HF can span continents. |
 | Marine VHF | License rules vary | 1-25 W | 5-25 miles | Boats and coastal areas. |
@@ -502,10 +510,10 @@ For frequencies and distress procedure, see [[emergency-frequencies]].
 | Amateur radio, 70 cm | 446.000 MHz | National simplex calling frequency |
 | Marine VHF | Channel 16, 156.800 MHz | Distress, safety, and calling |
 | Aviation | 121.500 MHz | International civil aircraft emergency frequency |
-| NOAA Weather Radio | 162.400, 162.425, 162.450, 162.475, 162.500, 162.525, 162.550 MHz | Weather and hazard alerts (listen only) |
+| NOAA Weather Radio | 162.400, 162.425, 162.450, 162.475, 162.500, 162.525, 162.550 MHz | Weather and hazard alerts (listen only; needs a radio with a weather band) |
 | Satellite beacons | 406 MHz | Personal locator beacons and EPIRBs |
 
-> NOTE: FRS and GMRS radios have no official national emergency channel. Agree on a channel with your family and neighbors in advance, and monitor it at set times.
+> NOTE: FRS and GMRS have no official national emergency channel. Some volunteer groups informally watch GMRS channel 20 (462.675 MHz), but do not count on anyone listening. Agree on a channel with your family and neighbors in advance, and monitor it at set times.
 
 Local ham clubs often run emergency nets on local repeaters. Tune a scanner or handheld to learn your area's activity before a crisis.
 
@@ -523,8 +531,8 @@ Local ham clubs often run emergency nets on local repeaters. Tune a scanner or h
 | Break | Separates parts of a message, or interrupts for an emergency |
 
 ## Calling a phone for help
-- In the US, 911 calls can connect through any carrier's tower in range even if your own network is down.
-- A text message can go through when a voice call will not, and text-to-911 works in some areas.
+- In the US, 911 calls can usually connect through any carrier's tower in range even if your own network is down.
+- A text message can go through when a voice call will not, and text-to-911 works in some areas but not all. Call if you can; text if you cannot.
 - If nothing connects, try again from higher ground and conserve battery.
 
 ## Keep it working
@@ -569,6 +577,7 @@ You do not need a license to listen. Local ham clubs often run emergency nets on
 ## Phones
 - Text messages use far less signal than calls. They may go through when voice calls fail.
 - Keep the phone in airplane mode and check it once or twice a day for a signal. Move to high ground if needed.
+- **Wireless Emergency Alerts (WEA)** are free, need no sign-up and no internet, and arrive through the cell network. Keep emergency alerts switched on in your phone settings. You will not receive them in airplane mode.
 - Keep a printed list of key phone numbers, because the phone's contacts may be unavailable if it dies.
 
 ## Local information networks

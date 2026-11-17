@@ -150,7 +150,7 @@ Green wood is heavy, shrinks, and warps as it dries. Dry before you build furnit
 4. Paint or wax the ends of logs and boards. Ends dry fastest and crack.
 5. Wait. A rough rule is about a year per inch of thickness for hardwood, less for softwood. Do not rush it.
 
-Targets: below 20% moisture for framing and firewood, 12–15% for indoor work. A seasoned log sounds hollow when two pieces are clapped together, and the ends show cracks.
+Targets: below 20% moisture for framing and firewood, and about 6–8% for furniture and floors inside a heated home. Wood air-dried outdoors usually stops at about 12–15%, so let boards sit indoors for several weeks before you build with them. A seasoned log sounds hollow when two pieces are clapped together, and the ends show cracks.
 
 ## Splitting versus sawing
 Split (rived) wood follows the grain, so it is stronger and sheds water better than sawn wood of the same size. Straight-grained oak, cedar, and chestnut split into fence rails, shakes, and stakes with a froe or an axe and wedges. Sawing gives smooth boards but cuts across the grain.
@@ -176,14 +176,14 @@ Split (rived) wood follows the grain, so it is stronger and sheds water better t
 ## Before you cut
 1. Look up. Check for dead limbs, broken tops, and tangled neighbors. A dead branch can fall when the trunk is hit.
 2. Decide the fall direction. A tree falls the way it leans. Do not try to force it more than a few degrees.
-3. Check wind. If gusts are strong (about 15 mph or more), wait.
+3. Check wind. If gusts are strong or the treetops are moving, wait.
 4. Clear brush around the trunk so you can swing and move.
 5. Plan two escape paths at 45° angles, behind the fall line. Clear them of brush and rocks.
-6. Keep everyone at least 2 tree-heights away.
+6. Keep everyone at least 2 tree-heights away (the OSHA minimum for logging crews).
 
 ## Cutting (axe or crosscut saw)
 1. **Notch (undercut)** on the side of the fall direction. Cut a wedge about 1/4 to 1/3 of the trunk's diameter deep. The top cut angles down, the bottom cut is level, and they meet cleanly.
-2. **Back cut** on the opposite side, level, about 1–2 in (3–5 cm) above the notch's level cut.
+2. **Back cut** on the opposite side, level, about 1–2 in (3–5 cm) above the notch's level cut. Never cut it lower than the notch: the tree can slide back toward you.
 3. Stop with a strip of uncut wood about 1/10 of the diameter. This is the hinge. It steers the tree. Never cut through it.
 4. As the saw pinches, tap in a wedge behind it. Keep tapping as the tree starts to move.
 5. When the tree begins to fall, stop, shout a warning, drop the tool, and walk away along an escape path. Watch the top, not your feet.
@@ -306,6 +306,8 @@ Always shed water away from the base. Slope the ground so it flows away.
 ## Floor
 Joists (the beams under the floor) are laid on edge, 16 in apart on center. About how far they span without help: 2×6 about 9 ft, 2×8 about 12 ft, 2×10 about 15 ft. Check span tables if you can. Cover with 1 in boards or plywood.
 
+> WARNING: The span and header figures here are rough rules of thumb, not engineered values. They lean toward the safe side, but wood grade, snow load, and spacing change them. For any floor or roof people will stand or sleep under, check the span tables in your local building code or ask a builder.
+
 ## Walls
 1. Cut studs 2×4 (or 2×6) to the wall height. Build each wall flat on the floor: bottom plate, studs every 16 in, top plate.
 2. Frame door and window openings with a header over the top (doubled 2×6 or 2×8 for openings up to 4 ft).
@@ -318,8 +320,8 @@ Pitch is rise over 12 in of run. 4:12 is the minimum for shingles. 6:12 sheds wa
 
 1. Find the rafter length. For a 12 ft wide building with a ridge board in the middle: run = 6 ft. Rise at 6:12 = 3 ft. Rafter = square root of (6 × 6 + 3 × 3) = 6.7 ft, plus overhang.
 2. Cut a pattern rafter. Test it, then copy.
-3. Nail rafters to the ridge board and to the wall plate. Put collar ties (horizontal boards) across every third pair.
-4. Roof rafters at 24 in on center can span about 8 ft (2×6), 11 ft (2×8), or 14 ft (2×10) horizontally with light snow. Use closer spacing or bigger lumber where heavy snow falls. Wet snow can weigh up to 20 lb per cubic foot, so a foot of it puts about 15–20 lb on each square foot.
+3. Nail rafters to the ridge board and to the wall plate. Tie each pair of opposite rafters together low in the roof (ceiling joists, or 2×4 rafter ties in the lower third) so the roof cannot push the walls outward. Add 1×4 collar ties (horizontal boards) in the upper third of the roof, no more than 4 ft apart.
+4. Roof rafters at 24 in on center can span about 8 ft (2×6), 11 ft (2×8), or 14 ft (2×10) horizontally with light snow. Use closer spacing or bigger lumber where heavy snow falls, and check a span table if you can. Wet snow can weigh up to 20 lb per cubic foot, so a foot of it puts about 15–20 lb on each square foot.
 
 ## Roof coverings
 - **Metal:** Lasts decades. Overlap panels and use screws with washers.
@@ -361,7 +363,7 @@ Soil, sand, clay and straw are free almost everywhere. Earth walls hold heat and
 6. Protect the walls with a plaster of clay and sand, or lime plaster. Lime burns skin and eyes, so use gloves and goggles.
 
 ## Adobe bricks
-Mix as for cob but with less straw. Press it into a wooden mold (about 10 × 14 × 4 in), lift the mold, and let the brick dry in shade 3–4 days then in sun, turning, for 3–4 weeks. Each brick weighs 25–30 lb. Lay with a mud mortar of the same soil.
+Mix as for cob but with less straw. Press it into a wooden mold (about 10 × 14 × 4 in), lift the mold, and let the brick dry in shade 3–4 days then in sun, turning, for 3–4 weeks. Each brick weighs about 25–35 lb. Lay with a mud mortar of the same soil.
 
 ## Rammed earth
 Use a damp mix (it should hold a ball when squeezed and crumble when dropped from waist height). Pack it in 4–6 in layers between sturdy wooden forms, tamping each layer hard. Walls are usually 12–24 in thick.
@@ -384,7 +386,7 @@ Fire the oven for 1–2 hours until the black soot inside burns to white, rake o
 A very efficient heater: a hot, clean-burning fire feeds a hot gas path through a heavy cob bench, which stores heat for hours. Only build one from tested plans, and test it with a smoky fire and a smoke match before you rely on it. A leak or blocked flue can fill a room with carbon monoxide.
 
 ## Chimney and stove safety (any stove)
-- Keep a wood stove at least 36 in (90 cm) from anything that can burn, unless a listed heat shield reduces that.
+- Keep a wood stove at least 36 in (90 cm) from anything that can burn, unless a listed heat shield reduces that. A factory-built stove's label and manual list its tested clearances: follow those.
 - Single-wall stovepipe stays at least 18 in (45 cm) from combustible walls.
 - The chimney should rise at least 3 ft above the roof where it passes through, and at least 2 ft above anything within 10 ft. This is the 3-2-10 rule.
 - Use a masonry or insulated listed chimney through walls and ceilings.
@@ -407,6 +409,8 @@ Three rules make it work:
 1. The feed opening, the burn tunnel, and the riser should all have about the same cross-section. A 4 in (10 cm) round pipe is about 12.5 sq in (80 sq cm).
 2. Insulate the riser with wood ash, perlite, or fire clay so it stays hot.
 3. Leave a gap between the riser top and the pot bottom equal to about one quarter of the riser width (about 1 in for a 4 in pipe). Too small chokes the fire, too big wastes heat.
+
+[[fig:rocket-stove]]
 
 ## Bucket rocket stove
 You need:
@@ -433,6 +437,8 @@ To use: Lay thumb-thick, dry sticks in the feed hole. Light the ends with tinder
 5. Rest your pot on rocks or a grate across the top.
 
 It is hidden from wind and sight. Do not use it on dry grass or in wildfire conditions. See [[fire-management]].
+
+[[fig:dakota-fire-hole]]
 
 ## Hobo stove (can stove)
 Use a large clean steel can (a #10 can or a big tin).
@@ -517,7 +523,9 @@ Fold a big piece of foil-covered cardboard into a bowl shape around a dark pot p
 - **Wood:** Rot-resistant cedar, black locust, or oak, about 2 in thick. Avoid creosote railroad ties and any CCA (pre-2004) pressure-treated lumber.
 - **Paths:** 2–3 ft wide, wide enough for a wheelbarrow.
 
-A 4 × 8 ft bed 12 in deep holds about 1 cubic yard of soil. Fill the bottom with logs and branches (they rot slowly and feed the soil) and top with compost and topsoil mix. See [[soil-basics]].
+A 4 × 8 ft bed 12 in deep holds about 1.2 cubic yards (32 cubic feet) of soil. Fill the bottom with logs and branches (they rot slowly and feed the soil) and top with compost and topsoil mix. See [[soil-basics]].
+
+[[fig:raised-bed-layout]]
 
 ## Trellises
 - Teepee: Lash 4–6 poles (6–8 ft) at the top and spread the bottoms in a circle. Plant pole beans around it.
@@ -605,7 +613,7 @@ Lash three strong poles into a tripod (see [[fasteners-joinery]]), and hang a pu
 | Seasoned pine | about 25–35 lb per cubic foot |
 | Steel | about 490 lb per cubic foot |
 
-A cubic yard of dry soil weighs roughly 2,000–2,500 lb.
+A cubic yard of dry soil weighs roughly 2,000–2,700 lb.
 
 ## Lift without hurting yourself
 - Bend knees, keep your back straight, hold loads close.

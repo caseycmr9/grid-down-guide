@@ -16,8 +16,28 @@
   /* ---------------- state ---------------- */
   var KEY = 'gdg.v1';
   function loadState() { try { var r = localStorage.getItem(KEY); return r ? JSON.parse(r) : {}; } catch (err) { return {}; } }
-  var S = Object.assign({ size: 100, theme: 'auto', saved: [], recent: [], checks: {}, timers: [], frost: {}, intro: false, keepAwake: false }, loadState());
+  var S = Object.assign({
+    size: 100, theme: 'auto', saved: [], recent: [], checks: {}, timers: [], frost: {}, intro: false, keepAwake: false,
+    region: 'us', units: 'us', hazards: [], card: null, inv: [], plan: { people: 2, foodDays: 0 }, maint: {}, crisis: { read: true, rate: 1, breaths: false }
+  }, loadState());
   function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (err) { /* storage unavailable: app still works */ } }
+
+  /* Regions: emergency numbers and units. Article text is written for the US; "911" is swapped for the local number. */
+  var REGIONS = {
+    us: { name: 'United States', emerg: '911', also: '', lines: [['☠️', 'Poison Control', '1-800-222-1222', '18002221222'], ['💬', '988 Crisis line', '988', '988']] },
+    ca: { name: 'Canada', emerg: '911', also: '', lines: [['☠️', 'Poison Centre', '1-844-764-7669', '18447647669'], ['💬', '9-8-8 Crisis line', '988', '988']] },
+    uk: { name: 'United Kingdom', emerg: '999', also: '112 also works', lines: [['📞', 'NHS 111 (urgent advice, poisoning)', '111', '111'], ['💬', 'Samaritans', '116 123', '116123']] },
+    ie: { name: 'Ireland', emerg: '112', also: '999 also works', lines: [['💬', 'Samaritans', '116 123', '116123']] },
+    au: { name: 'Australia', emerg: '000', also: '112 works from mobiles', lines: [['☠️', 'Poisons Information', '13 11 26', '131126'], ['💬', 'Lifeline', '13 11 14', '131114']] },
+    nz: { name: 'New Zealand', emerg: '111', also: '', lines: [['☠️', 'National Poisons Centre', '0800 764 766', '0800764766'], ['💬', 'Need to talk? (call or text)', '1737', '1737']] },
+    eu: { name: 'European Union', emerg: '112', also: '', lines: [['☠️', 'Poison centre', 'look up yours and write it on your Emergency Card', '']] },
+    other: { name: 'Somewhere else', emerg: '112', also: 'works on most mobile phones worldwide', lines: [['☠️', 'Poison centre', 'look up yours and write it on your Emergency Card', '']] }
+  };
+  function region() { return REGIONS[S.region] || REGIONS.us; }
+
+  /* Extension points for the feature modules (crisis.js, personal.js, share.js): extra routes, home-page blocks, button actions */
+  var EXT = {}, ACTIONS = {}, EXTRAS = { home: [] };
+  function localize(html) { var r = region(); return r.emerg === '911' ? html : html.replace(/\b911\b/g, r.emerg); }
 
   function applyPrefs() {
     document.documentElement.style.fontSize = S.size + '%';
@@ -143,6 +163,8 @@
     var h = '<div class="hero"><h1>Grid Down Guide</h1><p class="muted">Offline survival &amp; preparedness handbook. Everything here works with no internet and no power grid.</p></div>';
     h += searchBox('');
     h += '<a class="sos-btn" href="#/emergency"><span class="big-ic">🚨</span><span>EMERGENCY<small>Someone hurt? Need help now? Tap here.</small></span></a>';
+    if (window.GDG_CRISIS && window.GDG_CRISIS.length) h += '<a class="start-card step-card" href="#/crisis">▶ <b>Step-by-step help</b><small>CPR, choking, bleeding and more: one big step at a time, can read aloud</small></a>';
+    EXTRAS.home.forEach(function (fn) { try { h += fn() || ''; } catch (err) { console.error(err); } });
     if (byId['grid-down-timeline']) h += '<a class="start-card" href="#/a/grid-down-timeline">⚡ <b>The power is out. What now?</b><small>Hour-by-hour plan for the first day, week and month</small></a>';
     if (byId['read-first']) h += '<a class="start-card" href="#/a/read-first">📘 <b>New here? Read this first</b><small>How to use the app and how to be ready</small></a>';
     h += '<h2 class="sec">Browse by topic</h2><div class="grid">' + CATS.filter(function (c) { return byCat[c.id] && byCat[c.id].length; }).map(catTile).join('') + '</div>';
@@ -179,13 +201,17 @@
     var prev = idx > 0 ? list[idx - 1] : null, next = idx > -1 && idx < list.length - 1 ? list[idx + 1] : null;
     var hasChecks = /^\s*[-*]\s+\[[ xX]\]/m.test(a.body);
     var saved = S.saved.indexOf(id) > -1;
+    var steps = (window.GDG_CRISIS || []).filter(function (s) { return s.article === id; });
+    var rg = region();
     var h = '<article class="article">' +
       '<div class="crumb"><a href="#/c/' + c.id + '">' + c.icon + ' ' + e(c.title) + '</a></div>' +
       '<h1>' + e(a.title) + '</h1><p class="lede">' + e(a.summary || '') + '</p>' +
+      steps.map(function (s) { return '<a class="btn danger big noprint step-link" href="#/crisis/' + s.id + '">▶ Step-by-step: ' + e(s.title) + '</a>'; }).join('') +
+      (S.region !== 'us' && S.region !== 'ca' && (c.id === 'firstaid' || c.id === 'health' || c.id === 'disasters') ? '<div class="art-note noprint">Your region is set to ' + e(rg.name) + ': “911” below is shown as ' + e(rg.emerg) + '. Hotlines, medicine names and rules in this guide are mostly US; check what applies where you live.</div>' : '') +
       '<div class="art-actions noprint"><button class="btn small" data-act="save" data-id="' + id + '">' + (saved ? '★ Saved' : '☆ Save') + '</button>' +
       '<button class="btn small" data-act="print">🖨 Print</button>' +
       (hasChecks ? '<button class="btn small" data-act="resetchk" data-id="' + id + '">↺ Reset checklist</button>' : '') + '</div>' +
-      MD.render(a.body, ctxFor(id));
+      localize(MD.render(a.body, ctxFor(id)));
     if (NOTES[a.cat]) h += '<div class="art-note">' + e(NOTES[a.cat]) + '</div>';
     h += '</article>';
     h += '<div class="pager noprint">' + (prev ? '<a href="#/a/' + prev.id + '"><small>← Previous</small>' + e(prev.title) + '</a>' : '<span style="flex:1"></span>') +
@@ -244,10 +270,13 @@
   }
 
   function viewEmergency() {
+    var rg = region();
     var h = '<h1 class="page-title" style="color:var(--danger)">🚨 Emergency</h1>' +
       '<p class="page-sub">Tap what is happening. Each guide starts with what to do first.</p>' +
-      '<div class="callout danger"><div class="co-title">If you can call for help, do it first</div><div class="co-body">Call your local emergency number (911 in the US and Canada, 112 in the EU). Put the phone on speaker and keep helping while you talk.</div></div>' +
-      '<div class="emg-num"><a href="tel:911">📞 911<small>Emergency</small></a><a href="tel:18002221222">☠️ Poison Control<small>1-800-222-1222</small></a><a href="tel:988">💬 988<small>Crisis line (US)</small></a></div>' +
+      '<div class="callout danger"><div class="co-title">If you can call for help, do it first</div><div class="co-body">Call your local emergency number (' + e(rg.emerg) + ' in ' + e(rg.name) + '). Put the phone on speaker and keep helping while you talk.</div></div>' +
+      '<div class="emg-num"><a href="tel:' + rg.emerg + '">📞 ' + e(rg.emerg) + '<small>Emergency' + (rg.also ? ' (' + e(rg.also) + ')' : '') + '</small></a>' +
+      rg.lines.map(function (l) { return l[3] ? '<a href="tel:' + l[3] + '">' + l[0] + ' ' + e(l[1]) + '<small>' + e(l[2]) + '</small></a>' : '<a href="#/card">' + l[0] + ' ' + e(l[1]) + '<small>' + e(l[2]) + '</small></a>'; }).join('') + '</div>' +
+      (window.GDG_CRISIS && window.GDG_CRISIS.length ? '<a class="sos-btn step-btn" href="#/crisis"><span class="big-ic">▶</span><span>STEP-BY-STEP HELP<small>One step at a time, huge text, can read aloud. CPR, choking, bleeding…</small></span></a>' : '') +
       '<div class="btn-row"><a class="btn danger" href="#/t/cpr">❤️ CPR metronome</a><a class="btn" href="#/t/timers">⏱️ Tourniquet clock</a><a class="btn" href="#/t/light">🔦 Light &amp; SOS</a></div>';
     QUICK.forEach(function (g) {
       var items = g[1].filter(function (q) { return byId[q[2]]; });
@@ -281,6 +310,9 @@
 
   function viewMore() {
     var h = '<h1 class="page-title">More</h1><div class="list">' +
+      (EXT.plan ? '<a href="#/plan"><div class="t">📋 My Plan &amp; Readiness</div><div class="s">Emergency card, inventory, reminders, your readiness score</div></a>' : '') +
+      (EXT.booklet ? '<a href="#/booklet"><div class="t">🖨 Print kit booklet</div><div class="s">Choose the guides to print or save as a PDF for your go-bag</div></a>' : '') +
+      (EXT.share ? '<a href="#/share"><div class="t">📤 Share this app</div><div class="s">QR code and link so a neighbor can install it too</div></a>' : '') +
       '<a href="#/saved"><div class="t">⭐ Saved & recently read</div><div class="s">' + S.saved.length + ' saved guide' + (S.saved.length === 1 ? '' : 's') + '</div></a>' +
       '<a href="#/help"><div class="t">📲 Install & offline help</div><div class="s">Put this app on your phone or tablet and make sure it works offline</div></a>' +
       '<a href="#/settings"><div class="t">⚙️ Settings</div><div class="s">Text size, night (red) mode, screen on</div></a>' +
@@ -319,11 +351,16 @@
       '<div class="card"><h3>Text size: <span id="szv">' + S.size + '%</span></h3><input type="range" id="sz" min="85" max="175" step="5" value="' + S.size + '"><p class="muted">Bigger text is easier to read when you are stressed or it is dark.</p></div>' +
       '<div class="card"><h3>Display</h3><select id="theme"><option value="auto">Match my device</option><option value="light">Light</option><option value="dark">Dark</option><option value="night">Red night mode (keeps night vision)</option></select></div>' +
       '<div class="card"><h3>Screen</h3><label class="chk"><input type="checkbox" id="wake"><span>Keep the screen awake while the app is open (uses more battery)</span></label></div>' +
-      '<div class="card"><h3>Your data</h3><p class="muted">Saved guides and checklist ticks are stored only on this device.</p><button class="btn" data-act="clear">Clear saved items &amp; checklists</button></div>' +
+      '<div class="card"><h3>Region &amp; units</h3><select id="region">' + Object.keys(REGIONS).map(function (k) { return '<option value="' + k + '">' + e(REGIONS[k].name) + '</option>'; }).join('') + '</select>' +
+      '<p class="muted">Sets the emergency number shown in the Emergency screen and in the guides (“911” becomes your local number). Most guides are written for the US: hotlines, medicine names and laws may differ where you live.</p>' +
+      '<label class="f" for="units" style="display:block;margin-top:.8rem">Unit Converter starts with</label><select id="units"><option value="us">US units (gallons, °F, miles)</option><option value="metric">Metric units (litres, °C, km)</option></select></div>' +
+      '<div class="card"><h3>Your data</h3><p class="muted">Saved guides, checklist ticks, your Emergency Card, inventory and reminders are stored only on this device. Download a backup file so you can restore them on a new phone.</p>' +
+      '<div class="btn-row"><button class="btn" data-act="export">⬇ Download my data</button><label class="btn" for="import-file" style="cursor:pointer">⬆ Restore from file</label><input type="file" id="import-file" accept=".json,application/json" hidden></div>' +
+      '<div class="btn-row"><button class="btn danger" data-act="clear">Clear saved items &amp; checklists</button></div></div>' +
       '<div class="card"><h3>Storage</h3><div id="offinfo" class="muted">Checking…</div></div>';
     return {
       title: 'Settings', back: true, tab: 'more', html: h,
-      after: function () { $('#theme').value = S.theme; $('#wake').checked = !!S.keepAwake; offlineInfo(); }
+      after: function () { $('#theme').value = S.theme; $('#wake').checked = !!S.keepAwake; $('#region').value = S.region; $('#units').value = S.units; offlineInfo(); }
     };
   }
 
@@ -333,7 +370,8 @@
       '<div class="callout important"><div class="co-title">Important</div><div class="co-body">This app is an <b>educational reference</b>. It is not medical, legal, or professional advice and cannot replace training, a doctor, emergency services, or local rules. Practice skills <i>before</i> you need them. You use this information at your own risk.</div></div>' +
       '<div class="card"><h3>This copy</h3><div class="kv"><span>Version</span><b>' + e(window.GDG_VERSION || 'dev') + '</b></div><div class="kv"><span>Guides</span><b>' + ARTS.length + '</b></div><div class="kv"><span>Words</span><b>' + words.toLocaleString() + '</b></div></div>' +
       '<div class="card"><h3>Where the guidance comes from</h3><p>Content is written to follow widely accepted public guidance: American Red Cross and American Heart Association (first aid, CPR), CDC and WHO (water, sanitation, health), EPA and FEMA / Ready.gov (disasters, water), USDA and the National Center for Home Food Preservation (food safety and canning), NOAA / National Weather Service, Wilderness Medical Society and NOLS, and university Extension services (gardening, livestock).</p><p>Planting Calendar data: hardiness zones by ZIP code from the 2023 USDA Plant Hardiness Zone Map (USDA Agricultural Research Service and the PRISM Group at Oregon State University); frost dates and temperatures from NOAA NCEI U.S. Climate Normals 1991–2020. This app is not the official USDA map.</p><p>Standards change and local conditions differ. When you can, check current official sources and learn from people who do these things in your area.</p></div>' +
-      '<div class="card"><h3>No pictures</h3><p>This app is text-only so it stays small and works anywhere. For plant identification, mushrooms, snakes, knots, and anything you could get badly wrong, <b>also keep printed field guides and manuals for your region</b>.</p></div>';
+      '<div class="card"><h3>Diagrams, not photos</h3><p>Key skills have simple line diagrams, and there are no photographs, so the app stays small and works anywhere. For plant identification, mushrooms, snakes, and anything you could get badly wrong, <b>also keep printed field guides and manuals for your region</b>.</p></div>' +
+      '<div class="card"><h3>Checked, but not certified</h3><p>The guides were written with AI assistance and then checked against current official sources (Red Cross, AHA, CDC, USDA, FEMA and others). A fact-check log for each section is kept with the project. That check is <b>not</b> a substitute for review by a nurse, EMT, extension agent or other qualified person, and standards change. Corrections are welcome.</p></div>';
     return { title: 'About', back: true, tab: 'more', html: h };
   }
 
@@ -342,8 +380,9 @@
   }
 
   /* ---------------- router ---------------- */
-  var view = $('#view');
+  var view = $('#view'), navCount = 0;
   function route() {
+    navCount++;
     if (toolCleanup) { try { toolCleanup(); } catch (err) {} toolCleanup = null; }
     var raw = location.hash.replace(/^#/, '') || '/';
     var qs = '', qi = raw.indexOf('?');
@@ -364,6 +403,7 @@
       else if (parts[0] === 'help') v = viewHelp();
       else if (parts[0] === 'settings') v = viewSettings();
       else if (parts[0] === 'about') v = viewAbout();
+      else if (EXT[parts[0]]) v = EXT[parts[0]](parts.slice(1), params);
       else v = viewNotFound();
     } catch (err) {
       console.error(err);
@@ -372,10 +412,12 @@
     view.innerHTML = v.html;
     $('#hdr-title').textContent = v.title;
     $('#back').hidden = !v.back;
+    document.body.classList.toggle('full', !!v.full);
     $$('#tabs a').forEach(function (a) { a.classList.toggle('active', a.getAttribute('data-tab') === v.tab); });
-    if (v.after) v.after();
     if (!(parts[0] === 'search')) window.scrollTo(0, 0);
     wake(false);
+    var after = v.after ? v.after() : null;
+    if (typeof after === 'function') toolCleanup = after;
   }
   window.addEventListener('hashchange', route);
 
@@ -400,6 +442,10 @@
       checkUpdate();
     } else if (act === 'accept') {
       S.intro = true; save(); var m = $('#intro'); if (m) m.remove();
+    } else if (act === 'export') {
+      exportData();
+    } else if (ACTIONS[act]) {
+      ACTIONS[act](el, ev);
     }
   });
   document.addEventListener('change', function (ev) {
@@ -407,7 +453,37 @@
     if (t.matches && t.matches('input[data-chk]')) { var k = t.getAttribute('data-chk'); if (t.checked) S.checks[k] = 1; else delete S.checks[k]; save(); }
     else if (t.id === 'theme') { S.theme = t.value; save(); applyPrefs(); }
     else if (t.id === 'wake') { S.keepAwake = t.checked; save(); wake(S.keepAwake); }
+    else if (t.id === 'region') { S.region = t.value; save(); toast('Region: ' + region().name + '. Emergency number: ' + region().emerg); }
+    else if (t.id === 'units') { S.units = t.value; save(); }
+    else if (t.id === 'import-file') { importData(t); }
   });
+
+  /* Backup / restore of everything stored on this device */
+  function download(name, mime, text) {
+    var blob = new Blob([text], { type: mime }), url = URL.createObjectURL(blob), a = document.createElement('a');
+    a.href = url; a.download = name; document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(url); a.remove(); }, 1500);
+  }
+  function exportData() {
+    var d = new Date(), stamp = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+    download('grid-down-guide-data-' + stamp + '.json', 'application/json', JSON.stringify({ app: 'grid-down-guide', saved: stamp, data: S }, null, 1));
+    toast('Backup file downloaded');
+  }
+  function importData(input) {
+    var f = input.files && input.files[0]; if (!f) return;
+    var r = new FileReader();
+    r.onload = function () {
+      try {
+        var o = JSON.parse(r.result);
+        if (!o || o.app !== 'grid-down-guide' || !o.data || typeof o.data !== 'object') throw new Error('not a Grid Down Guide backup');
+        if (!confirm('Replace the data on this device (saved guides, Emergency Card, inventory, reminders, checklists) with the backup from ' + (o.saved || 'that file') + '?')) return;
+        Object.keys(o.data).forEach(function (k) { S[k] = o.data[k]; });
+        save(); applyPrefs(); toast('Backup restored'); route();
+      } catch (err) { toast('Could not read that file: ' + err.message, 5000); }
+      input.value = '';
+    };
+    r.readAsText(f);
+  }
   document.addEventListener('input', function (ev) {
     if (ev.target.id === 'sz') { S.size = parseInt(ev.target.value, 10); $('#szv').textContent = S.size + '%'; applyPrefs(); save(); }
   });
@@ -483,11 +559,19 @@
   }
 
   /* ---------------- shared API for tools ---------------- */
-  window.App = { S: S, save: save, toast: toast, wake: wake, esc: e, byId: byId };
+  window.App = {
+    S: S, save: save, toast: toast, wake: wake, esc: e, byId: byId, byCat: byCat, catById: catById, ARTS: ARTS, CATS: CATS,
+    artRow: artRow, localize: localize, region: region, REGIONS: REGIONS, download: download, route: route, applyPrefs: applyPrefs,
+    navCount: function () { return navCount; },
+    register: function (name, fn) { EXT[name] = fn; },         // add a #/name/... route: fn(parts, params) -> view {title, back, tab, html, after, full}
+    action: function (name, fn) { ACTIONS[name] = fn; },        // handle clicks on [data-act="name"]
+    homeBlock: function (fn) { EXTRAS.home.push(fn); }           // add html to the home screen
+  };
 
   /* ---------------- start ---------------- */
   applyPrefs();
   if (window.GDG_TOOLS && window.GDG_TOOLS.boot) window.GDG_TOOLS.boot(window.App);
+  (window.GDG_MODULES || []).forEach(function (init) { try { init(window.App); } catch (err) { console.error('module failed', err); } });
   route();
   intro();
 })();

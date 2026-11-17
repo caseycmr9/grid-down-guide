@@ -57,13 +57,16 @@ Modern life runs on electricity, and almost everything else depends on it: water
 
 Do not run outside. Most injuries happen when people move during shaking and are hit by falling objects. A doorway is not safer than anywhere else in a modern building.
 
+[[fig:earthquake-drop-cover-hold]]
+
+
 ## Where you are
 - **In bed:** Stay there. Cover your head with a pillow. Do not get up until it stops and you have shoes on.
 - **Indoors, no table:** Crawl next to an interior wall, away from windows, mirrors, and tall furniture. Cover head and neck.
 - **Outdoors:** Move to an open area away from buildings, trees, streetlights, and power lines. Drop and cover.
 - **In a vehicle:** Pull over in a clear spot away from buildings, bridges, overpasses, and power lines. Stay inside with your seat belt on until it stops.
-- **Elevator:** Hit every floor button and get out when the doors open.
-- **On the coast:** If shaking is strong or lasts 20 seconds or more, or you cannot stand, **go to high ground right away**. Do not wait for a warning. See [[geologic-hazards]].
+- **Elevator:** Hold on. When the shaking stops, get out at the nearest floor and use the stairs, not the elevator.
+- **On the coast:** If shaking is strong or lasts 20 seconds or more, or you cannot stand, **go to high ground as soon as the shaking stops**. Do not wait for a warning. See [[geologic-hazards]].
 
 ## After the shaking stops
 1. Put on sturdy shoes. Broken glass is everywhere.
@@ -122,14 +125,14 @@ Do not run outside. Most injuries happen when people move during shaking and are
 
 ## Lightning
 Lightning can strike miles from the rain. **When thunder roars, go indoors.**
-- **30-30 rule:** If you count 30 seconds or less between the flash and the thunder (about 6 miles / 10 km), go inside. Wait **30 minutes** after the last thunder before going out.
+- If you can hear thunder, you are close enough to be struck. Go inside at once and do not wait for rain. Wait **30 minutes** after the last thunder before going back out.
 - Safe places: a substantial building or a hard-topped metal vehicle with windows up.
 - Indoors: stay away from plumbing, corded phones, and plugged-in electronics. Avoid windows.
 - Outdoors with no shelter: get off hilltops, open fields, and water. Do not stand under isolated trees. Stay away from metal fences and poles. No place outside is safe. Crouching lowers your height but does not make you safe.
 - Someone struck by lightning is safe to touch. Start [[cpr]] if needed. See [[drowning-electric]].
 
 ## Hail and straight-line winds
-Hail can injure and break windows. Move indoors away from glass. Straight-line winds (derechos) can reach 80 mph (130 km/h) or more and cause tornado-like damage across hundreds of miles. Treat a warning for them like a tornado warning.
+Hail can injure and break windows. Move indoors away from glass. A derecho is a long-lived storm with straight-line winds of at least 58 mph (93 km/h) along a path of 240 miles (390 km) or more. Gusts can top 100 mph (160 km/h) and cause tornado-like damage. Treat a warning for destructive winds like a tornado warning.
 
 ## After the storm
 - Watch for **downed power lines**. Assume they are live. Stay 35 feet (10 m) away.
@@ -147,11 +150,11 @@ Know your safe room. Keep sturdy shoes, a helmet, flashlight, and a battery weat
     id: 'hurricane',
     cat: 'disasters',
     title: 'Hurricanes & Coastal Storm Surge',
-    summary: 'Surge kills most people in hurricanes. Know your zone, leave early, and prepare in 72-, 48-, and 24-hour steps.',
+    summary: 'Storm surge is the leading cause of hurricane deaths. Know your zone, leave early, and prepare in 72-, 48-, and 24-hour steps.',
     tags: ['hurricane', 'typhoon', 'cyclone', 'storm surge', 'tropical storm', 'coastal flooding', 'category'],
     body: `
 ## Do this now
-1. Find out whether you live in an **evacuation zone**. If your area is ordered to leave, **go**. Water, not wind, kills most people.
+1. Find out whether you live in an **evacuation zone**. If your area is ordered to leave, **go**. Storm surge (water), not wind, has caused the most hurricane deaths in the US.
 2. Fill the car with fuel. Withdraw cash. Gather medications and documents.
 3. Bring in or tie down anything outside that could become a missile.
 4. Fill bathtubs and containers with water ([[water-storage]]).
@@ -160,7 +163,7 @@ Know your safe room. Keep sturdy shoes, a helmet, flashlight, and a battery weat
 ## Know the terms
 - **Hurricane watch:** hurricane conditions are possible within about 48 hours.
 - **Hurricane warning:** hurricane conditions are expected within about 36 hours.
-- **Storm surge:** a wall of sea water pushed ashore, often several feet to 20 feet or more. It is the greatest threat.
+- **Storm surge:** a rise of sea water pushed ashore by the storm, from a few feet to more than 20 feet in the worst storms. It is historically the leading cause of hurricane deaths.
 
 | Category | Sustained wind |
 |---|---|
@@ -179,14 +182,14 @@ The category measures wind only. A "weak" storm can still bring deadly surge and
 
 ## During the storm
 - Stay inside, away from windows and glass doors. Use an **interior room** on a floor above any possible flooding.
-- Do not go out in the **eye**. Calm can last 30 minutes or more, then winds return from the opposite direction.
+- Do not go out in the **eye**. The calm can end suddenly, and dangerous winds return from the opposite direction.
 - If water rises in your home, go to the highest level. Avoid a closed attic unless you have a way to break through to the roof: rising water can trap you there.
 - Do not drive.
 
 ## After the storm
 - Stay put until officials say it is safe. Hazards: downed lines, flooded roads, weakened trees, gas leaks.
 - Floodwater is contaminated and may hide debris ([[flood]]).
-- Use generators only outdoors ([[generator-safety]]). Carbon monoxide deaths rise sharply after hurricanes.
+- Use generators only outdoors ([[generator-safety]]). Carbon monoxide poisoning from generators is a well-documented cause of death after hurricanes.
 - Treat or boil water until officials say tap water is safe ([[boiling-water]]).
 - Discard food that sat above 40 °F (4 °C) for more than 2 hours ([[food-safety-basics]]).
 - Start drying wet homes within 24 to 48 hours to stop mold.
@@ -210,7 +213,7 @@ Hurricane season gives warning days ahead, so the whole plan is to be ready **be
 3. Move to the highest floor if trapped. Do not go into a closed attic.
 4. Bring phones, a flashlight, medications, and a radio with you.
 
-> DANGER: **6 inches** (15 cm) of fast water can knock an adult off their feet. **12 inches** (30 cm) can float many cars. **2 feet** (60 cm) can carry away SUVs and trucks. Most flood deaths happen in vehicles.
+> DANGER: **6 inches** (15 cm) of fast water can knock an adult off their feet. **12 inches** (30 cm) can float many cars. **2 feet** (60 cm) can carry away SUVs and trucks. More than half of flood drownings happen when a vehicle is driven into floodwater.
 
 ## Types of flood
 - **Flash flood:** Rapid rise within minutes or hours from heavy rain, a dam or levee failure, or after wildfires. No time to wait.
@@ -218,7 +221,7 @@ Hurricane season gives warning days ahead, so the whole plan is to be ready **be
 - **Coastal flood / storm surge:** See [[hurricane]].
 
 ## If you are caught
-- **In a vehicle:** If water is rising around the car, abandon it and move to higher ground. If the car is swept away and floating, you may need to climb out a window and onto the roof. Do not wait for the water to rise inside.
+- **In a vehicle:** Never drive into floodwater. If the car stalls in shallow, slow water and higher ground is close, get out and walk to it. If the car is trapped in fast-moving water, stay inside and call 911 if you can. If water starts rising inside the car, climb out onto the roof and signal for help.
 - **On foot:** Move to higher ground. Do not enter fast-moving water, even if shallow.
 - **In a dry canyon, wash, or creek bed:** Climb out immediately if you hear a roar or see sudden muddy water.
 
@@ -234,7 +237,7 @@ It carries sewage, chemicals, fuel, and sharp debris. It can hide open manholes 
 - Do not return until officials say it is safe.
 - Wear rubber boots, gloves, and eye protection.
 - **Drinking water:** Use bottled or treated water until told otherwise ([[water-safety]], [[boiling-water]]). Flooded wells must be tested and disinfected ([[wells-springs]]).
-- **Food:** Discard anything that touched floodwater, including food in cardboard, plastic wrap, screw-top jars, bottles with crown caps, and home-canned jars. Undamaged commercial cans can be saved: remove labels, wash, and sanitize in a solution of 1 tablespoon unscented bleach per gallon of water for 15 minutes. Discard dented, swollen, or leaking cans ([[food-safety-basics]]).
+- **Food:** Discard anything that touched floodwater, including food in cardboard, plastic wrap, screw-top jars, bottles with crown caps, and home-canned jars. Undamaged commercial cans can be saved: remove labels, wash, rinse, then sanitize by boiling for 2 minutes or soaking for 15 minutes in 1 cup (250 mL) of unscented household bleach per 5 gallons (19 L) of water. Air-dry for at least 1 hour before opening. Discard dented, swollen, or leaking cans ([[food-safety-basics]]).
 - **Mold:** Dry out the building within 24 to 48 hours. Clean hard surfaces with 1 cup of bleach per gallon of water. Never mix bleach with ammonia or other cleaners. Throw away soaked porous materials (carpet, insulation, drywall, mattresses).
 - Generators outdoors only ([[generator-safety]]).
 
@@ -256,6 +259,8 @@ Know your flood risk. Store valuables up high. Sandbags help only against shallo
 4. Tell someone where you are going.
 5. Drive with headlights on and windows up. Set vents to recirculate.
 
+Evacuation levels differ by area. Many use Level 1 = Ready (get prepared), Level 2 = Set (be ready to leave at once), Level 3 = Go (leave now). If you feel unsafe, do not wait for an order.
+
 ## Defensible space
 Most homes ignite from **embers**, not walls of flame. Make your home harder to ignite:
 - **0 to 5 feet (0 to 1.5 m) from walls:** Nothing flammable. Gravel, bare soil, or stone. No mulch, wood piles, or dry plants.
@@ -266,7 +271,7 @@ Most homes ignite from **embers**, not walls of flame. Make your home harder to 
 
 ## If trapped
 - **In a vehicle:** Park away from trees and brush, on bare ground if you can. Close windows and vents. Turn off the A/C. Lie on the floor, cover with a wool blanket or jacket, and stay in the vehicle until the fire front passes. Call 911 if possible.
-- **On foot:** Find a cleared area, a body of water, a rocky area, or ground that has already burned. Lie face down, cover your head, and breathe near the ground.
+- **On foot:** Get away from brush and trees. Find a cleared area, a body of water, a rocky area, or ground that has already burned. Cover your head and mouth. Call 911 if you can.
 - **At home:** If you cannot leave, go to a room with an exit, away from windows. Fill tubs and sinks with water. Keep doors closed to slow fire.
 
 ## Fire behavior
@@ -316,14 +321,14 @@ Smoke is dangerous even far from the flames. It harms the lungs, eyes, and heart
 
 ## Cold injuries
 - **Hypothermia** (shivering, slurred speech, confusion, stumbling) and **frostbite** (numb, waxy, white or gray skin): see [[hypothermia-frostbite]].
-- Wind chill speeds heat loss. Cover all skin in extreme cold.
+- Wind chill speeds heat loss. Cover all skin in extreme cold. At a wind chill of -19 °F (-28 °C), exposed skin can freeze in about 30 minutes.
 - Check on older neighbors. They lose heat faster and may not feel cold.
 
 ## Shoveling
 Heavy snow shoveling can trigger heart attacks. Push snow rather than lifting it. Take frequent breaks. Avoid it if you have heart disease or are out of shape. Stop and rest if you feel chest pain or shortness of breath ([[heart-stroke]]).
 
 ## Ice storms
-Ice brings down trees and power lines and can leave areas without power for days. Stay away from downed lines. Walk carefully. Use sand, cat litter, or ash for traction. Do not use gas appliances for heat without ventilation.
+Ice brings down trees and power lines and can leave areas without power for days. Stay away from downed lines. Walk carefully. Use sand, cat litter, or ash for traction. Never heat the house with a gas oven or stove-top.
 
 ## Roof and pipes
 - Heavy snow and ice load can collapse roofs, particularly flat ones. Clear snow from edges with a long-handled roof rake from the ground. Do not climb onto an icy roof.
@@ -351,7 +356,7 @@ Ice brings down trees and power lines and can leave areas without power for days
 4. Stop strenuous work in the hottest hours. Rest often.
 5. Check on elderly neighbors, young children, and those who live alone.
 
-> DANGER: **Heat stroke** (hot, red or dry skin, confusion, fainting, body temperature above 104 °F / 40 °C) is a life-threatening emergency. Cool the person immediately ([[heat-illness]]).
+> DANGER: **Heat stroke** (hot, red or dry skin, confusion, fainting, body temperature of 103 °F / 39.4 °C or higher) is a life-threatening emergency. Call 911 if you can, and cool the person right away ([[heat-illness]]).
 
 ## Who is most at risk
 - Infants and young children
@@ -364,7 +369,7 @@ Ice brings down trees and power lines and can leave areas without power for days
 ## Cooling tips
 - Close blinds and curtains on the sunny side during the day. Open windows at night when the air is cooler.
 - Wet cloths on the neck, wrists, and head. Cool showers or foot soaks.
-- Fans help in moderate heat, particularly with a wet cloth or mist. In very high heat (high 90s °F / mid 30s °C and above) fans alone do not prevent heat illness.
+- Fans can help below about 90 °F (32 °C) indoors, especially with a wet cloth or mist. Above that, a fan can add heat stress and will not prevent heat illness. Use cool showers, wet skin, and the coolest room instead.
 - Eat light meals. Cook outdoors or avoid cooking.
 - Never leave a person or pet in a parked car. Interior temperatures can climb deadly high within minutes.
 - See [[staying-cool]] for more.
@@ -406,7 +411,7 @@ Take cover behind anything solid. Lie flat, face down, and cover your head. When
 
 ## Why shelter works
 Fallout is radioactive dust and debris. It is most dangerous in the first hours and decays quickly:
-- **7-10 rule:** For every 7-fold increase in time after the detonation, the radiation level falls by a factor of 10. After 7 hours it is about 1/10 of the level at 1 hour. After about 2 days (49 hours) it is about 1/100. After about 2 weeks it is about 1/1,000.
+- **7-10 rule (a rough guide only):** For every 7-fold increase in time after the detonation, the radiation level falls by a factor of 10. After 7 hours it is about 1/10 of the level at 1 hour. After about 2 days (49 hours) it is about 1/100. After about 2 weeks it is about 1/1,000.
 - The best shelters have **mass** (brick, concrete, earth) and **distance** from the outside. A car, wood-frame house without a basement, or mobile home gives little protection. In an apartment building, go to the middle floors away from outside walls.
 - Close windows and doors. Turn off fans, heating, and air conditioning that draw in outside air. Close the fireplace damper.
 
@@ -414,7 +419,7 @@ Fallout is radioactive dust and debris. It is most dangerous in the first hours 
 1. Remove outer clothing as soon as you are inside. This can remove **up to 90%** of contamination. Take it off carefully, do not shake it, and put it in a sealed plastic bag away from people.
 2. Wash exposed skin and hair gently with soap and water. Do **not** scrub or scratch. Do **not** use conditioner on hair (it can make radioactive material stick). Blow your nose and wipe eyes and ears.
 3. No water? Wipe skin with a damp cloth, and do not use hand sanitizer to clean off dust.
-4. Treat life-threatening injuries first. A contaminated person does not endanger rescuers who wear gloves and wash up afterward. Radiation sickness is **not contagious**.
+4. Treat life-threatening injuries first. When helping someone else, wear waterproof gloves and a dust mask if you can, keep their cuts covered, and wash your own hands, face, and exposed skin afterward. Radiation sickness is **not contagious**.
 
 ## Food, water, pets
 - Packaged food in sealed containers and water in closed containers or enclosed pipes are safe. Wipe containers before opening.
@@ -431,7 +436,7 @@ KI protects the **thyroid gland only**, and only from **radioactive iodine**. It
 | Children 1 month to 3 years | 32 mg |
 | Newborns up to 1 month | 16 mg |
 
-Teens who are adult-size (about 150 lb / 68 kg or more) take the adult dose. Adults over 40 are least likely to benefit, so follow what officials say for your group. Follow the package and official directions. One dose protects for about 24 hours. Kelp, iodized salt, and iodine antiseptics are **not** substitutes and can be harmful.
+Teens over 150 lb (about 70 kg) take the adult dose. Adults over 40 benefit least: the FDA advises KI for them only if a very large thyroid dose is expected, so follow what officials say for your group. Pregnant or breastfeeding women and babies should not take repeat doses unless officials say so, because too much iodine can harm a baby's thyroid. Follow the package and official directions. One dose protects for about 24 hours, and officials will say whether to repeat it. Iodized table salt, kelp and other iodine-rich foods, and iodine supplements are **not** substitutes and can be harmful. Never swallow iodine antiseptic. KI can cause allergic reactions, so ask a health care provider ahead of time if you have a known iodine sensitivity or thyroid disease.
 
 ## Other radiation events
 - **Nuclear power plant accident:** Follow evacuation or shelter orders for the zone around the plant. Shelter and KI instructions as above.
@@ -469,13 +474,13 @@ Keep 2 weeks of water and food ([[home-stockpile]]), a battery radio, medication
 5. Listen to a battery radio ([[getting-information]]).
 6. Stay until officials say it is clear.
 
-> NOTE: A sealed room is for a few hours while the cloud passes. Do not stay sealed in for days.
+> NOTE: A sealed room has a limited air supply. It is meant for a few hours while the cloud passes. Stay until officials say it is clear, and ask them what to do if it will take longer.
 
 ## Evacuate
 Leave if told to. Drive crosswind away from the plume. Keep windows up and set vents to recirculate. Take your go bag ([[bug-out-bag]], [[evacuation]]).
 
 ## Decontaminate
-Removing clothing eliminates up to 80% of chemical contamination.
+Removing clothing gets rid of most chemical contamination (about 80 to 90%).
 1. Remove clothing right away. If it must go over the head, cut it off instead.
 2. Rinse skin and hair with lots of water for 15 to 20 minutes, then wash with soap. Flush eyes with water for 15 to 20 minutes. Take out contact lenses.
 3. Put contaminated clothing in a sealed plastic bag. Do not touch it with bare hands.
@@ -491,7 +496,7 @@ Natural gas smells like rotten eggs (an additive). Propane is heavier than air a
 5. Do not return until it has been declared safe.
 
 ## Train and truck accidents
-Stay away. If you see a tank car or truck on fire, stay at least **1/2 mile (0.8 km)** away in all directions. Hazardous cargo placards carry a 4-digit number that responders use.
+Stay away. If you see a tank car or truck on fire, stay at least **1/2 mile (0.8 km)** away in all directions, and farther if responders say so. Hazardous cargo placards carry a 4-digit number that responders use.
 
 ## Household chemical mixes
 Mixing bleach with ammonia, vinegar, or acids produces toxic gas. Leave the area, get fresh air, and call Poison Control if you have symptoms. See [[laundry-dishes]].
@@ -539,7 +544,7 @@ Keep a few sheets of plastic, tape, and a battery radio. Know the chemical plant
 ## Danger signs: get medical care
 **Adults:** trouble breathing, chest pain or pressure that does not go away, new confusion, cannot stay awake, blue lips or face, cannot keep fluids down. A fingertip pulse oximeter reading persistently below 94% (or well below your usual) also means seek care. Oximeters can read inaccurately on dark skin, cold fingers, or nail polish, so go by symptoms first.
 
-**Children:** fast or hard breathing, ribs pulling in, not drinking, very sleepy or hard to wake, bluish lips, fever in an infant under 3 months.
+**Children:** fast or hard breathing, ribs pulling in, not drinking, very sleepy or hard to wake, bluish lips, fever of 100.4 °F (38 °C) or higher in an infant under 3 months (call a doctor right away).
 
 If medical care is not available, keep the person hydrated, upright, and monitored ([[dehydration-ors]]).
 
@@ -617,9 +622,9 @@ If your area is unsafe or supplies are gone, you may need to relocate. See [[sta
     body: `
 ## Tsunami: do this now
 1. If you feel **strong or long shaking** near the coast, or see the ocean suddenly pull far out, or hear a loud roar from the sea, **go to high ground or inland immediately**. Do not wait for an official warning.
-2. Go as high and as far inland as you can. Many local evacuation zones use roughly 100 feet (30 m) of elevation or 1 to 2 miles (1.6 to 3 km) inland. Follow posted evacuation routes.
+2. Go as high and as far inland as you can. Official guidance is at least 100 feet (30 m) above sea level or at least 1 mile (1.6 km) inland. Higher and farther is better. Follow posted evacuation routes.
 3. Walk if possible. Roads jam.
-4. If you cannot get out of the zone, go to an upper floor of a sturdy concrete building (vertical evacuation), as high as you can.
+4. If you cannot get out of the zone, go to an upper floor of a sturdy concrete building (vertical evacuation), as high as you can. The 3rd or 4th floor or higher is the usual advice.
 5. Stay away until officials say it is safe. Waves may arrive for **hours**, and the first is not always the largest.
 
 > DANGER: A tsunami is not a single wave. It is a series of fast surges that carry debris and can flood far inland.
@@ -631,7 +636,7 @@ Hazards: ash, pyroclastic flows (fast hot gas and rock), lahars (volcanic mudflo
   - Stay indoors. Close windows, doors, and dampers. Put damp towels at gaps.
   - Wear an N95 mask and goggles (not contact lenses) outdoors. Cover skin.
   - Do not drive if possible: ash reduces visibility and damages engines. If you must, go slowly and change air filters often.
-  - Wet ash is very heavy. A few inches on a roof can cause collapse. Sweep it off carefully, wearing a mask and using a safety line if the roof is steep.
+  - Wet ash is very heavy. A few inches on a roof can cause collapse, but ash is slippery. Climb up only if you can do it safely (steady ladder, mask, goggles, and a safety line if the roof is steep).
   - Protect water supplies by covering open tanks and wells. Ash is abrasive and gritty, so avoid running it through filters and pumps.
 - **Lahars:** Move to higher ground immediately if you hear a rumble or see a rush of muddy water.
 
@@ -646,7 +651,7 @@ Signs before a slide:
 What to do:
 1. **Leave immediately** if you see signs. Move to high ground away from the path, not downhill along it.
 2. Stay awake and alert during heavy rain. Many fatal slides happen at night.
-3. If caught, curl up tightly and protect your head.
+3. If you cannot get away and are caught, curl up tightly and protect your head.
 4. After a slide: stay away from the area (more slides may follow). Report broken utilities. Look for injured people near the slide but do not enter it. Call rescuers.
 5. Burn scars after wildfires are very slide-prone during rain ([[wildfire]], [[flood]]).
 
@@ -672,10 +677,10 @@ Three different things get lumped together:
 All three are **low-probability, high-consequence** events. Nobody can say exactly how bad a widespread event would be, and anyone who claims certainty is selling something.
 
 ## What we know
-- In March 1989, a geomagnetic storm collapsed the Quebec power grid in about 90 seconds and left 6 million people without power for about 9 hours.
+- In March 1989, a geomagnetic storm collapsed the Quebec power grid in less than 2 minutes. About 6 million people lost power for 9 hours or more (some accounts say 12).
 - The 1859 Carrington Event was a much larger storm. Telegraph systems failed and sparked. A repeat could be far more damaging to today's grid.
 - Large power transformers are custom-built. Replacements can take **months to years**, which is why a wide transformer loss would mean a long outage.
-- In government testing, most vehicles kept running when exposed to strong pulses; some stalled or had electronic faults. Real events are harder to predict than test results.
+- In US government (EMP Commission) testing, results varied: some vehicles needed a restart or had lasting electronic faults. Real events are harder to predict than test results.
 - Small devices turned off or disconnected at the time of a pulse are not guaranteed safe, and devices left on are not guaranteed to fail.
 
 ## Faraday cages

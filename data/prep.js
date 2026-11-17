@@ -77,7 +77,7 @@ Tap each item as you get it. Your checks are saved on this device. Not every ite
 - [ ] 1 gallon (4 L) of water per person per day stored, at least 3 days (2 weeks is better)
 - [ ] Extra food-grade water containers
 - [ ] Unscented household bleach (5-6%) and an eyedropper
-- [ ] Water filter (0.1-0.2 micron) with a spare cartridge
+- [ ] Water filter rated 1 micron absolute or smaller (0.3 micron or smaller also stops bacteria), with a spare cartridge. Filters do not remove viruses, so treat the water too
 - [ ] Chlorine dioxide purification tablets
 - [ ] A large pot that can hold a rolling boil
 - [ ] A collapsible water carrier for hauling
@@ -306,9 +306,10 @@ After a major disaster, help may take three days or more to reach you. Roads and
 
 ## Tools and sanitation
 - [ ] Multi-tool or knife
-- [ ] Duct tape
+- [ ] Wrench or pliers (to turn off gas and water if needed)
+- [ ] Duct tape, and plastic sheeting if you may need to seal a room and shelter in place
 - [ ] Lighter and waterproof matches
-- [ ] Toilet paper and a few trash bags
+- [ ] Toilet paper and a few trash bags with ties
 - [ ] Moist towelettes
 - [ ] Feminine hygiene products, diapers as needed
 - [ ] Small shovel or trowel
@@ -428,7 +429,7 @@ See also: [[72-hour-kit]], [[traveling-on-foot]], [[foot-care]].
     tags: ['stockpile', 'food storage', 'how much', 'quantities', 'bulk', 'pantry', 'year supply', 'rice', 'beans', 'toilet paper', 'calories'],
     body: `
 ## The basic ration
-An adult needs about 2,000-2,500 calories a day. This simple, cheap daily ration gives roughly **2,100 calories**:
+An adult needs about 2,000-2,500 calories a day. This simple, cheap daily ration gives roughly **2,200 calories**:
 - 0.5 lb (225 g) white rice
 - 0.25 lb (115 g) flour, oats, or other grain
 - 0.35 lb (160 g) dry beans or lentils
@@ -514,21 +515,21 @@ A simple paper sheet beats memory. Tape a list inside the pantry door.
 
 | Item | Quantity | Date bought | Use by |
 |---|---|---|---|
-| White rice, buckets | 4 | 03/2025 | 2050 |
+| White rice, sealed buckets | 4 | 03/2025 | 2035 |
 | Canned beans | 24 | 06/2025 | 06/2028 |
 | Peanut butter | 6 | 09/2025 | 03/2026 |
 
 ## "Best by" is not "unsafe after"
-Dates on food are mostly about quality, not safety. The one exception in the US is infant formula: use before its date. Canned food is safe as long as the can is intact. Throw out any can that is bulging, leaking, badly rusted, or deeply dented along a seam. If a jar or can spurts, hisses, or smells odd, discard without tasting. See [[food-safety-basics]].
+Dates on food are mostly about quality, not safety. The main exception in the US is infant formula: never use it after its "use by" date. Canned food is safe as long as the can is intact. Throw out any can that is bulging, leaking, badly rusted, or deeply dented along a seam. If a jar or can spurts, hisses, or smells odd, discard without tasting. See [[food-safety-basics]].
 
 ## Typical shelf life
 These are common guidelines for good quality in cool storage. Unopened, intact packaging lasts longest.
 
-| Food | Ordinary storage | Sealed with oxygen absorbers, cool |
+| Food | Ordinary storage | Sealed with oxygen absorbers, cool (estimates) |
 |---|---|---|
 | Canned low-acid food (meat, vegetables, beans, soup) | 2-5 years | n/a |
 | Canned high-acid food (tomatoes, fruit, juice, pickles) | 12-18 months | n/a |
-| White rice | 4-5 years | 25+ years |
+| White rice | 1-2 years for best quality (often safe much longer if dry) | 25+ years |
 | Brown rice | 6-12 months | 1-2 years |
 | Dry beans and lentils | 1-3 years (cooking time rises with age) | 10+ years |
 | Dry pasta | 1-2 years | 20-30 years |
@@ -543,13 +544,15 @@ These are common guidelines for good quality in cool storage. Unopened, intact p
 | Peanut butter, unopened | 1 year or more | n/a |
 | Powdered milk | 1-2 years | 10-20 years |
 | Freeze-dried foods | n/a | 20-25 years (manufacturer claim) |
-| MREs | 3-5 years at room temperature | n/a |
+| MREs | about 3 years at 80 °F (27 °C); much less if stored hot | n/a |
 | Baking powder, yeast | 1-2 years | n/a |
 | Dried fruit and nuts | 6-12 months | 2-5 years |
 | Vitamins | 1-2 years, losing strength | n/a |
 
+The long "sealed" numbers are estimates from food-storage groups and packers, not guarantees, and heat shortens them. Use oxygen absorbers only with truly dry foods (about 10% moisture or less), never with moist, fresh, or oily foods.
+
 ## Heat is the enemy
-As a rule of thumb, every 18 F (10 C) hotter reduces shelf life by about half. Store food in the **coolest, darkest, driest** part of the home: ideally 50-70 F (10-21 C). Avoid garages, attics, and spaces next to a furnace or water heater.
+As a rough rule of thumb, every 18 F (10 C) hotter cuts shelf life by about half. USDA says canned foods keep best below 85 F (29 C) and are harmed by temperatures over 100 F (38 C). Store food in the **coolest, darkest, driest** part of the home: ideally 50-70 F (10-21 C). Avoid garages, attics, and spaces next to a furnace or water heater.
 
 ## Storage tips
 - Keep food off the floor and away from outside walls (flood and dampness).
@@ -706,7 +709,7 @@ See also: [[family-plan]], [[72-hour-kit]], [[bug-out-bag]].
     tags: ['car kit', 'vehicle', 'roadside', 'breakdown', 'stranded', 'jump start', 'winter car', 'fuel', 'tire', 'auto'],
     body: `
 ## Keep your fuel up
-In a power outage or a disaster, gas pumps stop. **Keep your tank above half full** at all times. It gives you range to evacuate, and a car is also a shelter, a phone charger, and a heater in a pinch.
+In a power outage or a disaster, gas pumps stop. **Keep your tank above half full** at all times (Ready.gov says to keep it full when you can). It gives you range to evacuate, and a car is also a shelter, a phone charger, and a heater in a pinch.
 
 ## Basic kit
 - [ ] First aid kit ([[first-aid-kit]])
@@ -801,7 +804,7 @@ See also: [[evacuation]], [[72-hour-kit]], [[improvised-repair]].
 
 ## Pet kit
 - [ ] 2 weeks of food in an airtight container, rotated every few months
-- [ ] Water: plan about 1 ounce per pound of body weight per day for dogs and cats, and more in heat
+- [ ] Water: plan about 1 ounce per pound of body weight per day for dogs and cats (a common rule of thumb), and more in heat
 - [ ] Bowls, preferably collapsible
 - [ ] Medications for 2 weeks, plus a written list of dosing
 - [ ] Vaccination and medical records, especially rabies certificate (waterproof copy)
@@ -815,7 +818,7 @@ See also: [[evacuation]], [[72-hour-kit]], [[improvised-repair]].
 - [ ] Contact info for your vet and a back-up boarding facility
 
 ## Evacuating with pets
-- Public emergency shelters usually do not accept pets, except service animals. Some provide a pet area next door. Do not count on it.
+- Many public emergency shelters and hotels do not allow pets, except service animals. Some provide a pet area next door. Do not count on it. Ask your local emergency management office about your area's plan.
 - Before a disaster, identify: pet-friendly hotels along your route, friends or relatives who would host pets, and boarding facilities outside your area.
 - Leave early. Pets in cars, carriers, and traffic are stressful for everyone.
 - Birds need a warm, covered carrier. Reptiles need heat. Small animals need a secure cage and water.
@@ -837,7 +840,7 @@ See also: [[evacuation]], [[72-hour-kit]], [[improvised-repair]].
 - **Bleeding:** press firmly with clean cloth. Wrap with a bandage that is snug but not tight.
 - **Injured dog:** even gentle dogs bite when in pain. Muzzle with a soft cloth or leash, except if vomiting or struggling to breathe.
 - **Broken limb:** keep the animal still and confined. Carry them on a board or blanket.
-- **Poisoning:** call a poison hotline (US): ASPCA Animal Poison Control 888-426-4435 or Pet Poison Helpline 855-764-7661. Fees may apply. Do not induce vomiting unless told.
+- **Poisoning:** call a poison hotline (US): ASPCA Animal Poison Control 888-426-4435 or Pet Poison Helpline 855-764-7661. Expect a consultation fee. If your pet is collapsing or struggling to breathe, go straight to a veterinarian. Do not induce vomiting unless told.
 - **Choking:** look in the mouth for an object, and remove it only if you can see it.
 
 ## Livestock and large animals
@@ -893,7 +896,7 @@ Keep going from there with the [[master-checklist]].
 - **Buy generic.** Store brands of rice, beans, flour, oats, and canned goods are as good.
 - **Buy bulk staples**, which cost far less per calorie than packaged or freeze-dried food.
 - **Shop thrift stores and yard sales** for wool blankets, coats, pots and pans, cast iron, hand tools, canning jars, and books.
-- Watch for free items: bakeries and delis often give away food-grade buckets for free.
+- Watch for cheap or free food-grade buckets: bakeries and delis often give them away or sell them cheaply. Use only buckets that held food, never paint or chemicals, and wash them well.
 
 ## What costs the least per calorie
 | Food | Cost per calorie |
@@ -931,8 +934,10 @@ Prioritize in this order:
 7. **Extras and comfort**
 
 ## Money that is not supplies
+This is general information, not financial advice. Your own situation may call for something different.
+
 - [ ] Build a small cash fund in small bills
-- [ ] Pay down high-interest debt
+- [ ] Consider paying down high-interest debt when you can
 - [ ] Keep insurance current and know what it covers ([[documents-money]])
 - [ ] Learn skills others will pay for. See [[barter-trade]]
 

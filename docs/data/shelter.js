@@ -8,7 +8,7 @@
     tags: ['shelter', 'exposure', 'heat loss', 'insulation', 'campsite', 'where to build', 'stranded car', 'rule of 3'],
     body: `
 ## Why shelter comes first
-In cold, wet or windy weather, exposure can kill in **about 3 hours**, long before thirst or hunger. Shelter and warmth come before water and food.
+In cold, wet or windy weather, exposure can kill in **a few hours** (the survival "rule of 3" says about 3), long before thirst or hunger. Shelter and warmth come before water and food.
 
 ## Do this first
 1. **Get out of the wind, rain, snow or sun.** Any barrier helps: a wall, a tree trunk, a car, a rock overhang.
@@ -21,7 +21,7 @@ In cold, wet or windy weather, exposure can kill in **about 3 hours**, long befo
 |---|---|---|
 | Conduction | Heat flows into cold ground or objects you touch | Insulate beneath you |
 | Convection | Wind or moving air carries heat away | Windbreak, closed walls |
-| Radiation | Heat radiates off your body, especially the head | Hat, covered shelter, fire with a reflector |
+| Radiation | Heat radiates off any bare skin, such as the head, face and hands | Hat, covered shelter, fire with a reflector |
 | Evaporation | Sweat, wet clothes and breathing remove heat | Stay dry, vent sweat before it soaks you |
 
 ## Choosing a site
@@ -78,7 +78,9 @@ Pitch the narrow end into the wind. In heavy rain, use a steeper slope.
 2. Lean poles along the crossbar so they slope to the ground at about 45 degrees on the windward side.
 3. Cover them with branches, bark, big leaves or a tarp. **Start at the bottom and overlap upward like shingles**, so rain runs off.
 4. Add a foot of debris on the roof for insulation.
-5. Build a fire in front with a **reflector wall** of logs or rocks behind it to bounce heat into the shelter. Keep the fire at least 4-6 feet from the shelter and watch for sparks, which melt synthetic tarps.
+5. Build a fire in front with a **reflector wall** of logs or rocks behind it to bounce heat into the shelter. Keep the fire at least 15 feet (4.5 m) from a tarp or tent, and no closer than 6 feet (2 m) to a roof of natural debris. Sparks melt synthetic tarps and ignite dry leaves. Never leave the fire unattended.
+
+[[fig:lean-to]]
 
 ## Debris hut (best warmth with no equipment)
 1. Find a straight **ridgepole** about 1 foot (30 cm) longer than your body. Prop one end 2-3 feet high on a stump or in the fork of a tree. Rest the other end on the ground.
@@ -92,6 +94,8 @@ Pitch the narrow end into the wind. In heavy rain, use a steeper slope.
 The inside should be so small that you must wiggle in feet first. A small space warms quickly from body heat.
 
 > WARNING: Check debris for poison ivy, ant nests, hornets and rodent droppings before using it. Wear gloves if you can.
+
+[[fig:debris-hut]]
 
 ## Poncho or sheet shelter
 Tie one corner high on a tree, stake the opposite corner low, and pull the other corners out to the sides to make a slanted roof. Add insulation to the floor.
@@ -122,7 +126,7 @@ Tie one corner high on a tree, stake the opposite corner low, and pull the other
 Snow is a good insulator. Inside a snow shelter the temperature often sits near freezing (32 °F / 0 °C) even when the air outside is far colder, and it blocks wind completely. It takes effort and can be dangerous if built badly, so use it when other shelter is not available.
 
 ## Safety rules first
-> DANGER: **Ventilation saves lives.** Poke a hole at least the width of a fist through the roof, and keep the entrance partly open. Check the vent every hour; fresh snow and your breath can block it. Do not cook or burn charcoal inside.
+> DANGER: **Ventilation saves lives.** Poke a hole at least the width of a fist through the roof, and keep the entrance partly open. Check the vent every hour; fresh snow and your breath can block it. Do not cook, or burn a stove, charcoal or candle, inside.
 
 - **Avoid avalanche terrain**: slopes steeper than about 25 degrees, and below steep slopes or cornices. Build on a flat or gentle area.
 - **Stay dry while digging.** Remove layers before you start so you do not sweat, and put them back on when you stop.
@@ -135,10 +139,12 @@ Needs a firm drift at least about 5-6 feet (1.5-2 m) deep.
 1. Dig a small entrance at the base of the drift and tunnel inward.
 2. At the end, dig **upward** and make a sleeping platform **higher than the entrance**. Cold air sinks and stays low; warm air rises to where you lie.
 3. Dig the roof as a **smooth dome** so drips run down the sides instead of onto you.
-4. Keep walls and roof about 1 foot (30 cm) thick, and not thinner. Light should look dim, not bright, from inside.
+4. Keep walls and roof at least 1 foot (30 cm) thick (2 feet if you can), and not thinner. Light should look dim, not bright, from inside.
 5. Poke the vent hole through the roof.
 6. Insulate the sleeping platform with branches, pack, ropes or clothing.
 7. Partly block the door with a pack or snow block, not completely.
+
+[[fig:snow-cave]]
 
 ## Quinzee (when snow is not deep enough to tunnel)
 1. Pile snow into a mound about 6 feet (2 m) high and 8-10 feet wide. Pile loose snow on top of a tarp or sheet if you have one, so you can see what you have.
@@ -154,7 +160,7 @@ Needs a firm drift at least about 5-6 feet (1.5-2 m) deep.
 
 ## Staying warm inside
 - Sleep on insulation, not directly on snow.
-- Keep a candle or small flashlight for light. A single candle adds a little heat and light, but only with fresh air coming in.
+- Use a flashlight or LED light inside. Do not burn a candle, stove or fire in a snow shelter: flames use up oxygen and make carbon monoxide.
 - Melt snow for drinking outside the sleeping area. Never eat snow to hydrate; it chills you ([[finding-water]]).
 - Watch each other for cold and drowsiness ([[hypothermia-frostbite]]).
 
@@ -178,7 +184,7 @@ Needs a firm drift at least about 5-6 feet (1.5-2 m) deep.
 > WARNING: **Never light a fire inside a tent, vehicle or closed shelter.** Fire uses up the oxygen and makes deadly carbon monoxide. Never use gasoline or other fuel to start a fire; it can explode. Never leave a fire unattended.
 
 ## Choose a safe spot
-- Clear a **10-foot (3 m) circle** to bare dirt, away from overhanging branches, dry grass and your shelter.
+- Clear a **10-foot (3 m) circle** to bare dirt, away from overhanging branches, dry grass and your shelter. Keep the fire at least 15 feet (4.5 m) from tents, tarps and low branches.
 - On wet or snowy ground, build a platform of green logs or flat stones.
 - Shield the spot from wind, but leave room for air.
 - Keep water or dirt close. Check for fire bans in normal times.
@@ -256,12 +262,16 @@ See [[fire-management]] for fire layouts, fuel, keeping embers and putting a fir
 | Dakota fire hole | Wind, low smoke, efficient cooking | See below |
 | Reflector | Warming a shelter | Stack logs or rocks behind the fire to bounce heat toward you |
 
+[[fig:fire-lays]]
+
 ### Dakota fire hole
 1. Dig a hole about 1 foot (30 cm) wide and 1 foot deep for the fire.
 2. About 1 foot away on the windward side, dig a second small hole, and connect them with a slanting tunnel so air feeds the fire.
 3. Build the fire in the main hole. It burns hot with little smoke, uses little wood, and hides light from view.
 
 Do not dig in peat or heavy roots, where fire can spread underground.
+
+[[fig:dakota-fire-hole]]
 
 ## Choosing fuel
 - **Hardwoods** (oak, hickory, maple, ash, beech): burn hot and long, make coals. Best for heat and cooking.
@@ -281,7 +291,7 @@ Pack a glowing coal into a bundle of dry bark or tinder inside a tin can or a co
 
 ## Safety rules
 - Keep a bucket of water, a shovel or dirt handy.
-- Keep fire at least 10 feet (3 m) from tents, tarps and low branches.
+- Keep fire at least 15 feet (4.5 m) from tents, tarps and low branches.
 - Do not build fires on dry grass, in strong wind, or under a fire ban.
 - **Do not heat river rocks or wet stones**; trapped water can turn to steam and blow them apart.
 - Keep children and pets back from the fire.
@@ -331,7 +341,7 @@ If you have no water, use dirt, stirring it in with the ashes.
 - Keep furniture, curtains and anything flammable at least **36 inches (3 ft / 90 cm)** from the stove or fireplace.
 - Open the damper before lighting. Use a screen or glass doors, and do not leave a fire unattended.
 - An open fireplace sends most heat up the chimney. A wood stove or insert heats far better.
-- Dispose of ashes in a metal can with a lid, outdoors, away from the house. Ashes stay hot for days.
+- Dispose of ashes in a tightly covered metal can, outdoors, at least 10 feet (3 m) from the house. Ashes stay hot for days.
 - Keep a fire extinguisher and smoke alarm working ([[fire-safety]]).
 
 ## Portable fuel heaters
@@ -498,7 +508,7 @@ Infants and young children, adults over 65, pregnant women, people with chronic 
 - Rinse or mist skin with cool water and let it dry; repeat.
 - Soak feet and hands in cool water.
 - Wear loose, light-colored cotton clothing and a hat outdoors.
-- **Fans help, but in extreme heat a fan alone is not enough.** Above about 95 °F (35 °C) a fan blowing hot air does not protect older adults. Add water to the skin.
+- **Fans help only in mild heat.** The CDC says to use a fan only when it is below about 90 °F (32 °C) indoors. Above that, a fan blowing hot air can add heat stress and does not protect older adults. Add water to the skin and use the coolest room.
 - Sleep on the lowest floor, on a damp sheet, or outdoors under a screened shelter.
 
 ## Drink and eat
@@ -508,7 +518,7 @@ Infants and young children, adults over 65, pregnant women, people with chronic 
 - If you drink a lot of plain water but are very low on salt, you can become confused or ill. Eat salty snacks if sweating heavily.
 
 ## Heat index
-When humidity is high your sweat does not evaporate and heat feels worse. The National Weather Service rates a heat index above about 103 °F (39 °C) as dangerous for everyone with prolonged exposure.
+When humidity is high your sweat does not evaporate and heat feels worse. The National Weather Service rates a heat index of 90 to 103 °F (32 to 39 °C) as "extreme caution" and 103 to 124 °F (39 to 51 °C) as "danger": heat cramps and heat exhaustion are likely and heat stroke is possible with prolonged exposure or activity. At 125 °F (52 °C) and above it is "extreme danger." These values assume shade, and full sun can add up to 15 °F.
 
 ## Pets and livestock
 - Give plenty of shade and cool water.

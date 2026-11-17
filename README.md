@@ -2,7 +2,11 @@
 
 An offline survival and preparedness handbook that runs on any phone, tablet or computer. No internet, no app store, no accounts, no tracking.
 
-- **210 guides, about 112,000 words** in 20 sections: first aid, water, shelter and fire, sanitation, power, disaster playbooks, stockpiling, health, gardening, livestock, food preservation, cooking, hunting, wild plants, building, skills, navigation and radio, security, quick reference.
+- **231 guides, about 140,000 words** in 23 sections: first aid, water, shelter and fire, sanitation, power, disaster playbooks, stockpiling, health, gardening, livestock, food preservation, cooking, pantry recipes, hunting, wild plants, building, skills, navigation and radio, security, kids and family, courses and ham-radio study guide, quick reference.
+- **33 line diagrams** (CPR, choking, bleeding, tourniquet, slings, splints, recovery position, shelters, fire lays, latrines, filters, signals, and more), drawn as small inline SVG that follows light, dark and red night modes.
+- **Crisis mode:** 24 step-by-step scripts (CPR for adult/child/infant, choking, severe bleeding, stroke, anaphylaxis, burns, hypothermia, and more) with huge text, one step per screen, optional **Read aloud** using the phone's built-in offline voice, a built-in CPR beat and step timers.
+- **My Plan:** a readiness score and next best step, an **Emergency Card** with printable wallet cards, an **inventory** with expiry tracking, maintenance reminders (with a calendar .ics export), a **print kit booklet**, and a **Share** page with a QR code made on the device. Everything stays on the device; a backup file can be downloaded and restored.
+- **Region setting:** emergency numbers for the US, Canada, UK, Ireland, Australia, New Zealand, EU and elsewhere ("911" in the guides is swapped for the local number). Guidance is still written for the US.
 - **8 offline tools:** CPR metronome, timers with a tourniquet clock, screen flashlight / SOS / Morse flasher, compass, water-treatment (bleach) calculator, supplies calculator, planting calendar with a **ZIP-code zone and frost-date finder** (works offline for about 40,500 US ZIP codes), unit converter.
 - Full-text search, Emergency screen, saved guides, tick-box checklists (remembered on the device), print buttons for paper backups, text-size control, and a red night mode.
 - Everything is plain files: HTML, CSS and JavaScript. No build tools or libraries are needed to run it.
@@ -31,14 +35,18 @@ Use the **Print** button on the key guides (CPR, severe bleeding, water treatmen
 
 | Path | What it is |
 |---|---|
-| `index.html`, `css/`, `js/app.js`, `js/tools.js`, `js/md.js` | The app |
+| `index.html`, `css/`, `js/app.js`, `js/tools.js`, `js/md.js` | The app (router, search, tools, article renderer) |
+| `js/crisis.js`, `js/personal.js`, `js/share.js`, `js/qr.js` | Crisis mode, My Plan (card, inventory, reminders), share and booklet, and a small offline QR-code encoder |
 | `data/*.js` | The content: one file per section, each article is a plain-text block |
 | `data/categories.js` | Section list, order and icons |
+| `data/diagrams.js`, `data/crisis-steps.js` | The 33 diagrams and the 24 crisis step scripts |
 | `sw.js`, `manifest.webmanifest`, `icons/` | Offline support and install info |
 | `tools/build.mjs` | Validates content and builds `docs/` (the site) and `dist/` (the single file) |
 | `tools/validate.mjs` | Checks every article (format, links, length) |
 | `tools/master-list.json` | The planned article list with notes on what each must cover |
-| `CONTENT_GUIDE.md` | Writing style and safety rules for article authors |
+| `CONTENT_GUIDE.md`, `FACTCHECK_GUIDE.md`, `DIAGRAM_GUIDE.md` | Writing style and safety rules, how to fact-check an article, and how to draw a diagram |
+| `review/` | Fact-check logs for a human expert to sign off (start with `review/README.md`) |
+| `tools/place-figures.mjs`, `tools/figure-placements.json` | Inserts `[[fig:id]]` diagram markers into articles |
 | `docs/`, `dist/grid-down-guide.html` | Built output (upload or copy these) |
 
 ## Changing things
@@ -72,7 +80,10 @@ node tools/build.mjs
 
 ## Limits you should know about
 
-- **No pictures.** Keep printed field guides for plants, mushrooms, snakes, knots, and anything you could get badly wrong.
+- **Diagrams, not photographs.** Keep printed field guides for plants, mushrooms, snakes, knots, and anything you could get badly wrong.
+- **Checked by AI, not certified.** The text was written with AI help and then checked against official sources in two passes (see `review/README.md`). About 16% of the roughly 1,200 logged claims are still unverified, and **no nurse, EMT, extension agent or other qualified person has reviewed it yet.** Please arrange that for the first-aid, health, plant and building sections.
+- **No Spanish or other translations** yet: a translation mistake in first aid can hurt people, so it should be done with a human reviewer.
+- Not yet tested on a physical phone or tablet.
 - It is an educational reference, not medical or legal advice. Take a hands-on first aid / CPR class.
 - Guidance follows widely accepted public sources (Red Cross / AHA, CDC, WHO, EPA, FEMA, USDA / NCHFP, NOAA, Wilderness Medical Society, university Extension services), written for the United States. Check local rules and conditions, and re-check numbers that matter (canning times, medication doses) against current official sources.
 - Phone compasses, flashlight (camera LED) control, vibration and wake-lock depend on the device and browser.

@@ -20,7 +20,7 @@
 - **Temperature:** Use a thermometer under the tongue, in the armpit (add about 1 °F), or in the ear. A fever is 100.4 °F (38 °C) or higher.
 - **Skin and alertness:** Note color (pale, flushed, blue-gray), sweating, and whether they are awake, confused, or hard to wake.
 
-| Age | Resting pulse per minute | Breaths per minute |
+| Age | Typical resting pulse per minute | Breaths per minute |
 |---|---|---|
 | Infant (under 1 year) | 100–160 | 30–60 |
 | Toddler (1–3) | 90–150 | 24–40 |
@@ -86,13 +86,13 @@ A fever is a body temperature of 100.4 °F (38 °C) or higher. It is a symptom, 
 
 > WARNING: Never give aspirin to anyone under 18. Do not use cold baths, ice, or alcohol rubs to bring down a fever.
 
-> CALL: A baby under 3 months with a fever of 100.4 °F (38 °C) or higher is an emergency. Also seek care for fever above 104 °F (40 °C), fever for more than 3 days, or fever with a stiff neck, severe headache, rash that does not fade when pressed, trouble breathing, confusion, seizure, or being very hard to wake.
+> CALL: A baby under 3 months with a fever of 100.4 °F (38 °C) or higher is an emergency. Also seek care for fever above 104 °F (40 °C), fever for more than 3 days (more than 24 hours in a child under 2), or fever with a stiff neck, severe headache, rash that does not fade when pressed, trouble breathing, confusion, seizure, or being very hard to wake.
 
 ## Colds and flu
 - Colds: runny nose, sneezing, mild cough. Rest, fluids, and time. They last about a week.
 - Flu: sudden fever, body aches, chills, tiredness, cough. Same care, plus rest. Most people recover in 1–2 weeks.
 - Honey eases cough in people age 1 and older: ½ tsp for ages 1–5, 1 tsp for ages 6–11, 2 tsp for 12 and up.
-- A saltwater nose rinse helps. Use only distilled, sterile, or boiled-then-cooled water, never untreated tap or stream water.
+- A saltwater nose rinse helps. Use only distilled, sterile, or water that was boiled for 3–5 minutes and cooled until lukewarm, never untreated tap or stream water (it can carry germs that cause serious nose and brain infections).
 - Danger signs: trouble breathing, fast breathing, chest pain, blue lips, or getting better and then suddenly worse (possible pneumonia, see [[infection-antibiotics]]).
 
 ## Sore throat
@@ -100,14 +100,14 @@ Gargle with ¼–½ tsp salt in 8 oz (240 mL) warm water. Drink warm liquids and
 
 ## Vomiting and diarrhea
 The main danger is dehydration, especially in children and older adults.
-1. Wait 15–30 minutes after vomiting, then give sips of oral rehydration solution: [[dehydration-ors]].
-2. For children, give 1 teaspoon (5 mL) every 1–2 minutes and increase slowly.
+1. Rest the stomach for 5–10 minutes after vomiting, then give sips of oral rehydration solution: [[dehydration-ors]].
+2. For children, give small amounts often: about 1 teaspoon (5 mL) every 1–5 minutes (the AAP suggests 1–2 teaspoons every 5 minutes for a vomiting baby). Increase slowly if it stays down.
 3. Return to normal food as soon as they are hungry. Skip the old "BRAT only" diet; rice, bananas, potatoes, bread, eggs, and plain meat are all fine.
 4. Wash hands carefully and keep the sick person's dishes and toilet separate: [[disease-prevention]].
 
-Adults age 12 and older with watery diarrhea and no fever or blood may use loperamide per the label. Never use it with bloody diarrhea or high fever.
+Adults age 12 and older with watery diarrhea and no fever or blood may use loperamide per the label. Never use it with bloody diarrhea or high fever. Never take more than the label allows (high doses can cause dangerous heart rhythms), and stop and get care if diarrhea lasts more than 2 days.
 
-> CALL: Seek help for blood in stool or vomit, diarrhea lasting more than 3 days (1 day for an infant), signs of severe dehydration (no urine for 8–12 hours, sunken eyes, dry mouth, very sleepy), severe belly pain, or vomiting that will not stop.
+> CALL: Seek help for blood in stool or vomit, diarrhea lasting more than 3 days (1 day for an infant), signs of severe dehydration (no urine for 8–12 hours, or no wet diaper for 3 hours or more in a baby; sunken eyes, dry mouth, very sleepy), severe belly pain, or vomiting that will not stop.
 
 ## Constipation
 Drink water, eat fiber (beans, oats, fruit, vegetables), and walk. A bad belly ache with vomiting and no gas or stool can mean a blockage and is an emergency.
@@ -142,7 +142,7 @@ Home care cannot replace a hospital for the serious infections below. Do what yo
 ## Sepsis: the emergency to know
 Sepsis is the body's extreme reaction to an infection. It can kill within hours to days.
 
-Signs: fever or very low temperature with shivering, fast pulse (over 90), fast breathing, confusion or drowsiness, clammy or mottled skin, extreme weakness, and very little urine.
+Signs: fever or very low temperature with shivering, fast or weak pulse, fast breathing or shortness of breath, confusion or drowsiness, clammy or mottled skin, extreme pain or weakness, and very little urine.
 
 > CALL: Sepsis is a medical emergency. If you can reach a hospital, go. If not: give fluids by mouth in small, frequent sips, keep them warm, treat the source (clean and open the wound, drain pus), control fever, and keep trying to reach help.
 
@@ -156,7 +156,7 @@ Signs: fever or very low temperature with shivering, fast pulse (over 90), fast 
 Open the wound edges, flush with plenty of clean water, remove dead tissue and debris, and keep it covered and clean. See [[wound-care]]. Wounds from bites, soil, and farm animals are most at risk.
 
 ### Pneumonia
-Cough, fever, chills, fast breathing (over 20 breaths a minute in an adult), chest pain when breathing in, and weakness. Supportive care: fluids, rest, sitting upright, and fever control. Worsening breathing, confusion, or blue lips are emergencies.
+Cough, fever, chills, fast breathing (more than about 20 breaths a minute at rest in an adult), chest pain when breathing in, and weakness. Supportive care: fluids, rest, sitting upright, and fever control. Worsening breathing, confusion, or blue lips are emergencies.
 
 ### Urinary tract infection (UTI)
 Burning, frequent, urgent urination, and lower belly pain. Drink lots of fluids. Fever, chills, back or side pain, or vomiting suggest a kidney infection and need antibiotics. UTIs in men, children, and pregnant women should always be seen.
@@ -177,7 +177,7 @@ Swelling and pain around a tooth. See [[dental]] for warning signs of spread to 
 ## Planning ahead
 - **Talk to your doctor now.** Ask whether they will prescribe a "just in case" supply for travel or remote living, and which drug and dose they would choose for your family's allergies and conditions. Some do.
 - Never share antibiotics, use leftovers for a different illness, or stop a course early. Wrong use causes side effects and resistance.
-- Antibiotics made for animals or fish are not made or tested for people. Do not rely on them.
+- **Do not take antibiotics made for animals or fish.** The FDA says animal drugs should not be used to treat people. They are not tested for people, may be the wrong strength or purity, and some can cause serious harm.
 - Prevention is your best antibiotic: clean water, clean wounds, handwashing, up-to-date tetanus and other vaccines, and good sanitation.
 `
   },
@@ -188,7 +188,7 @@ Swelling and pain around a tooth. See [[dental]] for warning signs of spread to 
     summary: 'How to build and store a medicine supply, what expiration dates really mean, and standard over-the-counter doses for adults and children.',
     tags: ['medication', 'medicine', 'dose', 'dosage', 'acetaminophen', 'Tylenol', 'ibuprofen', 'aspirin', 'expired', 'expiration', 'stockpile', 'children dosing'],
     body: `
-> WARNING: Always read the product label and follow it. Doses below are standard for healthy people and are conservative. Check with a doctor or pharmacist when you can, especially for kidney, liver, heart, or stomach problems, pregnancy, and use with other medicines.
+> WARNING: Always read the product label and follow it. Doses below are standard for healthy people and are conservative. Check with a doctor or pharmacist when you can, especially for kidney, liver, heart, or stomach problems, pregnancy, and use with other medicines. If anyone takes too much of any medicine, call Poison Control at 1-800-222-1222 (US) right away.
 
 ## Building a supply
 1. Ask your doctor and pharmacist for a 90-day supply of every prescription. Ask about mail-order or "vacation override" refills.
@@ -202,7 +202,7 @@ Swelling and pain around a tooth. See [[dental]] for warning signs of spread to 
 - Keep out of reach of children. Label everything.
 
 ## Do expiration dates matter?
-Expiration dates are the maker's guarantee of full strength. Studies of stored military stocks found that many solid tablets and capsules kept most of their potency for years past the date, but there is no guarantee.
+Expiration dates are the maker's guarantee of full strength. Studies of stored military stocks found that many solid tablets and capsules kept most of their potency for years past the date, but the FDA says that after the date there is no guarantee a medicine is safe and effective.
 
 - **Do not rely on expired:** insulin, epinephrine auto-injectors, nitroglycerin tablets, liquid or suspension antibiotics, eye drops, inhalers, and vaccines. Replace these on time.
 - Expired solid pills stored well are a last-resort option when nothing else is available, not a plan.
@@ -222,6 +222,7 @@ Expiration dates are the maker's guarantee of full strength. Studies of stored m
 - Many cold and flu products also contain acetaminophen. Count all sources.
 - Ibuprofen and naproxen can hurt the stomach and kidneys. Avoid in dehydration, kidney disease, ulcers, late pregnancy, and with blood thinners. Do not take ibuprofen and naproxen together.
 - Diphenhydramine causes drowsiness and is risky for older adults.
+- Loperamide: never take more than the label allows. High doses can cause dangerous heart rhythms. Do not use it with fever or bloody stool, and stop if diarrhea lasts more than 2 days.
 - Aspirin: also used for suspected heart attacks, see [[heart-stroke]].
 
 ## Children's doses (by weight)
@@ -236,10 +237,12 @@ Use a dosing syringe or cup that comes with the medicine, never a kitchen spoon.
 | 48–59 lb (22–27 kg) | 10 mL | 10 mL |
 | 60–71 lb (27–32 kg) | 12.5 mL | 12.5 mL |
 | 72–95 lb (33–43 kg) | 15 mL | 15 mL |
-| 96 lb and up (44 kg+) | 20 mL | 20 mL |
+| 96 lb and up (44 kg+) | 20 mL (about the same as 2 regular-strength 325 mg tablets) | 20 mL |
 
 - Acetaminophen: every 4–6 hours, no more than 5 doses in 24 hours. The weight rule is 10–15 mg per kg.
 - Ibuprofen: every 6–8 hours, no more than 4 doses in 24 hours. The weight rule is 5–10 mg per kg. Do not give to children who are vomiting or dehydrated.
+- Ibuprofen is not for babies under 6 months. The 12–17 lb ibuprofen row is only for babies 6 months or older who are that small.
+- The AAP advises checking with a doctor before giving acetaminophen to any child under 2 (about 24 lb). If you cannot reach one, use only the weight-based dose above, and never more than listed.
 - Under 12 weeks of age, a fever is an emergency. Do not treat at home without a clinician's advice.
 - Never give aspirin to anyone under 18.
 - Do not give cough and cold medicines to children under 4 unless a clinician says so.
@@ -266,9 +269,9 @@ For everyone with a chronic condition:
 - Teach a family member how to help you.
 
 ## Diabetes
-- **Insulin:** Unopened insulin keeps best in a refrigerator. Once in use, most insulin stays good for about 28 days at room temperature (check your product), kept below 86 °F (30 °C) and out of sun. Never freeze it. If the power is out, use cool water, a clay pot cooler, or a cool basement: [[keeping-cold]].
-- **Low blood sugar** (shaky, sweaty, hungry, confused, pale): give 15 g of fast sugar: 4 oz (120 mL) juice, 3–4 glucose tablets, or 1 tablespoon sugar or honey. Recheck or repeat in 15 minutes. If the person is unconscious or cannot swallow, do not put food in their mouth; use glucagon if you have it and seek help.
-- **Very high blood sugar:** extreme thirst, frequent urination, nausea, fruity breath, fast deep breathing. In type 1 diabetes this can quickly become diabetic ketoacidosis, which is an emergency.
+- **Insulin:** Unopened insulin keeps best in a refrigerator until its expiration date. If the power is out, the FDA says vials and cartridges, opened or unopened, still work for up to 28 days kept unrefrigerated between 59 and 86 °F (15–30 °C). Some products differ, so check your label. Keep it out of sun and away from heat. Never freeze it, and do not use insulin that has frozen. To stay cool, use cool water, a clay pot cooler, or a cool basement: [[keeping-cold]].
+- **Low blood sugar** (shaky, sweaty, hungry, confused, pale): give 15 g of fast sugar: 4 oz (120 mL) juice or regular soda, 3–4 glucose tablets, or 1 tablespoon sugar or honey. Recheck in 15 minutes and repeat if still low (below 70 mg/dL, or if symptoms remain), then give a snack with protein. Young children may need less than 15 g. If the person is unconscious or cannot swallow, do not put food in their mouth; use glucagon if you have it and call 911.
+- **Very high blood sugar:** extreme thirst, frequent urination, nausea, fruity breath, fast deep breathing. In diabetes, especially type 1, this can become diabetic ketoacidosis, which is an emergency. Get emergency care for blood sugar that stays at 300 mg/dL or higher, fruity breath, or vomiting that will not stop.
 - Stock test strips, lancets, meter batteries, glucose tablets, needles, and sharps containers.
 - Check feet daily: [[foot-care]].
 
@@ -279,8 +282,8 @@ For everyone with a chronic condition:
 
 ## High blood pressure and heart disease
 - Do not stop blood pressure or heart medicines abruptly. Some, such as beta blockers, can cause dangerous rebound if stopped.
-- Cut salt, avoid heavy exertion, and manage stress. Keep any prescribed nitroglycerin in a dark glass bottle and replace it as directed.
-- Heart failure: weigh daily; fast weight gain or new swelling means fluid is building up.
+- Cut salt, avoid heavy exertion, and manage stress. Keep any prescribed nitroglycerin in its original glass bottle with the cap tightly closed, and replace it as directed.
+- Heart failure: weigh daily. A gain of more than 2–3 lb (1–1.5 kg) in a day or 5 lb (2 kg) in a week, or new swelling, means fluid is building up: seek medical advice.
 - Blood thinners such as warfarin need careful monitoring. Ask your doctor for a plan.
 
 ## Seizure disorders
@@ -288,10 +291,10 @@ For everyone with a chronic condition:
 - During a seizure: time it, move hard objects away, cushion the head, do not hold the person down or put anything in the mouth, and roll them onto their side afterward. A seizure lasting more than 5 minutes is an emergency.
 
 ## Thyroid disease
-Levothyroxine stays in the body for a long time, so missing a few doses is not an emergency. Missing months causes serious illness. Stock a year's supply if allowed.
+Levothyroxine stays in the body for a long time, so missing a few doses is not an emergency. Missing months causes serious illness. Stock as much as your doctor and insurance allow.
 
 ## Kidney disease and dialysis
-People on dialysis depend on machines and clean water. Ask your dialysis center for an emergency plan and an emergency diet (low potassium, salt, and fluid). Without dialysis, survival is usually days to a couple of weeks. Reduce salt, potassium, and fluid, and try to reach care early.
+People on dialysis depend on machines and clean water. Ask your dialysis center for an emergency plan and an emergency diet (low potassium, salt, and fluid). Without dialysis, dangerous fluid and potassium build-up can develop within days, and survival is limited to a few weeks at most. Reduce salt, potassium, and fluid, and try to reach care early.
 
 ## Mental health medicines
 Never stop antidepressants, antipsychotics, or anti-anxiety medicines suddenly. Some, such as benzodiazepines, can cause seizures if stopped. See [[mental-health]].
@@ -340,7 +343,7 @@ Most babies cry within 30 seconds. If not:
 3. If there is no response and no heartbeat, begin infant CPR: [[cpr]].
 
 ## The cord
-Do not rush. Wait until the cord stops pulsing, usually 1–3 minutes. Tie or clamp it 6 inches (15 cm) from the baby, tie a second knot 8–10 inches (20–25 cm) from the baby, and cut between the ties with clean scissors. Keep the stump clean and dry and fold the diaper below it.
+Do not rush. Wait until the cord stops pulsing, usually 1–3 minutes, unless the baby is not breathing and needs help right away. Cutting the cord is not urgent. If help is on its way, you can leave it uncut and keep the baby and placenta together. If you must cut it, tie or clamp it about 6 inches (15 cm) from the baby, tie a second knot 8–10 inches (20–25 cm) from the baby, and cut between the ties with clean scissors. Sources vary on exact distances; a longer stump is safer than a shorter one. Keep the stump clean and dry and fold the diaper below it.
 
 ## The placenta
 It usually comes out 5–30 minutes after the baby (up to 60 minutes). Do not pull on the cord. Let it come with a contraction, catch it in a bowl, and check that it looks whole. Seek help if it does not come within an hour.
@@ -351,7 +354,7 @@ It usually comes out 5–30 minutes after the baby (up to 60 minutes). Do not pu
 - Have her empty her bladder.
 - Some bleeding is normal. Up to about 2 cups (500 mL) is expected.
 
-> DANGER: Soaking a pad every 5–10 minutes, more than 2 cups (500 mL) of blood, dizziness, paleness, or a fast pulse is a hemorrhage. Keep massaging the uterus, keep the baby nursing, lay her flat with legs raised, and keep her warm. Treat as shock: [[shock]]. Get help urgently.
+> DANGER: Soaking through one or more pads in an hour, clots bigger than an egg, more than 2 cups (500 mL) of blood, dizziness, paleness, or a fast pulse is a hemorrhage. Keep massaging the uterus, keep the baby nursing, lay her flat with legs raised, and keep her warm. Treat as shock: [[shock]]. Get help urgently.
 
 ## Complications
 - **Shoulder dystocia** (head delivers but the shoulders are stuck): do not pull. Lay her on her back with knees pulled up tightly to her chest, with her buttocks at the edge of the bed. A helper presses down firmly just above the pubic bone. If this fails, try hands and knees.
@@ -362,13 +365,13 @@ It usually comes out 5–30 minutes after the baby (up to 60 minutes). Do not pu
 ## Newborn care
 - Keep the baby skin to skin and warm for the first hour at least, with a hat on.
 - Start breastfeeding soon. The first milk (colostrum) protects against infection.
-- Newborns breathe 30–60 times a minute. Watch for grunting, blue color, poor feeding, or floppiness.
+- Newborns breathe about 30–60 times a minute. Watch for breathing faster than 60, grunting, blue color, poor feeding, or floppiness.
 - Feed every 2–3 hours. Do not give water, tea, or honey.
 - Do not bathe for 24 hours. Keep the cord stump dry.
 
 ## Care for the mother
 - Rest, drink fluids, and eat. Clean tears gently with warm water and pat dry.
-- Seek help for fever over 100.4 °F (38 °C), foul discharge, heavy bleeding, severe headache or vision changes, leg swelling or pain, chest pain, or trouble breathing.
+- Seek help for fever of 100.4 °F (38 °C) or higher, foul discharge, heavy bleeding, severe headache or vision changes, leg swelling or pain, chest pain, trouble breathing, or thoughts of harming herself or the baby. These can appear for weeks after birth.
 - See also [[babies-kids]] and [[womens-health]].
 `
   },
@@ -384,7 +387,8 @@ It usually comes out 5–30 minutes after the baby (up to 60 minutes). Do not pu
 2. At least 6 wet diapers a day (after the first week) means the baby is getting enough.
 
 ### Formula
-- **Powdered formula:** mix with water you boiled and let cool for no more than 30 minutes, following the can's directions exactly. Throw away any formula left in the bottle after 1 hour.
+- **Powdered formula:** follow the can's directions exactly. If you must use tap or other untreated water, boil it first (see [[boiling-water]]). For babies under 2 months, born early, or with weak immunity, let the boiled water cool only about 5 minutes (it should still be about 158 °F / 70 °C), mix the powder, then cool the bottle under cold water. For other babies, let boiled water cool to room temperature. Test a few drops on your wrist before feeding.
+- Use mixed formula within 2 hours, and within 1 hour of starting a feed. Throw away any formula left in the bottle after feeding.
 - **Ready-to-feed liquid formula** is best if you have no safe water.
 - Use opened powder within the time on the can and store it cool and dry.
 
@@ -393,7 +397,7 @@ It usually comes out 5–30 minutes after the baby (up to 60 minutes). Do not pu
 If formula runs out, ask a clinician. For babies older than 6 months, whole cow's milk may serve as a short-term stopgap along with solid foods, but it is a clinician's call.
 
 ### Bottles
-Wash bottles with soap and hot water. Sanitize by boiling for 5 minutes or soaking in 1 tablespoon unscented bleach per gallon of water for 1 minute, then air dry. See [[laundry-dishes]].
+Wash bottles with soap and safe water, then rinse. Also sanitize at least once a day (essential for babies under 2 months or who are sick): boil for 5 minutes, or soak for 2 minutes in a basin of safe water with 1 teaspoon of unscented bleach per ½ gallon (8 cups). Air dry and do not rinse after sanitizing. See [[laundry-dishes]].
 
 ## First foods (around 6 months)
 - Mash or puree: rice or oat cereal, cooked beans, potatoes, squash, bananas, well-cooked meat.
@@ -402,24 +406,24 @@ Wash bottles with soap and hot water. Sanitize by boiling for 5 minutes or soaki
 
 ## Children
 - Kids dehydrate faster than adults. Offer fluids often and use oral rehydration solution for diarrhea: [[dehydration-ors]].
-- Make sure they get calories, protein, and fat. For ages 1–3 aim for roughly 1,000–1,400 kcal a day.
+- Make sure they get calories, protein, and fat. By ages 2–3 aim for roughly 1,000–1,400 kcal a day (a bit less at age 1).
 - Children's medicine doses are in [[meds-stockpile]].
 
 ## Fever rules
 | Age | Action |
 |---|---|
 | Under 3 months | A temperature of 100.4 °F (38 °C) or higher is an emergency. Seek help immediately. |
-| 3–36 months | Seek care for 102.2 °F (39 °C) or higher, or fever lasting more than 24 hours. |
-| Older children | Treat for comfort. Seek care if fever lasts more than 3 days or other danger signs appear. |
+| 3–36 months | Seek care for 102.2 °F (39 °C) or higher, or fever lasting more than 24 hours (the AAP uses 24 hours for any child under 2). |
+| Older children | Treat for comfort. Seek care if fever lasts more than 3 days, is repeatedly above 104 °F (40 °C), or other danger signs appear. |
 
 ## Danger signs in babies and children
 - Not feeding or vomiting everything
-- No wet diaper in 8 hours, no tears, sunken soft spot on the head
+- No wet diaper for 3 hours or more, no tears, dry mouth, sunken eyes or soft spot on the head
 - Hard to wake, floppy, or unusually irritable
 - Fast breathing, grunting, chest pulling in with each breath, blue lips
 - A rash that does not fade when pressed
 - Bulging soft spot, high-pitched cry, or seizure
-- Yellow skin or eyes after the first 2 weeks
+- Yellow skin or eyes in the first day of life, or still yellow after the first 2 weeks
 Treat any of these as an emergency.
 
 ## Safe sleep
@@ -453,7 +457,7 @@ For anyone who depends on a device or help to live safely:
 4. Choose a buddy who will check in during an emergency.
 
 ## Devices and supplies
-- **Oxygen:** concentrators need power. Keep backup cylinders and ask the supplier how long each lasts at your flow rate. Keep oxygen at least 10 feet (3 m) from flame, candles, and smoking. See [[chronic-conditions]].
+- **Oxygen:** concentrators need power. Keep backup cylinders and ask the supplier how long each lasts at your flow rate. Keep oxygen at least 6 feet (2 m) from flame, candles, heaters, and smoking (more is safer). See [[chronic-conditions]].
 - **CPAP:** needs power. Ask your supplier about a battery pack. In a pinch, sleep on the side or with the head raised.
 - **Wheelchairs and scooters:** keep a manual chair or spare battery, charged. Practice being carried or moved: [[moving-patients]].
 - **Hearing aids:** keep spare batteries (zinc-air type usually last a few days to 2 weeks), a drying kit, and a written note to communicate with.
@@ -497,18 +501,18 @@ Caregivers burn out. Share the load, take short breaks, and accept help. See [[h
     tags: ['tooth', 'teeth', 'toothache', 'abscess', 'cavity', 'knocked out tooth', 'filling', 'crown', 'gums', 'dentist'],
     body: `
 ## Daily care
-- Brush for 2 minutes twice a day with a soft brush. Use fluoride toothpaste if you have it; small tubes keep for years, so stock several. With no paste, use plain water with a pinch of baking soda.
+- Brush for 2 minutes twice a day with a soft brush. Use fluoride toothpaste if you have it; stock several tubes and check the expiration date. With no paste, use plain water with a pinch of baking soda.
 - Floss once a day. Replace toothbrushes every 3 months, and stock extras.
 - Rinse with salt water (½ tsp salt in 8 oz / 240 mL warm water) if gums are sore.
 - Cut back on sugar, especially sticky sweets. Drink water after eating.
 - Babies and toddlers: wipe gums and teeth with a clean cloth.
 
 ## Knocked-out permanent tooth
-Time matters: reinserting the tooth within 30–60 minutes gives the best chance.
+Time matters. Put it back right away if you can. The best chance is to be treated within 30 minutes, though a tooth may still be saved after an hour or more.
 1. Pick it up by the crown (the white chewing part), never the root.
-2. If dirty, rinse it very briefly (10 seconds) with milk, saline, or clean water. Do not scrub or use soap.
+2. If dirty, rinse it very briefly (10 seconds) with milk, saline, or clean water. Do not scrub, dry, or wrap it in tissue, and do not use soap.
 3. Gently push it back into the socket, facing the right way. Have the person bite gently on a clean cloth to hold it.
-4. If you cannot reinsert it, keep it in cold milk or inside the cheek (older children and adults only, not small children who might swallow it).
+4. If you cannot reinsert it, keep it moist in milk or inside the cheek (older children and adults only, not small children who might swallow it). Do not store it in plain tap water.
 5. See a dentist as soon as possible.
 Do not reinsert baby teeth.
 
@@ -561,9 +565,9 @@ Herbs are medicines. Some help modestly, many do little, and some are harmful. D
 | Peppermint | Upset stomach, mild headache (tea) | Can worsen heartburn. Do not put menthol on a baby's face. |
 | Chamomile | Mild calming, upset stomach (tea) | Avoid if allergic to ragweed or daisies. |
 | Aloe vera gel | Sunburn and minor burns | Do not swallow the yellow latex. |
-| Willow bark | Mild pain and fever (contains an aspirin-like chemical) | Same cautions as aspirin: not for anyone under 18, ulcers, bleeding, blood thinners, or pregnancy. Dose is unreliable. |
+| Willow bark | Mild pain and fever (contains an aspirin-like chemical) | Same cautions as aspirin: not for anyone under 18, in pregnancy or breastfeeding, or with aspirin allergy, ulcers, bleeding, or blood thinners. Dose is unreliable. |
 | Plantain leaf | Crushed leaf placed on insect stings and small skin irritations | Low risk. See [[safe-wild-greens]]. |
-| Elderberry | Cooked syrup or tea may shorten flu a little | Raw berries, leaves, stems and seeds are poisonous. Only cook the ripe berries. See [[wild-berries-fruit]]. |
+| Elderberry | Cooked syrup or tea; small studies suggest it may ease flu symptoms, but evidence is limited | Raw or unripe berries, leaves, stems and seeds are poisonous. Only cook the ripe berries. Safety in pregnancy is unknown. See [[wild-berries-fruit]]. |
 | Garlic | Mild antimicrobial in food | Never store garlic in oil; botulism risk. Large amounts thin blood. |
 | Slippery elm or marshmallow root | Soothes sore throats | Generally safe. |
 | Yarrow | Traditionally used on bleeding; weak evidence | Press on the wound instead. Avoid in pregnancy; allergic reactions with daisy family. |
@@ -600,7 +604,7 @@ Easy medicinal and culinary herbs: [[herb-garden]]. Dry and store them in jars a
 - Stock more than you think you need: pads, tampons, or menstrual cups. A reusable cup lasts for years.
 - **Reusable cloth pads:** sew 4–6 layers of absorbent cotton or flannel with a waterproof layer such as nylon or a cut-up shower curtain on the bottom. Make at least 10–15.
 - **To wash:** rinse in cold water first, then wash with soap in hot water, and sun-dry.
-- **Cup:** empty every 8–12 hours. Boil for 5–10 minutes between cycles.
+- **Cup:** empty every 4–12 hours, depending on flow and the maker's directions. Boil for 5–10 minutes between cycles.
 - **Improvised:** clean folded cloth held in underwear.
 - Change tampons at least every 8 hours; leaving them longer raises the risk of toxic shock syndrome.
 - Cramps: heat packs, a warm drink, light exercise, and pain relievers ([[meds-stockpile]]).
@@ -612,16 +616,16 @@ Plan ahead; a pregnancy during a long crisis is risky.
 - **Condoms:** keep cool and dry, away from heat; use before the expiration date.
 - **IUDs and implants:** last years (copper IUD up to 10 years, implant about 3–5 years). Excellent for the long term; talk to your clinician.
 - **Injections** need a renewal every 3 months.
-- **Emergency contraception:** pills work best within 72 hours of unprotected sex. Available without prescription in the US; stock some.
+- **Emergency contraception:** levonorgestrel pills work best within 72 hours (3 days) of unprotected sex, and the sooner the better. They are sold without prescription in the US; stock some. Another type (ulipristal) works for up to 5 days but may need a prescription.
 - **Fertility awareness** (tracking temperature, cervical mucus, and cycle days) works only if done consistently and is less reliable than other methods.
 - **Breastfeeding** prevents pregnancy only if exclusive, around the clock, and the baby is under 6 months with no period yet.
 
 ## Pregnancy
-- Eat extra: about 300 more calories a day in the second and third trimesters. Include protein, iron, and dairy or beans. Take a prenatal vitamin with folic acid (400 mcg daily) if you can.
+- Eat extra: roughly 300–450 more calories a day in the second and third trimesters. Include protein, iron, and dairy or beans. Take a prenatal vitamin with folic acid (400 mcg daily) if you can.
 - Drink plenty of clean water and avoid raw or undercooked meat, raw eggs, unpasteurized milk, and alcohol.
 - Avoid most herbs ([[herbal-remedies]]).
 
-> CALL: Seek help for vaginal bleeding, severe belly pain, fluid leaking before 37 weeks, fever, severe vomiting, severe headache, vision changes or spots, sudden swelling of the face or hands (possible preeclampsia, which can cause seizures), or the baby moving much less than usual (fewer than 10 movements in 2 hours after 28 weeks).
+> CALL: Seek help for vaginal bleeding, severe belly pain, fluid leaking before 37 weeks, fever, severe vomiting, severe headache, vision changes or spots, sudden swelling of the face or hands (possible preeclampsia, which can cause seizures), or the baby moving much less than usual or stopping (any change from the baby's usual pattern matters, so do not wait to see if it passes).
 
 ## Miscarriage and bleeding emergencies
 Cramping and bleeding in early pregnancy can be a miscarriage. Rest, drink fluids, and watch the amount of blood.
@@ -656,7 +660,7 @@ In a crisis, many people feel fear, anger, numbness, guilt, sadness, trouble sle
 7. **Help others.** It helps you as well.
 
 ## Sleep
-- Poor sleep wrecks judgment. Aim for 6–8 hours.
+- Poor sleep wrecks judgment. Adults need at least 7 hours when possible.
 - Set a sleep time, keep the sleeping area dark and quiet, and use earplugs or an eye cover.
 - Avoid caffeine late in the day. Keep naps under 30 minutes.
 - If you must keep watch, rotate shifts so everyone gets a full block of sleep.
@@ -680,10 +684,10 @@ Warning signs: talking about wanting to die or being a burden, hopelessness, giv
 1. **Ask directly:** "Are you thinking about killing yourself?" Asking does not plant the idea.
 2. Stay with them and listen without judgment.
 3. Remove means: firearms, pills, ropes, and sharp tools, as safely as you can.
-4. Get help: in the US call or text **988** (Suicide & Crisis Lifeline) or call 911. If no services work, do not leave the person alone; keep a 24-hour watch with others.
+4. Get help: in the US call or text **988** (Suicide & Crisis Lifeline, free, 24 hours; chat is at 988lifeline.org if you have internet) or call 911 if there is immediate danger. If no services work, do not leave the person alone; keep a 24-hour watch with others.
 
 ## Withdrawal can be dangerous
-> WARNING: Heavy daily drinkers can have life-threatening withdrawal (tremors, sweating, seizures, hallucinations, usually within 6–96 hours). Stopping benzodiazepines (such as Xanax or Valium) suddenly can cause seizures. Stopping antidepressants abruptly causes bad symptoms. Talk to a doctor now. A seizure or confusion is an emergency.
+> WARNING: Heavy daily drinkers can have life-threatening withdrawal (tremors, sweating, seizures, hallucinations; it usually starts 6–24 hours after the last drink, and the worst problems can come in the first few days and last up to a week). Stopping benzodiazepines (such as Xanax or Valium) suddenly can cause seizures. Stopping antidepressants abruptly causes bad symptoms. Talk to a doctor now. A seizure or confusion is an emergency.
 
 Opioid withdrawal is miserable (vomiting, diarrhea, aches) but rarely fatal; focus on fluids ([[dehydration-ors]]).
 

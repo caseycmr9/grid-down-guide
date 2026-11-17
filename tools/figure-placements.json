@@ -1,0 +1,53 @@
+[
+  { "fig": "cpr-hand-position", "article": "cpr", "heading": "Do this first (adult)", "where": "start" },
+  { "fig": "cpr-chest-landmarks", "article": "cpr", "heading": "Do this first (adult)", "where": "end" },
+  { "fig": "airway-head-tilt-chin-lift", "article": "cpr", "heading": "Giving breaths", "where": "start" },
+  { "fig": "infant-cpr-position", "article": "cpr", "heading": "Infant (under 1 year)", "where": "start" },
+
+  { "fig": "airway-head-tilt-chin-lift", "article": "first-aid-basics", "heading": "Opening the airway", "where": "end" },
+  { "fig": "recovery-position", "article": "first-aid-basics", "heading": "Recovery position", "where": "end" },
+
+  { "fig": "choking-back-blows", "article": "choking", "heading": "Adult or child over 1 year: severe choking", "where": "end" },
+  { "fig": "choking-abdominal-thrusts", "article": "choking", "heading": "Adult or child over 1 year: severe choking", "where": "end" },
+  { "fig": "choking-infant", "article": "choking", "heading": "Infant (under 1 year): severe choking", "where": "end" },
+
+  { "fig": "pressure-bandage", "article": "severe-bleeding", "heading": "Do this first", "where": "end" },
+  { "fig": "tourniquet-placement", "article": "severe-bleeding", "heading": "Tourniquet: for life-threatening limb bleeding", "where": "end" },
+  { "fig": "pressure-bandage", "article": "improvised-first-aid", "heading": "Pressure dressing", "where": "end" },
+  { "fig": "arm-sling", "article": "improvised-first-aid", "heading": "Triangular bandage (sling, swathe, tourniquet)", "where": "end" },
+  { "fig": "forearm-splint", "article": "improvised-first-aid", "heading": "Splints", "where": "end" },
+  { "fig": "tourniquet-placement", "article": "improvised-first-aid", "heading": "Tourniquet", "where": "end" },
+
+  { "fig": "forearm-splint", "article": "fractures-sprains", "heading": "How to splint", "where": "end" },
+  { "fig": "arm-sling", "article": "fractures-sprains", "heading": "How to splint", "where": "end" },
+
+  { "fig": "shock-position", "article": "shock", "heading": "Do this", "where": "start" },
+  { "fig": "burn-cooling", "article": "burns", "heading": "Do this first", "where": "start" },
+  { "fig": "snakebite-care", "article": "bites-stings", "heading": "Do this", "where": "start" },
+
+  { "fig": "shadow-stick", "article": "direction-sun-stars", "heading": "Shadow-stick method (works anywhere with sun)", "where": "end" },
+  { "fig": "find-polaris", "article": "direction-sun-stars", "heading": "The North Star (northern hemisphere only)", "where": "end" },
+  { "fig": "declination", "article": "map-compass", "heading": "Declination", "where": "end" },
+  { "fig": "ground-air-signals", "article": "signaling-rescue", "heading": "Ground-to-air signals", "where": "end" },
+
+  { "fig": "lean-to", "article": "emergency-shelters", "heading": "Lean-to", "where": "end" },
+  { "fig": "debris-hut", "article": "emergency-shelters", "heading": "Debris hut (best warmth with no equipment)", "where": "end" },
+  { "fig": "snow-cave", "article": "snow-shelters", "heading": "Snow cave", "where": "end" },
+
+  { "fig": "fire-lays", "article": "fire-management", "heading": "Fire layouts", "where": "end" },
+  { "fig": "dakota-fire-hole", "article": "fire-management", "heading": "Dakota fire hole", "where": "end" },
+  { "fig": "rocket-stove", "article": "rocket-stove-build", "heading": "How a rocket stove works", "where": "end" },
+  { "fig": "dakota-fire-hole", "article": "rocket-stove-build", "heading": "Dakota fire hole", "where": "end" },
+
+  { "fig": "latrine-site", "article": "human-waste", "heading": "Trench latrine (groups or longer use)", "where": "end" },
+  { "fig": "tippy-tap", "article": "handwashing-hygiene", "heading": "Build a tippy-tap", "where": "end" },
+  { "fig": "sand-charcoal-filter", "article": "water-filters", "heading": "Do-it-yourself filters", "where": "end" },
+
+  { "fig": "generator-placement", "article": "generator-safety", "heading": "Do this first", "where": "start" },
+  { "fig": "canning-headspace", "article": "canning-basics", "heading": "Steps for every jar", "where": "end" },
+  { "fig": "food-temp-zones", "article": "food-safety-basics", "heading": "The danger zone", "where": "start" },
+  { "fig": "food-temp-zones", "article": "safe-cooking-temps", "heading": "Keep hot food hot, cold food cold", "where": "end" },
+
+  { "fig": "earthquake-drop-cover-hold", "article": "earthquake", "heading": "Do this now (when the shaking starts)", "where": "end" },
+  { "fig": "raised-bed-layout", "article": "garden-structures", "heading": "Raised beds", "where": "end" }
+]

@@ -27,7 +27,7 @@ Animals turn plants you cannot eat (grass, weeds, scraps) into eggs, milk, meat,
 ## Feed needed (very approximate)
 - Laying hen: about 1/4 lb (115 g) of feed a day, about 90 lb a year.
 - Rabbit: about 4–6 oz (115–170 g) of pellets a day, or equivalent hay and greens.
-- Goat or sheep: 3–4 lb (1.5–2 kg) of hay a day each if no pasture.
+- Goat or sheep: about 3–5 lb (1.5–2.3 kg) of hay a day each if no pasture.
 - Cow: 20–30 lb (9–14 kg) of hay a day.
 - Pig: 3–4 lb of feed per 1 lb of weight gained.
 
@@ -77,7 +77,7 @@ They are the easiest animal for beginners: eggs, meat, pest control, and excelle
 ## Eggs
 - Hens start laying at 5–6 months. Good laying breeds make 250–300 eggs in their first year; heritage breeds 150–200. Production falls about 15–20% a year.
 - Laying slows in winter (less light) and during a yearly molt. This is normal.
-- Collect daily. Unwashed fresh eggs keep for weeks; see [[eggs-dairy-honey-storage]].
+- Collect daily and throw away cracked eggs. Unwashed fresh eggs keep for weeks; see [[eggs-dairy-honey-storage]]. Cook eggs until the yolk and white are firm (160 °F / 71 °C), because shells can carry Salmonella.
 - Old hens make good stewing meat.
 
 ## Chicks and hatching
@@ -92,7 +92,9 @@ Dual-purpose breeds (Rhode Island Red, Plymouth Rock, Sussex, Orpington, Wyandot
 - **Mites and lice:** scratching, pale combs, a drop in laying. Give a dust-bathing area of dry soil mixed with wood ash.
 - **Coccidiosis:** bloody droppings in chicks, damp litter. Keep litter dry.
 - **Respiratory illness:** sneezing, bubbly eyes. Isolate the sick; sick birds are often culled.
-- **Avian influenza** can kill whole flocks and can infect people. Keep wild birds away from feed and water, wash your hands, and cook eggs and meat thoroughly. Report sudden die-offs if you can.
+- **Avian influenza** can kill whole flocks and can infect people. Keep wild birds away from feed and water, wash your hands, and do not touch sick or dead birds with bare hands. Cook poultry to 165 °F (74 °C) and eggs until firm. Report sick birds or sudden die-offs to your state veterinarian or the USDA toll-free line, 1-866-536-7593 (US).
+
+> WARNING: Chicks, ducklings, and adult poultry can carry Salmonella even when they look healthy. Wash your hands with soap and water after touching birds, eggs, or anything in their area. Do not let children under 5 handle or touch chicks or other poultry. Older adults and people with weak immune systems are also at higher risk. Do not kiss or snuggle birds, and keep birds and their equipment out of the house.
 - **Predators:** raccoon, fox, coyote, dog, hawk, owl, snake, rat. Strong coop, lock at night, cover the run top if hawks are a problem.
 
 Processing: [[butchering-livestock]]. Feed and health in general: [[animal-health-feed]].
@@ -106,7 +108,7 @@ Processing: [[butchering-livestock]]. Feed and health in general: [[animal-healt
     tags: ['rabbits', 'hutch', 'breeding', 'kits', 'fryers', 'rabbit meat', 'New Zealand', 'rabbit starvation', 'heat stroke'],
     body: `
 ## Why rabbits
-Rabbits are quiet, small, and breed fast. A doe can raise roughly 20–40 fryers a year (each about 2.5–3 lb / 1.1–1.4 kg dressed), on hay, greens, and a little feed. Their manure can go straight on the garden.
+Rabbits are quiet, small, and breed fast. A doe can raise roughly 20–40 fryers a year (each about 2.5–3 lb / 1.1–1.4 kg dressed), on hay, greens, and a little feed. Their manure is a gentle fertilizer that does not burn plants. For crops you eat, compost it first ([[compost-fertilizer]]).
 
 > WARNING: Rabbit meat is very lean. Eating mostly lean rabbit with no other fat or calories can cause **protein poisoning ("rabbit starvation")**, with weakness, diarrhea, and hunger. Eat rabbit with fat, starch, and vegetables. See [[fats-pemmican]].
 
@@ -141,11 +143,11 @@ Fryers are ready at **8–12 weeks (4–5 lb / 1.8–2.3 kg live)**. See [[butch
 - **Coccidiosis:** diarrhea in young rabbits; keep cages clean and dry.
 - **GI stasis:** rabbit stops eating and pooping; an emergency. Give hay, water, and gentle belly massage; seek help.
 - **Ear mites:** crusty ears, head shaking.
-- **Rabbit hemorrhagic disease (RHDV2):** very contagious and deadly, causes sudden death. Do not share equipment with other rabbit keepers or introduce rabbits of unknown origin.
+- **Rabbit hemorrhagic disease (RHDV2):** very contagious and deadly, causes sudden death. Do not share equipment with other rabbit keepers or introduce rabbits of unknown origin. Ask a veterinarian whether a vaccine is available where you live.
 - **Flies** (flystrike) in dirty fur in warm weather: keep cages clean.
 
 ## Other uses
-Pelts can be tanned ([[leather-hides]]). Manure is excellent fertilizer and safe to use fresh; red worms thrive under hutches.
+Pelts can be tanned ([[leather-hides]]). Manure is excellent fertilizer and will not burn plants, but compost it first for food crops; red worms thrive under hutches.
 `
   },
   {
@@ -272,7 +274,7 @@ Scrape out the stinger with a fingernail or card right away (do not squeeze). Wa
 - **Neck pull:** a quick, firm pull and stretch of the neck separating the skull from the spine is also used. Practice with someone experienced.
 
 ### Scalding and plucking
-1. Dip the bird in water at **145–150 °F (63–66 °C)** for 30–60 seconds (up to 2 minutes for older birds). Too hot tears skin.
+1. Dip the bird in water for 30–75 seconds. Use about **125–130 °F (52–54 °C)** for young birds and up to about **140 °F (60 °C)** for older birds. Never go above **147 °F (64 °C)**: too hot tears the skin. Move the bird around in the water.
 2. Wing and tail feathers should pull out easily. Pluck all feathers by hand; rub gently so the skin stays whole.
 3. Singe any hairs over a flame.
 
@@ -296,7 +298,7 @@ Scrape out the stinger with a fingernail or card right away (do not squeeze). Wa
 ## Larger animals (goat, sheep, pig, calf)
 This needs training, strong tools, and help. In outline:
 1. A stunning method that makes the animal immediately unconscious (properly placed gunshot or captive bolt), then bleed by cutting the large neck vessels.
-2. **Skin** (goat, sheep, calf) or **scald and scrape** (pig, about 140–145 °F / 60–63 °C).
+2. **Skin** (goat, sheep, calf) or **scald and scrape** (pig; use a thermometer and follow a tested extension guide for water temperature and time).
 3. Remove the **entrails** carefully without cutting the stomach, intestines, or bladder. Tie off the rectum first.
 4. Split the carcass along the spine if needed.
 5. **Chill** to 34–40 °F (1–4 °C) quickly. Meat hangs 2–7 days in cold weather (never above 40 °F / 4 °C) to age and tenderize.
@@ -329,11 +331,12 @@ Clean milk makes safe, good-tasting dairy.
 6. Wash all equipment in hot, soapy water, rinse, and scald with boiling water.
 
 ## Raw milk and pasteurizing
-Raw milk can carry dangerous germs (Listeria, Salmonella, E. coli, Campylobacter, Brucella, tuberculosis). **Children, pregnant women, the elderly, and anyone with a weak immune system should not drink it raw.** If you cannot be sure the animal is healthy, pasteurize.
+Raw milk can carry dangerous germs (Listeria, Salmonella, E. coli, Campylobacter, Brucella, tuberculosis). **Anyone can get sick from raw milk, and children, pregnant women, older adults, and anyone with a weak immune system are at the highest risk of serious illness. They should not drink it raw.** Clean milking lowers the risk but cannot make raw milk safe. Do not drink raw milk from a sick animal or from any herd with a bird flu (H5N1) outbreak. If you cannot be sure the animal is healthy, pasteurize.
 
 **Home pasteurizing (use a thermometer):**
 - **Low-temperature hold:** heat to **145 °F (63 °C)** and hold for **30 minutes**, stirring. Heat it in a pot set in a larger pot of water to avoid scorching.
 - **High-temperature:** heat to **161 °F (72 °C)** for **15 seconds**.
+- Cream and rich milk (10% fat or more): add 5 °F (3 °C) to these temperatures.
 - Then cool quickly in an ice-water bath.
 - Without a thermometer: bring milk just to a simmer (steaming, small bubbles at the edge), then cool. Not exact, but better than nothing.
 
@@ -354,10 +357,12 @@ Raw milk can carry dangerous germs (Listeria, Salmonella, E. coli, Campylobacter
 1. Heat 1 gallon (4 L) of milk to about 185–190 °F (85–88 °C), stirring.
 2. Add 1/4–1/2 cup (60–120 mL) of vinegar or lemon juice slowly until the milk splits into curds and clear whey.
 3. Pour through a cloth. Hang or press for 30 minutes to several hours. Salt.
-4. Eat within about a week, kept cool. **Ricotta:** reheat the whey to near boiling and skim off the fine curds.
+4. Keep it cold and eat within about a week. Do not leave it out of the cold for more than 2 hours. **Ricotta:** reheat the whey to near boiling and skim off the fine curds.
 
 ## Aged cheese (outline)
 Aged (rennet) cheeses keep for months without refrigeration but need tested recipes and care: warm the milk to about 86–90 °F (30–32 °C), add starter culture and rennet, let it set until it breaks cleanly, cut the curd, heat gently, drain, salt, press for 12–24 hours, then age at 50–55 °F (10–13 °C) and high humidity for weeks to months. Follow a tested recipe for your cheese type. A coat of wax protects aged cheese ([[eggs-dairy-honey-storage]]).
+
+> WARNING: US rules require cheese made from raw milk to be aged at least 60 days, but aging is no guarantee of safety. For anyone at higher risk, make cheese from pasteurized milk.
 
 ## Storing without refrigeration
 - **Ghee (clarified butter):** simmer butter gently until the milk solids settle and brown and the fat is clear and golden. Strain through cloth. Stays good for months at room temperature in a clean jar, kept dry.
@@ -389,7 +394,7 @@ Animals die of thirst faster than hunger. Approximate daily water:
 In freezing weather, break ice twice daily or use a heated or insulated bucket. Never let animals run dry.
 
 ## Feeding without feed stores
-- **Hay:** animals eat about 2–3% of body weight in dry matter daily. A 1,000 lb cow needs about 25 lb of hay; a 150 lb goat or sheep about 4–5 lb.
+- **Hay:** animals eat about 2–3% of body weight in dry matter daily, and more when nursing or in cold weather. A 1,000 lb cow needs about 25 lb of hay; a 150 lb goat or sheep about 4–5 lb.
 - **Winter feed math:** animals x daily hay x winter days (often 120–180) + 10–20% reserve.
 - Store hay dry, off the ground, and covered. **Damp hay can heat up and burst into flame**. Never feed moldy hay.
 - **Grain** (oats, barley, corn, wheat) stored in rodent-proof bins. Sunflower seeds and kitchen scraps help chickens.
@@ -411,7 +416,7 @@ Signs: off feed, standing apart, dull eyes, hunched posture, diarrhea, cough, na
 - **Wounds:** wash with clean water, keep covered or fly-repellent in summer.
 
 ## Quarantine and biosecurity
-Isolate new or sick animals for 2–4 weeks. Do not share tools between groups. Wash hands and boots. Many animal diseases (avian influenza, brucellosis, Q fever, leptospirosis, Salmonella) can infect people. See [[disease-prevention]].
+Isolate new or sick animals for 2–4 weeks. Do not share tools between groups. Wash hands and boots. Many animal diseases (avian influenza, brucellosis, Q fever, leptospirosis, Salmonella) can infect people. See [[disease-prevention]]. Ask a vet or extension agent now which vaccines your area needs (for example, a clostridial "CD&T" shot for sheep, goats, and cattle, and Marek's vaccine for chicks).
 
 ## Birthing
 - Provide a clean, dry, draft-free place and calm.
@@ -429,7 +434,7 @@ Predators include dogs, coyotes, foxes, raccoons, hawks, owls, and snakes. Use s
 Rhododendron, azalea, oleander, yew, wilted wild cherry leaves, nightshades, bracken fern, and moldy feed can kill livestock. Avocado is toxic to birds and rabbits. Walk your pasture and pull what you cannot identify ([[deadly-plants]]).
 
 ## Carcass disposal
-Bury at least 3 ft (1 m) deep and well away from wells and streams (100 ft / 30 m or more), or compost in a hot pile. Do not feed carcasses to other animals. Report suspected anthrax or avian influenza if there is anyone to report to.
+Bury at least 3 ft (1 m) deep and well away from wells and streams (100 ft / 30 m or more), or compost in a hot pile. Do not feed carcasses to other animals. Report suspected anthrax or avian influenza if there is anyone to report to (in the US, your state veterinarian or the USDA line, 1-866-536-7593).
 
 More: [[livestock-overview]], [[butchering-livestock]].
 `

@@ -30,7 +30,7 @@ These are rough home-garden figures. Your soil, climate, and skill change them a
 
 ## How much space?
 - An adult eating 2,000 calories a day needs about 730,000 calories a year.
-- At 15,000–25,000 calories per 100 sq ft, that is roughly **4,000–8,000 sq ft (370–740 m²) per person** for most of a year's food. Beginners should plan on the high end.
+- At 15,000–25,000 calories per 100 sq ft, that is roughly **3,000–5,000 sq ft (280–465 m²) per person** for most of a year's food. Beginners should plan on the high end or more.
 - Vegetables for fresh eating and some preserving: about 200–400 sq ft per person.
 - Add perennials (fruit, nuts, asparagus) and a few animals over time. See [[fruit-nuts-perennials]] and [[livestock-overview]].
 
@@ -79,7 +79,7 @@ Squeeze moist soil between thumb and finger and push out a ribbon. No ribbon: sa
 Squeeze a handful. If it forms a wet, sticky ball that does not crumble when poked, it is **too wet**. Working wet soil makes hard clods. Wait a few days.
 
 ## pH
-Most vegetables like pH **6.0–7.0**. Potatoes do better at 5.0–6.0 (less scab). Blueberries need 4.5–5.5.
+Most vegetables like pH **6.0–7.0**. Potatoes tolerate 5.0–6.5; the lower end means less scab. Blueberries need 4.5–5.5.
 - **Test kit or meter:** best. Strips and kits are cheap; stock several.
 - **Crude kitchen test:** soil that fizzes when vinegar is added is alkaline (above 7). Soil that fizzes when mixed with water and baking soda is acidic (below 7). No fizz either way: roughly neutral.
 - **Raise pH:** ground limestone, or a little wood ash (see [[compost-fertilizer]]).
@@ -114,12 +114,12 @@ Dark leaves and strong growth suggest enough N; pale yellow older leaves suggest
     tags: ['compost', 'manure', 'fertilizer', 'cover crop', 'green manure', 'wood ash', 'worms', 'rotation'],
     body: `
 ## Hot composting
-Compost is rotted plant and animal matter that feeds soil. A hot pile works fast and kills most weed seeds and germs.
+Compost is rotted plant and animal matter that feeds soil. A hot pile works fast and kills most germs and many weed seeds.
 
 1. Build a pile at least 3 × 3 × 3 ft (1 m³). Smaller piles do not get hot.
-2. Mix **browns** (carbon: dry leaves, straw, cardboard, sawdust) with **greens** (nitrogen: kitchen scraps, grass clippings, manure) at about **3 parts browns to 1 part greens by volume**.
+2. Mix **browns** (carbon: dry leaves, straw, cardboard, sawdust) with **greens** (nitrogen: kitchen scraps, grass clippings, manure) at about **3 parts browns to 1 part greens by volume** (roughly 25–30 parts carbon to 1 part nitrogen).
 3. Keep it as damp as a wrung-out sponge.
-4. The middle should reach **130–160 °F (55–70 °C)**. Turn the pile when it cools or every 1–2 weeks to add air.
+4. The middle should reach **131–160 °F (55–70 °C)**. To kill most germs, keep the whole pile at **131 °F (55 °C) or hotter for at least 3 days**. Turn it every 1–2 weeks, or when it cools, to add air and move the cooler outer material into the hot middle.
 5. Finished compost is dark, crumbly, and smells like forest soil. Hot piles finish in 1–3 months; lazy piles take 6–12 months.
 
 **Do not compost:** meat, bones, dairy, oils, diseased plants, weeds gone to seed (unless the pile is truly hot), or dog, cat, or human waste. Never put those on food crops.
@@ -128,12 +128,12 @@ Compost is rotted plant and animal matter that feeds soil. A hot pile works fast
 Manure from plant-eaters (cow, horse, goat, sheep, rabbit, chicken) is excellent fertilizer.
 - **Age it** at least 6 months, or compost it. Fresh manure burns plants and can carry germs.
 - **Chicken manure** is "hot" (very high nitrogen): compost it at least 6 months.
-- **Rabbit manure** is gentler and can go straight on beds.
-- **Safety waiting periods (USDA organic rule of thumb):** apply raw manure at least **90 days before harvest** for crops that do not touch the soil and **120 days** for crops that do (lettuce, carrots, strawberries).
+- **Rabbit manure** is gentler and will not burn plants, but still follow the waiting periods below on food crops.
+- **Safety waiting periods (USDA organic rule):** work raw manure into the soil at least **90 days before harvest** for crops whose edible part does not touch the soil and **120 days** for crops that do (lettuce, carrots, strawberries).
 - Do not use dog, cat, or human waste on food. See [[human-waste]].
 
 ## Wood ash
-Wood ash adds potassium and raises soil pH. Use sparingly: no more than about 2 lb (about 2 quarts) per 100 sq ft per year, and none if your soil pH is already above 7. Keep it away from potatoes and acid-loving plants (blueberries).
+Wood ash adds potassium and raises soil pH. Use sparingly: no more than about 2 lb (about 2 quarts) per 100 sq ft per year, and none if your soil pH is already 6.5 or higher. Keep it away from potatoes and acid-loving plants (blueberries).
 
 ## Other natural fertilizers
 - **Bone meal:** phosphorus. **Blood meal:** fast nitrogen.
@@ -195,20 +195,19 @@ Seedlings raised indoors are tender. Before planting out:
 ## Test old seed first (germination test)
 1. Place 10 seeds on a damp paper towel, fold it, and slip it into a plastic bag.
 2. Keep it warm and check daily for 7–14 days.
-3. Count sprouts. 8 of 10 is 80% (good). 5 of 10: sow twice as thickly.
+3. Count sprouts. 8 of 10 is 80% (good). 6 or fewer of 10: sow much more thickly, or replace the seed.
 
 ## How long does seed last?
 Stored cool and dry, approximate years:
 
 | Crop | Years |
 |---|---|
-| Onion, leek, parsnip | 1–2 |
-| Corn | 2 |
-| Pepper | 2–3 |
+| Onion, parsnip | 1 |
+| Leek, corn, pepper | 2 |
 | Carrot, beans, peas | 3 |
-| Beet, chard, tomato | 4 |
-| Lettuce, cabbage family | 4–5 |
-| Squash, cucumber, radish, melon | 5 |
+| Beet, chard, tomato, squash | 4 |
+| Cabbage family | 3–5 |
+| Cucumber, radish, melon, lettuce | 5 |
 
 Heat, damp, and light shorten seed life. See [[seed-saving]].
 `
@@ -231,13 +230,13 @@ In a long crisis, seed is life. Buy a variety of **open-pollinated or heirloom s
 ## Easiest seeds to save (they self-pollinate)
 - **Beans and peas:** let pods dry brown on the plant, shell them, finish drying indoors until seeds are hard.
 - **Lettuce:** let it bolt, shake the fluffy heads into a bag when dry.
-- **Tomatoes:** see wet seeds below. Keep varieties about 10–25 ft (3–8 m) apart.
-- **Peppers:** scrape seed from fully ripe fruit and dry. Keep varieties 50 ft (15 m) apart.
+- **Tomatoes:** see wet seeds below. Keep varieties about 10–50 ft (3–15 m) apart.
+- **Peppers:** scrape seed from fully ripe fruit and dry. Peppers cross more than people expect, and extension guides list several hundred feet. At home, grow one variety, or cover the flowers with a mesh or paper bag.
 
 ## Crops that cross with their neighbors
 Insects and wind swap pollen between plants of the same species. Seed from crossed plants is unpredictable.
 - **Squash, pumpkin, zucchini:** may cross with others of the same species. Hand-pollinate: tape a female flower shut the evening before, in the morning rub a freshly picked male flower on it, tape it shut again, and mark it.
-- **Corn:** wind-pollinated; separate varieties by a quarter mile (0.4 km) or plant two weeks apart.
+- **Corn:** wind-pollinated; separate varieties by at least half a mile (0.8 km), or plant so they flower two weeks apart.
 - **Cabbage family (kale, broccoli, cabbage, turnip):** separate varieties by about half a mile, or grow one variety per year.
 
 ## Biennials
@@ -245,7 +244,7 @@ Carrots, beets, onions, cabbage, kale, and parsnips make seed in their **second 
 
 ## Wet seeds (tomato, cucumber)
 1. Scoop seeds and gel into a jar. Add a little water.
-2. Leave 2–3 days at room temperature, stirring daily. A white mold on top is fine; the gel breaks down.
+2. Leave 2–4 days at room temperature, stirring daily. A white mold on top is fine; the gel breaks down.
 3. Add water, stir, and pour off floating debris and bad seed. Good seed sinks.
 4. Rinse and spread on a plate (not paper towel, seeds stick) to dry for a week.
 
@@ -272,7 +271,8 @@ Related: [[garden-planning]], [[harvest-curing]].
 ## The two dates that run your garden
 - **Last spring frost:** the average date after which 32 °F (0 °C) is unlikely.
 - **First fall frost:** the average date of the first 32 °F night in fall.
-- A **light frost** is 29–32 °F; a **hard freeze** is 28 °F (-2 °C) or lower and kills most tender plants.
+- A **light freeze** is 29–32 °F and kills tender plants. A **hard freeze** is about 28 °F (-2 °C) or lower and damages most crops.
+- Frost can form on a clear, calm night even when the forecast low is 33–36 °F. Cover tender plants then.
 
 The time between them is your **growing season**. Everything in a planting guide is timed from these dates.
 
@@ -347,7 +347,7 @@ Potatoes give more calories per square foot than almost any other garden crop. T
 ### Harvest
 - **New potatoes:** dig a few tender ones 2–3 weeks after flowering.
 - **Storage potatoes:** wait until the vines die back, then leave them 2 more weeks so skins set. Dig on a dry day, gently, to avoid cuts.
-- **Cure** 10–14 days in a dark, humid place at 50–60 °F (10–15 °C). Do not wash.
+- **Cure** 10–14 days in a dark, humid place at 50–65 °F (10–18 °C). Do not wash.
 - **Store** dark at 38–40 °F (3–4 °C), in good conditions 4–8 months. Keep apart from apples. See [[root-cellar]].
 
 > WARNING: Potato skin or flesh that turns **green**, and sprouts, contain solanine, which makes people sick. Cut away green parts and sprouts; throw away potatoes that are very green or bitter. Never eat potato leaves, stems, or the green "fruits".
@@ -386,7 +386,7 @@ Dry beans give protein and calories and store for years ([[bulk-dry-storage]]).
 4. Harvest when pods are dry, papery, and rattle (90–120 days). Pull whole plants if rain threatens and hang them to finish drying.
 5. Shell, then dry seeds a few more days. Seeds should be hard.
 
-> WARNING: Dry beans must be soaked and boiled hard before eating. Red kidney beans in particular must boil at least 10 minutes to destroy a toxin. See [[safe-cooking-temps]].
+> WARNING: Raw or undercooked kidney beans can cause severe vomiting and diarrhea. Soak dry red and white kidney beans at least 5 hours, pour off the water, then boil them hard in fresh water for **at least 30 minutes**. Never cook them in a slow cooker or at low heat: it does not get hot enough to destroy the toxin. See [[safe-cooking-temps]].
 
 ## Corn for storage
 Sweet corn is for summer eating. For storage and flour, grow **flint, dent, or flour corn**.
@@ -481,7 +481,7 @@ Timing is relative to your **last spring frost (LSF)**; see [[frost-dates-calend
 | Swiss chard | 2–3 wk before LSF | 1/2 in / 6–12 in | 50–60 | Outer leaves; cut and come again | Days |
 | Radish | 4 wk before LSF onward | 1/2 in / 1–2 in | 25–30 | Round and firm | 1–2 weeks cool |
 | Onion | Sets or plants 4 wk before LSF | 1 in / 4 in | 90–120 | Tops fall over | Cured: 3–8 months |
-| Garlic | Fall, 4–6 wk before ground freezes | 2 in / 4–6 in | Next July | Lower leaves 1/3–1/2 brown | Cured: 6–10 months |
+| Garlic | Fall, 4–6 wk before ground freezes | 2 in / 4–6 in | Next July | Lower leaves 1/3–1/2 brown | Cured: softneck 6–8 months, hardneck 3–4 |
 | Leeks (T) | Transplant 4 wk before LSF | 6 in deep / 6 in | 100–120 | Thumb thick | Weeks in ground |
 
 ## Warm-season crops (after last frost)
@@ -590,11 +590,13 @@ Use straw, dry leaves, grass clippings (from lawns that were not sprayed), or wo
 | Colorado potato beetle | Handpick adults and larvae; crush orange egg clusters under leaves. |
 | Squash bugs | Handpick; trap under boards at night; crush bronze egg clusters. |
 | Squash vine borer | Wrap stem base with foil; cut out borers; plant late. |
-| Cabbage worms | Handpick; row cover; Bt (a bacterial spray safe for people) if you have it. |
+| Cabbage worms | Handpick; row cover; Bt (a bacterial spray with low risk to people; follow the label) if you have it. |
 | Aphids | Blast with a water spray; spray insecticidal soap. |
 | Slugs and snails | Handpick at dusk; set boards to trap; shallow dish of beer; keep mulch thin. |
 
 **Soap spray:** mix 1–2 teaspoons of plain liquid soap (no degreaser or bleach) in a quart (1 L) of water. Spray in the evening on aphids and mites, and rinse after a few hours. Test on one leaf first.
+
+> WARNING: Never mix household chemicals (bleach, ammonia, vinegar, drain cleaner) to make a garden spray. Follow the label on any store-bought pesticide. Wear gloves, keep it in its original container away from children, pets, and food, and wash vegetables before eating.
 
 > TIP: Attract beneficial insects (ladybugs, lacewings, wasps) with dill, fennel, alyssum, yarrow, and other small flowers planted among crops.
 
@@ -635,8 +637,8 @@ Tender crops (tomatoes, peppers, beans, squash, sweet potatoes, basil) die at 32
 | Crop | Harvest when | Cure | Store |
 |---|---|---|---|
 | Onions | Tops fall over and yellow | 2–3 weeks warm (about 75–80 °F), dry, airy, out of sun | Cool, dry, 32–40 °F, 3–8 months |
-| Garlic | Lower leaves 1/3–1/2 brown | 2–3 weeks hanging in shade, airy | Cool, dry, airy, 6–10 months |
-| Potatoes | 2 weeks after vines die | 10–14 days, 50–60 °F, dark and humid | 38–40 °F, dark, 4–8 months |
+| Garlic | Lower leaves 1/3–1/2 brown | 2–4 weeks hanging in shade, airy | Cool, dry, airy: softneck 6–8 months, hardneck 3–4 |
+| Potatoes | 2 weeks after vines die | 10–14 days, 50–65 °F, dark and humid | 38–40 °F, dark, 4–8 months |
 | Sweet potatoes | Before frost | 5–7 days, 80–85 °F, humid | 55–60 °F, 6–10 months |
 | Winter squash | Hard rind, dry stem, before frost | 10 days at 80–85 °F | 50–55 °F, dry, 3–6 months |
 | Carrots, beets | Roots full size | None | Damp sand, 32–40 °F; or in ground under mulch |
@@ -726,7 +728,7 @@ Protection from cold and wind can stretch your growing season by weeks in spring
 
 ## Cold frame
 A bottomless box with a clear lid, set on the ground facing south.
-1. Make a box about 3 × 6 ft (1 × 2 m), 12 in (30 cm) high at the back and 8 in (20 cm) at the front, so the lid slopes to the sun.
+1. Make a box about 3 × 6 ft (1 × 2 m), about 18 in (45 cm) high at the back and 12 in (30 cm) at the front, so the lid slopes to the sun.
 2. Use an old window, clear polycarbonate, or heavy plastic for the lid.
 3. Set it on well-drained soil and bank soil or straw around the outside for insulation.
 
@@ -755,7 +757,7 @@ Sprouts take 3–5 days and give fresh vitamins (including vitamin C, see [[nutr
 2. Drain through a cloth or mesh lid. Rinse and drain 2–3 times a day, keeping the jar tilted so water drains.
 3. After 3–5 days, rinse well and eat or store in the fridge/cool place.
 
-> WARNING: Warm, damp sprouts can grow bacteria (Salmonella, E. coli). Use seed meant for sprouting, wash hands, and cook sprouts for young children, pregnant women, the elderly, and anyone with a weak immune system. Never sprout or eat raw kidney beans, and never eat sprouts of potatoes or tomatoes.
+> WARNING: Warm, damp sprouts can grow bacteria (Salmonella, E. coli). Use seed meant for sprouting, wash hands, and cook sprouts thoroughly for young children, pregnant women, the elderly, and anyone with a weak immune system. Never sprout or eat raw kidney beans, and never eat sprouts of potatoes or tomatoes.
 
 ## Microgreens
 Sow dense seed (sunflower, pea, radish) on 1–2 in (2.5–5 cm) of soil in a tray in a very sunny window. Cut at 7–14 days. Good for fresh greens indoors in winter.
@@ -797,14 +799,14 @@ Herbs make bland stored food taste good, and many have traditional uses for teas
 1. Cut stems in the morning after dew has dried.
 2. Tie small bundles and hang upside down in a shaded, airy, dry place for 1–2 weeks until they crumble.
 3. Strip the leaves, store whole in tightly sealed jars away from light. Good for about a year.
-- Basil and cilantro keep better chopped and frozen in oil than dried.
+- Basil and cilantro keep better chopped and frozen than dried. If you freeze them in oil, keep them frozen until you use them. Herbs or garlic in oil at room temperature can grow the bacteria that cause botulism, and the CDC says homemade herb or garlic oil in the fridge must be thrown away after 4 days.
 - Oven drying: lowest setting, door ajar, until crisp.
 
 ## Teas and home uses (basic and gentle)
 - **Mint:** tea for upset stomach.
 - **Chamomile:** relaxing tea before bed.
 - **Lemon balm:** mild calming tea.
-- **Thyme:** tea or honey syrup for coughs and sore throat (traditional use).
+- **Thyme:** tea or honey syrup for coughs and sore throat (traditional use). Never give honey to a child under 1 year old (infant botulism).
 - **Calendula:** infused in oil for dry skin and minor irritations (skin only).
 - **Garlic and onion:** food that supports health; also used as simple home remedies.
 

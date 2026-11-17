@@ -12,7 +12,7 @@
 2. Set aside at least **1 gallon (4 L) per person per day**. Roughly half is for drinking and cooking, half for minimal washing and hygiene.
 3. Drink when you are thirsty. **Do not ration water; ration effort.** Rest in the heat and do hard work in the cool of morning or evening.
 
-> IMPORTANT: Without water most people last about 3 days, less in heat or when working hard. Water comes before food.
+> IMPORTANT: Most people survive only a few days without water (often about 3), and less in heat or when working hard. Water comes before food.
 
 ## How much is enough
 | Person or situation | Drinking water per day |
@@ -20,12 +20,12 @@
 | Adult, resting, cool weather | about 2-3 quarts (2-3 L) |
 | Adult, warm weather or active | 4-6 quarts (4-6 L) |
 | Heavy labor in heat | 1.5 gallons (6 L) or more |
-| Child | at least 1/2 gallon (2 L); they dehydrate faster than adults |
+| Child | about 1-2 quarts (1-2 L) depending on age, more in heat; children dehydrate faster than adults |
 | Pregnant or nursing | add about 1 quart (1 L) to the adult figure |
 | Fever, vomiting, diarrhea | much more; see [[dehydration-ors]] |
-| Dog or cat | about 1 ounce per pound of body weight (a 50 lb dog needs about 1.5 quarts) |
+| Dog or cat | about 1/2 to 1 ounce per pound of body weight (a 50 lb dog needs about 1 to 1.5 quarts); more in heat or when nursing |
 
-The body can absorb roughly 1 quart (1 L) per hour at most. Sip steadily rather than gulping.
+Sip steadily rather than gulping a large amount at once.
 
 ## Plan the storage
 - **3 days**: 3 gallons (12 L) per person. This is the bare minimum kit.
@@ -68,7 +68,7 @@ See [[finding-water]], [[water-safety]] for judging sources, and [[boiling-water
 
 ## Hidden water in your home
 - **Water heater tank** (30-80 gallons): turn off the power or gas first, let it cool, then drain from the bottom valve into clean containers. Details in [[water-storage]].
-- **Toilet tank** (not the bowl): clean water if you have not used tank cleaning tablets.
+- **Toilet tank** (not the bowl): only if the water is clear and has no cleaning tablets or color-changing treatment in it (CDC). Treat it before drinking.
 - **Plumbing**: shut the main valve, open the highest faucet to let air in, then collect from the lowest faucet.
 - **Ice** in the freezer and ice-maker bin.
 - **Liquid from canned vegetables and fruit.**
@@ -155,7 +155,7 @@ Floodwater carries sewage, fuel and chemicals. Do not drink it unless there is n
 ## Make cloudy water easier to treat
 1. Let it sit so sand and silt settle, then pour off the top.
 2. Pour it through a clean cloth or coffee filter.
-3. Then disinfect. Cloudy water reduces how well chemicals work, so double the dose if you must use it cloudy. See [[chemical-disinfection]].
+3. Then disinfect. Cloudy water reduces how well chemicals work, so double the dose if it is still cloudy, colored or very cold. See [[chemical-disinfection]].
 
 ## Seawater and urine
 Never drink either. See [[distillation]].
@@ -177,7 +177,7 @@ If you are becoming seriously dehydrated and have **no** way to boil or treat, c
 ## Do this first
 1. If the water is cloudy, strain it through a clean cloth or coffee filter.
 2. Heat it until large bubbles are continuously breaking the surface: a **rolling boil**.
-3. Keep boiling for **1 minute**. Above **6,500 feet (2,000 m)** boil for **3 minutes**.
+3. Keep boiling for **1 minute**. Above **5,000 feet (1,500 m)** boil for **3 minutes**. (The CDC uses 6,500 feet; the EPA's lower 5,000 feet is the safer rule, so this app uses it.)
 4. Let it cool with the lid on. Store it in a clean, covered container.
 
 Boiling kills bacteria, viruses and protozoa, including Cryptosporidium. Disease germs die at lower temperatures than boiling, so the minute is a safety margin.
@@ -185,7 +185,7 @@ Boiling kills bacteria, viruses and protozoa, including Cryptosporidium. Disease
 > WARNING: Boiling does **not** remove chemicals, fuel, pesticides, heavy metals or salt. If water smells of fuel or chemicals or comes from near industrial sites, do not drink it.
 
 ## Saving fuel
-- Use a pot with a **lid**. A lid can cut fuel use by roughly a third.
+- Use a pot with a **lid**. It saves fuel and brings the water to a boil sooner.
 - Shield the flame from wind with a windbreak.
 - Use a wide, flat-bottomed pot; a rocket stove ([[rocket-stove-build]]) uses far less wood than an open fire.
 - Boil only what you need to drink and cook; use disinfected water for dishes only if necessary.
@@ -214,7 +214,7 @@ Use this when you cannot boil, as a backup method.
 - It may be less reliable against Cryptosporidium. Boil whenever you can.
 
 ## Other uses of heat
-Hot tap or stove water at a full boil for a minute is also the right way to prepare formula or sterilize bottles and instruments. See [[babies-kids]] for infant water safety.
+Water boiled for 1 minute (3 minutes above 5,000 feet) and then cooled is also the water to use for mixing infant formula. Never use untreated water or plain hot tap water during a water advisory. See [[babies-kids]] for infant feeding and water safety.
 `
   },
   {
@@ -227,21 +227,22 @@ Hot tap or stove water at a full boil for a minute is also the right way to prep
     body: `
 ## Do this first: bleach
 1. Use **plain, unscented household bleach** whose label lists sodium hypochlorite (5-6% or 8.25%) as the only active ingredient. No scents, dyes, thickeners, cleaners or "color-safe" types.
-2. If the water is cloudy, strain it through a cloth first. If it is still cloudy, **double the dose**.
+2. If the water is cloudy, strain it through a cloth first. If it is still cloudy, colored or very cold, **double the dose**.
 3. Add the drops below to clear water, then stir or shake.
-4. **Wait 30 minutes.** In very cold water wait up to an hour.
+4. **Wait at least 30 minutes.**
 5. The water should smell slightly of chlorine. If it does not, repeat the dose and wait another 15 minutes.
 
 | Water | 5-6% bleach | 8.25% bleach |
 |---|---|---|
 | 1 quart or 1 liter | 2 drops | 2 drops (rounded up) |
 | 1 gallon (4 L) | **8 drops** | **6 drops** |
-| 5 gallons (20 L) | 40 drops (about 1/2 teaspoon) | 30 drops (about 1/3 teaspoon) |
+| 5 gallons (20 L) | 40 drops (a little under 1/2 teaspoon) | 30 drops (about 1/3 teaspoon) |
 
 The Water Treatment Calculator in the Tools tab works out doses for any volume.
 
 ### Bleach tips
 - Use a clean dropper or spoon, not a dirty one.
+- Check the strength on the label. Bleach of any other strength needs a different dose; use the Water Treatment Calculator.
 - Bleach weakens with age and heat. If it is more than a year old or was stored hot, add a few extra drops and rely on the **chlorine smell test**.
 - If the chlorine taste is strong, let the water stand uncovered for a few hours or pour it between containers.
 - Never mix bleach with ammonia, vinegar or other cleaners. It makes toxic gas.
@@ -251,9 +252,9 @@ The Water Treatment Calculator in the Tools tab works out doses for any volume.
 ## Pool shock (calcium hypochlorite)
 Granular pool "shock" lasts for years when stored dry, so it is a good long-term water disinfectant, but the product must be right.
 
-> DANGER: Use only granular calcium hypochlorite labeled **65-78%** with **no additives**: no algaecide, clarifier, stabilizer or "trichlor/dichlor" (cyanuric acid). Wear gloves and goggles. Keep it dry and away from fuels, oils and other chemicals; it can start fires or give off toxic gas if mixed.
+> DANGER: Use only plain granular calcium hypochlorite (the EPA calls it high-test granular, or HTH) with **no additives**: no algaecide, clarifier, stabilizer or "trichlor/dichlor" (cyanuric acid). Read the label. Many pool-shock products are a high-test powder of about 65-70% available chlorine; if yours is much weaker or does not list calcium hypochlorite as the only active ingredient, do not use it for drinking water. Wear gloves and goggles. Keep it dry and away from fuels, oils and other chemicals; it can start fires or give off toxic gas if mixed.
 
-Method from the CDC:
+Method from the EPA (for high-test product):
 1. Make a stock solution: **1 heaping teaspoon (about 1/4 oz, 7 g)** of powder per **2 gallons (7.5 L)** of water. Stir until dissolved.
 2. To treat water, add **1 part stock solution to 100 parts water**. That is roughly **1 pint per 12.5 gallons**, or about 2 1/2 tablespoons per gallon.
 3. Wait 30 minutes and check for a faint chlorine smell.
@@ -266,7 +267,7 @@ Make a fresh stock solution regularly and keep it in a dark, closed container, o
 - **Avoid** in pregnancy, thyroid disease, iodine allergy, and for more than a few weeks of continuous use.
 
 ## Chlorine dioxide tablets
-- Follow the label. Typical waits are about 30 minutes for bacteria and viruses and **4 hours for Cryptosporidium**.
+- Follow the label. Typical label waits are about 30 minutes for bacteria and viruses and **about 4 hours for Cryptosporidium**. The CDC rates tablets as only "somewhat effective" against Cryptosporidium, so boil or filter first if it may be present.
 - A good compact backup to keep in a kit.
 
 ## Which method for which germ
@@ -275,7 +276,7 @@ Make a fresh stock solution regularly and keep it in a dark, closed container, o
 | Boiling | yes | yes | yes | yes |
 | Bleach | yes | yes | yes | poor |
 | Iodine | yes | yes | yes | poor |
-| Chlorine dioxide | yes | yes | yes | yes, after 4 hours |
+| Chlorine dioxide | yes | yes | yes | partly; needs a long wait (about 4 hours) |
 | Filter 0.1-0.2 micron | yes | no | yes | yes |
 
 For the best result combine a filter with chemical treatment, or just boil. See [[water-filters]] and [[boiling-water]].
@@ -296,8 +297,10 @@ A filter is a strainer with tiny holes. It stops anything bigger than its pores.
 | Folded cloth, coffee filter | sand, silt, debris, large organisms | germs, chemicals |
 | Ceramic (about 0.2-0.5 micron) | bacteria, protozoa | viruses, most chemicals |
 | Hollow-fiber (0.1-0.2 micron) | bacteria, protozoa (Giardia, Cryptosporidium) | viruses, chemicals |
-| Ultrafilter / "purifier" (about 0.02 micron or filter plus chemical stage) | bacteria, protozoa, and viruses | most chemicals |
+| Ultrafilter / "purifier" (about 0.02 micron or smaller, or filter plus chemical stage) | bacteria, protozoa, and viruses | most chemicals |
 | Activated carbon | chlorine taste, odors, some chemicals | germs |
+
+Check the label for the pore size. A filter rated only to 1 micron removes protozoa (Giardia, Cryptosporidium) but not all bacteria. One rated 0.3 micron or smaller removes bacteria and protozoa. Neither removes viruses (CDC).
 
 **A filter alone is not enough** if viruses are possible, such as downstream of towns, after floods, or anywhere sewage could be involved. Add chlorine or boil after filtering.
 
@@ -311,7 +314,7 @@ A filter is a strainer with tiny holes. It stops anything bigger than its pores.
 > WARNING: **Never let a hollow-fiber filter freeze.** Ice can crack the fibers invisibly and the filter will no longer work. In cold weather keep it inside your jacket or sleeping bag. If it may have frozen, replace it.
 
 ## Gravity filters
-Countertop gravity filters with ceramic or carbon elements work with no power, and can clean large quantities. Treat them as bacteria and protozoa filters unless the maker states virus removal. In an emergency add a few drops of bleach after filtering.
+Countertop gravity filters with ceramic or carbon elements work with no power, and can clean large quantities. Treat them as bacteria and protozoa filters unless the maker states virus removal. In an emergency add the bleach dose from [[chemical-disinfection]] after filtering.
 
 ## Do-it-yourself filters
 A sand-and-charcoal filter made from a bucket or bottle **only improves clarity and taste**. It is a **pre-filter**, not a purifier.
@@ -321,6 +324,9 @@ A sand-and-charcoal filter made from a bucket or bottle **only improves clarity 
 4. **Boil or disinfect the result.**
 
 Folding clean cloth into several layers and pouring water through it is a worthwhile pre-filter when nothing else is available, because it catches larger particles and organisms that carry germs.
+
+[[fig:sand-charcoal-filter]]
+
 
 ### Biosand filters
 A slow sand filter builds a living layer on the top of the sand that removes many germs, but it needs weeks to start working and must be kept wet. Even then, disinfect the output.
@@ -353,7 +359,7 @@ Avoid:
 ## Sanitizing a container
 1. Wash with soap and rinse well.
 2. Mix **1 teaspoon of plain unscented bleach per quart (1 L) of water** and swish it around so it touches every surface.
-3. Wait about 30 seconds, pour it out, and let the container air dry or rinse with clean water.
+3. Wait at least 30 seconds, pour it out, and let the container air dry or rinse with clean water.
 
 ## Filling and treating
 - **City tap water** that is already chlorinated can be stored as is.
@@ -410,7 +416,7 @@ Even one small shower can fill a barrel.
 ## Parts of a system
 1. **Catchment**: the roof. Metal and clay tile are best. Asphalt shingles are fine for non-drinking use. Avoid wood shakes treated with chemicals, roofs with lead flashing or paint, and any roof with asbestos.
 2. **Gutters** with leaf screens, sloped toward the downspout.
-3. **First-flush diverter**: discards the dirtiest first part of each rain (about 10 gallons per 1,000 sq ft of roof).
+3. **First-flush diverter**: discards the dirtiest first part of each rain (at least 10 gallons per 1,000 sq ft of roof; extension guidance runs from 10 up to 50 if the roof is dirty or it has been dry for days).
 4. **Storage**: opaque food-grade barrel or tank with a tight lid, an overflow pipe, and a tap about 4-6 inches above the bottom.
 5. **Screens** over every opening, fine enough to stop mosquitoes.
 
@@ -451,12 +457,12 @@ Roof water collects bird droppings, dust and chemicals.
 Most home wells use an electric pump. If the power fails, you can still reach the water.
 - **Bucket and rope**: lower a clean, dedicated bucket on a clean rope. Never use a bucket that has touched the ground or been used for anything else.
 - **Bailer**: a length of pipe with a check valve at the bottom that you drop and lift.
-- **Hand pump**: shallow-well suction pumps work only to a depth of about 25 feet (8 m). For deeper wells you need a **deep-well hand pump** that has a piston down in the well. Some models can be installed beside an existing electric pump in drilled wells, so you can fit one **before** you need it.
+- **Hand pump**: shallow-well suction pumps work only to a depth of roughly 25 feet (8 m) at best, and less at high altitude (check the pump's rating). For deeper wells you need a **deep-well hand pump** that has a piston down in the well. Some models can be installed beside an existing electric pump in drilled wells, so you can fit one **before** you need it.
 
 > DANGER: Never climb down into a well or an old pit. Low oxygen and poisonous gas can kill in seconds, even without a smell.
 
 ## Protecting a well or spring from contamination
-- Keep wells **at least 100 feet (30 m)** from septic tanks, latrines, animal pens and manure piles, and place them uphill when you can. More distance is better.
+- Keep wells **at least 100 feet (30 m)** from septic tanks, latrines, animal pens and manure piles, and place them uphill when you can. More distance is better. (The CDC minimum is 50 feet from septic tanks, leach fields and livestock yards; extension services advise 100 feet from drain fields. Local codes may require more.)
 - Cap the well so nothing can fall in; raise the top of the casing 1-2 feet above ground and slope the ground away from it.
 - **A spring box** is a box of stone, concrete or pipe built around the spring's eye. Add a screened outlet pipe, a cover, and a ditch uphill to divert surface runoff. Fence out animals.
 - Keep latrines, livestock and compost downhill from wells and springs.
@@ -471,9 +477,9 @@ These are risky and slow, but they have been used for thousands of years.
 ## Disinfecting a well
 After flooding, or if the water changes taste, smell or color, treat the well as contaminated.
 1. Use another source for drinking in the meantime, and boil or disinfect water from the well. See [[boiling-water]].
-2. **Shock chlorination**: add chlorine bleach to the well so the whole casing and water is disinfected, wait 12-24 hours, then pump the water out until the chlorine smell is gone. The right amount depends on the diameter and depth of the well, so **follow your state or county health department or Extension service instructions**.
+2. **Shock chlorination**: turn off all power to the well pump first (shock hazard). Add plain unscented household bleach to the well so the whole casing and water is disinfected, leave it at least 12 hours, then pump the water out until the chlorine smell is gone. The right amount depends on the diameter and depth of the well, so **follow your state or county health department or Extension service instructions**, or hire a well contractor.
 3. Pump the chlorinated water away from septic systems, streams and plants.
-4. After treatment, have the water tested when it is possible.
+4. Keep boiling the water or use another source until a lab test shows it is safe. When it is possible, test at least 7-10 days after disinfecting (once all chlorine is flushed out) and again 2-4 weeks later.
 
 ## Cisterns
 Underground or tank cisterns store rain or hauled water. Keep them covered, screened and clean, and treat water before drinking. See [[rain-catchment]].

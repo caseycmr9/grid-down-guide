@@ -37,7 +37,7 @@ html = html.replace(/<!--DATA:START-->[\s\S]*?<!--DATA:END-->/, `<!--DATA:START-
 fs.writeFileSync(P('index.html'), html);
 
 // 3. asset list + version
-const assets = ['./', 'index.html', 'manifest.webmanifest', 'css/style.css', 'js/version.js', 'js/md.js', 'js/tools.js', 'js/app.js',
+const assets = ['./', 'index.html', 'manifest.webmanifest', 'css/style.css', 'js/version.js', 'js/md.js', 'js/qr.js', 'js/tools.js', 'js/crisis.js', 'js/personal.js', 'js/share.js', 'js/app.js',
   'data/categories.js', ...dataFiles.map((f) => 'data/' + f), 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png']
   .filter((a) => a === './' || a === 'js/version.js' || fs.existsSync(P(a))); // version.js is written just below
 const hash = crypto.createHash('sha1');

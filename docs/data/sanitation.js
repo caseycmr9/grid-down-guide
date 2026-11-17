@@ -35,11 +35,13 @@ Urine can be kept separate in its own container. It smells less and keeps the bu
 4. Fill in and mark the trench when the waste is within 1 foot (30 cm) of the surface.
 5. Place a handwashing station nearby: [[handwashing-hygiene]].
 
+[[fig:latrine-site]]
+
 ## Cat hole (one-time, away from home)
 Dig a hole 6–8 inches (15–20 cm) deep, at least 200 feet (60 m) from water, trails, and campsites. Cover well. Bag and carry out toilet paper or burn it.
 
 ## Pit latrine (long term)
-Dig a pit about 6 feet (2 m) deep. Cover it with a solid platform and a lid, and add a vent pipe with a screen to control flies and smell. Fill and move it when waste reaches 2 feet (60 cm) from the top.
+Dig a pit about 6 feet (2 m) deep, but only where the bottom will stay at least 5 feet (1.5 m) above groundwater. If the ground is wet or the water table is high, use a bucket toilet or a shallow trench instead. Cover it with a solid platform and a lid, and add a vent pipe with a screen to control flies and smell. Fill and move it when waste reaches 2 feet (60 cm) from the top.
 
 ## Keep flies and smells down
 Keep lids closed, cover each deposit, keep the area clean, and keep a handwashing station nearby.
@@ -88,8 +90,10 @@ A hands-free washing station that uses little water:
 3. Hang soap on a string beside it.
 Or simply have a helper pour water from a cup.
 
+[[fig:tippy-tap]]
+
 ## No soap?
-Wood ash or clean sand, rubbed over wet hands and rinsed well, helps lift germs off. It is not as good as soap, but much better than water alone.
+Wood ash or clean sand, rubbed over wet hands and rinsed well, helps lift germs off. It is not as good as soap, but better than water alone.
 
 ## Hand sanitizer
 Use an alcohol gel with at least 60% alcohol. Rub over all surfaces for 20 seconds until dry. It does not work well on visibly dirty or greasy hands and is less effective against norovirus. If you make your own, the final mix must still be at least 60% alcohol (for example, 2 parts 99% alcohol to 1 part aloe gel). Keep away from flames and children.
@@ -136,7 +140,7 @@ Change the water when it gets dirty or cold. With no dish soap, scrub with ash o
 To save water, use fewer dishes (one plate and cup per person) and use washing water for non-food plants.
 
 ## Disinfecting surfaces
-Clean first with soap and water. Then disinfect with 1/3 cup (5 tablespoons, 80 mL) of bleach per gallon (4 L) of water. Leave surfaces wet for at least 1 minute, then air-dry. Mix a fresh batch daily because it weakens within a day. Do not use on metal, which corrodes.
+Clean first with soap and water. Then disinfect with 1/3 cup (5 tablespoons, 80 mL) of bleach per gallon (4 L) of water. Leave surfaces wet for at least 1 minute (5 minutes after vomit or diarrhea, since norovirus is hard to kill), then air-dry. Mix a fresh batch daily because it weakens within a day. Do not use on metal, which corrodes.
 
 After a flood, use 1 cup per gallon of water for mold on hard surfaces: [[flood]].
 
@@ -155,7 +159,7 @@ For lice, bedbugs, or illness, wash in the hottest water you can, at least 130 �
 Sponges spread germs. Use rags that can be boiled for 5 minutes or soaked in bleach solution and dried in the sun.
 
 ## Wash water disposal
-Pour wastewater at least 100 feet (30 m) from wells and streams.
+Pour wastewater at least 200 feet (60 m) from streams, lakes, and springs, and at least 100 feet (30 m) from wells.
 `
   },
   {
@@ -171,7 +175,7 @@ Garbage draws rats, flies, and other pests that carry disease. It can also conta
 ## Sort it
 1. **Reuse:** jars, cans, bottles, buckets, bags, cloth, and cardboard have many uses.
 2. **Compost:** vegetable and fruit scraps, eggshells, coffee grounds, and leaves: [[compost-fertilizer]].
-3. **Feed animals:** cooked scraps can go to chickens or pigs: [[chickens]]. Do not feed raw meat or spoiled food.
+3. **Feed animals:** plant scraps can go to chickens or pigs: [[chickens]]. Do not feed raw meat or spoiled food. Feeding meat scraps to pigs is banned or tightly regulated in many places because it spreads animal disease.
 4. **Burn:** only clean paper, cardboard, and untreated wood, in a fire pit away from buildings and dry brush.
 5. **Bury:** everything else that cannot be reused.
 
@@ -192,9 +196,9 @@ Bury at least 3 feet (1 m) deep, or burn. Do not add to compost piles because th
 Wear gloves. Bury dead animals at least 3 feet (1 m) deep and well away from water, or burn. For game and butchering waste, see [[field-dressing-big-game]].
 
 ## Sharps and medical waste
-- Put needles, lancets, and razor blades in a puncture-resistant container (a metal can or thick plastic bottle with a lid). Label it.
+- Put needles, lancets, and razor blades in a heavy-duty, puncture-resistant plastic container with a tight lid (a laundry-detergent bottle works). Do not use a milk jug, soda can, glass jar, or water bottle. Label it.
 - When the container is three-quarters full, seal it and bury it.
-- Place bloody bandages and dressings in a bag, double-bag, and bury or burn. Wash your hands. For diapers and human waste, see [[human-waste]].
+- Place bloody bandages and dressings in a bag, double-bag, and bury. Do not burn them in the open. Wash your hands. For diapers and human waste, see [[human-waste]].
 
 ## Hazardous items
 Keep paint, solvents, pesticides, motor oil, and batteries in closed containers, away from kids and water. Never pour them onto the ground or into water.
@@ -216,7 +220,7 @@ Buy bulk and repack. Reuse containers. Avoid disposable items you can wash.
 - Use snap traps baited with peanut butter, placed along walls. Poison can harm pets and children.
 - Keep trash and compost covered and away from the house ([[trash-garbage]]).
 
-> DANGER: Hantavirus is carried in dry rodent droppings and urine. Do not sweep or vacuum. Open windows for 30 minutes, wear gloves and a mask, spray droppings with a mixture of 1 part bleach to 9 parts water (about 1½ cups per gallon), wait 5 minutes, wipe up with paper towels, and bag the waste. Wash your hands. Seek care for fever and trouble breathing.
+> DANGER: Hantavirus is carried in dry rodent droppings and urine. Do not sweep or vacuum. Open doors and windows and leave the room for 30 minutes first. Wear rubber or plastic gloves. Spray droppings until very wet with a fresh mixture of 1 part bleach to 9 parts water (1½ cups per gallon), wait 5 minutes, wipe up with paper towels, and double-bag the waste. For a heavy infestation, use a half-mask respirator with HEPA filters; a cloth or surgical mask does not protect you. Wash your hands. Seek care for fever and trouble breathing.
 
 ## Flies
 Flies breed in waste, manure, and rotting food. Keep food covered, latrines closed, and trash lidded ([[human-waste]]). Fly traps: a jar with sugar water or overripe fruit and a funnel top. Fly screens help.
@@ -236,11 +240,11 @@ Flies breed in waste, manure, and rotting food. Keep food covered, latrines clos
 4. Lyme disease is rarely passed in the first day; risk rises after about 36–48 hours. Watch for a rash, fever, or aches for 30 days. In areas with Lyme disease, ask a clinician about preventive treatment within 72 hours.
 
 ## Lice
-- **Head lice:** itching and tiny eggs (nits) stuck to hair near the scalp. Use permethrin 1% lotion (repeat in 9–10 days) or comb wet, conditioned hair with a fine-toothed comb every 2–3 days for 2 weeks. Do not share combs, hats, or bedding.
+- **Head lice:** itching and tiny eggs (nits) stuck to hair near the scalp. Use permethrin 1% lotion (repeat in about 9 days, or as the label says) or comb wet, conditioned hair with a fine-toothed comb every 2–3 days for 2 weeks. Do not share combs, hats, or bedding.
 - **Body lice:** live in clothing seams; spread in crowded, unwashed conditions and can carry typhus. Wash clothes in hot water (at least 130 °F / 54 °C) and dry on high heat, or boil. See [[laundry-dishes]].
 
 ## Scabies
-Intense itching, worse at night, with small burrows between fingers and on wrists. Spreads through close skin contact. Treat with permethrin 5% cream from neck to toes and repeat in a week. Treat all household members at the same time. Wash bedding and clothes hot (at least 122 °F / 50 °C), or seal in a bag for 3 days.
+Intense itching, worse at night, with small burrows between fingers and on wrists. Spreads through close skin contact. Treatment is a prescription cream (usually permethrin 5%, applied from neck to toes and repeated in a week); over-the-counter products do not cure scabies. Ask a clinician if you can, and treat all household members at the same time. Wash bedding and clothes hot (at least 122 °F / 50 °C), or seal in a bag for 3 days.
 
 ## Bedbugs
 Bites in lines, blood spots on sheets, tiny dark spots. Dry clothing and bedding on high heat for 30 minutes, vacuum, and use mattress covers. Keep beds away from walls.
@@ -291,7 +295,7 @@ After a disaster or long outage, more people die from diarrhea, respiratory infe
 4. Give them their own dishes, cup, towel, and bucket toilet.
 5. Wash laundry in hot water and sun-dry. Disinfect surfaces: [[laundry-dishes]].
 6. Provide fluids, rest, and food. See [[home-nursing]] and [[common-illness-care]].
-7. Stay isolated until they have had no fever for 24 hours and no vomiting or diarrhea for 48 hours.
+7. Stay isolated until they are getting better overall and have had no fever for 24 hours without fever-reducing medicine, and (for vomiting or diarrhea) have had no symptoms for 48 hours.
 
 ## If several people get sick
 Suspect your water or food. Switch to boiled water, stop shared sources, separate the sick, and wash hands carefully. Track who is sick and when.
@@ -335,8 +339,8 @@ Write down the person's name, date and time of death, place, cause if known, who
 Keep the body in the coolest, shaded, ventilated place. In warm weather, decay starts within 24–48 hours. Wrap in a clean sheet or tarp and label the wrapping.
 
 ## Burial
-1. Choose a site at least 100 feet (30 m) from wells, springs, and streams, above the flood level and water table, and away from buildings.
-2. Dig 4–6 feet (1.2–1.8 m) deep if possible. The minimum is 3 feet (1 m) of soil over the body. Deeper graves keep animals away.
+1. Choose a site as far from water as you can. WHO and PAHO advise at least 650 feet (200 m) from streams, lakes, springs, and drinking-water wells (farther for many graves). Keep it above flood level and away from buildings. Follow local rules and the advice of local officials.
+2. Dig about 5 feet (1.5 m) deep if possible (WHO suggests 5–10 feet, 1.5–3 m). Keep the bottom of the grave at least 4 feet (1.2 m) above groundwater (5 feet, 1.5 m, in sandy soil). If you cannot dig that deep, keep at least 3 feet (1 m) of soil over the body. Deeper graves keep animals away.
 3. Wrap the body in cloth or a biodegradable shroud. Avoid plastic if you can.
 4. Cover with soil and mound it.
 5. Mark the grave with stones or a cross, and record its location with a sketch and landmarks.

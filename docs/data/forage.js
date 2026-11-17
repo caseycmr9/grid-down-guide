@@ -19,7 +19,7 @@ Wild food can supplement your diet, but it will not feed you. Greens are low in 
 2. **Learn the deadly plants first.** Know what can kill you before you learn what can feed you. See [[deadly-plants]].
 3. **Avoid the carrot family unless you are an expert.** It has umbrella-shaped flower clusters and lacy leaves, and it includes the two most deadly plants in North America (poison hemlock and water hemlock) that look like wild carrot and parsnip.
 4. **Avoid wild mushrooms.** See [[wild-mushrooms]].
-5. **Pick in clean places.** Avoid roadsides (within at least 100 ft / 30 m of busy roads), railroads, industrial sites, sprayed lawns and golf courses, farm runoff, landfills, septic fields, animal pens, and places where dogs are walked.
+5. **Pick in clean places.** Avoid roadsides (traffic lead and other residue can settle 100 ft / 30 m or more from busy roads, so go farther), railroads, industrial sites, sprayed lawns and golf courses, farm runoff, landfills, septic fields, animal pens, and places where dogs are walked.
 6. **Wash everything** in treated water ([[water-safety]]), and cook wild foods unless you know they are safe raw.
 7. **Know which part is edible.** The berries may be safe and the leaves deadly, or the other way around. Many plants are safe only after cooking or leaching.
 8. **Start small.** Eat one tablespoon of a new food and wait 24 hours. Even safe plants upset some stomachs, and some people are allergic.
@@ -55,7 +55,9 @@ Wild food can supplement your diet, but it will not feed you. Greens are low in 
     tags: ["universal edibility test", "starvation", "unknown plant", "test plant", "survival food", "last resort"],
     body: `
 ## Read this first
-> DANGER: This test is a last resort for when you are starving, have no other food, and know no safe plants. It is risky and it is **not** reliable. A single bite of some plants (water hemlock root, a chewed castor bean) can kill, and the test cannot protect you. Many poisons are delayed and show no sign for a day or more.
+> DANGER: This test is a last resort for when you are starving, have no other food, and know no safe plants. It is risky and it is **not** reliable. A small amount of some plants (water hemlock root, a few chewed castor beans) can kill, and the test cannot protect you. Many poisons are delayed and show no sign for a day or more.
+
+Many survival instructors call this test unreliable and say it should never be used to learn foraging. The current US Army survival manual (ATP 3-50.21) says to try unknown plants only as a last resort, and to avoid mushrooms and plants with umbrella-shaped flower clusters. Do not skip a step to save time.
 
 A healthy person can live for weeks without food. If you can find water, shelter, and rest, waiting is usually safer than eating an unknown plant.
 
@@ -68,6 +70,8 @@ A healthy person can live for weeks without food. If you can find water, shelter
 - Bulbs or roots with no onion or garlic smell
 - White, yellow, or very bitter berries or fruits
 - Beans and seeds in pods
+- Plants with spines, fine hairs, or thorns
+- Grass or grain heads with black or purplish spurs (ergot)
 - Plants with sharp, bitter, soapy, or burning taste
 
 These are rules of thumb. Some safe plants break them, and some unsafe plants follow them. Treat them as a way to skip risky candidates, not as proof of safety.
@@ -115,8 +119,8 @@ Everything here is a description in words. A printed field guide with photos is 
 ## The worst offenders (carrot family)
 These look like wild carrot, parsnip, parsley, or celery. They have umbrella-shaped clusters of small white flowers and lacy leaves.
 
-- **Poison hemlock** (*Conium maculatum*). Grows 3 to 8 ft (1 to 2.5 m), in ditches, roadsides, and damp fields. The stem is smooth, hairless, hollow, and marked with **purple or red blotches**. Crushed leaves smell musty, like mouse urine. Eating even a little causes trembling, drooling, paralysis, and death from respiratory failure within hours. A white taproot looks like a parsnip.
-- **Water hemlock** (*Cicuta*). The most violently toxic plant in North America. Grows in wet places: marshes, ditches, stream banks. Leaflets are narrow and sharply toothed, and the veins run to the **notches** between teeth, not the tips. The thick root is chambered when you cut it lengthwise and oozes yellow, oily sap. One bite of root can cause seizures within 15 to 60 minutes and death.
+- **Poison hemlock** (*Conium maculatum*). Grows 3 to 10 ft (1 to 3 m), in ditches, roadsides, and damp fields. The stem is smooth, hairless, hollow, and marked with **purple or red blotches**. Crushed leaves smell musty, like mouse urine. Eating even a little causes trembling, drooling, paralysis, and death from respiratory failure within hours. A white taproot looks like a parsnip.
+- **Water hemlock** (*Cicuta*). The most violently toxic plant in North America. Grows in wet places: marshes, ditches, stream banks. Leaflets are narrow and sharply toothed, and the veins run to the **notches** between teeth, not the tips. The thick root is chambered when you cut it lengthwise and oozes yellow, oily sap. A small amount of root can cause seizures within about 15 to 60 minutes, and death.
 - **Never** eat any root from a wet-ground plant that looks like a parsnip or carrot.
 
 ## Quick lookalike table
@@ -124,7 +128,7 @@ These look like wild carrot, parsnip, parsley, or celery. They have umbrella-sha
 |---|---|---|
 | Poison hemlock | Wild carrot (Queen Anne's lace), parsley, parsnip | Smooth hollow stem with purple blotches, mousy smell. Queen Anne's lace has a hairy stem. Do not rely on this: avoid all |
 | Water hemlock | Wild parsnip, celery, wild carrot | Grows in wet ground. Chambered, oily root. Veins end at the notches |
-| Death camas | Wild onion, wild garlic, edible camas | **No onion or garlic smell** when crushed. Grass-like leaves folded in a keel. Cream-white flowers |
+| Death camas | Wild onion, wild garlic, edible camas | **No onion or garlic smell** in any part when crushed. Smell each plant on its own, because onion smell on your hands can fool you. Grass-like leaves folded in a V. Greenish-white to cream flowers |
 | Lily of the valley | Ramps (wild leeks), wild garlic | No onion smell. Two broad leaves clasping the base. Small white bell flowers, red berries |
 | Autumn crocus | Ramps, wild garlic | Spring leaves look like garlic but have no onion smell. Flowers appear in autumn. Contains colchicine |
 | False hellebore (corn lily) | Ramps, skunk cabbage, wild leeks | Large pleated leaves spiral up a stout stem. No onion smell |
@@ -133,7 +137,7 @@ These look like wild carrot, parsnip, parsley, or celery. They have umbrella-sha
 | Monkshood | Wild horseradish roots, parsley | Hooded blue-purple flowers. Palm-shaped, deeply divided leaves. Touching can cause tingling |
 | Moonseed | Wild grapes | Each berry has **one flat crescent-shaped seed**. No tendrils. Grapes have several small round seeds and forked tendrils |
 | Virginia creeper berries | Grapes | Leaves have five leaflets. Berries are blue-black on red stalks. Toxic |
-| Buckeye or horse chestnut | Sweet chestnut | Nuts are large, shiny, with a pale scar. Husk is smooth or lightly bumpy. Palm-shaped leaves with 5 to 7 leaflets. Real chestnuts are in prickly burrs |
+| Buckeye or horse chestnut | Sweet chestnut | Nuts are large, shiny, with a pale scar. Husk is leathery and warty or lightly prickly. Palm-shaped leaves with 5 to 7 leaflets. Real chestnuts come in dense, sharp-spined burrs and have long, toothed leaves |
 | Pokeweed roots | Horseradish, parsnip, Jerusalem artichoke | Tall plant with red-purple stems and drooping dark berry clusters. Avoid it |
 | Wild cherry leaves and pits | Edible cherries | The fruit flesh is safe. Leaves (especially wilted), bark, and pits contain cyanide-forming compounds. Do not chew pits |
 | Water dropwort (Europe) | Celery, parsley | Grows in wet ground. Very toxic |
@@ -141,16 +145,16 @@ These look like wild carrot, parsnip, parsley, or celery. They have umbrella-sha
 ## Other deadly plants
 - **Foxglove** (*Digitalis*). Tall spike of purple-pink, tube-shaped, spotted flowers in the second year. All parts affect the heart. Symptoms: nausea, slow or irregular pulse, yellow-green halos in vision.
 - **Monkshood** (*Aconitum*). Hooded blue-purple flowers. All parts are deadly, and the sap can numb skin on contact. Wear gloves when touching.
-- **Baneberry** (*Actaea*). White berries with a black dot ("doll's eyes") on thick red stalks, or red berries. A few berries can cause cardiac arrest.
+- **Baneberry** (*Actaea*). White berries with a black dot ("doll's eyes") on thick red stalks, or red berries. The berries and roots are highly toxic and can kill. Symptoms include burning mouth and throat, stomach cramps, diarrhea, and dizziness.
 - **Deadly nightshade (belladonna)**, **bittersweet nightshade**, and **black nightshade**. Shiny black or red berries, often with a green star-shaped cap. Belladonna berries can kill a child. Avoid all wild nightshade berries.
 - **Jimsonweed** (*Datura*) and **angel's trumpet** (*Brugmansia*). Large white or purple trumpet flowers, spiny seed capsule, foul smell. All parts cause delirium, high fever, and can kill.
-- **Pokeweed** (*Phytolacca*). 4 to 8 ft tall, red-purple stems, drooping clusters of dark purple berries. Traditionally cooked young shoots are eaten, but raw, mature, or berries cause severe vomiting and diarrhea. **Avoid it.**
-- **Castor bean** (*Ricinus*). Large star-shaped leaves, spiny seed capsules, mottled bean-like seeds. One chewed seed can kill a child.
+- **Pokeweed** (*Phytolacca*). 4 to 10 ft tall, red-purple stems, drooping clusters of dark purple berries. All parts are poisonous. Cooked young shoots are a traditional food, but people have still been made sick by them, and raw plants, mature plants, and berries cause severe vomiting and diarrhea. **Avoid it.**
+- **Castor bean** (*Ricinus*). Large star-shaped leaves, spiny seed capsules, mottled bean-like seeds. A few chewed seeds can kill a child or an adult.
 - **Oleander**. Narrow leathery leaves in groups of three, pink or white flowers. Every part is deadly. **Never use branches as skewers or burn them for cooking.**
 - **Yew** (*Taxus*). Flat dark-green needles in two rows with a sharp tip, and red fleshy cups holding a seed. The seed, needles, and bark are deadly. Do not make tea from needles unless you are sure you have pine, spruce, or fir ([[trees-inner-bark]]).
 - **Rhododendron, azalea, mountain laurel.** Leathery evergreen leaves. Leaves, flowers, and honey made from them cause vomiting, slow pulse, and collapse. Do not use for skewers or tea.
 - **White snakeroot.** Clusters of fluffy white flowers in the eastern US. It poisons cattle and anyone who drinks their milk ("milk sickness").
-- **Rosary pea** (*Abrus*). Tropical vine with shiny red and black seeds. One chewed seed can kill.
+- **Rosary pea** (*Abrus*). Tropical vine with shiny red and black seeds. A chewed seed can kill.
 - **Mistletoe**, **holly**, and **English ivy berries**. Toxic.
 
 ## High-risk groups to avoid
@@ -189,7 +193,7 @@ These plants are common, have distinctive features, and are rarely mixed up with
 ## Plantain (*Plantago*)
 - **Look for:** a ground-hugging rosette of oval leaves with 3 to 5 strong **parallel veins** that pull out like strings when you tear a leaf. Spike of tiny flowers. (This is not the banana-like fruit.)
 - **Lookalikes:** false hellebore (deadly) has large *pleated* leaves in a spiral up a stalk, not a rosette. Lily of the valley leaves come in pairs.
-- **Use:** young leaves boiled or fried. Older leaves are tough: boil or chop finely. Seeds are edible. A crushed leaf rubbed on a bite or sting helps ([[herbal-remedies]]).
+- **Use:** young leaves boiled or fried. Older leaves are tough: boil or chop finely. Seeds are edible. A crushed leaf rubbed on a bite or sting is a folk remedy that may soothe it ([[herbal-remedies]]).
 
 ## Chickweed (*Stellaria media*)
 - **Look for:** low, sprawling plant with small oval leaves in pairs and tiny white flowers whose five petals are so deeply split they look like ten. A single line of tiny hairs runs along the stem. The stem has a stretchy core when you pull it apart.
@@ -267,7 +271,7 @@ Starchy roots are among the best wild calorie sources. They take work to dig and
 
 ## Cattail (*Typha*)
 - **Look for:** 3 to 9 ft (1 to 3 m) tall in wet ground. Flat, sword-shaped leaves that wrap around each other at the base. A brown, cigar-shaped seed head in summer.
-- **Deadly lookalike:** wild iris (blue flag), which has flat leaves arranged in a flat fan, no brown cigar head, and a toxic root. Peeled young cattail shoots smell and taste like cucumber. Iris does not.
+- **Toxic lookalike:** wild iris (blue flag), which has flat leaves arranged in a flat fan, no brown cigar head, and a toxic root that causes severe stomach upset. Peeled young cattail shoots smell and taste like cucumber. Iris does not.
 - **Eat:**
   - peeled inner core of young shoots (raw or cooked)
   - green flower spikes boiled like corn on the cob in late spring
@@ -288,11 +292,11 @@ Starchy roots are among the best wild calorie sources. They take work to dig and
 ## Burdock (*Arctium*)
 - **Look for:** large heart-shaped leaves with a woolly underside. In the second year, a tall stalk with round, hooked burrs.
 - **Eat:** the long taproot of first-year plants. Peel and boil or roast.
-- **Danger:** first-year plants can be mistaken for foxglove or rhubarb, both toxic. Learn burdock by its second-year burrs and then harvest nearby first-year plants.
+- **Danger:** first-year plants can be mistaken for foxglove or rhubarb leaves, both toxic. Learn burdock by its second-year burrs and then harvest nearby first-year plants.
 
 ## Wild onion and wild garlic (*Allium*)
 - **Look for:** grass-like or flat leaves growing from a bulb, and the **strong smell of onion or garlic** when the leaf or bulb is crushed.
-- **Deadly lookalikes:** death camas, lily of the valley, daffodil, autumn crocus. None smell of onion.
+- **Deadly lookalikes:** death camas, false hellebore, lily of the valley, daffodil, autumn crocus. None smell of onion.
 - **The smell test:** crush the leaves and the bulb of each plant separately. If it does not smell of onion, do not eat it. Wash your hands first, because the smell of one plant can linger and fool you.
 - **Eat:** raw or cooked. Pets cannot eat them safely.
 
@@ -362,7 +366,7 @@ Starchy roots are among the best wild calorie sources. They take work to dig and
 
 ### Elderberries (*Sambucus*)
 - **Look for:** shrub with opposite compound leaves (5 to 9 toothed leaflets), flat-topped clusters of tiny white flowers, then blue-black or purple berries.
-- **Must cook:** raw berries, leaves, stems, and roots can cause nausea and vomiting. Simmer 15 to 20 minutes, remove stems, and discard unripe green berries.
+- **Must cook:** raw berries can cause nausea and vomiting, and the leaves, stems, and roots are toxic. Pick off every stem and leaf, never eat them, discard unripe green berries, and simmer the ripe berries for at least 20 minutes.
 - **Avoid:** red elderberry and dwarf elder.
 - **Lookalike:** water hemlock has a similar flat white flower cluster but a herbaceous, hollow stem and is deadly. Elder is a woody shrub.
 
@@ -399,7 +403,7 @@ Starchy roots are among the best wild calorie sources. They take work to dig and
 - Holly, mistletoe, English ivy
 - Virginia creeper
 - Snowberry, privet, Jerusalem cherry
-- Daphne (mezereon): a few red berries can kill
+- Daphne (mezereon): all parts, including the red berries, are highly toxic and may be fatal
 - Any berry on a plant you have not identified
 
 ## Rules of thumb (and their limits)
@@ -426,7 +430,7 @@ Nuts and acorns are the best wild source of calories in a temperate forest. They
 > WARNING: Do not eat nuts that are moldy, rancid, or have holes from insects. Do not confuse buckeye or horse chestnut with real chestnuts ([[deadly-plants]]).
 
 ## Acorns
-All oaks make edible acorns, but they contain bitter **tannins** that upset the stomach and can harm kidneys in large amounts. They must be leached.
+All oaks make edible acorns, but they contain bitter **tannins** that upset the stomach and can make you sick if you eat a lot. They must be leached.
 
 - White oaks (rounded leaf lobes) have the least tannin.
 - Red and black oaks (pointed, bristle-tipped lobes) have more.
@@ -441,7 +445,7 @@ All oaks make edible acorns, but they contain bitter **tannins** that upset the 
 About 3.5 oz (100 g) of dried acorn meal gives roughly 400 calories.
 
 ## Black walnuts, butternuts, and hickory
-- **Black walnut:** the green husk stains skin and clothing. Wear gloves. Dry the husk for 2 to 3 weeks, then crack. Strong flavor.
+- **Black walnut:** the green husk stains skin and clothing. Wear gloves and remove the husk. Dry the nuts in their shells for 2 to 3 weeks, then crack. Strong flavor.
 - **Hickory (shagbark, pignut, pecan):** high-fat nutmeat. Bitternut is bitter but still edible. Boil crushed shells and skim the oil off the top.
 - **Hazelnut:** a shrub with a leafy husk around the nut. Squirrels beat you to them. Pick in August to September.
 - Nuts such as walnuts, hickory, and hazelnuts provide about 600 to 700 calories per 3.5 oz (100 g).
@@ -553,10 +557,10 @@ If you or someone else may have eaten an unknown mushroom, see "If someone eats 
 - Poisonous and edible species can grow side by side.
 
 ## The killers
-- **Death cap** (*Amanita phalloides*) and **destroying angel** (*Amanita bisporigera, ocreata*). Responsible for most mushroom deaths. White gills, a ring (skirt) on the stalk, and a **cup or sac at the base**, which is often buried. Dig up the whole mushroom. The death cap cap is olive-green to yellow-brown. Destroying angels are pure white.
-- **Galerina** (*Galerina marginata*). Small brown mushroom on rotting wood. Can be mistaken for edible honey mushrooms.
-- **False morels** (*Gyromitra*). Brain-like, wrinkled cap that is not attached to the stem all the way. Toxin can be fatal even after cooking.
-- **Little brown mushrooms.** Many are toxic, and some cause kidney failure days later.
+- **Death cap** (*Amanita phalloides*) and **destroying angel** (*Amanita bisporigera, ocreata*). Responsible for most mushroom deaths. White gills, a ring (skirt) on the stalk, and a **cup or sac at the base**, which is often buried. Dig up the whole mushroom. Death caps are usually olive-green, but yellow and pure white forms exist. Destroying angels are pure white and are mistaken for white field (meadow) mushrooms.
+- **Galerina** (*Galerina marginata*). Small brown mushroom on rotting wood. Can be mistaken for edible honey mushrooms. It holds the same deadly toxin as the death cap.
+- **False morels** (*Gyromitra*). Brain-like, wrinkled cap that is not attached to the stem all the way. The toxin can be fatal, and people have been poisoned by cooked false morels.
+- **Little brown mushrooms.** Many are toxic, and some cause kidney failure days to weeks later.
 - **Young Amanita "eggs."** They look like white puffballs.
 
 > DANGER: Never eat any white-gilled mushroom with a ring on the stalk or a sac at the base.
@@ -571,7 +575,7 @@ If you or someone else may have eaten an unknown mushroom, see "If someone eats 
 
 ## If you must, learn from an expert in person
 A few mushrooms are recognized by expert foragers as beginner-friendly, but you must learn them in person from an experienced local forager.
-- **True morels.** Pitted, honeycomb cap that is attached to the stem. Cut one lengthwise: it is hollow in one continuous chamber from tip to base. False morels are cottony inside.
+- **True morels.** Pitted, honeycomb cap. Cut one lengthwise: it is hollow in one continuous chamber from tip to base. False morels (*Gyromitra*) have a wrinkled, brain-like cap and a stem that is solid, chambered, or filled with cottony fibers. Some lookalikes are hard to tell apart, so never rely on this one test.
 - **Giant puffballs.** Large, smooth, white, round. Cut every one from top to bottom. It must be pure white and uniform like a marshmallow inside. If you see any shape of a mushroom, gills, or any color but white, discard it.
 - **Chicken of the woods.** Bright orange-yellow shelves on trees, with pores instead of gills. Some people get an upset stomach. Do not eat old specimens.
 
@@ -617,16 +621,16 @@ Mussels, clams, cockles, oysters, limpets, and periwinkles are found at low tide
 - Cook until the shells open. Throw away any that do not open.
 - **Red tide and harmful algae** can contaminate shellfish with toxins that cause tingling, numbness, paralysis, and breathing failure. Heed local closures. If there are none to check, avoid shellfish in discolored water or when fish and birds are dying. The "months with R" rule is not reliable.
 - Raw oysters can carry *Vibrio* bacteria. Cook them.
-- Avoid the yellow-green organs of crabs and lobsters during algal blooms.
+- Do not eat the guts, liver ("tomalley," the green paste in lobsters), or "butter" of crabs and lobsters. Shellfish toxins collect there, and cooking does not remove them. Eat the clean meat only.
 
 ### Tide pool food
-Crabs, sea snails, and limpets can be cooked and eaten. Cook crabs alive in boiling water.
+Crabs, sea snails, and limpets can be cooked and eaten. Cook crabs alive in boiling water. Sea snails (whelks) can carry the same red tide toxins as clams and mussels, so follow the same warnings above.
 
 ## Desert
 ### Prickly pear cactus (*Opuntia*)
 - **Look for:** flat paddles with spines and tiny hair-like spines (glochids). Red-purple pear-shaped fruit.
 - **Prepare:** wear thick gloves or use tongs. Burn off or scrape the spines and glochids. Slice and boil or grill the pads. Peel fruits and eat the pulp and seeds.
-- Cactus is not a good water source. The liquid is slimy and alkaline.
+- Cactus is not a dependable water source. The liquid is slimy and can cause stomach upset.
 
 ### Cholla buds
 Flower buds of cholla can be roasted or boiled after removing spines by rolling them in sand.
@@ -643,9 +647,9 @@ Wild desert gourds and cucumber-like fruits that taste very bitter can contain c
 ## Arctic and tundra
 - **Berries:** crowberry, cloudberry, bearberry, lingonberry, and blueberry are safe.
 - **Reindeer lichen:** boil and leach it in water with baking soda or wood ash if you have it. It is poor food. Wolf lichen (bright yellow-green) is poisonous.
-- **Labrador tea:** a small amount of leaf tea is traditional. Large amounts are toxic. Avoid during pregnancy.
+- **Labrador tea:** a small amount of leaf tea is traditional. Large amounts are toxic, so drink no more than one cup a day. Avoid during pregnancy.
 - **Willow leaves** and inner bark can be eaten in emergencies.
-- **Polar bear, bearded seal, and walrus liver** is toxic from vitamin A. Do not eat it ([[game-meat-safety]]).
+- **Polar bear and seal liver** (bearded seal especially) is toxic from vitamin A. Do not eat it, and avoid walrus liver too ([[game-meat-safety]]).
 
 ## Salt
 Seawater can be boiled down to make salt ([[making-staples]]).
@@ -662,9 +666,9 @@ See also [[fish-cleaning-cooking]] and [[foraging-safety-rules]].
     body: `
 ## Do this first
 If you touched a plant you think is poison ivy, oak, or sumac:
-1. Wash the skin right away with cool running water and soap. The sooner the better, ideally within minutes.
+1. Wash the skin right away with cool water and soap. The sooner the better: washing within 10 to 20 minutes may prevent a rash. Wash gently, because hard scrubbing can push the oil into the skin.
 2. Wash under fingernails.
-3. Wash clothes, boots, tools, and pets that touched the plant. The oil sticks for weeks to months.
+3. Wash clothes, boots, tools, and pets that touched the plant. The oil can stay active on unwashed objects for up to 5 years.
 4. Do not scratch. See "Treat the rash" below.
 
 > DANGER: Never burn poison ivy, oak, or sumac. The smoke carries the oil into your lungs and can cause severe, life-threatening breathing problems. Never use them as firewood, skewers, or toilet paper.
@@ -676,16 +680,16 @@ All three contain **urushiol**, an oil that causes an itchy, blistering rash in 
 - **Poison oak:** three leaflets with rounded lobes like oak leaves. Shrub or vine, mostly in the West and Southeast.
 - **Poison sumac:** swamps and wet areas in the east. Leaves have 7 to 13 smooth-edged leaflets. Drooping clusters of white-gray berries. See [[trees-inner-bark]] for harmless staghorn sumac.
 
-The rash usually shows 12 to 72 hours after contact, lasts 1 to 3 weeks, and is not contagious once the oil is washed off. Fluid from blisters does not spread it.
+The rash often starts 1 to 2 days after contact (sometimes up to a week), lasts 1 to 3 weeks, and is not contagious once the oil is washed off. Fluid from blisters does not spread it.
 
 ## Treat the rash
 - Cool compresses and cool baths.
 - Calamine lotion or 1% hydrocortisone cream.
-- An oral antihistamine may help sleep. It does not stop the itch on the skin.
+- An oral antihistamine may ease the itch and help you sleep. Do not put antihistamine cream on the rash, because it can make the rash worse.
 - Oatmeal baths.
 - Keep the area clean and covered. Do not pop blisters.
 
-> CALL: Get medical help right away if the rash is on the face, eyes, or genitals, covers a large part of the body, shows signs of infection (pus, fever), or if there is swelling of the face or throat, or trouble breathing.
+> CALL: Get medical help right away if the rash is on the face, eyes, mouth, or genitals, covers a large part of the body, shows signs of infection (pus, fever), or if the itching is so bad you cannot sleep, there is swelling of the face or throat, or you have trouble breathing or swallowing.
 
 ## Cutting or removing the plant
 Wear long sleeves, long pants, gloves, and eye protection. Do not cut vines on trees ("hairy ropes"). Bag the plant and throw it away. Never burn it.
@@ -695,7 +699,7 @@ Hairs release an acid that stings for minutes to hours. Wash with soap and water
 
 ## Giant hogweed, wild parsnip, and cow parsnip
 These carrot-family plants carry sap that makes skin extremely sensitive to sunlight. Contact followed by sun causes painful burns and blisters that scar.
-- **Giant hogweed:** up to 15 ft (4.5 m) tall, hollow stems with purple blotches and stiff white hairs, and huge umbrella flower clusters up to 2.5 ft (75 cm) wide.
+- **Giant hogweed:** 15 ft (4.5 m) or taller, hollow stems with purple blotches and stiff white hairs, and huge umbrella flower clusters up to 2.5 ft (75 cm) wide.
 - **Wild parsnip:** yellow flowers.
 - **If touched:** wash immediately with soap and cold water. Keep the area out of sunlight for at least 48 hours. Cover it. Get medical care for blisters. Sap in the eyes can cause blindness: rinse for 15 minutes and seek care.
 
@@ -740,7 +744,7 @@ Most wild greens give only 20 to 50 calories per 3.5 oz (100 g). A pound of dand
 Only the fiddleheads of **ostrich fern** are safe to eat, and only when cooked.
 - **Ostrich fern:** smooth stalk with a deep U-shaped groove on the inside, brown papery scales that rub off, and a clump of several coiled heads from one crown, often near rivers.
 - **Bracken fern:** woolly or fuzzy fiddleheads that come up singly. Bracken contains a suspected carcinogen and is not recommended as food.
-- **Cook:** boil for at least 15 minutes or steam for 10 to 12 minutes and discard the water. Raw or undercooked fiddleheads cause illness.
+- **Cook:** boil for at least 15 minutes or steam for 10 to 12 minutes and discard the water. Raw or undercooked fiddleheads cause illness. Boil or steam first, and only then fry or sauté them.
 
 ## Preparing wild foods
 1. Wash in treated water. See [[water-safety]].

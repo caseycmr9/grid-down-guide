@@ -31,7 +31,7 @@ Security is **deter, detect, delay, respond**. No single lock stops a determined
 - At night, close curtains so people cannot see inside.
 
 ## Outside
-- Trim shrubs below about 3 feet (1 m) and tree limbs above 7 feet (2 m) so there are no hiding places.
+- Trim shrubs below about 3 feet (1 m) and tree limbs above about 7 feet (2 m) so there are no hiding places.
 - Gravel paths make noise when walked on.
 - Lock sheds and keep ladders and tools inside, where they cannot be used to break in.
 - A **dog** is one of the best low-tech alarms.
@@ -182,15 +182,15 @@ Every firearm accident breaks at least one of these. Follow **all four, every ti
 - Never mix firearms with alcohol, drugs, or sedating medication.
 - Do not rely on a mechanical safety. It can fail.
 - Hand a firearm to someone only with the action **open and unloaded** so they can see that it is empty.
-- Unload when you are finished. Store ammunition separately from the firearm unless it is in a secure, quick-access device.
+- Unload when you are finished. Store ammunition locked and separate from the firearm.
 
 ## In a grid-down world
 There is no emergency room. An accidental shooting is far more deadly. Safe handling matters even more, not less.
 
 ## Storage and children
-- Store firearms **unloaded and locked**: gun safe, lockbox, or cable or trigger lock.
-- If you keep one ready for home defense, use a **quick-access lockbox** (keypad or biometric) that children cannot open.
+- The American Academy of Pediatrics says the safest home for a child has no guns. If you own firearms, store every one **unloaded and locked**: gun safe, lockbox, or cable or trigger lock.
 - Store ammunition locked, separate from the firearm.
+- A firearm kept loaded for quick use raises the risk of a child or teen shooting, or a suicide. If you decide to keep one that way, use a **quick-access lockbox** (keypad or biometric) that children cannot open, and keep keys and codes away from children and teens.
 - Talk with children early. Teach them: **Stop. Don't touch. Run away. Tell a grown-up.** Never assume a child has not found the key.
 - If anyone in your household is in crisis, depressed, or at risk of self-harm, **lock up or temporarily remove** firearms. See [[mental-health]]. In the US, 988 is the Suicide & Crisis Lifeline.
 
@@ -267,7 +267,7 @@ When someone is angry or threatening:
 
 ## Non-lethal tools
 - A bright **flashlight** can blind and disorient.
-- **Pepper spray:** check local law. Practice with a test can so you know how it works. It works within about 10 feet and can blow back in wind. Effects last about 30 to 45 minutes. Rinse skin and eyes with water ([[first-aid-basics]]).
+- **Pepper spray:** check local law. Practice with a test can so you know how it works. It works only at short range (follow the label) and can blow back in wind. Effects usually fade in about 30 to 45 minutes. Rinse skin and eyes with water ([[first-aid-basics]]).
 - A **whistle** or personal alarm draws attention.
 
 ## Physical self-defense
@@ -294,17 +294,17 @@ Avoid crowds, looting, and confrontations. See [[civil-unrest]] and [[community-
 ## If there is a fire: GET OUT
 1. **Get out. Stay out.** Do not stop for belongings.
 2. Crawl low under smoke. Smoke and heat rise.
-3. Before you open a door, feel it with the **back of your hand**. If it is hot, use another way out.
+3. Before you open a door, feel the door and knob with the **back of your hand**. If it is hot, or smoke is coming in around it, keep it closed and use another way out.
 4. **Close doors** behind you to slow the fire.
 5. Call 911 **from outside**.
 6. Go to your family meeting place. Count heads.
 7. If your clothes catch fire: **stop, drop, and roll.** Then cool the burn ([[burns]]).
 
-If you are trapped: close the door, put wet towels in the gap, go to a window, and signal for help.
+If you are trapped: close the door, stuff towels or bedding in the cracks around doors and vents, call 911 and say where you are, then go to a window and signal with a flashlight or a light-colored cloth.
 
 ## Alarms
-- **Smoke alarms** on every level, inside each bedroom, and outside sleeping areas. Test monthly. Replace batteries yearly (unless sealed 10-year units). Replace alarms every 10 years.
-- **Carbon monoxide (CO) alarms** on every level and near bedrooms ([[poisoning-overdose]]). Use battery-powered models in outages.
+- **Smoke alarms** on every level (including the basement), inside each bedroom, and outside sleeping areas. Test monthly. Replace batteries at least yearly (unless sealed 10-year units). Replace alarms every 10 years.
+- **Carbon monoxide (CO) alarms** on every level (including the basement), in or near every sleeping area ([[poisoning-overdose]]). Use battery-powered models in outages. Test monthly, and replace them at the end-of-life signal or by the maker's date (about every 5 years).
 
 ## Escape plan
 - Plan **two ways out** of every room.
@@ -313,14 +313,14 @@ If you are trapped: close the door, put wet towels in the gap, go to a window, a
 - Keep exits clear. Windows must open.
 
 ## Fire extinguishers
-Keep one in the kitchen, garage, and near exits. The multipurpose **ABC** dry chemical type (about 5 lb) is a good choice.
+Keep one on each level, within about 40 feet (12 m) of where fires could start (kitchen, garage), and not next to a fire hazard. Choose a safety-lab-listed multipurpose **ABC** dry chemical type rated at least 2-A:10-B:C (a 5 lb unit is typical).
 
 | Class | Fires |
 |---|---|
 | A | Wood, paper, cloth |
-| B | Flammable liquids, grease |
+| B | Flammable liquids such as gasoline, oil, and paint |
 | C | Electrical |
-| K | Kitchen oils (commercial kitchens) |
+| K | Cooking grease and oils (only Class K is rated for these) |
 
 Use **PASS**:
 1. **Pull** the pin.
@@ -328,12 +328,12 @@ Use **PASS**:
 3. **Squeeze** the handle.
 4. **Sweep** side to side.
 
-Stand 6 to 8 feet (2 m) away. Fight only a **small** fire that is not spreading, with everyone else out and an exit behind you. If in doubt, **leave**. Check the gauge monthly.
+Stand 6 to 8 feet (2 m) away. Fight only a **small** fire that is not spreading, with everyone else out, someone calling 911, and an exit behind you. If in doubt, **leave**. Check the gauge monthly. Replace an extinguisher after any use. Disposable units last at most 12 years.
 
 ## Special fires
 > DANGER: **Never use water on a grease or electrical fire.**
 
-- **Grease fire:** Turn off heat. Slide a lid over the pan. Leave it covered until cool. Do not carry the pan.
+- **Grease fire:** Turn off heat. Slide a lid over the pan. Leave it covered until cool. Do not carry or move the pan. If it keeps burning, get out and call 911.
 - **Oven or microwave fire:** Keep the door closed. Turn off or unplug.
 - **Electrical fire:** Unplug or shut off power if safe. Use a Class C or ABC extinguisher.
 - **Chimney fire:** A roar, shaking, or dense smoke. Get everyone out and call 911.

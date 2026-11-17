@@ -13,11 +13,14 @@ window.CATEGORIES = [
   { id: 'livestock',  icon: '🐔', title: 'Animals & Livestock',   blurb: 'Chickens, rabbits, goats, bees.' },
   { id: 'preserve',   icon: '🥫', title: 'Preserving Food',       blurb: 'Canning, drying, curing, storage.' },
   { id: 'cook',       icon: '🍳', title: 'Cooking & Nutrition',   blurb: 'Cook without power; eat well.' },
+  { id: 'recipes',    icon: '🍲', title: 'Pantry Recipes',        blurb: 'Real meals from stored food.' },
   { id: 'hunt',       icon: '🦌', title: 'Hunt, Fish & Trap',     blurb: 'Get, clean, and cook wild game.' },
   { id: 'forage',     icon: '🌿', title: 'Wild Plants',           blurb: 'What is safe, what can kill you.' },
   { id: 'build',      icon: '🔨', title: 'Building & Making',     blurb: 'Tools, wood, stoves, structures.' },
   { id: 'skills',     icon: '🧵', title: 'Skills & Crafts',       blurb: 'Knots, soap, repair, barter.' },
   { id: 'nav',        icon: '🧭', title: 'Navigation & Radio',    blurb: 'Lost, signaling, weather, comms.' },
   { id: 'security',   icon: '🛡️', title: 'Security & Safety',     blurb: 'Home, community, fire safety.' },
+  { id: 'family',     icon: '👪', title: 'Kids & Family',         blurb: 'Children, babies, neighbors, medical needs.' },
+  { id: 'learn',      icon: '📚', title: 'Learn & Resources',     blurb: 'Courses, books, ham radio study guide.' },
   { id: 'reference',  icon: '📖', title: 'Quick Reference',       blurb: 'Numbers, conversions, codes.' }
 ];

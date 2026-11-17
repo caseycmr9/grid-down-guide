@@ -14,9 +14,9 @@ Treat hunting as a bonus alongside gardening, trapping ([[snares-traps]]), and f
 ## Laws and safety
 In normal times you need a license, must follow seasons and bag limits, and must use legal methods. Most states require a hunter-education course. Take one now. In a long crisis, laws may go unenforced, but you still share the woods with neighbors, livestock, and other hunters.
 
-> DANGER: Never shoot at a sound, a color, or a movement. Positively identify the animal, and know what is beyond it. Most hunting shootings happen because someone was mistaken for game. See [[firearm-safety]].
+> DANGER: Never shoot at a sound, a color, or a movement. Positively identify the animal, and know what is beyond it. Many hunting shootings happen because someone was mistaken for game. See [[firearm-safety]].
 
-> WARNING: Falls from tree stands are a leading cause of serious hunting injuries. Wear a full-body harness and stay clipped in from the ground to the stand and back.
+> WARNING: Falls from tree stands cause many serious hunting injuries. Wear a full-body harness and stay clipped in from the ground to the stand and back.
 
 - Tell someone where you are going and when you will be back.
 - Wear blaze orange during hunting seasons, even if you hunt alone.
@@ -58,7 +58,7 @@ Only take a shot that you are sure will kill cleanly. That means within the rang
 
 ## Tracking a wounded animal
 1. Mark where the animal was standing and where you find the first blood.
-2. Wait at least 30 minutes after a heart or lung hit. After a gut hit (stomach contents, greenish smell, dark thin blood), wait 4 to 6 hours.
+2. Wait at least 30 minutes after a heart or lung hit from a gun (45 to 60 minutes after a bow shot). After a gut hit (stomach contents, greenish smell, dark thin blood), wait at least 6 hours. Some agencies say 6 to 8. Tracking too soon pushes a wounded animal far away.
 3. Follow the blood trail with two people if you can. Mark each drop with a strip of cloth.
 4. Bright red, frothy blood means a lung hit. Dark red means liver or muscle. Watery blood with stomach contents means a gut hit.
 5. Approach the animal from behind. Touch its eye with a stick. If it blinks, wait and make a second clean shot.
@@ -83,7 +83,7 @@ No weapon helps if you cannot hit what you aim at. Pick one or two tools, practi
 | 12-gauge shotgun | Birds, rabbits, waterfowl; deer with slugs where legal | Birdshot about 35 yd (30 m); slugs to about 100 yd (90 m) | Most versatile. Heavy recoil. Shells are bulky. A 20-gauge kicks less. |
 | Deer-class rifle (.308 Win, .30-06, .30-30, 6.5 mm and similar) | Deer-size game | 100-200 yd (90-180 m) for most shooters | Needs practice. Ammunition is heavy and costly. |
 | .223 Rem / 5.56 rifle | Coyotes, varmints, small deer where legal | To about 150 yd (135 m) | Marginal for large deer. Check local rules. |
-| Bow (recurve, longbow, compound) | Deer with broadheads; small game with blunt tips | 20-30 yd (18-27 m) | Quiet and reusable. Takes months to learn. Many states require 40 lb or more draw weight for deer. |
+| Bow (recurve, longbow, compound) | Deer with broadheads; small game with blunt tips | 20-30 yd (18-27 m) | Quiet and reusable. Takes months to learn. Many states set a minimum draw weight for deer (often 35 to 50 lb): check your state's rules. |
 | Crossbow | Same as a bow | 30-40 yd (27-36 m) | Easier to learn. Heavier and slower to reload. |
 | Air rifle (.22 caliber or larger, high power) | Squirrels, rabbits at close range | 15-30 yd (14-27 m) | Quiet. Needs precise head shots. Weak guns wound animals. |
 | Slingshot | Small birds, rabbits at very close range | Under 25 ft (8 m) | Needs a lot of practice. Low reliability. |
@@ -135,7 +135,7 @@ Small game is the most dependable wild meat. It is common, easy to process, and 
 | Ducks and geese | Ponds, rivers, marshes. | Use non-lead shot over water. Fat birds can be preserved. |
 | Frogs | Edges of ponds and slow water at night. | Eat the legs only. Never eat toads ([[alternative-protein]]). |
 | Raccoon, opossum, groundhog | Near water, woods, and fields. | Rich meat. Raccoons can carry roundworm and rabies. Cook very thoroughly. |
-| Beaver, muskrat | Ponds, streams. | Edible when handled cleanly. Trim glands. |
+| Beaver, muskrat | Ponds, streams. | Edible when handled cleanly. Trim glands. Wear gloves: tularemia risk. |
 | Porcupine | Woods. Slow and easy to catch. | Edible. Do not eat if sick. Watch for quills. |
 
 ## Methods
@@ -246,7 +246,7 @@ Cool the meat fast. Meat spoils quickly when the body is warm. Field dress the a
 - Clean water, if you have it
 
 ## Check for disease first
-Look at the animal. Do not eat it if it is very thin, has pus, lumps, cysts, or a strong foul smell. In areas with chronic wasting disease (CWD) in deer, elk, or moose, do not eat an animal that looked sick, and avoid cutting through the spine or brain. See [[game-meat-safety]].
+Look at the animal. Do not eat it if it is very thin, has pus, lumps, cysts, or a strong foul smell. In areas with chronic wasting disease (CWD) in deer, elk, or moose, do not eat an animal that looked sick, avoid handling the brain and spine, and have the animal tested if you can. Do not eat meat from an animal that tests positive. See [[game-meat-safety]].
 
 ## Field dressing a deer
 1. Roll the deer on its back with the head uphill. Prop it with rocks or logs.
@@ -278,7 +278,7 @@ Look at the animal. Do not eat it if it is very thin, has pus, lumps, cysts, or 
 A 150 lb (68 kg) deer yields roughly 50 lb (23 kg) of boneless meat.
 
 ## Aging
-If you can keep the meat at 34 to 40 °F (1 to 4 °C), hanging for 3 to 7 days improves tenderness. If you cannot hold that temperature, do not age. Cut, cook, or preserve the meat right away ([[smoking-curing-salting]], [[drying-dehydrating]]).
+If you can keep the meat at 34 to 38 °F (1 to 3 °C) and never above 40 °F (4 °C), hanging for 2 to 7 days improves tenderness. If you cannot hold that temperature, do not age. Cut, cook, or preserve the meat right away ([[smoking-curing-salting]], [[drying-dehydrating]]).
 
 ## Moving a deer
 Drag it head first (the hair lies smooth) with a rope around the neck or antlers, or use a sled or poles. Take breaks. Work as a team if you can.
@@ -289,7 +289,7 @@ Drag it head first (the hair lies smooth) with a rope around the neck or antlers
 
 ## Other large game
 - **Elk and moose:** same steps, but they are far heavier. Quarter the animal in the field and carry the pieces out.
-- **Bear and wild hog:** cook to at least 160 °F (71 °C). Both carry trichinella ([[game-meat-safety]]).
+- **Bear and wild hog:** cook to at least 165 °F (74 °C) (CDC, 2024). Both can carry trichinella, and freezing does not reliably make bear meat safe ([[game-meat-safety]]).
 - **Feral hogs:** wear eye protection and gloves. They can carry brucellosis.
 `
   },
@@ -328,7 +328,7 @@ Ticks and fleas leave a dead animal and look for a new host. Check yourself and 
 ## Birds: three ways
 ### 1. Pluck (best for the whole bird)
 - Dry pluck while the bird is still warm. Pull feathers away from the direction they grow, breast first.
-- For a faster job, dip the bird in water at 140 to 150 °F (60 to 65 °C) for 30 to 60 seconds, then pluck. Do not scald longer or the skin tears.
+- For a faster job, dip the bird in hot water for 30 to 75 seconds, then pluck. Use about 125 to 130 °F (52 to 54 °C) for young birds and up to about 140 °F (60 °C) for older, tougher birds. Never go above 147 °F (64 °C) or longer than needed, or the skin tears.
 - Singe the hairs with a flame, or pull them out with tweezers.
 - Waterfowl have thick down. Dip in melted wax, let it cool, and peel it off.
 
@@ -403,7 +403,7 @@ Sharpen a straight pole to a point or make a fork with two or three barbed tines
 ## Ice fishing
 Cut a hole through the ice with an auger or chisel and fish with a short line. A flag or "tip-up" shows a bite.
 
-> DANGER: Never trust ice you have not tested. As a guide for **clear blue ice**: 4 in (10 cm) will hold one person on foot, 5 to 7 in (13 to 18 cm) holds a snowmobile or ATV, and 8 to 12 in (20 to 30 cm) holds a small car. White or slushy ice is about half as strong. Currents and springs make thin spots. Never go alone. Carry ice picks.
+> DANGER: Never trust ice you have not tested. As a guide for **new, clear ice**: stay off ice under 4 in (10 cm). 4 in will hold one person on foot, 5 to 7 in (13 to 18 cm) holds a snowmobile or small ATV, and 9 to 10 in (23 to 25 cm) holds a small car or SUV. White ice (frozen slush or snow) is only about half as strong, so double these numbers. Slushy or honeycombed ice is weak. Currents and springs make thin spots. Never go alone. Carry ice picks.
 
 ## Removing a hook
 If a hook sticks in skin:
@@ -423,7 +423,7 @@ Keep them alive on a stringer or in a bucket, or kill and cool them right away. 
     tags: ["clean fish", "fillet", "gut fish", "cook fish", "ciguatera", "scombroid", "pufferfish", "red tide", "shellfish", "parasites", "mercury"],
     body: `
 ## Do this first
-Fish spoil faster than meat. Gut them quickly. Keep them cool, and cook or preserve them the same day. Do not leave fish in the sun for more than 2 hours.
+Fish spoil faster than meat. Gut them quickly. Keep them cool, and cook or preserve them the same day. Do not leave fish warm or in the sun for more than 2 hours (1 hour if it is above 90 °F / 32 °C).
 
 ## Gutting
 1. Rinse the fish.
@@ -454,7 +454,7 @@ Cook fish to an internal temperature of **145 °F (63 °C)**, or until the flesh
 ## Preserve extra fish
 - **Dry or smoke** thin strips or fillets over a low fire ([[smoking-curing-salting]], [[drying-dehydrating]]).
 - **Salt** heavily for long storage.
-- Keep fish cold and do not hold cooked fish more than 2 hours at room temperature ([[food-safety-basics]]).
+- Keep fish cold and do not hold cooked fish more than 2 hours at room temperature (1 hour above 90 °F / 32 °C) ([[food-safety-basics]]).
 
 ## Parasites
 Many wild freshwater fish carry parasites such as tapeworms and flukes. Cooking to 145 °F (63 °C) kills them. Do not eat raw wild fish. Freezing at -4 °F (-20 °C) for 7 days also kills parasites, but a home freezer rarely gets that cold.
@@ -462,14 +462,14 @@ Many wild freshwater fish carry parasites such as tapeworms and flukes. Cooking 
 ## Toxic fish and shellfish
 > DANGER: Some fish toxins are not destroyed by cooking, smoking, or freezing.
 
-- **Ciguatera:** found in large tropical reef fish such as barracuda, grouper, snapper, and moray eel. Symptoms include vomiting, diarrhea, tingling, and a reversal of hot and cold sensations, starting 1 to 24 hours after eating. Do not eat large reef predators.
+- **Ciguatera:** found in large tropical reef fish such as barracuda, amberjack and other large jacks, grouper, snapper, and moray eel (South Florida, the Caribbean, Hawaii, and other tropical waters). Symptoms include vomiting, diarrhea, tingling around the mouth, and extreme sensitivity to hot and cold. They usually start within 6 hours of eating. Do not eat large reef predators.
 - **Scombroid (histamine) poisoning:** from tuna, mackerel, mahi-mahi, bluefish, sardines, and anchovies that were not kept cold. Symptoms: flushing, headache, rash, a peppery taste. An antihistamine helps. Get help if breathing is hard ([[allergic-reaction]]).
 - **Pufferfish:** deadly poison. There is no antidote. Never eat them.
 - **Shellfish (mussels, clams, oysters):** can concentrate red tide toxins that cooking does not destroy. Do not eat shellfish from water that is discolored, has dead fish or birds, or is under a local closure. The old "months with R" rule is not reliable. See [[coastal-desert-foods]].
 - Cook shellfish until the shells open. Throw away any that do not open.
 
 ## Polluted waters
-Do not eat fish from visibly polluted water. Large predatory fish (pike, large bass, walleye, big lake trout) can hold mercury. Pregnant people and children should eat them rarely.
+Do not eat fish from visibly polluted water. Large predatory fish (pike, large bass, walleye, big lake trout) can hold mercury. Pregnant people and children should eat them rarely. If you can, check your state's fish advisories for local waters.
 
 ## Fish liver and eggs
 Avoid the liver, eggs, and guts of fish you do not know well. Some fish organs are toxic.
@@ -495,22 +495,22 @@ Use a thermometer if you can. Color is not a reliable guide.
 | Meat | Cook to |
 |---|---|
 | Ground game meat | 160 °F (71 °C) |
-| Steaks and roasts from deer, elk, and moose | 145 °F (63 °C), then rest 3 minutes |
-| Bear and wild hog (feral swine) | At least 160 °F (71 °C) |
+| Steaks and roasts from deer, elk, and moose | 160 °F (71 °C) |
+| Bear and wild hog (feral swine) | At least 165 °F (74 °C) (CDC, 2024) |
 | Rabbit, squirrel, and other small game | 165 °F (74 °C) |
 | Game birds | 165 °F (74 °C) |
 | Raccoon, opossum, and other omnivores | 165 °F (74 °C) |
 | Fish | 145 °F (63 °C) |
 
-When in doubt, cook it more. If you suspect the animal was sick, cook it to well done or do not eat it.
+Wild game is not inspected, so use the higher number. The FDA and USDA advise cooking wild game meat to 160 °F (71 °C). The 145 °F rule is for inspected store meat. When in doubt, cook it more. If you suspect the animal was sick, do not eat it.
 
 ## Diseases to know
 | Disease | Found in | How you get it | What to do |
 |---|---|---|---|
 | **Tularemia** | Rabbits, hares, rodents, ticks | Through cuts, eyes, mouth, or tick bites | Wear gloves. White spots on a rabbit's liver means do not eat. Cook to 165 °F. Fever, swollen glands, or a skin sore a few days later needs medical care. |
-| **Brucellosis** | Feral hogs, elk, bison, sometimes deer | Through cuts, eyes, or raw meat | Wear gloves and eye protection. Cook to 160 °F. |
-| **Trichinellosis** | Bear, wild hog, cougar, raccoon | Eating undercooked meat | Cook to 160 °F. Freezing, salting, drying, and smoking do **not** reliably kill it in bear meat. |
-| **Chronic wasting disease (CWD)** | Deer, elk, moose | Prions in brain, spine, lymph nodes | Cooking does not destroy prions. |
+| **Brucellosis** | Feral hogs, elk, bison, sometimes deer | Through cuts, eyes, or raw meat | Wear gloves and eye protection. Cook to 160 °F (165 °F for hogs). |
+| **Trichinellosis** | Bear, wild hog, cougar, raccoon | Eating undercooked meat | Cook to 165 °F. Freezing, salting, drying, and smoking do **not** reliably kill it in wild game. Larvae have survived 5 years in frozen bear meat. |
+| **Chronic wasting disease (CWD)** | Deer, elk, moose | Prions in brain, spine, lymph nodes | Cooking does not destroy prions. Do not eat sick-looking animals. Test the animal where CWD is found, and do not eat meat from one that tests positive. |
 | **Rabies** | Foxes, raccoons, skunks, bats | Bite or saliva in a wound | Do not handle or eat animals acting strangely. See [[bites-stings]]. |
 | **Anthrax** | Hoofed animals in some regions | Handling a body that died suddenly | Do not butcher animals found dead. Do not open the carcass. |
 | **Parasite cysts** | Livers and organs of many animals | Eating raw or undercooked organs | Throw away organs with gray, white, or yellow cysts or spots. Cook the meat well. |
@@ -518,8 +518,9 @@ When in doubt, cook it more. If you suspect the animal was sick, cook it to well
 ## CWD precautions
 - Do not eat an animal that looks very thin, drooling, stumbling, or has no fear of people.
 - Do not eat the **brain, spinal cord, eyes, spleen, tonsils, or lymph nodes** of any deer, elk, or moose.
-- Do not cut through the spine or brain with the same knife you use for meat. Bone out the meat.
-- In areas with CWD, test the animal if you can.
+- Wear rubber or latex gloves, and avoid handling the brain and spine.
+- Do not cut through the spine or brain with the same knife you use for meat, and do not use your kitchen knives for field work. Bone out the meat.
+- In areas with CWD, have the animal tested before you eat the meat, and keep the meat cold or frozen until the result comes back. If it tests positive, do not eat it.
 - Do not feed brain or spine to pets.
 
 ## Do not eat
@@ -530,10 +531,10 @@ When in doubt, cook it more. If you suspect the animal was sick, cook it to well
 - The brain, spinal cord, or spleen of any game animal
 
 ## Lead fragments
-Lead bullets break into tiny fragments in the meat. Cut away and throw out a generous amount of meat around the wound channel (several inches). Do not make ground meat from shot-damaged areas. Children and pregnant people are most at risk.
+Lead bullets break into tiny fragments in the meat. Cut away and throw out a generous amount of meat around the wound channel and any bruised or dark meat. Fragments can sit a foot or more from the wound, so trimming lowers the risk but does not remove it. Do not make ground meat from shot-damaged areas, and do not eat organs from a shot-through chest. Children and pregnant people are most at risk: some state health departments advise children under 6 and pregnant women not to eat game taken with lead ammunition.
 
 ## Liver warning
-Do not eat the liver of polar bears, bearded seals, walrus, or sled dogs. It has dangerous amounts of vitamin A.
+Do not eat the liver of polar bears or seals (bearded seals especially). It has dangerous amounts of vitamin A. Avoid walrus and sled dog liver too.
 
 ## Rabbit starvation (protein poisoning)
 Living on lean game alone, with little fat or carbohydrate, causes nausea, headache, low blood pressure, diarrhea, and constant hunger. It can be fatal over weeks.
@@ -591,7 +592,7 @@ Eat them only from clean water. Raw freshwater crayfish and crabs can carry lung
 Freshwater mussels filter pollutants and may be protected species. Eat them only from clean water. Boil until the shells open, discard any that stay closed, and see [[fish-cleaning-cooking]] and [[coastal-desert-foods]] for the red tide warning.
 
 ## Snails and slugs
-Some snails and slugs carry **rat lungworm**, a parasite that can cause meningitis. Never eat them raw. If you eat land snails, collect them from clean areas and boil for at least 5 minutes. Do not eat slugs.
+Some snails and slugs carry **rat lungworm**, a parasite that can cause meningitis. Never eat them raw. If you eat land snails, collect them from clean areas and boil for at least 5 minutes. Do not eat slugs. Raw or undercooked freshwater shrimp, land crabs, and frogs can carry rat lungworm too, so cook them all thoroughly.
 
 ## Frogs
 - Eat only the **legs**. Skin them and cook thoroughly.

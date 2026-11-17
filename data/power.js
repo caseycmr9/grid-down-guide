@@ -9,7 +9,7 @@
     body: `
 ## Do this first
 1. **Check if it is just your house**: look at the breaker panel and at your neighbors. If it is only you, check the main breaker. If the whole area is out, report it if you can (texts use less network than calls).
-2. Use **flashlights or headlamps, not candles**. Open flames are a leading cause of house fires in outages.
+2. Use **flashlights or headlamps, not candles**. The NFPA advises flashlights, not candles, in a power outage because open flames start house fires.
 3. **Keep the refrigerator and freezer doors closed.**
 4. **Unplug major appliances and sensitive electronics** to protect them from a surge when power returns. Leave one lamp switched on so you know when power is back, and wait a few minutes before plugging things in again.
 5. **Never use a generator, grill, camp stove or gas oven indoors** to cook or heat: carbon monoxide. See [[generator-safety]] and [[heating-home]].
@@ -74,9 +74,12 @@ Go to [[grid-down-timeline]] and [[infrastructure-failure]].
     priority: 1,
     tags: ['generator', 'carbon monoxide', 'backfeed', 'transfer switch', 'extension cord', 'watts', 'inverter generator', 'fuel consumption', 'outage'],
     body: `
-> DANGER: **Portable generators produce carbon monoxide (CO), an invisible, odorless gas that kills dozens of people in the US every year.** Never run one in a house, garage (even with the door open), basement, crawl space, shed, carport, porch, tent or camper, or near any opening.
+> DANGER: **Portable generators produce carbon monoxide (CO), an invisible, odorless gas that kills nearly 100 people in the US every year.** Never run one in a house, garage (even with the door open), basement, crawl space, shed, carport, porch, tent or camper, or near any opening.
 
 ## Do this first
+
+[[fig:generator-placement]]
+
 1. Run the generator **outdoors only**, at least **20 feet (6 m) from your home**, with the exhaust pointed **away** from your home and neighbors, and away from windows, doors, vents and air intakes.
 2. Install **battery-powered CO alarms** in each sleeping area and on each level of the house.
 3. If anyone feels **dizzy, has a headache, nausea, weakness or confusion**, get them outside into fresh air at once and call 911 if you can.
@@ -117,6 +120,7 @@ Start the largest load first, then add smaller ones. Do not run the generator at
 - Do not refuel while it is running.
 - Follow the maker's instructions for grounding.
 - **Inverter generators** are quieter, run more efficiently and give cleaner power for electronics. They are more expensive.
+- When you buy one, choose a model with an **automatic carbon monoxide shut-off** and a safety-lab listing. It does not replace the 20-foot rule or working CO alarms.
 
 ## No generator?
 - [[solar-basics]] for power without fuel.
@@ -272,11 +276,12 @@ For two weeks of lights and a radio: a couple of dozen AA, a handful of AAA, plu
 Use clear lamp oil or the fuel the lamp is made for. **Never use gasoline, white gas or alcohol in a lamp.** In an emergency olive or vegetable oil with a cotton wick burns, but poorly and smokily.
 
 ## Candle and lamp safety
-> WARNING: Fires from candles are a leading cause of house fires in blackouts. Treat every flame as a hazard.
+> WARNING: The NFPA advises flashlights, not candles, during a power outage. Treat every flame as a hazard.
 
 - Use sturdy holders on a flat, non-flammable surface.
 - Keep flames **at least 12 inches (30 cm)** from curtains, paper, bedding and anything that can burn.
-- **Never leave a flame unattended** and never sleep with one burning.
+- **Never leave a flame unattended** and never sleep with one burning. Do not use candles in bedrooms.
+- **Never use a candle or any flame where medical oxygen is in use.** It can cause a sudden, large fire.
 - Keep candles away from children and pets.
 - Put them out before leaving the room.
 - Fill and trim lamps when they are cool, and refill outdoors.
@@ -328,7 +333,7 @@ A flashlight and the SOS function in the Tools tab can signal for help: [[signal
 - Store in a **detached shed or garage**, away from living space and from anything that makes a spark or flame such as a **water heater pilot light**.
 - Keep it cool and out of the sun, and away from children.
 - **Gasoline vapors are heavier than air** and travel along the floor to a flame.
-- Many fire codes limit home storage to about **25 gallons of gasoline** total. Check your local code and your insurance.
+- Many fire codes limit home storage to about **25 gallons of gasoline** total, and often less (about 10 gallons) in an attached garage. Check your local code and your insurance.
 - Fill containers on the ground, not in a truck bed with a plastic liner (static spark danger).
 - Keep absorbent material such as cat litter for small spills.
 - Store oily rags in a closed metal can; they can ignite on their own.
@@ -348,7 +353,7 @@ A flashlight and the SOS function in the Tools tab can signal for help: [[signal
 ## Wood
 - A **cord** is a stack 4 x 4 x 8 feet (128 cubic feet / 3.6 m3).
 - Heating a house in a cold climate can take **3-6 cords** a winter.
-- Stack it off the ground, covered on top but open on the sides. Keep the pile at least 20 feet from the house to avoid pests and fire spread.
+- Stack it off the ground, covered on top but open on the sides. Keep the main pile at least 30 feet (9 m) from the house to avoid pests and fire spread. A day's supply can sit closer, outdoors.
 
 ## Rough use rates
 - Generator: about 1/2-3/4 gallon per hour at half load ([[generator-safety]]).
