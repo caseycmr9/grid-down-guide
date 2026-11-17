@@ -455,7 +455,8 @@
   }
   var hadController = !!(navigator.serviceWorker && navigator.serviceWorker.controller);
   if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
-    navigator.serviceWorker.register('sw.js').then(function () {
+    // updateViaCache 'none': the update check also bypasses the HTTP cache for js/version.js, so new versions are noticed immediately
+    navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(function () {
       updateStatus();
       if (navigator.storage && navigator.storage.persist) navigator.storage.persist();
     }).catch(function () { setStatus('Offline setup failed', 'bad'); });

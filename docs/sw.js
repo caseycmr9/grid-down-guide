@@ -5,9 +5,18 @@ importScripts('js/version.js');
 var CACHE = 'gdg-' + self.GDG_VERSION;
 
 self.addEventListener('install', function (event) {
+  // Fetch every file with cache: 'reload' so a new version never copies stale files out of the browser's HTTP cache
+  // (static hosts such as GitHub Pages send max-age=600).
   event.waitUntil(
     caches.open(CACHE)
-      .then(function (cache) { return cache.addAll(self.GDG_ASSETS); })
+      .then(function (cache) {
+        return Promise.all(self.GDG_ASSETS.map(function (asset) {
+          return fetch(new Request(asset, { cache: 'reload' })).then(function (res) {
+            if (!res.ok) throw new Error('Could not cache ' + asset + ' (' + res.status + ')');
+            return cache.put(asset, res);
+          });
+        }));
+      })
       .then(function () { return self.skipWaiting(); })
   );
 });
