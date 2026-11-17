@@ -1,0 +1,23 @@
+/* Category list. Order here is the order on the home screen. */
+window.CATEGORIES = [
+  { id: 'start',      icon: '⚡', title: 'Start Here',            blurb: 'Grid down? What to do first.' },
+  { id: 'firstaid',   icon: '🚑', title: 'First Aid',             blurb: 'CPR, bleeding, burns, fractures, shock.' },
+  { id: 'water',      icon: '💧', title: 'Water',                 blurb: 'Find it, clean it, store it.' },
+  { id: 'shelter',    icon: '🏕️', title: 'Shelter & Fire',        blurb: 'Stay warm, dry, and cool.' },
+  { id: 'sanitation', icon: '🧼', title: 'Sanitation',            blurb: 'Toilets, hygiene, preventing disease.' },
+  { id: 'power',      icon: '🔋', title: 'Power & Light',         blurb: 'Outages, generators, solar, fuel.' },
+  { id: 'disasters',  icon: '🌪️', title: 'Disaster Playbooks',    blurb: 'Storms, quakes, floods, fallout, more.' },
+  { id: 'prep',       icon: '📦', title: 'Plan & Stockpile',      blurb: 'Kits, checklists, family plan.' },
+  { id: 'health',     icon: '⚕️', title: 'Health & Medicine',     blurb: 'Illness, medications, childbirth, dental.' },
+  { id: 'garden',     icon: '🌱', title: 'Growing Food',          blurb: 'Soil, seeds, crops, harvest.' },
+  { id: 'livestock',  icon: '🐔', title: 'Animals & Livestock',   blurb: 'Chickens, rabbits, goats, bees.' },
+  { id: 'preserve',   icon: '🥫', title: 'Preserving Food',       blurb: 'Canning, drying, curing, storage.' },
+  { id: 'cook',       icon: '🍳', title: 'Cooking & Nutrition',   blurb: 'Cook without power; eat well.' },
+  { id: 'hunt',       icon: '🦌', title: 'Hunt, Fish & Trap',     blurb: 'Get, clean, and cook wild game.' },
+  { id: 'forage',     icon: '🌿', title: 'Wild Plants',           blurb: 'What is safe, what can kill you.' },
+  { id: 'build',      icon: '🔨', title: 'Building & Making',     blurb: 'Tools, wood, stoves, structures.' },
+  { id: 'skills',     icon: '🧵', title: 'Skills & Crafts',       blurb: 'Knots, soap, repair, barter.' },
+  { id: 'nav',        icon: '🧭', title: 'Navigation & Radio',    blurb: 'Lost, signaling, weather, comms.' },
+  { id: 'security',   icon: '🛡️', title: 'Security & Safety',     blurb: 'Home, community, fire safety.' },
+  { id: 'reference',  icon: '📖', title: 'Quick Reference',       blurb: 'Numbers, conversions, codes.' }
+];

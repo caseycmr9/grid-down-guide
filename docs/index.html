@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grid Down Guide</title>
+<meta name="description" content="Offline survival and preparedness handbook: first aid, water, food, shelter, and more. Works with no internet or power grid.">
+<meta name="theme-color" content="#2d6a3e">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Grid Down">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <div class="top-in">
+      <button id="back" class="icon-btn" aria-label="Back" hidden>&larr;</button>
+      <div id="hdr-title">Grid Down Guide</div>
+      <span id="status" class="chip" title="Offline status"></span>
+      <button id="aa" class="icon-btn" aria-label="Change text size">Aa</button>
+    </div>
+  </header>
+  <main id="view" tabindex="-1"></main>
+  <nav class="tabs" id="tabs" aria-label="Main">
+    <a href="#/" data-tab="home"><span class="ic">🏠</span>Home</a>
+    <a href="#/search" data-tab="search"><span class="ic">🔍</span>Search</a>
+    <a href="#/emergency" data-tab="sos" class="sos"><span class="ic">🚨</span>Emergency</a>
+    <a href="#/tools" data-tab="tools"><span class="ic">🧰</span>Tools</a>
+    <a href="#/more" data-tab="more"><span class="ic">☰</span>More</a>
+  </nav>
+</div>
+<div id="toast" class="toast" hidden></div>
+<noscript><p style="padding:1rem">This app needs JavaScript enabled.</p></noscript>
+<script src="js/version.js"></script>
+<script src="js/md.js"></script>
+<script src="data/categories.js"></script>
+<!--DATA:START-->
+<script src="data/start.js"></script>
+<script src="data/firstaid.js"></script>
+<script src="data/water.js"></script>
+<script src="data/shelter.js"></script>
+<script src="data/sanitation.js"></script>
+<script src="data/power.js"></script>
+<script src="data/disasters.js"></script>
+<script src="data/prep.js"></script>
+<script src="data/health.js"></script>
+<script src="data/garden.js"></script>
+<script src="data/livestock.js"></script>
+<script src="data/preserve.js"></script>
+<script src="data/cook.js"></script>
+<script src="data/hunt.js"></script>
+<script src="data/forage.js"></script>
+<script src="data/build.js"></script>
+<script src="data/skills.js"></script>
+<script src="data/nav.js"></script>
+<script src="data/security.js"></script>
+<script src="data/reference.js"></script>
+<!--DATA:END-->
+<script src="js/tools.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
