@@ -236,6 +236,9 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
 .heading-read { text-align: center; font-size: 2.2rem; font-weight: 900; }
 .res-table td:last-child { text-align: right; font-weight: 750; font-variant-numeric: tabular-nums; }
 .win-now { background: var(--tip-bg); }
+.zip-row { display: flex; gap: .5rem; }
+.zip-row input { flex: 1; }
+details.card summary { cursor: pointer; }
 
 @media print {
   header.top, nav.tabs, .noprint, .toast, .pager, .art-actions { display: none !important; }

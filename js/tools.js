@@ -342,6 +342,39 @@
     return null;
   }
 
+  /* ---- ZIP -> zone / frost lookup (data in data/zonedata.js, built by tools/build-zone-data.mjs) ---- */
+  var ZD = null;
+  function zoneData() {
+    if (ZD) return ZD;
+    var D = window.GDG_ZONEDATA; if (!D) return null;
+    function b64(s) { var bin = atob(s), a = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) a[i] = bin.charCodeAt(i); return a; }
+    function pop(b) { b = b - ((b >> 1) & 0x55); b = (b & 0x33) + ((b >> 2) & 0x33); return (b + (b >> 4)) & 0x0f; }
+    function varint(a, p) { var r = 0, sh = 0, b; do { b = a[p.i++]; r += (b & 127) * Math.pow(2, sh); sh += 7; } while (b & 128); return r; }
+    var bits = b64(D.bitmap), sd = b64(D.sdata), zr = b64(D.zruns), sr = b64(D.sruns), names = D.names.split('|');
+    var cum = new Uint32Array(bits.length + 1);
+    for (var i = 0; i < bits.length; i++) cum[i + 1] = cum[i] + pop(bits[i]);
+    var zs = [], zv = [], ss = [], sv = [], p = { i: 0 }, n = 0, id = 0;
+    while (p.i < zr.length) { var zc = zr[p.i++], cnt = varint(zr, p); zs.push(n); zv.push(zc); n += cnt; }
+    p = { i: 0 }; n = 0;
+    while (p.i < sr.length) { var d = varint(sr, p); d = (d % 2) ? -((d + 1) / 2) : d / 2; id += d; var c2 = varint(sr, p); ss.push(n); sv.push(id); n += c2; }
+    function find(starts, rank) { var lo = 0, hi = starts.length - 1; while (lo < hi) { var mid = (lo + hi + 1) >> 1; if (starts[mid] <= rank) lo = mid; else hi = mid - 1; } return lo; }
+    function station(sid) {
+      if (!sid) return null;
+      var o = (sid - 1) * 9, l50 = sd[o] | (sd[o + 1] << 8), f50 = sd[o + 3] | (sd[o + 4] << 8), tm = sd[o + 6];
+      return { name: names[sid - 1], l50: l50, l10: l50 + sd[o + 2], f50: f50, f10: f50 - sd[o + 5], tmin: tm > 127 ? tm - 256 : tm, tmax: sd[o + 7], hot: sd[o + 8] };
+    }
+    ZD = {
+      zones: D.zones, trange: D.trange, typ: D.typ,
+      lookup: function (zip) {
+        var z = parseInt(zip, 10); if (!(z >= 0 && z < 100000)) return null;
+        var by = z >> 3, bit = z & 7; if (!((bits[by] >> bit) & 1)) return null;
+        var rank = cum[by] + pop(bits[by] & ((1 << bit) - 1));
+        return { zip: ('00000' + z).slice(-5), zone: D.zones[zv[find(zs, rank)]], station: station(sv[find(ss, rank)]) };
+      }
+    };
+    return ZD;
+  }
+
   /* ================= PLANTING CALENDAR ================= */
   // [crop, action, weeksFromStart, weeksToEnd] relative to LAST spring frost (negative = before)
   var SPRING = [
@@ -359,15 +392,80 @@
     ['Garlic', 'Plant cloves', 2, 4]
   ];
   function mountPlanting(el) {
+    var Z = zoneData();
     var now = new Date(), yr = now.getMonth() >= 9 ? now.getFullYear() + 1 : now.getFullYear();
     var fr = App.S.frost || {};
+    var st = { zip: fr.zip || '', zone: fr.zone || '', mode: fr.mode === 'safe' ? 'safe' : 'avg', manual: fr.manual === undefined ? !!(fr.last || fr.first) && !fr.zone : !!fr.manual, res: null };
+    var fToC = function (f) { return Math.round((f - 32) * 5 / 9); };
+    var rangeStr = function (tr) { var m = /^(-?\d+) to (-?\d+)$/.exec(tr); return m ? m[1] + ' to ' + m[2] + ' °F (' + fToC(+m[1]) + ' to ' + fToC(+m[2]) + ' °C)' : tr; };
+    var shortDay = function (d) { return new Date(2001, 0, d).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }); };
+    var zoneOpts = Z ? Z.zones.map(function (c, i) { return '<option value="' + c + '">Zone ' + c + ' (' + Z.trange[i].replace(' to ', ' to ') + ' °F)</option>'; }).join('') : '';
+
     el.innerHTML =
-      '<div class="callout note"><div class="co-title">How this works</div><div class="co-body">Enter your average <b>last spring frost</b> and <b>first fall frost</b> dates. The calendar counts weeks from them. These are general rules, not guarantees: adjust for your weather and see ' + link('frost-dates-calendar', 'frost dates &amp; zones') + '.</div></div>' +
-      '<div class="card"><div class="two"><div><label class="f">Last spring frost</label><input type="date" id="pl" value="' + (fr.last || '') + '"></div><div><label class="f">First fall frost</label><input type="date" id="pf" value="' + (fr.first || '') + '"></div></div>' +
-      '<label class="f">Planting year</label><input type="number" id="py" value="' + yr + '" min="2000" max="2200" inputmode="numeric">' +
-      '<details style="margin-top:.7rem"><summary>Don&rsquo;t know your dates? Rough US guide</summary><div class="tbl-wrap"><table><thead><tr><th>Zone</th><th>Last spring</th><th>First fall</th></tr></thead><tbody>' +
-      '<tr><td>3</td><td>late May</td><td>early Sep</td></tr><tr><td>4</td><td>mid–late May</td><td>mid–late Sep</td></tr><tr><td>5</td><td>early–mid May</td><td>early–mid Oct</td></tr><tr><td>6</td><td>mid Apr–early May</td><td>mid–late Oct</td></tr><tr><td>7</td><td>early–mid Apr</td><td>late Oct–early Nov</td></tr><tr><td>8</td><td>mid Mar–early Apr</td><td>mid Nov</td></tr><tr><td>9</td><td>mid Feb–mid Mar</td><td>late Nov–Dec</td></tr><tr><td>10</td><td>early Feb or none</td><td>mid Dec or none</td></tr></tbody></table></div><p class="muted">Rough guides only. Local microclimate, elevation and the year matter a lot. Ask neighbors who garden.</p></details></div>' +
-      '<div id="pr"></div>';
+      '<div class="callout note"><div class="co-title">How this works</div><div class="co-body">Type your ZIP code. The app finds your USDA hardiness zone, estimates your frost dates and temperatures from nearby weather-station records, and fills in the calendar. You can change the zone or the dates at any time. All of this works offline. See ' + link('frost-dates-calendar', 'frost dates &amp; zones') + '.</div></div>' +
+      (Z ? '<div class="card"><h3>1. Your ZIP code</h3><div class="zip-row"><input type="text" id="pz" inputmode="numeric" maxlength="5" autocomplete="postal-code" placeholder="US ZIP, e.g. 80202" aria-label="US ZIP code"><button class="btn primary" id="pgo">Look up</button></div><div id="pzmsg" class="muted" style="margin-top:.4rem"></div>' +
+        '<label class="f" for="pzone">2. Your hardiness zone</label><select id="pzone"><option value="">Pick your zone…</option>' + zoneOpts + '</select><div class="muted" style="margin-top:.3rem">Filled in from your ZIP. Change it if you know better (a sheltered yard, a high hillside) or if you have no ZIP.</div>' +
+        '<label class="f">3. How cautious?</label><div class="seg" id="pmode"><button data-m="avg">Average frost dates</button><button data-m="safe">Play it safe</button></div><div class="muted" id="pmodetx"></div></div>' +
+        '<div id="pinfo"></div>' : '') +
+      '<div class="card"><h3>' + (Z ? 'Your dates (you can edit)' : 'Your frost dates') + '</h3><div class="two"><div><label class="f">Last spring frost</label><input type="date" id="pl" value="' + (fr.last || '') + '"></div><div><label class="f">First fall frost</label><input type="date" id="pf" value="' + (fr.first || '') + '"></div></div>' +
+      '<label class="f">Planting year</label><input type="number" id="py" value="' + yr + '" min="2000" max="2200" inputmode="numeric"></div>' +
+      '<div id="pr"></div>' +
+      '<details class="card"><summary><b>About this data</b></summary><p class="muted">Zones: 2023 USDA Plant Hardiness Zone Map (USDA Agricultural Research Service and the PRISM Group at Oregon State University), by ZIP code. This app is not the official map; for that see planthardiness.ars.usda.gov.</p><p class="muted">Frost dates and temperatures: NOAA NCEI U.S. Climate Normals 1991–2020 from a nearby weather station chosen to match your zone. &ldquo;Frost&rdquo; here means 32 °F (0 °C). &ldquo;Average&rdquo; dates have a 50% chance of a frost afterward (spring) or before (fall). &ldquo;Play it safe&rdquo; dates have only about a 10% chance. These are estimates: hills, valleys, cities, lakes and the weather of the year can move the real dates by weeks.</p></details>';
+
+    function sel(id) { return $(id, el); }
+    function msg(t) { var m = sel('#pzmsg'); if (m) m.innerHTML = t; }
+    function station() { return st.res && st.res.zone === st.zone && st.res.station ? st.res.station : null; }
+    function vals() {
+      if (!Z || !st.zone) return null;
+      var s = station();
+      if (s) return { src: 'station', name: s.name, l50: s.l50, l10: s.l10, f50: s.f50, f10: s.f10, tmin: s.tmin, tmax: s.tmax, hot: s.hot, nf: s.l50 === 0 };
+      var t = Z.typ[Z.zones.indexOf(st.zone)];
+      return t ? { src: 'zone', n: t[8], l50: t[0], l10: t[1], f50: t[2], f10: t[3], tmin: t[4], tmax: t[5], hot: t[6], nf: !!t[7] } : { src: 'none' };
+    }
+    function iso(y, m, d) { return y + '-' + (m + 1 < 10 ? '0' : '') + (m + 1) + '-' + (d < 10 ? '0' : '') + d; }
+    function applyDates() {
+      var v = vals(); if (!v || v.src === 'none') return;
+      var y = parseInt(sel('#py').value, 10) || yr, lm, ld, fm, fd, fy = y;
+      if (v.nf) { lm = 0; ld = 31; fm = 11; fd = 15; }   // no regular freeze: stand-in anchors
+      else {
+        var L = new Date(2001, 0, st.mode === 'safe' ? v.l10 : v.l50), F = new Date(2001, 0, st.mode === 'safe' ? v.f10 : v.f50);
+        lm = L.getMonth(); ld = L.getDate(); fm = F.getMonth(); fd = F.getDate(); if (F.getFullYear() > 2001) fy = y + 1;
+      }
+      sel('#pl').value = iso(y, lm, ld); sel('#pf').value = iso(fy, fm, fd);
+    }
+    function renderInfo() {
+      var box = sel('#pinfo'); if (!box) return;
+      if (!st.zone) { box.innerHTML = '<div class="card muted">Enter a ZIP code or pick a zone to see frost dates and temperatures.</div>'; return; }
+      var zi = Z.zones.indexOf(st.zone), v = vals(), h = '<div class="card"><h3>Zone ' + st.zone + '</h3><div class="muted">Coldest winter nights (yearly average low): ' + rangeStr(Z.trange[zi]) + '</div>';
+      if (!v || v.src === 'none') h += '<p>There is not enough weather-station data for this zone. Please enter your frost dates below.</p>';
+      else {
+        if (v.nf) h += '<p><b>Freezes are rare or absent here.</b> You can grow warm-season crops almost all year. The calendar below uses Jan 31 and Dec 15 as stand-in "frost" dates, so plan around heat and rain too.</p>';
+        else {
+          var gd = function (l, f) { return Math.max(0, f - l); };
+          h += '<div class="tbl-wrap"><table class="res-table"><thead><tr><th></th><th>Average</th><th>Play it safe</th></tr></thead><tbody>' +
+            '<tr><td>Last spring frost</td><td>' + shortDay(v.l50) + '</td><td>' + shortDay(v.l10) + '</td></tr>' +
+            '<tr><td>First fall frost</td><td>' + shortDay(v.f50) + '</td><td>' + shortDay(v.f10) + '</td></tr>' +
+            '<tr><td>Frost-free days</td><td>' + gd(v.l50, v.f50) + '</td><td>' + gd(v.l10, v.f10) + '</td></tr></tbody></table></div>';
+        }
+        h += '<div class="kv"><span>Average daily high / low (whole year)</span><b>' + v.tmax + ' / ' + v.tmin + ' °F (' + fToC(v.tmax) + ' / ' + fToC(v.tmin) + ' °C)</b></div>' +
+          '<div class="kv"><span>Days per year at or above 90 °F (32 °C)</span><b>' + v.hot + '</b></div>';
+        h += '<p class="muted" style="margin-top:.6rem">' + (v.src === 'station'
+          ? 'Based on the nearby weather station <b>' + e(v.name) + '</b> (NOAA 1991–2020 normals). It is usually near your ZIP but can be some miles away.'
+          : 'Typical for zone ' + e(st.zone) + ' across the US (median of ' + v.n + ' nearby ZIP codes\' stations). Your exact spot can differ by weeks.') + '</p>';
+        if (v.hot >= 60) h += '<div class="callout note"><div class="co-title">Hot summers</div><div class="co-body">With this many days at or above 90 °F, lettuce, spinach, peas and broccoli do best in fall, winter and early spring. Heat-lovers (okra, sweet potatoes, southern peas, peppers) thrive in summer. Mulch and afternoon shade help.</div></div>';
+      }
+      box.innerHTML = h + '</div>';
+    }
+    function syncMode() {
+      $$('#pmode button', el).forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-m') === st.mode); });
+      var t = sel('#pmodetx'); if (t) t.textContent = st.mode === 'safe' ? 'Dates with only about a 10% chance of a frost afterward (spring) or before (fall). Best for tender crops.' : 'Dates with a 50% chance of a frost afterward (spring) or before (fall). The usual gardening standard.';
+    }
+    function save() { App.S.frost = { last: sel('#pl').value, first: sel('#pf').value, zip: st.zip, zone: st.zone, mode: st.mode, manual: st.manual }; App.save(); }
+    function refresh(reapply) {
+      if (Z) { renderInfo(); syncMode(); if (reapply) { st.manual = false; applyDates(); } }
+      calc(); save();
+    }
+
     function md(date) { return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' }); }
     function parts(s) { var p = s.split('-'); return p.length === 3 ? { m: parseInt(p[1], 10) - 1, d: parseInt(p[2], 10) } : null; }
     function table(rows, anchor, title) {
@@ -380,16 +478,45 @@
         list.map(function (x) { return '<tr class="' + (x.now ? 'win-now' : '') + '"><td>' + md(x.a) + ' – ' + md(x.b) + (x.now ? ' <b>NOW</b>' : '') + '</td><td><b>' + e(x.r[0]) + '</b><br><span class="muted">' + e(x.r[1]) + '</span></td></tr>'; }).join('') + '</tbody></table></div>';
     }
     function calc() {
-      var l = $('#pl', el).value, f = $('#pf', el).value, y = parseInt($('#py', el).value, 10) || yr;
-      App.S.frost = { last: l, first: f }; App.save();
-      var h = '', lp = parts(l), fp = parts(f);
-      if (lp) h += table(SPRING, new Date(y, lp.m, lp.d), 'Spring planting (from ' + md(new Date(y, lp.m, lp.d)) + ' last frost)');
-      if (fp) h += table(FALL, new Date(y, fp.m, fp.d), 'Fall planting (counting back from ' + md(new Date(y, fp.m, fp.d)) + ' first frost)');
+      var l = sel('#pl').value, f = sel('#pf').value, y = parseInt(sel('#py').value, 10) || yr;
+      var h = '', lp = parts(l), fp = parts(f), spring = lp ? new Date(y, lp.m, lp.d) : null, fall = null;
+      if (fp) { fall = new Date(y, fp.m, fp.d); if (spring && fall < spring) fall.setFullYear(y + 1); }
+      if (spring) h += table(SPRING, spring, 'Spring planting (from ' + md(spring) + ' last frost)');
+      if (fall) h += table(FALL, fall, 'Fall planting (counting back from ' + md(fall) + ' first frost)');
+      if (spring && fall) h += '<p class="muted">Frost-free season: about ' + Math.round((fall - spring) / 864e5) + ' days.</p>';
       if (!h) h = '<p class="muted">Enter at least one date above.</p>';
       else h += '<p class="muted">Cool-season crops (peas, spinach, lettuce, kale, broccoli, potatoes) tolerate light frost. Warm-season crops (tomatoes, peppers, beans, corn, squash) are killed by frost: wait until the soil is also warm (about 60°F / 16°C). Start-indoors dates assume a sunny window or grow light. Full crop details: ' + link('veg-quick-reference', 'Vegetable Quick Reference') + '.</p>';
-      $('#pr', el).innerHTML = h;
+      sel('#pr').innerHTML = h;
     }
-    $$('input', el).forEach(function (n) { n.onchange = calc; n.oninput = calc; });
+
+    function lookup() {
+      var inp = sel('#pz'), z = inp.value.replace(/\D/g, '').slice(0, 5); inp.value = z;
+      if (z.length !== 5) { msg('Enter all 5 digits of your ZIP code.'); return; }
+      var r = Z.lookup(z);
+      if (!r) { st.res = null; msg('ZIP ' + e(z) + ' is not in the USDA list (PO-box-only ZIPs and some areas are missing). Try a nearby ZIP, or pick your zone below.'); return; }
+      st.zip = z; st.res = r; st.zone = r.zone; sel('#pzone').value = r.zone;
+      msg('ZIP <b>' + e(z) + '</b> is in <b>zone ' + e(r.zone) + '</b>.' + (r.station ? '' : ' No close weather station, so typical zone values are used.'));
+      refresh(true);
+    }
+    if (Z) {
+      if (st.zip) st.res = Z.lookup(st.zip);
+      if (st.res && !st.zone) st.zone = st.res.zone;
+      sel('#pz').value = st.zip; sel('#pzone').value = st.zone;
+      if (st.res) msg('ZIP <b>' + e(st.zip) + '</b> is in <b>zone ' + e(st.res.zone) + '</b>.');
+      sel('#pgo').onclick = lookup;
+      sel('#pz').oninput = function () { this.value = this.value.replace(/\D/g, '').slice(0, 5); if (this.value.length === 5) lookup(); };
+      sel('#pz').onkeydown = function (ev) { if (ev.key === 'Enter') { ev.preventDefault(); lookup(); } };
+      sel('#pzone').onchange = function () {
+        st.zone = this.value;
+        if (st.res && st.zone && st.res.zone !== st.zone) msg('Using typical values for zone ' + e(st.zone) + ' (your ZIP is in zone ' + e(st.res.zone) + ').');
+        else if (st.res) msg('ZIP <b>' + e(st.zip) + '</b> is in <b>zone ' + e(st.res.zone) + '</b>.');
+        refresh(true);
+      };
+      $$('#pmode button', el).forEach(function (b) { b.onclick = function () { st.mode = b.getAttribute('data-m'); refresh(true); }; });
+    }
+    sel('#pl').onchange = sel('#pf').onchange = function () { st.manual = true; calc(); save(); };
+    sel('#py').onchange = sel('#py').oninput = function () { if (Z && !st.manual && st.zone) applyDates(); calc(); save(); };
+    if (Z) { renderInfo(); syncMode(); if (!st.manual && st.zone) applyDates(); }
     calc();
     return null;
   }
@@ -433,12 +560,13 @@
     { id: 'compass', icon: '🧭', title: 'Compass', desc: 'Magnetic compass using your phone sensor (if it has one).', mount: mountCompass },
     { id: 'water', icon: '💧', title: 'Water Treatment Calculator', desc: 'Exact bleach drops for your amount of water.', mount: mountWater },
     { id: 'supplies', icon: '📦', title: 'Supplies Calculator', desc: 'How much water, food and basics for people, pets and days.', mount: mountSupplies },
-    { id: 'planting', icon: '🌱', title: 'Planting Calendar', desc: 'Sow and transplant dates from your frost dates.', mount: mountPlanting },
+    { id: 'planting', icon: '🌱', title: 'Planting Calendar & Zone Finder', desc: 'Enter your ZIP: hardiness zone, frost dates, temperatures and sow/transplant dates.', mount: mountPlanting },
     { id: 'convert', icon: '📏', title: 'Unit Converter', desc: 'Cups, gallons, pounds, miles, °F/°C, psi and more.', mount: mountConvert }
   ];
 
   window.GDG_TOOLS = {
     list: LIST,
+    zones: zoneData,   // ZIP -> zone/frost lookup (also used by tests)
     boot: function (app) { App = app; if (!App.S.timers) App.S.timers = []; setInterval(tickTimers, 1000); }
   };
 })();

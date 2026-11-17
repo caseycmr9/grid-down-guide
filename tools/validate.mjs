@@ -28,7 +28,7 @@ const catIds = new Set(win.CATEGORIES.map((c) => c.id));
 
 const dataDir = path.join(root, 'data');
 const files = ALL
-  ? fs.readdirSync(dataDir).filter((f) => f.endsWith('.js') && f !== 'categories.js').map((f) => path.join(dataDir, f))
+  ? fs.readdirSync(dataDir).filter((f) => f.endsWith('.js') && f !== 'categories.js' && f !== 'zonedata.js').map((f) => path.join(dataDir, f))
   : args.filter((a) => !a.startsWith('--')).map((a) => path.resolve(a));
 
 let errors = 0, warns = 0;

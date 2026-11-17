@@ -3,7 +3,7 @@
 An offline survival and preparedness handbook that runs on any phone, tablet or computer. No internet, no app store, no accounts, no tracking.
 
 - **210 guides, about 112,000 words** in 20 sections: first aid, water, shelter and fire, sanitation, power, disaster playbooks, stockpiling, health, gardening, livestock, food preservation, cooking, hunting, wild plants, building, skills, navigation and radio, security, quick reference.
-- **8 offline tools:** CPR metronome, timers with a tourniquet clock, screen flashlight / SOS / Morse flasher, compass, water-treatment (bleach) calculator, supplies calculator, planting calendar from your frost dates, unit converter.
+- **8 offline tools:** CPR metronome, timers with a tourniquet clock, screen flashlight / SOS / Morse flasher, compass, water-treatment (bleach) calculator, supplies calculator, planting calendar with a **ZIP-code zone and frost-date finder** (works offline for about 40,500 US ZIP codes), unit converter.
 - Full-text search, Emergency screen, saved guides, tick-box checklists (remembered on the device), print buttons for paper backups, text-size control, and a red night mode.
 - Everything is plain files: HTML, CSS and JavaScript. No build tools or libraries are needed to run it.
 
@@ -54,6 +54,21 @@ node tools/build.mjs              # rebuild docs/ and dist/ (also updates the of
 - **Edit or add an article:** edit the file in `data/`, then rebuild. See `CONTENT_GUIDE.md` for the format. New ids must be added to `tools/master-list.json` or the validator will warn.
 - **Publish an update:** run the build, then `git add -A`, `git commit`, `git push`. GitHub Pages redeploys `docs/` within a minute or two. Installed copies pick up the new version automatically the next time they are online and show "A new version was installed".
 - **Test locally:** `python -m http.server 8765 --directory docs` then open http://127.0.0.1:8765
+
+## Planting calendar data (ZIP, zone, frost dates)
+
+`data/zonedata.js` is **generated** by `tools/build-zone-data.mjs` and is committed so the app works offline. It combines:
+
+- **USDA Plant Hardiness Zone Map 2023**, zone by ZIP code (USDA Agricultural Research Service and the PRISM Group at Oregon State University), `https://prism.oregonstate.edu/phzm/`. This app is not the official map.
+- **NOAA NCEI U.S. Climate Normals 1991-2020** for last/first 32 °F freeze dates (50% and about 10% probability), growing season and average temperatures, from weather stations.
+- **US Census 2023 ZCTA centroids** to place each ZIP near the right station.
+
+Each ZIP is matched to a nearby station, preferring one whose own hardiness zone agrees with the ZIP's zone, so mountain towns are not matched to warm valley stations. Frost dates are therefore **estimates**. To rebuild, download the three sources (see the header of the script) and run:
+
+```bash
+node tools/build-zone-data.mjs --usda <folder with the 4 phzm_*_zipcode_2023.csv> --gaz <2023_Gaz_zcta_national.txt> --noaa <folder of extracted station CSVs>
+node tools/build.mjs
+```
 
 ## Limits you should know about
 

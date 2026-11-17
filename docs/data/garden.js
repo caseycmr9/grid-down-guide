@@ -276,8 +276,9 @@ Related: [[garden-planning]], [[harvest-curing]].
 
 The time between them is your **growing season**. Everything in a planting guide is timed from these dates.
 
-## How to find yours with no internet
-- Ask long-time local gardeners or farmers.
+## How to find yours
+- **In this app:** open **Planting Calendar & Zone Finder** in the Tools tab and type your US ZIP code. It works offline. It finds your USDA zone and estimates your frost dates and temperatures from a nearby weather station.
+- Ask long-time local gardeners or farmers. Their dates beat any estimate.
 - Check an old almanac or local extension office printouts.
 - **Start a journal now:** write down the date of the last spring and first fall frost every year.
 - Watch the plants: when lilacs leaf out and dandelions bloom, hardy crops can go in. Wait for soil temperatures and warm nights before tender crops.
@@ -296,7 +297,7 @@ The USDA zone (1–13) is based on the **coldest winter night** and tells you wh
 | 9 | Feb – early Mar | Late Nov – Dec | 250–300 |
 | 10 | Rare; Jan – Feb | Dec – Jan | 300+ |
 
-Use the **Planting Calendar** in the Tools tab: enter your two frost dates and it lists dates for each crop.
+Use the **Planting Calendar & Zone Finder** in the Tools tab: enter your ZIP code (or pick your zone) and it fills in the frost dates and lists sowing and transplanting dates for each crop. You can edit the dates yourself.
 
 ## Cool-season vs warm-season
 - **Cool-season** (peas, spinach, lettuce, kale, cabbage family, carrots, beets, potatoes, onions): plant **before** the last frost. Many survive light frost.
