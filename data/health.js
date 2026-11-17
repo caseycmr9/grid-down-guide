@@ -177,6 +177,7 @@ Swelling and pain around a tooth. See [[dental]] for warning signs of spread to 
 ## Planning ahead
 - **Talk to your doctor now.** Ask whether they will prescribe a "just in case" supply for travel or remote living, and which drug and dose they would choose for your family's allergies and conditions. Some do.
 - Never share antibiotics, use leftovers for a different illness, or stop a course early. Wrong use causes side effects and resistance.
+- **Do not try to brew antibiotics** from mold, bread or herbs: see [[home-antimicrobials]] for why, and what actually helps.
 - **Do not take antibiotics made for animals or fish.** The FDA says animal drugs should not be used to treat people. They are not tested for people, may be the wrong strength or purity, and some can cause serious harm.
 - Prevention is your best antibiotic: clean water, clean wounds, handwashing, up-to-date tetanus and other vaccines, and good sanitation.
 `
@@ -577,6 +578,7 @@ Other low-risk home measures: salt-water gargles, steam for congestion, oatmeal 
 
 ## What to avoid
 - Colloidal silver (does not work and can turn skin permanently gray)
+- Homemade "penicillin" from mold or moldy bread (see [[home-antimicrobials]])
 - Essential oils taken by mouth
 - Comfrey, pennyroyal, tansy, wormwood, coltsfoot, and lobelia, taken internally
 - "Miracle" chemical cures such as bleach or MMS products
@@ -748,6 +750,65 @@ Look at both feet every day. People with diabetes or poor circulation must check
 
 ## Foot care kit
 Moleskin, tape, needle, scissors, antibiotic ointment, spare socks, foot powder, and nail clippers.
+`
+  },
+  {
+    id: 'home-antimicrobials',
+    cat: 'health',
+    title: "Home Antimicrobials: What Works, What Is Dangerous, and Why You Can't Brew Antibiotics",
+    summary: "Why real antibiotics cannot be made at home, which home wound care helps, which \"natural antibiotics\" are myths, and how to get real ones ahead of time.",
+    tags: ['antibiotics', 'make antibiotics', 'homemade antibiotics', 'how to make antibiotics', 'penicillin', 'mold', 'moldy bread', 'natural antibiotics', 'garlic', 'colloidal silver', 'honey', 'infection', 'wound', 'antimicrobial'],
+    body: `
+> DANGER: **You cannot safely make real antibiotics at home.** No recipe turns mold, bread, garlic, herbs or "penicillin soup" into a medicine with a known dose. Swallowing or injecting a home-grown mold brew can poison you, and relying on it for a serious infection can kill you. This page explains why, what actually helps, and how to get real antibiotics ahead of time.
+
+## Why you cannot brew antibiotics
+- **Most household mold is not penicillin.** Penicillin comes from particular *Penicillium* strains. The molds on bread and fruit are mostly other species, and some make toxins (mycotoxins) that damage the liver and kidneys.
+- **Mold brew is not a drug.** Making a usable antibiotic takes sterile growing tanks, chemical extraction and purification, and testing for strength and contamination. Even the first patients treated with penicillin in 1941 received a product that teams of scientists had purified in a laboratory.
+- **The dose is unknowable.** Too little does not cure the infection and helps resistant bacteria survive. Too much of a contaminated mixture can poison you.
+- **Many serious infections need other antibiotics** that cannot be made without a chemistry laboratory at all.
+- **Swallowing it does not work the way people hope.** Mold, bacteria and toxins in a raw mixture are dangerous in your gut and especially in your blood.
+
+## Care that really helps (this is not antibiotic treatment)
+These steps prevent infections and give a small infection its best chance. See [[wound-care]].
+1. **Clean the wound right away.** Rinse with plenty of clean running water for several minutes. Drinkable tap water is fine. Remove dirt and grit.
+2. **Wash the skin around it with mild soap.** Do not scrub inside the wound.
+3. **Do not pour hydrogen peroxide or rubbing alcohol into a wound.** They damage healing tissue and do not make it cleaner than water does.
+4. **Cover it** with a clean dressing. Change it daily and whenever it is wet or dirty.
+5. **Honey, for minor wounds and burns only.** A thin layer under a dressing has some support in small studies. Ordinary honey is not sterile; honey sold as a wound dressing is sterilized. Never use it on a deep puncture or bite, and never on a baby under 1 year.
+6. **Check it every day** for the warning signs below.
+7. **Keep your tetanus shot current** (every 10 years, sooner for a dirty deep wound). See [[infection-antibiotics]].
+
+## "Natural antibiotics": what we actually know
+| Remedy | The claim | What is known |
+|---|---|---|
+| Garlic | Cures infections | Shows activity in laboratory dishes. There is no good evidence it treats infections in people. It is a food, not a medicine. |
+| Honey on a wound | Heals and kills germs | Some evidence for minor wounds and burns under a dressing. Does nothing for an infection that has spread. |
+| Colloidal silver | Cures anything | The FDA says there is no proof it works. It can turn skin permanently blue-gray. **Avoid.** |
+| Essential oils (oregano, tea tree, clove) by mouth | Natural antibiotic | Not proven, and dangerous to swallow. **Avoid.** |
+| Echinacea, ginger, turmeric, vitamin C | Fights infection | Not treatments for bacterial infections. Fine as food. |
+| Moldy bread or "penicillin soup" | Homemade penicillin | **Dangerous. Never.** |
+| Fish or animal antibiotics | Same drug, cheaper | The FDA says animal drugs are not for people. **Never.** See [[infection-antibiotics]]. |
+| Bleach, "MMS" or chlorine dioxide, urine | Kills germs | Poisonous or useless. **Never** swallow or inject. |
+
+## Signs you need real antibiotics now
+- Redness that spreads, or red streaks running away from a wound
+- Fever or chills with a wound or sore, or pus with pain, swelling and heat
+- A bite from an animal or person, or a deep puncture wound
+- A hot, swollen, very painful area, or infection near the eye, in the face, or in the hands
+- Any infection in a baby, an older person, or someone with diabetes or a weak immune system
+- **Confusion, fast breathing, a racing heart, or feeling very ill: this may be sepsis.** See [[infection-antibiotics]].
+
+> CALL: If you can reach a doctor, urgent care or a hospital, go now. Do not spend days on home remedies. If you cannot reach help, follow [[infection-antibiotics]] for what you can do and keep trying to get care.
+
+## How to get real antibiotics before you need them
+- **Ask your doctor now.** Some will prescribe a "just in case" supply for remote living or travel and will tell you the drug and dose for your allergies and conditions. Some will not. A travel clinic or telehealth visit may be an option.
+- **Write down your drug allergies** and put them on your Emergency Card in this app.
+- **Never use leftover antibiotics, share them, or stop a course early.** That causes side effects and resistance.
+- **Check dates and storage** with your pharmacist, and keep them cool and dry.
+- **Prevention is your best antibiotic:** clean water, clean wounds, handwashing, vaccines and good sanitation. See [[disease-prevention]].
+
+## If the grid is down for a long time
+Be honest with yourself: without antibiotics, some infections that are routine today become deadly again. That is why prevention, early wound care and a plan matter so much. Find the nurses, medics, doctors and pharmacists in your neighborhood before a crisis ([[community-mutual-aid]]), and keep your first aid skills current.
 `
   }
 );

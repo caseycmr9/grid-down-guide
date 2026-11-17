@@ -18,6 +18,7 @@ These logs record how the guides were checked on **2026-11-16**. They are meant 
 | [recipes.md](recipes.md) | Pantry recipes (9, new) | 5 |
 | [family.md](family.md) | Kids & family (6, new) | 11 |
 | [learn.md](learn.md) | Courses, resources and ham radio (6, new) | 10 |
+| [home-antimicrobials.md](home-antimicrobials.md) | Home antimicrobials and why antibiotics cannot be brewed (1, new, single pass) | 2 (see log) |
 
 ## Highest-priority items for a human reviewer
 1. **First aid:** the 2025 AHA changes (infant compressions with two thumbs or the heel of one hand; alternating back blows and abdominal thrusts for choking), chest-seal wording, coral-snake wording, second epinephrine dose timing, epinephrine for babies under 15 kg.

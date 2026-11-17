@@ -2,7 +2,7 @@
 
 An offline survival and preparedness handbook that runs on any phone, tablet or computer. No internet, no app store, no accounts, no tracking.
 
-- **231 guides, about 140,000 words** in 23 sections: first aid, water, shelter and fire, sanitation, power, disaster playbooks, stockpiling, health, gardening, livestock, food preservation, cooking, pantry recipes, hunting, wild plants, building, skills, navigation and radio, security, kids and family, courses and ham-radio study guide, quick reference.
+- **232 guides, about 141,000 words** in 23 sections: first aid, water, shelter and fire, sanitation, power, disaster playbooks, stockpiling, health, gardening, livestock, food preservation, cooking, pantry recipes, hunting, wild plants, building, skills, navigation and radio, security, kids and family, courses and ham-radio study guide, quick reference.
 - **33 line diagrams** (CPR, choking, bleeding, tourniquet, slings, splints, recovery position, shelters, fire lays, latrines, filters, signals, and more), drawn as small inline SVG that follows light, dark and red night modes.
 - **Crisis mode:** 24 step-by-step scripts (CPR for adult/child/infant, choking, severe bleeding, stroke, anaphylaxis, burns, hypothermia, and more) with huge text, one step per screen, optional **Read aloud** using the phone's built-in offline voice, a built-in CPR beat and step timers.
 - **My Plan:** a readiness score and next best step, an **Emergency Card** with printable wallet cards, an **inventory** with expiry tracking, maintenance reminders (with a calendar .ics export), a **print kit booklet**, and a **Share** page with a QR code made on the device. Everything stays on the device; a backup file can be downloaded and restored.
