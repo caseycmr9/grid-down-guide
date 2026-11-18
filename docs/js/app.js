@@ -191,6 +191,7 @@
     forage: 'Never eat a wild plant or mushroom unless you are 100% certain what it is. Text cannot replace a printed field guide for your region and an experienced person.',
     preserve: 'Use only tested methods and current USDA / National Center for Home Food Preservation guidance for canning and curing.',
     hunt: 'Follow local laws in normal times. Cook game thoroughly and handle carcasses with gloves.',
+    rebuild: 'Electricity, fire, heavy lifting, structures and hot metal can kill or maim. Start small, wear eye, ear and lung protection, never work alone, and follow local building and electrical codes. Have a qualified person check anything structural, electrical or involving a chimney before you rely on it.',
     health2: ''
   };
 

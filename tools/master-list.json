@@ -1258,5 +1258,167 @@
    "Ham Radio in an Emergency: First Radio, Nets & Messages",
    "Practical emergency use: a first radio shopping guide (handheld dual-band, mobile, base; what to look for; programming frequencies; battery and power plan; spare antenna; magnetic mount and roll-up J-pole ideas), a family communication plan using ham/FRS/GMRS, how to join a local club and emergency net before you need it, how to run on emergency power, writing and relaying a formal message (ARRL radiogram basics), the incident command structure basics, clear speaking (plain English, no jargon, clear/brief), logging, what to say and not say on air in an emergency (distress call procedure: MAYDAY/emergency traffic, break for emergency, and how to ask for priority), the importance of testing monthly. No exact local frequencies you are unsure of; give the nationally known calling frequencies only if confident (146.520 MHz national 2 m simplex calling, 446.000 MHz national 70 cm simplex calling; consistent with emergency-frequencies)."
   ]
+ ],
+ "rebuild": [
+  [
+   "rebuild-roadmap",
+   "Rebuilding Roadmap: What to Rebuild First and Why",
+   "A realistic order of priorities after a long grid-down: water, shelter, heat, food, health, then power, tools, metal and housing; what to salvage first; honest limits (what takes years, what needs many people, what needs specialist knowledge); how to decide between repairing, scavenging and making; how to use this section (power, building, primitive technology, metalworking); safety principles that apply to everything (eye/ear/lung protection, fire, no work alone, test small, document what works). Short signpost article that links to every other article in the section."
+  ],
+  [
+   "electricity-basics",
+   "Electricity Basics: Volts, Amps, Watts and Staying Alive",
+   "Plain-language electricity for beginners: voltage, current, resistance, power, energy (watt-hours); Ohm law and the power formulas with worked examples; DC vs AC; series vs parallel with a table of what happens to voltage and current; how electric shock hurts and kills (current through the body, wet skin, path through the chest; typical thresholds from OSHA/CDC/NIOSH), what is and is not safe to touch; a multimeter: how to measure volts, amps and continuity; fuses and breakers and why every circuit needs one; wire gauge (AWG) and a conservative ampacity table; voltage drop; grounding at a basic level; first response to electrical injury (link to drowning-electric). SAFETY-CRITICAL: verify every number."
+  ],
+  [
+   "solar-system-design",
+   "Designing an Off-Grid Solar System",
+   "How to size a system step by step with worked examples: list loads (watts x hours = watt-hours/day), peak sun hours by region (give a conservative range and say use a local map), losses (about 20-30%), panel wattage, battery capacity with depth-of-discharge and days of autonomy, charge controller sizing (PWM vs MPPT, how to size from panel Voc and Isc with cold-weather margin), inverter sizing and surge, choosing system voltage (12/24/48 V), a starter system (phone/light/radio), a small cabin system, and a household system; panel mounting, tilt and shading; cost-saving through salvage; what a solar system cannot run (e.g. large heating loads). Cross-link solar-basics, batteries-charging, solar-builds, power-outage-basics. Do not duplicate; go deeper with calculations."
+  ],
+  [
+   "solar-wiring",
+   "Wiring Solar Panels, Batteries and Inverters Safely",
+   "Step-by-step wiring: series, parallel and series-parallel strings with the voltage and current rules and a simple text/ASCII or table description; connectors (MC4) and crimping; combiner and fuses/breakers on the right sides; wire gauge selection for DC with a voltage-drop rule of thumb (3%) and a table; sizing fuses and disconnects (for panels use the 1.56 factor from NEC when you are sure, otherwise conservative guidance); battery cable and lugs, torque, bus bars; connect order (controller to battery first, then panels) and the reverse for disconnecting; inverter wiring with proper cable and fuse next to the battery; grounding and lightning protection basics; labeling; common mistakes that cause fires (undersized wire, no fuse, loose connections, reverse polarity, mixing batteries); inspection checklist; when to call an electrician or follow local code. DANGER callouts for DC arc, battery short-circuit current, and shock from series strings in sun."
+  ],
+  [
+   "battery-banks",
+   "Battery Banks: Lead-Acid, Lithium, Care and Safety",
+   "Battery types (flooded lead-acid, AGM, gel, LiFePO4, NiMH, salvaged lithium-ion) with a comparison table; capacity (Ah, Wh), depth of discharge and cycle life; series vs parallel banks and matching batteries; charging stages and voltages (give only values you can verify, say follow the manufacturer); equalizing; state of charge by voltage and by hydrometer; water topping up; temperature effects; ventilation and hydrogen explosion risk; acid burns and first aid; lead handling; how to size cables and fuses; recycling and salvaging batteries (car, UPS, e-bike, laptop packs) with lithium fire/thermal runaway warnings; why you should not charge lithium below freezing; storage; end of life and disposal. Cross-link batteries-charging and solar-wiring. SAFETY-CRITICAL."
+  ],
+  [
+   "solar-salvage-repair",
+   "Salvaging, Testing and Repairing Panels, Inverters and Electronics",
+   "How to find and judge used or abandoned solar panels, charge controllers, inverters, motors, batteries and appliances; testing a panel with a multimeter (open-circuit voltage and short-circuit current, in sun, with safety), reading the label, signs of damage (cracks, delamination, browning, hot spots, bad junction boxes); repairing junction boxes, diodes and connectors; making a small panel from salvaged cells (realistic limits: soldering tabbing, fragility, encapsulation); testing and repairing power supplies, chargers and DC-DC converters; repurposing car parts, microwave transformers (with strong danger warnings), laptop and printer motors; component-level basics: resistors, diodes, capacitors, transistors, fuses; soldering technique; what not to open (CRT monitors, microwave capacitors, mains power supplies charged capacitors) with safety first. DANGER callouts."
+  ],
+  [
+   "cabin-electrical",
+   "Wiring a Small Off-Grid Cabin: Lighting, Outlets and Protection",
+   "Practical wiring for a small cabin: 12/24 V DC lighting (LED strips and bulbs), USB charging, DC outlets, and when to add a 120/230 V AC inverter circuit; load center, fuse block or breaker panel, a main disconnect; wire gauge and run lengths; cable types, conduit and protection from rodents and sun; switches and junction boxes; GFCI basics; polarity and color codes (US and say check local code elsewhere); grounding; smoke and CO detectors on battery; planning circuits; safe outdoor connections; a worked cabin example with a diagram described in text/table; why local electrical code and an inspection matter; never back-feed a house from a generator (link generator-safety). SAFETY-CRITICAL."
+  ],
+  [
+   "electricity-from-scratch",
+   "Making Electricity From Scratch: Magnets, Coils, Alternators and Motors",
+   "Teaches the principles (Faraday induction, magnets, coils, AC to DC with a rectifier) and what is realistic: reusing a car alternator or a permanent-magnet DC motor as a generator (how to wire, speed needed, regulation and a diode/regulator), rewinding or building a small axial-flux permanent-magnet alternator from magnets and copper wire (materials, coil math, resin casting, safety), making copper wire (drawing is hard: salvage magnet wire from motors and transformers instead), insulation, magnets (neodymium handling hazards: pinch injuries, shattering, never near pacemakers), testing output with a multimeter, rectifying and charging a battery with a controller/diversion load, and honest output expectations. Also very basic cells (lemon/zinc-copper: educational only, tiny power) and why they are not a power source. SAFETY-CRITICAL."
+  ],
+  [
+   "wind-turbine-build",
+   "Wind Power: Siting, Towers and Building a Small Turbine",
+   "Is wind worth it (average wind speed, power in the wind ~ cube of speed, the Betz limit and realistic yield; honest about small turbines on poor sites), siting (height above obstacles, ridge, turbulence), towers (guyed pole, tilt-up; fall zone, safety, never climb without fall protection, call before you dig for buried utilities), turbine types (horizontal-axis with 3 blades, vertical-axis tradeoffs), building a small turbine from a salvaged permanent-magnet alternator or hub motor: blade length vs swept area, carving blades from wood (airfoil basics, tip speed ratio ~5-7), balance, tail vane, furling/overspeed protection, slip rings, wiring, rectifier, charge controller with a diversion (dump) load (never let a turbine run unloaded or disconnected from batteries), grounding, maintenance, storm protection, noise, legal/neighbor considerations. SAFETY-CRITICAL."
+  ],
+  [
+   "micro-hydro",
+   "Micro-Hydro Power: Streams, Water Wheels and Turbines",
+   "Measuring head and flow (simple bucket-and-stopwatch flow, height measurement by tubing or clinometer), the power formula (P ~ 9.81 x head x flow x efficiency) with worked examples, intake and screens, penstock pipe, turbine choices by head and flow (Pelton/Turgo, crossflow, propeller, water wheels: overshot, undershot, breast), building a simple water wheel and a small Pelton-style wheel, connecting to an alternator or generator and a controller/dump load, run-of-river impacts on fish and neighbors, water rights and permits (say check local law), ice, floods, safety around moving water and machinery. Realistic: even small streams can make steady power day and night. SAFETY-CRITICAL."
+  ],
+  [
+   "pedal-hand-power",
+   "Human, Animal and Biomass Power: Pedal Generators, Hand Cranks, Biogas and Wood Gas",
+   "Pedal generator (bicycle on a stand driving an alternator or DC motor; how much power a person can sustain, about 75-150 W for an hour, say conservative), hand-crank generators and radios, thermoelectric generators on stoves for phone charging, steam and Stirling engines (what they can and cannot do, boiler explosion danger, use of pressure relief), biogas digesters from manure (design basics, gas yield, methane explosion and asphyxiation hazards, never indoors), wood gas (gasifiers: VERY dangerous carbon monoxide, explain why it is an advanced project and give strong warnings and guidance to study dedicated sources first), and draft animals/treadmill power. Honest about efficiency. Cross-link generator-safety. SAFETY-CRITICAL."
+  ],
+  [
+   "water-pumping",
+   "Pumping Water Without the Grid: Hand Pumps, Rams and Solar or Wind Pumps",
+   "Lifting and moving water: suction limits (about 25 ft/7.6 m practical), pitcher and piston hand pumps, deep-well options, rope-and-bucket and windlass, bucket-chain and Archimedes screw, hydraulic ram pump (how it works, how to build one from plumbing parts, required fall and flow, output ratio), solar DC pumps (sizing from head and flow), windmill pumps, siphons and gravity feed (how to compute pressure: about 0.433 psi per foot of head), storage tanks and keeping water clean (cross-link water-storage, wells-springs, water-filters, chemical-disinfection), freeze protection, priming, maintenance. Verify formulas."
+  ],
+  [
+   "mills-mechanical-power",
+   "Mechanical Power: Water Wheels, Windmills, Belts, Gears and Grain Mills",
+   "Using rotation directly: gearing and belt ratios with worked examples (speed vs torque), pulleys and flat/V belts, line shafting, flywheels, cranks and cams, bearings from wood, bronze and ball bearings, hand-quern and stone grain mills (how to make and dress millstones basics), water-powered mills and sawmills (overview), windmill basics, pump rods, safety around belts and flywheels (entanglement, guards), lubrication. Cross-link simple-machines and micro-hydro. Keep practical."
+  ],
+  [
+   "building-site",
+   "Choosing and Preparing a Building Site",
+   "What to look for: water (well/spring/stream, flood line), slope and drainage, soil type and how to test bearing and drainage (jar test, percolation basics), sun orientation (passive solar for each hemisphere), wind and fire exposure (defensible space), distance from septic/latrine and water, access, hazards (landslide, floodplain, falling trees, avalanche), frost depth and permafrost, legal basics (permits, property lines, utilities and buried lines: call before you dig), clearing and marking, layout and squaring (3-4-5, batter boards), temporary shelter while building, and a site checklist."
+  ],
+  [
+   "foundations",
+   "Foundations That Last: Piers, Rubble Trench, Stone and Slab",
+   "Why foundations fail (water, frost heave, settlement); frost depth and drainage; foundation types with when to use each: stone/concrete piers and post holes, rubble-trench, dry-stacked and mortared stone, concrete strip footing, floating slab, treated posts vs. rot (charred or tarred posts claims: be honest); footing width and depth rules of thumb (conservative, say check local code and soils); mixing and pouring concrete (proportions 1:2:3 style with water/cement ratio, curing 7 days damp, cold-weather and hot-weather cautions, wet cement burns), reinforcement with rebar or salvaged materials, anchoring the frame, crawlspace ventilation, moisture barriers; earthquake and flood notes. SAFETY: trench collapse, lifting."
+  ],
+  [
+   "log-cabin",
+   "Building a Log Cabin, Step by Step",
+   "Picking and felling logs (link felling-splitting-firewood), peeling and seasoning (green vs dry and settling), log size and selection by species (rot resistance), tools needed (axe, adze, drawknife, saws, scribers, levels), building methods (Scandinavian scribe-fit, saddle notch, full dovetail, corner post and Hudson Bay style), foundation and sill logs, laying courses, splines and pegs, windows and doors with settling gaps, plate logs, roof framing (cross-link framing-roofing), chinking and gaps, wall height and cabin size for a small stove-heated cabin (e.g. 12x16 ft), a realistic time and people estimate, safety when lifting logs (skids/ramps, parbuckling, hoists), chainsaw/axe safety, fire safety distances. Numbered steps."
+  ],
+  [
+   "post-and-beam",
+   "Post-and-Beam, Pole-Frame and Timber-Frame Cabins",
+   "Frame types: pole barn (posts set in ground, pole building), post-and-beam on piers or sills, simple timber frame with mortise-and-tenon and pegs, and a basic stud-frame cabin; loads and spans (conservative guidance; say a span is limited and use local tables or build small), bracing and diagonal bracing against racking, raising a frame safely (gin pole, tag lines, enough people), sheathing, siding (board-and-batten, clapboard, shingles), floor framing and subfloors, insulation space; joinery by hand (layout, cutting a mortise and tenon, drawboring), post rot protection. Cross-link framing-roofing, fasteners-joinery, wood-timber-basics, measuring-squaring."
+  ],
+  [
+   "masonry-walls",
+   "Stone, Brick and Adobe Walls: Masonry Basics",
+   "Stone: choosing, shaping, dry-stack vs mortared walls, thickness and batter, through-stones, corners; brick: laying bricks with bonds, mortar joints, running vs. header courses; adobe and cob (cross-link earth-building) with testing soil (jar and ribbon tests, mix ratios), forms, drying, plaster; mortar types (lime vs cement; cross-link lime-mortar-concrete), lintels and arches (how to make a simple arch with centering), openings and sizes, protecting from water (good boots and a good hat: roof overhang, plinth), seismic cautions (unreinforced masonry can collapse; keep walls low, thick and braced), safety (lifting, silica dust, mortar burns, scaffold)."
+  ],
+  [
+   "roofing-materials",
+   "Roofs From Local Materials: Shakes, Thatch, Sod, Tile and Metal",
+   "Pitch and overhang; split shakes and shingles (choose species, riving with a froe, installing with overlap), board-and-batten and slab roofs, thatch (straw, reed, grass: thickness, pitch 45 degrees or more, fire risk), sod/green roofs (waterproof layer, loads), clay tile and slate (cross-link clay-pottery-kilns), salvaged metal roofing and fasteners (nailing, flashing, sealing), roof underlayment from natural materials (birch bark etc.: note limits), gutters and drainage, snow load caution, safe roof work (fall protection, ladders, never work on wet roofs), chimney flashing. Honest about durability and maintenance. Cross-link framing-roofing."
+  ],
+  [
+   "doors-windows-insulation",
+   "Doors, Windows, Floors, Insulation and Ventilation",
+   "Doors and shutters from planks and hardware you can forge (cross-link blacksmithing-basics); windows: salvage glass and framing, oiled paper or fabric as a stopgap, window placement for light and heat; floors (plank, packed earth, stone, clay), insulation materials and R-values (straw, wool, cellulose, sawdust, cork: give conservative values; moisture and rodent notes), straw bale basics, vapor and moisture control (do not trap moisture), air sealing; ventilation is a must when burning anything or when well sealed (carbon monoxide, moisture, mold): CO alarms, combustion air; fire safety near stoves; mold prevention."
+  ],
+  [
+   "masonry-heaters-ovens",
+   "Masonry Heaters, Chimneys, Clay Ovens and Safe Fireplaces",
+   "Safe heating and cooking structures: chimney basics (size vs. flue, height rule 3-2-10, drafting, clearances to combustibles: be conservative and cite NFPA 211 or equivalent only if verified, creosote and chimney fires, cleaning), fireplaces and the Rumford shape, masonry heaters (the principle of high-temperature burn and heat storage; build overview and why you must follow a proven plan), cob/clay bread ovens (build steps, curing, firing, baking temperatures) and earth ovens, rocket stoves and rocket mass heaters (link rocket-stove-build and the carbon monoxide warning), safe stove installation through walls and roofs, heat shields, ash disposal, CO alarms. DANGER callouts on carbon monoxide and chimney fires."
+  ],
+  [
+   "outbuildings",
+   "Outbuildings: Outhouse, Smokehouse, Coop, Woodshed, Spring House and Barn",
+   "Small structures with dimensions and simple plans in text: outhouse and composting toilet (link human-waste), woodshed, smokehouse (link smoking-curing-salting, fire safety), chicken coop (link chickens), rabbit hutch (link rabbits), goat shelter (link goats-sheep-cattle), root cellar (link root-cellar), spring house/cool house, tool shed, greenhouse/cold frame (link season-extension), small barn/hay storage (spontaneous combustion of damp hay: a real fire risk), water catchment structures; siting, ventilation, drainage, predator proofing, and keeping fire risk low."
+  ],
+  [
+   "community-rebuilding",
+   "Rebuilding as a Community: Trades, Standards and Passing on Knowledge",
+   "Why rebuilding is a group effort; making a skills inventory (link community-mutual-aid), the trades that matter most (carpenter, mason, smith, electrician, medic, farmer, miller, potter, weaver, cobbler, herbalist, teacher), sharing tools and workshops, apprenticeships and teaching children, keeping records (written manuals, drawings, local standards: measuring units, screw threads, pipe sizes), standardization and trade (barter, link barter-trade), fair work sharing, safety culture and inspection by peers (especially for electrical, chimneys, structures), preserving books and data (link books-offline-resources), mental health and morale during long rebuilding (link mental-health). Short, practical, non-political."
+  ],
+  [
+   "clay-pottery-kilns",
+   "Clay, Pottery, Bricks and Kilns",
+   "Finding and testing clay (ribbon and shrink tests), cleaning and tempering (sand, grog, crushed shell), forming (pinch, coil, slab), drying and cracking prevention, pit firing and bonfire firing, building an updraft kiln or a brick kiln from mud-brick/stone (design basics, draft, flue), firing temperatures and colors (give an approximate table: dull red about 1,100 F, cherry red about 1,500 F etc. and say approximate), earthenware vs stoneware, glazes (salt, ash glazes; avoid lead and toxic glazes; food safety), making bricks and tiles (molds, drying, firing, size), water jars and cooking pots (thermal shock), terracotta water filters (link water-filters), crucibles for metal casting (link casting-metals), glass (honest: very hard; salvage glass first), silica dust and kiln safety (burns, ventilation, never open a hot kiln, eye protection)."
+  ],
+  [
+   "charcoal-making",
+   "Making Charcoal (and Staying Safe Around It)",
+   "Why charcoal (fuel for forges and furnaces, cooking, filtering water, drawing), wood choice and preparation, methods: pit, earth mound, drum retort and brick kiln, controlled burn stages (smoke colors and how to tell when done), yield (about 15-25% by weight, say approximate), quenching and storage, how much a forge uses, rough costs in labor; strong safety section: carbon monoxide (never indoors), fire control, burns, spontaneous ignition of fresh charcoal dust, wildfire conditions and local burn bans; wood vinegar/tar as byproducts (optional). Cross-link forge-build, filter articles."
+  ],
+  [
+   "lime-mortar-concrete",
+   "Lime, Mortar, Plaster and Concrete",
+   "Burning limestone/shell in a lime kiln (about 900 C / 1,650 F, say approximate), slaking quicklime safely (it burns skin and eyes and boils water: goggles, gloves, add quicklime to water carefully), lime putty, lime mortar and plaster recipes (sand ratios 1:3 as a starting point), hot-mixed lime, whitewash, lime-cement and portland cement from salvage, pozzolans (brick dust, volcanic ash) for hydraulic set, simple concrete (cement:sand:aggregate about 1:2:3 and water, curing, cold weather), tadelakt/waterproofing basics, safety: caustic burns first aid (flush 30 minutes+), silica and cement dust, kiln CO and heat, never drink or use lime on food (except nixtamal done properly as in cook.js). Cross-link masonry-walls, foundations."
+  ],
+  [
+   "forge-build",
+   "Building a Forge: Fire Pot, Bellows, Anvil and Safety",
+   "Forge designs: simple charcoal forge from a brake drum or a firebrick/clay pit, side-blast with a tuyere, bottom-blast, coal vs charcoal vs propane (note: propane forges are not grid-down friendly), air supply (hand-crank blower, bag or box bellows, how to make a double-acting box bellows, sizing the air), fire management (building a fire, clinkers), anvil substitutes (railroad rail, steel block, large hammer head, log stump) and working height, essential tools (hammers, tongs, hardy/chisel, vise, quench tank, tongs from rebar), workspace layout, fuel storage; SAFETY: burns, radiant heat and eye protection (shade lenses), hearing, ventilation and carbon monoxide, fire extinguishing (sand, water for wood but never water on a hot oil fire), no synthetics clothing, never quench closed containers, dust, hammer strike safety, flying scale; first aid for burns (link burns). Practical and realistic."
+  ],
+  [
+   "blacksmithing-basics",
+   "Blacksmithing Basics: Heating, Shaping, Hardening and Tempering",
+   "Steel types and how to identify useful ones (mild steel, high-carbon, leaf springs, files, tool steels, wrought iron; use the spark test and quench test), heating and color-to-temperature table (approximate: black heat, dull red about 1,000-1,200 F, cherry red, orange, yellow/forging, white = burning; give approximate and say lighting affects color), basic operations (drawing out, upsetting, bending, twisting, punching and drifting, splitting, cutting, forge welding overview), making your first projects: hook, nails, chisel, fire poker, tongs, hinge, simple knife (blade geometry, normalizing, hardening in oil or water: do not use steel with unknown composition for tools that must hold edge safely), heat treating: normalize, quench, temper (tempering color table: light straw about 440 F, brown about 500 F, purple about 540 F, blue about 570 F: verify), grinding and sharpening, finishing (oil, beeswax; link sharpening-tools), safety (link forge-build). Numbered steps."
+  ],
+  [
+   "smelting-iron",
+   "Smelting Iron: A Realistic Look at the Bloomery",
+   "Honest assessment: why scrap is a far better source of iron than ore, and when ore smelting makes sense; finding iron ore (bog iron, hematite and magnetite, rust-colored deposits; magnet test), preparing ore (roasting, crushing), building a clay bloomery furnace (dimensions, tuyere, clay with sand and straw, drying), charcoal and ore charging ratios, air blast needed, typical timeline (many hours) and yield (small bloom), consolidating the bloom with hammering, slag, how to tell iron from slag, how iron vs steel arises (carbon control, honest: hard), dangers: carbon monoxide, burns and sparks, heat, fumes from impure ore (arsenic or sulfur: check), exhaustion and dehydration, risk of furnace collapse. Cross-link forge-build, charcoal-making, clay-pottery-kilns."
+  ],
+  [
+   "metal-scavenging",
+   "Finding, Identifying and Preparing Scrap Metal (and Toxic Coatings to Avoid)",
+   "What to scavenge and where (vehicles, buildings, farm equipment, rail, wire, appliances, cookware), identifying metals (magnet test, spark test, weight, color, file test, sound), what each is good for (mild steel, spring steel, cast iron (do not forge: it shatters), stainless, aluminum, copper, brass, bronze, zinc, lead), preparing and cutting scrap (hacksaw, cold chisel, grinder alternatives), DANGEROUS coatings and metals: galvanized (zinc) fumes cause metal fume fever: do not heat or weld galvanized without proper ventilation, cadmium plating (toxic), lead (paint, solder, batteries: do not melt indoors, no children), chromium (hexavalent) in stainless, beryllium (rare), asbestos, radioactive items (smoke detectors with americium: leave alone), vehicle airbag/shock/strut hazards (stored pressure), propane and fuel tanks (explosion), pressure vessels, flammable residue; cleaning and rust removal (vinegar, electrolysis basics with safe voltage and ventilation), storage, sorting. SAFETY-CRITICAL."
+  ],
+  [
+   "casting-metals",
+   "Melting and Casting Aluminum, Brass and Bronze Safely",
+   "Which metals are practical to cast (aluminum, bronze, brass, pewter-like tin alloys: avoid lead alloys), building a small crucible furnace (charcoal or coal, bucket/clay-lined) and sourcing crucibles (graphite or clay, steel pipe for aluminum only with care), flux, skimming and pouring, melting points table (aluminum about 660 C / 1,220 F; copper 1,085 C / 1,984 F; brass about 900-940 C; bronze about 950-1,050 C; tin 232 C: verify), sand casting molds (green sand, petrobond not needed, making patterns and a two-part flask with vents and sprue), making simple parts (pulleys, gears, bearings, handles), SAFETY: moisture is the main killer (wet molds, wet tools or damp scrap cause steam explosions, preheat everything), PPE, fume hazards (zinc in brass, galvanized, lead, paint, plastics), burns, ventilation, never cast near water, spill plan, pouring path, no hand-off of molten metal. SAFETY-CRITICAL."
+  ],
+  [
+   "joining-metal",
+   "Joining Metal: Rivets, Brazing, Soldering, Forge Welding and Bolting",
+   "Hot and cold riveting (rivet sizes, setting), nuts and bolts (threads from salvage; making a thread is hard), clinching/folding, wiring and binding, soft soldering (use lead-free; flux; plumbing vs electronic; never use lead solder for drinking water), silver and brass brazing with a propane or charcoal torch (flux, fit-up), forge welding wrought iron and mild steel (flux with borax or sand, welding heat), arc welding from salvaged power sources (overview only, with strong warnings: UV eye and skin burns, fumes, shock; link electricity-basics), cutting metal without power (hacksaw, chisel, shears, forge cutting), straightening and drilling (hand drill, bow drill for metal needs cutting oil), basic joint strength rules, inspection. SAFETY: fume, flash and burn hazards."
+  ]
  ]
 }

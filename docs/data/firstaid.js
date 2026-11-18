@@ -403,7 +403,7 @@ See also [[bites-stings]], [[burns]], [[improvised-first-aid]], [[disease-preven
 Large burns leak fluid. If the person is awake and able to swallow, give frequent sips of water or oral rehydration solution ([[dehydration-ors]]). Watch for [[shock]].
 
 ## Chemical burns
-1. Brush off any dry powder first, then flush with large amounts of running water for **at least 20 minutes.**
+1. Brush off any dry powder first, then flush with large amounts of running water for **at least 20 minutes** (30 minutes or more for lye, lime, cement and other strong alkalis).
 2. Remove contaminated clothing and jewelry while flushing.
 3. Keep flushing even if pain lessens. If the eyes are involved, see [[chest-abdomen-eye]].
 4. Never mix chemicals to "neutralize" a burn. Call Poison Control (1-800-222-1222 in the US).

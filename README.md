@@ -2,7 +2,7 @@
 
 An offline survival and preparedness handbook that runs on any phone, tablet or computer. No internet, no app store, no accounts, no tracking.
 
-- **232 guides, about 141,000 words** in 23 sections: first aid, water, shelter and fire, sanitation, power, disaster playbooks, stockpiling, health, gardening, livestock, food preservation, cooking, pantry recipes, hunting, wild plants, building, skills, navigation and radio, security, kids and family, courses and ham-radio study guide, quick reference.
+- **264 guides, about 174,000 words** in 24 sections: first aid, water, shelter and fire, sanitation, power, disaster playbooks, stockpiling, health, gardening, livestock, food preservation, cooking, pantry recipes, hunting, wild plants, building, **rebuilding and primitive technology (solar, wind and hydro power, cabins, masonry, forge and metalworking)**, skills, navigation and radio, security, kids and family, courses and ham-radio study guide, quick reference.
 - **33 line diagrams** (CPR, choking, bleeding, tourniquet, slings, splints, recovery position, shelters, fire lays, latrines, filters, signals, and more), drawn as small inline SVG that follows light, dark and red night modes.
 - **Crisis mode:** 24 step-by-step scripts (CPR for adult/child/infant, choking, severe bleeding, stroke, anaphylaxis, burns, hypothermia, and more) with huge text, one step per screen, optional **Read aloud** using the phone's built-in offline voice, a built-in CPR beat and step timers.
 - **My Plan:** a readiness score and next best step, an **Emergency Card** with printable wallet cards, an **inventory** with expiry tracking, maintenance reminders (with a calendar .ics export), a **print kit booklet**, and a **Share** page with a QR code made on the device. Everything stays on the device; a backup file can be downloaded and restored.
@@ -81,7 +81,7 @@ node tools/build.mjs
 ## Limits you should know about
 
 - **Diagrams, not photographs.** Keep printed field guides for plants, mushrooms, snakes, knots, and anything you could get badly wrong.
-- **Checked by AI, not certified.** The text was written with AI help and then checked against official sources in two passes (see `review/README.md`). About 16% of the roughly 1,200 logged claims are still unverified, and **no nurse, EMT, extension agent or other qualified person has reviewed it yet.** Please arrange that for the first-aid, health, plant and building sections.
+- **Checked by AI, not certified.** The text was written with AI help and then checked against official sources in two passes (see `review/README.md`). About 17% of the roughly 1,500 logged claims are still unverified, and **no nurse, EMT, extension agent or other qualified person has reviewed it yet.** Please arrange that for the first-aid, health, plant and building sections.
 - **No Spanish or other translations** yet: a translation mistake in first aid can hurt people, so it should be done with a human reviewer.
 - Not yet tested on a physical phone or tablet.
 - It is an educational reference, not medical or legal advice. Take a hands-on first aid / CPR class.

@@ -17,6 +17,7 @@ window.CATEGORIES = [
   { id: 'hunt',       icon: '🦌', title: 'Hunt, Fish & Trap',     blurb: 'Get, clean, and cook wild game.' },
   { id: 'forage',     icon: '🌿', title: 'Wild Plants',           blurb: 'What is safe, what can kill you.' },
   { id: 'build',      icon: '🔨', title: 'Building & Making',     blurb: 'Tools, wood, stoves, structures.' },
+  { id: 'rebuild',   icon: '⚒️', title: 'Rebuilding & Primitive Tech', blurb: 'Make power, build homes, forge metal.' },
   { id: 'skills',     icon: '🧵', title: 'Skills & Crafts',       blurb: 'Knots, soap, repair, barter.' },
   { id: 'nav',        icon: '🧭', title: 'Navigation & Radio',    blurb: 'Lost, signaling, weather, comms.' },
   { id: 'security',   icon: '🛡️', title: 'Security & Safety',     blurb: 'Home, community, fire safety.' },

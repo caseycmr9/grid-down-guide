@@ -4,7 +4,7 @@ These logs record how the guides were checked on **2026-11-16**. They are meant 
 
 **What this check is:** an AI compared each checkable claim (numbers, doses, temperatures, steps, warnings) with official sources it could open: Red Cross, AHA, CDC, FDA, USDA/NCHFP, EPA, FEMA, NWS, WHO, AAP, ARRL, university Extension and others. Two passes were made; the second pass went back to the claims the first pass could not verify.
 
-**What it is not:** a review by a qualified person. Several primary sources (heart.org, redcross.org, fsis.usda.gov, fcc.gov, some CDC and Extension pages) blocked automated fetches, so some claims rest on search summaries or secondary sources, and the logs say so. Roughly 1,200 claims were logged; about 195 (about 16%) remain **Unverified**. No claim marked Unverified was found to be wrong, but "not found wrong" is not "confirmed".
+**What it is not:** a review by a qualified person. Several primary sources (heart.org, redcross.org, fsis.usda.gov, fcc.gov, some CDC and Extension pages) blocked automated fetches, so some claims rest on search summaries or secondary sources, and the logs say so. Roughly 1,500 claims were logged; about 250 (about 17%) remain **Unverified**. No claim marked Unverified was found to be wrong, but "not found wrong" is not "confirmed".
 
 | Log | Articles covered | Unverified after 2nd pass |
 |---|---|---|
@@ -18,13 +18,17 @@ These logs record how the guides were checked on **2026-11-16**. They are meant 
 | [recipes.md](recipes.md) | Pantry recipes (9, new) | 5 |
 | [family.md](family.md) | Kids & family (6, new) | 11 |
 | [learn.md](learn.md) | Courses, resources and ham radio (6, new) | 10 |
+| [rebuild-1-electric.md](rebuild-1-electric.md) | Rebuilding: electricity basics, solar design and wiring, batteries, salvage, cabin wiring (7, new) | 9 |
+| [rebuild-2-energy.md](rebuild-2-energy.md) | Rebuilding: magnets and alternators, wind, micro-hydro, pedal/biogas, pumping, mills (6, new) | 18 |
+| [rebuild-3-building.md](rebuild-3-building.md) | Rebuilding: site, foundations, log cabins, post-and-beam, masonry, roofs, insulation, heaters, outbuildings, community (10, new) | 13 |
+| [rebuild-4-metal.md](rebuild-4-metal.md) | Rebuilding: clay and kilns, charcoal, lime and mortar, forge, blacksmithing, smelting, scrap, casting, joining (9, new) | 11 |
 | [home-antimicrobials.md](home-antimicrobials.md) | Home antimicrobials and why antibiotics cannot be brewed (1, new, single pass) | 2 (see log) |
 
 ## Highest-priority items for a human reviewer
 1. **First aid:** the 2025 AHA changes (infant compressions with two thumbs or the heel of one hand; alternating back blows and abdominal thrusts for choking), chest-seal wording, coral-snake wording, second epinephrine dose timing, epinephrine for babies under 15 kg.
 2. **Health:** childbirth steps and cord-tie distances (WHO says 2 and 5 cm; the article keeps larger distances), breech steps, over-the-counter dose tables, herbal remedies table, infant feeding.
 3. **Wild plants:** identification text for common wild greens and roots, and every deadly-lookalike pairing. Text is never enough: use a printed field guide and an experienced person.
-4. **Building:** roof/floor span tables and header sizes (a warning was added; use local building code), solar and electrical wiring.
+4. **Building and electrical (new Rebuilding section):** every wiring, fuse and wire-gauge table and the NEC-based rules (an electrician must review: the NEC text itself was not opened); the beam, footing, rubble-wall and chimney-clearance numbers (a builder or engineer and a chimney inspector must review); casting, forge-welding and heat-treat temperatures (a blacksmith/metalworker should review); roof and floor span tables in the older Building section.
 5. **Canning and curing:** every processing time and pressure was checked against NCHFP pages, but cure (nitrite) amounts and the unverified storage-life figures should be confirmed.
 6. **Radiation, chemical and flood guidance:** potassium iodide doses, flood vehicle advice, chemical rinse times.
 

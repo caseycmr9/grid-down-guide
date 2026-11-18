@@ -1,0 +1,30 @@
+[
+  { "fig": "ohms-law-circuit", "article": "electricity-basics", "heading": "The formulas", "where": "end" },
+  { "fig": "battery-series-parallel", "article": "electricity-basics", "heading": "Series and parallel", "where": "end" },
+
+  { "fig": "solar-panels-series-parallel", "article": "solar-wiring", "heading": "Series, parallel, or both", "where": "end" },
+  { "fig": "solar-system-block-diagram", "article": "solar-wiring", "heading": "The path", "where": "end" },
+
+  { "fig": "cabin-dc-circuit", "article": "cabin-electrical", "heading": "Plan the circuits", "where": "end" },
+
+  { "fig": "axial-flux-alternator", "article": "electricity-from-scratch", "heading": "Option 3: build an axial-flux alternator", "where": "start" },
+  { "fig": "wind-turbine-parts", "article": "wind-turbine-build", "heading": "Building one", "where": "start" },
+  { "fig": "micro-hydro-layout", "article": "micro-hydro", "heading": "Measure head", "where": "start" },
+  { "fig": "hydraulic-ram-layout", "article": "water-pumping", "heading": "Hydraulic ram pump", "where": "start" },
+  { "fig": "gear-belt-speed-ratio", "article": "mills-mechanical-power", "heading": "Speed trades for torque", "where": "end" },
+
+  { "fig": "trench-safety", "article": "foundations", "heading": "Do this first", "where": "end" },
+  { "fig": "foundation-types", "article": "foundations", "heading": "Foundation types", "where": "end" },
+  { "fig": "frame-bracing", "article": "post-and-beam", "heading": "Brace against racking", "where": "end" },
+  { "fig": "chimney-3-2-10", "article": "masonry-heaters-ovens", "heading": "Chimney basics", "where": "start" },
+  { "fig": "stove-clearances", "article": "masonry-heaters-ovens", "heading": "Clearances (cautious figures)", "where": "end" },
+  { "fig": "clay-oven-section", "article": "masonry-heaters-ovens", "heading": "Clay bread ovens", "where": "end" },
+
+  { "fig": "updraft-kiln", "article": "clay-pottery-kilns", "heading": "A simple updraft kiln", "where": "end" },
+  { "fig": "charcoal-mound", "article": "charcoal-making", "heading": "Earth mound method", "where": "end" },
+  { "fig": "forge-fire-pot", "article": "forge-build", "heading": "Build a brake-drum forge", "where": "end" },
+  { "fig": "box-bellows", "article": "forge-build", "heading": "Air supply", "where": "end" },
+  { "fig": "forge-workspace-layout", "article": "forge-build", "heading": "Layout", "where": "end" },
+  { "fig": "bloomery-furnace", "article": "smelting-iron", "heading": "Build the furnace", "where": "end" },
+  { "fig": "sand-mold", "article": "casting-metals", "heading": "Sand casting", "where": "end" }
+]

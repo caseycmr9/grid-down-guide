@@ -286,7 +286,7 @@ Soap and candles are worth learning now. The lye in soap is dangerous, so read t
 - Add lye to cool water slowly, never water to lye. Mix with a stainless steel or heavy plastic (HDPE #2 or #5) spoon.
 - Use stainless steel, heavy plastic, or glass containers only. Never aluminum, tin, copper, or non-stick.
 - Use 100% sodium hydroxide with no additives (check the label).
-- Skin contact: Brush off any dry lye, take off wet clothing, and flush with cool running water for at least 15–20 minutes. Do not use vinegar or any other neutralizer on skin or in the eyes: the reaction makes heat and can deepen the burn.
+- Skin contact: Brush off any dry lye, take off wet clothing, and flush with cool running water for at least 30 minutes. Do not use vinegar or any other neutralizer on skin or in the eyes: the reaction makes heat and can deepen the burn.
 - Eye contact: Flush with water at once, holding the eyelids open, for at least 20 minutes (the CDC advises 30 minutes for lye), and get medical help (911, or Poison Control 1-800-222-1222). See [[chest-abdomen-eye]].
 - If swallowed: rinse the mouth, do not make the person vomit, do not give vinegar or anything to "neutralize" it, and call Poison Control (1-800-222-1222) or 911 at once.
 - Weigh every ingredient on a kitchen scale in grams. Never measure by cups or spoons.
@@ -427,7 +427,7 @@ Charcoal can improve the taste of water but does not make it safe. See [[water-f
 6. Boil the lye dry in an iron pot and you get potash (potassium carbonate), the crude salt left behind.
 Use it for soap (see [[soap-candles]]), nixtamalizing corn ([[making-staples]]), and removing hair from hides ([[leather-hides]]).
 
-> WARNING: Ash lye is caustic. Wear gloves and goggles and use no aluminum. For a splash on skin or in the eyes, flush with water for at least 20 minutes (30 for the eyes) and see [[soap-candles]].
+> WARNING: Ash lye is caustic. Wear gloves and goggles and use no aluminum. For a splash on skin or in the eyes, flush with water for at least 30 minutes (skin or eyes) and see [[soap-candles]].
 
 ## Salt
 Seawater is about 3.5% salt. A gallon yields about 4–5 oz (about 130 g). Boil it down in a wide pot or dry it in shallow pans in the sun. See [[making-staples]].

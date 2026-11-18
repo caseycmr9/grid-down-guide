@@ -24,9 +24,9 @@ function sandbox() {
 }
 const { win, ctx } = sandbox();
 const MD = win.MD;
-const NON_ARTICLE = new Set(['categories.js', 'zonedata.js', 'diagrams.js', 'crisis-steps.js']);
-if (fs.existsSync(path.join(root, 'data', 'diagrams.js'))) {
-  try { vm.runInContext(read(path.join(root, 'data', 'diagrams.js')), ctx, { filename: 'diagrams.js' }); } catch (e) { console.log('  ERROR  could not load data/diagrams.js: ' + e.message); process.exitCode = 1; }
+const NON_ARTICLE = { has: (f) => /^(categories|zonedata|crisis-steps)\.js$|^diagrams.*\.js$/.test(f) };
+for (const df of fs.readdirSync(path.join(root, 'data')).filter((f) => /^diagrams.*\.js$/.test(f))) {
+  try { vm.runInContext(read(path.join(root, 'data', df)), ctx, { filename: df }); } catch (e) { console.log('  ERROR  could not load data/' + df + ': ' + e.message); process.exitCode = 1; }
 }
 const catIds = new Set(win.CATEGORIES.map((c) => c.id));
 
