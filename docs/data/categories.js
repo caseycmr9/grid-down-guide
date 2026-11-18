@@ -19,6 +19,7 @@ window.CATEGORIES = [
   { id: 'build',      icon: '🔨', title: 'Building & Making',     blurb: 'Tools, wood, stoves, structures.' },
   { id: 'rebuild',   icon: '⚒️', title: 'Rebuilding & Primitive Tech', blurb: 'Make power, build homes, forge metal.' },
   { id: 'skills',     icon: '🧵', title: 'Skills & Crafts',       blurb: 'Knots, soap, repair, barter.' },
+  { id: 'household', icon: '🛁', title: 'Soap, Candles & Cleaning', blurb: 'Make soap, candles, cleaners, sanitizer.' },
   { id: 'nav',        icon: '🧭', title: 'Navigation & Radio',    blurb: 'Lost, signaling, weather, comms.' },
   { id: 'security',   icon: '🛡️', title: 'Security & Safety',     blurb: 'Home, community, fire safety.' },
   { id: 'family',     icon: '👪', title: 'Kids & Family',         blurb: 'Children, babies, neighbors, medical needs.' },

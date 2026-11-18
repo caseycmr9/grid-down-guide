@@ -336,7 +336,7 @@ A flashlight and the SOS function in the Tools tab can signal for help: [[signal
 - Many fire codes limit home storage to about **25 gallons of gasoline** total, and often less (about 10 gallons) in an attached garage. Check your local code and your insurance.
 - Fill containers on the ground, not in a truck bed with a plastic liner (static spark danger).
 - Keep absorbent material such as cat litter for small spills.
-- Store oily rags in a closed metal can; they can ignite on their own.
+- Oily rags can ignite on their own. Spread them flat outdoors to dry, or soak them in water in a metal can with a tight lid. Never leave them in a pile or a bag.
 
 > DANGER: **Never store gasoline or propane inside the house**, a basement or a vehicle trunk. Vapors can explode.
 

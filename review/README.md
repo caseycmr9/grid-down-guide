@@ -4,7 +4,7 @@ These logs record how the guides were checked on **2026-11-16**. They are meant 
 
 **What this check is:** an AI compared each checkable claim (numbers, doses, temperatures, steps, warnings) with official sources it could open: Red Cross, AHA, CDC, FDA, USDA/NCHFP, EPA, FEMA, NWS, WHO, AAP, ARRL, university Extension and others. Two passes were made; the second pass went back to the claims the first pass could not verify.
 
-**What it is not:** a review by a qualified person. Several primary sources (heart.org, redcross.org, fsis.usda.gov, fcc.gov, some CDC and Extension pages) blocked automated fetches, so some claims rest on search summaries or secondary sources, and the logs say so. Roughly 1,500 claims were logged; about 250 (about 17%) remain **Unverified**. No claim marked Unverified was found to be wrong, but "not found wrong" is not "confirmed".
+**What it is not:** a review by a qualified person. Several primary sources (heart.org, redcross.org, fsis.usda.gov, fcc.gov, some CDC and Extension pages) blocked automated fetches, so some claims rest on search summaries or secondary sources, and the logs say so. Roughly 1,600 claims were logged; about 300 (about 19%) remain **Unverified**. No claim marked Unverified was found to be wrong, but "not found wrong" is not "confirmed".
 
 | Log | Articles covered | Unverified after 2nd pass |
 |---|---|---|
@@ -22,6 +22,8 @@ These logs record how the guides were checked on **2026-11-16**. They are meant 
 | [rebuild-2-energy.md](rebuild-2-energy.md) | Rebuilding: magnets and alternators, wind, micro-hydro, pedal/biogas, pumping, mills (6, new) | 18 |
 | [rebuild-3-building.md](rebuild-3-building.md) | Rebuilding: site, foundations, log cabins, post-and-beam, masonry, roofs, insulation, heaters, outbuildings, community (10, new) | 13 |
 | [rebuild-4-metal.md](rebuild-4-metal.md) | Rebuilding: clay and kilns, charcoal, lime and mortar, forge, blacksmithing, smelting, scrap, casting, joining (9, new) | 11 |
+| [household-1-soap.md](household-1-soap.md) | Soap, Candles & Cleaning: lye safety, rendering fat, cold and hot process soap, plant cleansers (6, new, single pass) | 17 |
+| [household-2-candles-cleaning.md](household-2-candles-cleaning.md) | Soap, Candles & Cleaning: candles, lamps, salves, cleaners, disinfecting, laundry, hygiene and hand sanitizer (7, new, single pass) | 33 |
 | [home-antimicrobials.md](home-antimicrobials.md) | Home antimicrobials and why antibiotics cannot be brewed (1, new, single pass) | 2 (see log) |
 
 ## Highest-priority items for a human reviewer

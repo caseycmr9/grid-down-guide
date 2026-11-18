@@ -276,7 +276,7 @@ Keep spare buttons, thread, and patches in a small tin. See [[improvised-repair]
     summary: 'Cold-process soap from fat and lye with exact safe amounts, plus tallow candles, rush lights, and non-toxic cleaners.',
     tags: ['soap', 'lye', 'sodium hydroxide', 'tallow', 'lard', 'candle', 'beeswax', 'wick', 'cold process', 'cleaning', 'vinegar', 'rush light'],
     body: `
-Soap and candles are worth learning now. The lye in soap is dangerous, so read the safety rules first.
+Soap and candles are worth learning now. The lye in soap is dangerous, so read the safety rules first. For full recipes, candles, lamps, cleaners and sanitizer, see the Soap, Candles & Cleaning section, starting with [[homemade-start-here]].
 
 ## Lye safety (read first)
 > DANGER: Lye (sodium hydroxide) burns skin and blinds eyes. Fumes irritate the lungs. Keep it away from children and pets.
