@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import { Readable } from 'node:stream';
+import { pipeline } from 'node:stream/promises';
+const url = 'https://download.geofabrik.de/north-america/us/california-latest.osm.pbf';
+const out = 'raw/geofabrik/california-latest.osm.pbf';
+const res = await fetch(url, { headers: { 'User-Agent': 'GridDownGuide-DataBuilder/1.0' } });
+const total = +res.headers.get('content-length');
+let got = 0, last = Date.now();
+const src = Readable.fromWeb(res.body);
+src.on('data', (c) => { got += c.length; if (Date.now() - last > 15000) { last = Date.now(); console.log(Math.round(got / 1e6) + ' / ' + Math.round(total / 1e6) + ' MB'); } });
+await pipeline(src, fs.createWriteStream(out));
+console.log('done', fs.statSync(out).size, 'bytes of', total);

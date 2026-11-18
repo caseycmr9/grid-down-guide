@@ -21,6 +21,12 @@ const v = spawnSync(process.execPath, [P('tools', 'validate.mjs'), '--all'], { e
 const tail = v.stdout.trim().split('\n').slice(-6).join('\n');
 console.log(tail);
 if (v.status !== 0 && !force) { console.error('\nValidation failed. Fix errors (or use --force).'); process.exit(1); }
+// 1b. map data (format and graph checks; add --routes by hand for the reference-route test)
+if (fs.existsSync(P('map'))) {
+  const vm2 = spawnSync(process.execPath, [P('tools', 'validate-map.mjs')], { encoding: 'utf8' });
+  console.log(vm2.stdout.trim().split('\n').slice(-4).join('\n'));
+  if (vm2.status !== 0 && !force) { console.error('\nMap data validation failed.'); process.exit(1); }
+}
 
 // 2. data files in category order
 const win = {};
@@ -37,8 +43,10 @@ html = html.replace(/<!--DATA:START-->[\s\S]*?<!--DATA:END-->/, `<!--DATA:START-
 fs.writeFileSync(P('index.html'), html);
 
 // 3. asset list + version
-const assets = ['./', 'index.html', 'manifest.webmanifest', 'css/style.css', 'js/version.js', 'js/md.js', 'js/qr.js', 'js/tools.js', 'js/crisis.js', 'js/personal.js', 'js/share.js', 'js/app.js',
-  'data/categories.js', ...dataFiles.map((f) => 'data/' + f), 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png']
+// map data (map/*.js) is loaded lazily by js/map.js, but it is cached up front so the map works offline
+const mapFiles = fs.existsSync(P('map')) ? fs.readdirSync(P('map')).filter((f) => f.endsWith('.js')).sort() : [];
+const assets = ['./', 'index.html', 'manifest.webmanifest', 'css/style.css', 'css/map.css', 'js/version.js', 'js/md.js', 'js/qr.js', 'js/tools.js', 'js/crisis.js', 'js/personal.js', 'js/share.js', 'js/map.js', 'js/app.js',
+  'data/categories.js', ...dataFiles.map((f) => 'data/' + f), ...mapFiles.map((f) => 'map/' + f), 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png']
   .filter((a) => a === './' || a === 'js/version.js' || fs.existsSync(P(a))); // version.js is written just below
 const hash = crypto.createHash('sha1');
 for (const a of [...assets.filter((x) => x !== './' && x !== 'js/version.js'), 'sw.js']) hash.update(fs.readFileSync(P(a)));
@@ -72,6 +80,9 @@ if (fs.existsSync(P('icons/icon.svg'))) {
 }
 single = single.replace(/<link rel="stylesheet" href="([^"]+)">/g, (m, href) => `<style>\n${read(href)}\n</style>`);
 single = single.replace(/<script src="([^"]+)"><\/script>/g, (m, src) => `<script>\n${safe(read(src))}\n</script>`);
+// map data stays inert text until the map screen asks for it (js/map.js looks for script[data-lazy="map/ca-xxx.js"])
+const lazy = mapFiles.map((f) => `<script type="text/plain" data-lazy="map/${f}">\n${safe(read('map/' + f))}\n</script>`).join('\n');
+single = single.replace('</body>', () => `${lazy}\n</body>`);
 fs.writeFileSync(path.join(dist, 'grid-down-guide.html'), single);
 fs.writeFileSync(path.join(site, 'grid-down-guide.html'), single); // downloadable backup copy served next to the app (not part of the offline cache)
 
