@@ -1,6 +1,6 @@
 # Rebuilding the California map data
 
-The files in `map/` (`ca-base.js`, `ca-places.js`, `ca-pois.js`, `ca-roads.js`) are generated. You only need this
+The files in `map/` (`ca-base.json`, `ca-places.json`, `ca-pois.json`, `ca-roads.json`) are generated. You only need this
 folder when you want to refresh the map with newer OpenStreetMap data. Plan on about 20 minutes and 3 GB of disk.
 
 Data sources (all free to use; keep the credit line in the app):
@@ -20,10 +20,10 @@ Work in a scratch folder, not inside the project (the downloads are large).
 5. `python -P extract.py` (about 3 minutes) writes `raw/pbf/*.jsonl`; then `python -P parks.py` adds the national parks.
 6. `node make-pois.mjs` writes `out/pois.json` and `out/places.json`.
 7. `node --max-old-space-size=8192 make-graph.mjs --no-unref-primary --secondary-ref --stamp=YYYY-MM-DD` writes `out/roads.json`.
-8. Wrap each result as a script the app can load, then copy into the project's `map/` folder:
-   `node wrap-js.mjs base out/base.json map/ca-base.js '{"updated":"YYYY-MM-DD","region":"California","sources":"..."}'`
-   `node wrap-js.mjs places out/places.json map/ca-places.js` (same for `pois` and `roads`).
-9. In the project: `node tools/validate-map.mjs --routes` (checks the format and drives 18 reference routes), then `node tools/build.mjs`.
+8. Turn each result into a file the app loads, written straight into the project's `map/` folder:
+   `node wrap-json.mjs base out/base.json <project>/map/ca-base.json '{"updated":"YYYY-MM-DD","region":"California","sources":"..."}'`
+   `node wrap-json.mjs places out/places.json <project>/map/ca-places.json` (same for `pois` and `roads`).
+9. In the project: `node tools/validate-map.mjs --routes` (checks the format and drives 16 reference routes), then `node tools/build.mjs`.
 
 ## Choices made
 

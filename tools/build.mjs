@@ -43,8 +43,8 @@ html = html.replace(/<!--DATA:START-->[\s\S]*?<!--DATA:END-->/, `<!--DATA:START-
 fs.writeFileSync(P('index.html'), html);
 
 // 3. asset list + version
-// map data (map/*.js) is loaded lazily by js/map.js, but it is cached up front so the map works offline
-const mapFiles = fs.existsSync(P('map')) ? fs.readdirSync(P('map')).filter((f) => f.endsWith('.js')).sort() : [];
+// map data (map/*.json) is loaded lazily by js/map.js, but it is cached up front so the map works offline
+const mapFiles = fs.existsSync(P('map')) ? fs.readdirSync(P('map')).filter((f) => f.endsWith('.json')).sort() : [];
 const assets = ['./', 'index.html', 'manifest.webmanifest', 'css/style.css', 'css/map.css', 'js/version.js', 'js/md.js', 'js/qr.js', 'js/tools.js', 'js/crisis.js', 'js/personal.js', 'js/share.js', 'js/map.js', 'js/app.js',
   'data/categories.js', ...dataFiles.map((f) => 'data/' + f), ...mapFiles.map((f) => 'map/' + f), 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png']
   .filter((a) => a === './' || a === 'js/version.js' || fs.existsSync(P(a))); // version.js is written just below
@@ -80,8 +80,9 @@ if (fs.existsSync(P('icons/icon.svg'))) {
 }
 single = single.replace(/<link rel="stylesheet" href="([^"]+)">/g, (m, href) => `<style>\n${read(href)}\n</style>`);
 single = single.replace(/<script src="([^"]+)"><\/script>/g, (m, src) => `<script>\n${safe(read(src))}\n</script>`);
-// map data stays inert text until the map screen asks for it (js/map.js looks for script[data-lazy="map/ca-xxx.js"])
-const lazy = mapFiles.map((f) => `<script type="text/plain" data-lazy="map/${f}">\n${safe(read('map/' + f))}\n</script>`).join('\n');
+// map data stays inert JSON text until the map screen asks for it (js/map.js looks for script[data-lazy="map/ca-xxx.json"]);
+// "<" is written as \u003c so nothing inside the data can end the script block
+const lazy = mapFiles.map((f) => `<script type="application/json" data-lazy="map/${f}">${read('map/' + f).replace(/</g, '\\u003c')}</script>`).join('\n');
 single = single.replace('</body>', () => `${lazy}\n</body>`);
 fs.writeFileSync(path.join(dist, 'grid-down-guide.html'), single);
 fs.writeFileSync(path.join(site, 'grid-down-guide.html'), single); // downloadable backup copy served next to the app (not part of the offline cache)

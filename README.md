@@ -38,8 +38,8 @@ Use the **Print** button on the key guides (CPR, severe bleeding, water treatmen
 |---|---|
 | `index.html`, `css/`, `js/app.js`, `js/tools.js`, `js/md.js` | The app (router, search, tools, article renderer) |
 | `js/crisis.js`, `js/personal.js`, `js/share.js`, `js/qr.js` | Crisis mode, My Plan (card, inventory, reminders), share and booklet, and a small offline QR-code encoder |
-| `js/map.js`, `css/map.css`, `map/ca-*.js` | The California map screen, its routing, and its generated data (base layers, places, points of interest, highway network; about 8 MB, loaded only when the map is opened) |
-| `tools/map-data/`, `tools/validate-map.mjs` | How the map data is rebuilt from OpenStreetMap (see its README) and the checker that also drives 18 reference routes |
+| `js/map.js`, `css/map.css`, `map/ca-*.json` | The California map screen, its routing, and its generated data (base layers, places, points of interest, highway network; about 8 MB, loaded only when the map is opened) |
+| `tools/map-data/`, `tools/validate-map.mjs` | How the map data is rebuilt from OpenStreetMap (see its README) and the checker that also drives 16 reference routes |
 | `data/*.js` | The content: one file per section, each article is a plain-text block |
 | `data/categories.js` | Section list, order and icons |
 | `data/diagrams.js`, `data/crisis-steps.js` | The 33 diagrams and the 24 crisis step scripts |

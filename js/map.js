@@ -1,13 +1,14 @@
 /* Grid Down Guide: California map and highway directions (route #/map).
 
-   DATA FORMAT. Four lazily loaded script files assign onto window.GDG_MAP. Coordinates are integers in units of 1e-4 degree
+   DATA FORMAT. Four lazily loaded JSON files (fetched, then JSON.parse; a huge script literal is slow and memory hungry on phones) are stored on window.GDG_MAP.
+   Coordinates are integers in units of 1e-4 degree
    (x = longitude * 1e4, y = latitude * 1e4). A "flat delta" array is [x0, y0, dx1, dy1, dx2, dy2, ...]: the first pair is absolute, the rest are differences.
-     map/ca-base.js    GDG_MAP.meta {updated, region, sources}; GDG_MAP.base {bbox, state:[ring], neighbors:{name:[ring]}, counties:[{n, c:[lon,lat], r:[ring]}],
-                       lakes:[{n, r:[ring]}], rivers:[{n, l:line}]} with every ring and line a flat delta array.
-     map/ca-places.js  GDG_MAP.places = [[x, y, name, kind (0 city, 1 town, 2 village, 3 hamlet), pop], ...]
-     map/ca-pois.js    GDG_MAP.pois = {hospital, urgent, vet, grocery, pharmacy, fuel, fire, police, airport, supplies, landmark: [[x, y, name, addr, phone, flags, sub], ...]}
+     map/ca-base.json    {meta:{updated, region, sources}, base:{bbox, state:[ring], neighbors:{name:[ring]}, counties:[{n, c:[lon,lat], r:[ring]}],
+                       lakes:[{n, r:[ring]}], rivers:[{n, l:line}]}} with every ring and line a flat delta array.
+     map/ca-places.json  [[x, y, name, kind (0 city, 1 town, 2 village, 3 hamlet), pop], ...]
+     map/ca-pois.json    {hospital, urgent, vet, grocery, pharmacy, fuel, fire, police, airport, supplies, landmark: [[x, y, name, addr, phone, flags, sub], ...]}
                        flags: 1 = open 24/7, 2 = emergency room. sub: landmark subtype (LM below); airport 1 = commercial airline airport.
-     map/ca-roads.js   GDG_MAP.roads = {labels:[string], nodes:[x0,y0,x1,y1,...] (absolute; node id = pair index),
+     map/ca-roads.json   {labels:[string], nodes:[x0,y0,x1,y1,...] (absolute; node id = pair index),
                        edges:[[a, b, cls, flags, lab, lenM, geom], ...], exits:[[nodeId, ref, name], ...]}
                        cls 0 freeway, 1 trunk, 2 primary, 3 secondary. flags bit 0 = one-way from a to b. lab indexes labels. lenM is the true length in meters.
                        geom = interior shape points only, as flat deltas (the first delta is relative to node a).
@@ -124,19 +125,42 @@
   var INFLIGHT = {}, LISTEN = [], TIMES = {}; // TIMES: milliseconds spent loading (script fetch and parse) and building each part, for diagnostics
   function notify() { LISTEN.slice().forEach(function (f) { try { f(); } catch (err) { /* a closed screen */ } }); }
 
-  function loadScript(src) {
-    return new Promise(function (resolve, reject) {
-      var inline = document.querySelector('script[data-lazy="' + src + '"]'); // the single-file build embeds the data this way
-      if (inline) {
-        try { var s = document.createElement('script'); s.text = inline.textContent; document.head.appendChild(s); document.head.removeChild(s); resolve(); } catch (err) { reject(err); }
-        return;
-      }
-      var el = document.createElement('script');
-      el.src = src; el.async = true;
-      el.onload = function () { resolve(); };
-      el.onerror = function () { if (el.parentNode) el.parentNode.removeChild(el); reject(new Error('load failed: ' + src)); };
-      document.head.appendChild(el);
-    });
+  var ERR = {}; // part -> short technical reason, shown under the failure message so a problem can be diagnosed from a phone
+  function why(err) { var m = String(err && err.message || err || 'unknown'); return m.length > 140 ? m.slice(0, 140) + '…' : m; }
+  function failHtml(name) { return e(FAIL_MSG) + (ERR[name] ? '<br><small>Details: ' + e(name) + ': ' + e(ERR[name]) + '</small>' : ''); }
+  function sleepMs(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+
+  // Reads one data file and returns the parsed object. The single-file build embeds the data as <script type="application/json" data-lazy="...">.
+  // Otherwise it is fetched (from the offline cache when installed), retrying a few times in case the connection hiccups.
+  function loadData(src) {
+    var inline = document.querySelector('script[data-lazy="' + src + '"]');
+    if (inline) return Promise.resolve().then(function () { return JSON.parse(inline.textContent); });
+    var tries = [{}, { cache: 'reload' }, { cache: 'reload' }];
+    // a damaged copy in the offline cache would be served again and again: drop it, then the next try goes to the network
+    function dropCached() {
+      if (!window.caches) return Promise.resolve();
+      return caches.keys().then(function (ks) { return Promise.all(ks.map(function (k) { return caches.open(k).then(function (c) { return c.delete(src); }); })); }).catch(function () {});
+    }
+    function recache() {
+      if (!window.caches || !window.GDG_VERSION) return;
+      caches.open('gdg-' + window.GDG_VERSION).then(function (c) { return c.add(new Request(src, { cache: 'reload' })); }).catch(function () {});
+    }
+    function attempt(i) {
+      return fetch(src, tries[i]).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.text();
+      }).then(function (t) {
+        if (!t) throw new Error('empty response');
+        var d = JSON.parse(t);
+        if (i > 0) recache();
+        return d;
+      }).catch(function (err) {
+        if (i + 1 >= tries.length) throw err;
+        var damaged = (err && err.name === 'SyntaxError') || /empty response/.test(String(err && err.message));
+        return (damaged ? dropCached() : Promise.resolve()).then(function () { return sleepMs(600 * (i + 1)); }).then(function () { return attempt(i + 1); });
+      });
+    }
+    return attempt(0);
   }
 
   function decodeLine(a) {
@@ -305,10 +329,10 @@
   }
 
   var PARTS = {
-    base: { src: 'map/ca-base.js', check: function () { var b = NS.base; return !!(b && Array.isArray(b.state) && Array.isArray(b.counties) && b.counties.length); }, build: function () { buildBase(); } },
-    places: { src: 'map/ca-places.js', check: function () { return Array.isArray(NS.places); }, build: function () { buildPlaces(); } },
-    pois: { src: 'map/ca-pois.js', check: function () { return !!(NS.pois && typeof NS.pois === 'object'); }, build: function () { buildPois(); } },
-    roads: { src: 'map/ca-roads.js', check: function () { var r = NS.roads; return !!(r && Array.isArray(r.nodes) && Array.isArray(r.edges) && Array.isArray(r.labels)); }, build: buildRoads }
+    base: { src: 'map/ca-base.json', assign: function (d) { NS.meta = d && d.meta; NS.base = d && d.base; }, check: function () { var b = NS.base; return !!(b && Array.isArray(b.state) && Array.isArray(b.counties) && b.counties.length); }, build: function () { buildBase(); } },
+    places: { src: 'map/ca-places.json', assign: function (d) { NS.places = d; }, check: function () { return Array.isArray(NS.places); }, build: function () { buildPlaces(); } },
+    pois: { src: 'map/ca-pois.json', assign: function (d) { NS.pois = d; }, check: function () { return !!(NS.pois && typeof NS.pois === 'object'); }, build: function () { buildPois(); } },
+    roads: { src: 'map/ca-roads.json', assign: function (d) { NS.roads = d; }, check: function () { var r = NS.roads; return !!(r && Array.isArray(r.nodes) && Array.isArray(r.edges) && Array.isArray(r.labels)); }, build: buildRoads }
   };
   function loadPart(name) {
     var P = PARTS[name];
@@ -317,9 +341,9 @@
     ST[name] = 'loading'; notify();
     var t0 = performance.now(), t1 = 0;
     INFLIGHT[name] = Promise.resolve()
-      .then(function () { return NS[name] ? null : loadScript(P.src); })
+      .then(function () { return P.check() ? null : loadData(P.src).then(function (d) { P.assign(d); }); })
       .then(function () { t1 = performance.now(); if (!P.check()) throw new Error('bad data in ' + P.src); return P.build(); })
-      .then(function () { ST[name] = 'ok'; TIMES[name] = { load: Math.round(t1 - t0), build: Math.round(performance.now() - t1) }; }, function (err) { ST[name] = 'err'; try { NS[name] = undefined; } catch (e2) { /* ignore */ } if (window.console) console.warn('map: ' + name + ' failed', err); })
+      .then(function () { if (name === 'base') NS.base = null; else NS[name] = null; /* the built typed arrays replace the raw data: let it go to save phone memory */ ST[name] = 'ok'; ERR[name] = ''; TIMES[name] = { load: Math.round(t1 - t0), build: Math.round(performance.now() - t1) }; }, function (err) { ST[name] = 'err'; ERR[name] = why(err); try { NS[name] = undefined; if (name === 'base') NS.meta = undefined; } catch (e2) { /* ignore */ } if (window.console) console.warn('map: ' + name + ' failed', err); })
       .then(function () { INFLIGHT[name] = null; notify(); });
     return INFLIGHT[name];
   }
@@ -1267,7 +1291,7 @@
 
     /* ---------- panels ---------- */
     function showFatal() {
-      if (ST.base === 'err') { fatal.innerHTML = '<p><b>' + e(FAIL_MSG) + '</b></p><button class="btn primary" data-gm="retry">Retry</button>'; fatal.hidden = false; }
+      if (ST.base === 'err') { fatal.innerHTML = '<p><b>' + e(FAIL_MSG) + '</b></p>' + (ERR.base ? '<p><small>Details: ' + e(ERR.base) + '</small></p>' : '') + '<button class="btn primary" data-gm="retry">Retry</button>'; fatal.hidden = false; }
       else fatal.hidden = true;
     }
     function renderStatus() {
@@ -1277,7 +1301,7 @@
         if (ST[p[0]] === 'loading' || ST[p[0]] === 'idle') h += '<span class="gm-load">Loading ' + p[1] + '…</span>';
         else if (ST[p[0]] === 'err') failed = true;
       });
-      if (failed && ST.base !== 'err') h += '<div class="gm-fail">' + e(FAIL_MSG) + '<br><button class="btn small" data-gm="retry">Retry</button></div>';
+      if (failed && ST.base !== 'err') h += '<div class="gm-fail">' + e(FAIL_MSG) + '<br><small>Details: ' + e(['places', 'pois', 'roads'].filter(function (n) { return ST[n] === 'err'; }).map(function (n) { return n + ': ' + ERR[n]; }).join('; ')) + '</small><br><button class="btn small" data-gm="retry">Retry</button></div>';
       status.innerHTML = h;
       showFatal();
       layoutVars();
@@ -1330,7 +1354,7 @@
       var r = st.route, h = head('➜', 'Directions', ''), ends = '<div class="gm-ends">' + endRow('a', st.start) + endRow('b', st.end) + '</div>' +
         '<div class="gm-btns small"><button class="btn" data-gm="swap">⇅ Swap</button><button class="btn" data-gm="clear">Clear</button></div>';
       if (ST.roads !== 'ok') {
-        h += '<div class="gm-warn">' + (ST.roads === 'err' ? e(FAIL_MSG) + '<br><button class="btn small" data-gm="retry">Retry</button>' : 'The highway data is still loading. Directions will work in a moment.') + '</div>';
+        h += '<div class="gm-warn">' + (ST.roads === 'err' ? failHtml('roads') + '<br><button class="btn small" data-gm="retry">Retry</button>' : 'The highway data is still loading. Directions will work in a moment.') + '</div>';
         return h + ends + '<div class="gm-note">' + e(SAFETY) + '</div>';
       }
       if (!st.start || !st.end) return h + ends + '<p class="muted">Set both a start and a destination. You can tap the map, use the search box, or use the buttons above.</p><div class="gm-note">' + e(SAFETY) + '</div>';
@@ -1361,7 +1385,7 @@
       var ref = refPoint(), h = head('📍', 'Nearest…', '');
       h += '<p class="muted">Measured in a straight line from <b>' + e(ref.label) + '</b>.</p>';
       if (ref.kind !== 'start' && ref.kind !== 'gps') h += '<div class="gm-btns"><button class="btn" data-gm="loc-near">◎ Use my location</button></div>';
-      if (!ST.pois || ST.pois !== 'ok') { if (ST.pois !== 'ok') return h + '<p>' + (ST.pois === 'err' ? e(FAIL_MSG) + '<br><button class="btn small" data-gm="retry">Retry</button>' : 'Loading the places list…') + '</p>'; }
+      if (!ST.pois || ST.pois !== 'ok') { if (ST.pois !== 'ok') return h + '<p>' + (ST.pois === 'err' ? failHtml('pois') + '<br><button class="btn small" data-gm="retry">Retry</button>' : 'Loading the places list…') + '</p>'; }
       if (!st.nearType) {
         h += '<div class="gm-near-grid">';
         NEAR_TYPES.forEach(function (t) { h += '<button class="btn" data-gm="near-type" data-t="' + t[0] + '"><span aria-hidden="true">' + t[2] + '</span> ' + e(t[1]) + '</button>'; });
