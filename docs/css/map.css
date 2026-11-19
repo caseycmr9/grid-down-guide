@@ -5,6 +5,7 @@
   --gm-ocean: #cfe2ee; --gm-land: #f6f3e8; --gm-nbr: #e3e0d4; --gm-nbr-line: #bcb7a5; --gm-county: #d6d0bb; --gm-state: #8b846c;
   --gm-lake: #a9cfe4; --gm-river: #86b5d2;
   --gm-rd0: #f2a33a; --gm-rd0c: #a5600f; --gm-rd1: #f7d065; --gm-rd1c: #a88a1c; --gm-rd2: #ffffff; --gm-rd2c: #9a958a; --gm-rd3: #fbfaf5; --gm-rd3c: #b9b4a5;
+  --gm-st: #ffffff; --gm-stc: #bfb9a4; --gm-stl: #c7c1ac;
   --gm-text: #1f241c; --gm-halo: rgba(255,255,255,.88); --gm-muted: #6a705f; --gm-county-text: #8a8470;
   --gm-route: #c2185b; --gm-route-c: #ffffff; --gm-me: #1a73e8; --gm-sel: #d81b60; --gm-a: #1b7a3a; --gm-b: #c62828; --gm-badge-line: #ffffff;
   --gm-shield: #1e4fa3; --gm-shield-t: #ffffff; --gm-shield2: #ffffff; --gm-shield2-t: #111111; --gm-shield2-l: #333333;
@@ -14,6 +15,7 @@
     --gm-ocean: #0a131a; --gm-land: #1c261e; --gm-nbr: #141a15; --gm-nbr-line: #2b362d; --gm-county: #2d3a30; --gm-state: #73836f;
     --gm-lake: #163246; --gm-river: #27566f;
     --gm-rd0: #dc9530; --gm-rd0c: #4a2f0a; --gm-rd1: #cdae4c; --gm-rd1c: #44390f; --gm-rd2: #8d9588; --gm-rd2c: #1c221d; --gm-rd3: #5d665b; --gm-rd3c: #181d19;
+    --gm-st: #4f5a50; --gm-stc: #121713; --gm-stl: #435044;
     --gm-text: #e6ebe3; --gm-halo: rgba(14,19,16,.88); --gm-muted: #98a494; --gm-county-text: #6f7d6c;
     --gm-route: #ff62b6; --gm-route-c: #0e1310; --gm-me: #5ea5ff; --gm-sel: #ff6fa6; --gm-a: #5cc47c; --gm-b: #ff6b5e; --gm-badge-line: #0e1310;
     --gm-shield: #2f64c4; --gm-shield-t: #ffffff; --gm-shield2: #cfd6cb; --gm-shield2-t: #101410; --gm-shield2-l: #0e1310;
@@ -23,6 +25,7 @@
   --gm-ocean: #0a131a; --gm-land: #1c261e; --gm-nbr: #141a15; --gm-nbr-line: #2b362d; --gm-county: #2d3a30; --gm-state: #73836f;
   --gm-lake: #163246; --gm-river: #27566f;
   --gm-rd0: #dc9530; --gm-rd0c: #4a2f0a; --gm-rd1: #cdae4c; --gm-rd1c: #44390f; --gm-rd2: #8d9588; --gm-rd2c: #1c221d; --gm-rd3: #5d665b; --gm-rd3c: #181d19;
+    --gm-st: #4f5a50; --gm-stc: #121713; --gm-stl: #435044;
   --gm-text: #e6ebe3; --gm-halo: rgba(14,19,16,.88); --gm-muted: #98a494; --gm-county-text: #6f7d6c;
   --gm-route: #ff62b6; --gm-route-c: #0e1310; --gm-me: #5ea5ff; --gm-sel: #ff6fa6; --gm-a: #5cc47c; --gm-b: #ff6b5e; --gm-badge-line: #0e1310;
   --gm-shield: #2f64c4; --gm-shield-t: #ffffff; --gm-shield2: #cfd6cb; --gm-shield2-t: #101410; --gm-shield2-l: #0e1310;
@@ -31,6 +34,7 @@
   --gm-ocean: #000000; --gm-land: #170202; --gm-nbr: #0a0000; --gm-nbr-line: #2c0a07; --gm-county: #2c0b08; --gm-state: #9a2f26;
   --gm-lake: #240504; --gm-river: #5a1813;
   --gm-rd0: #ff4a3d; --gm-rd0c: #2a0300; --gm-rd1: #d63c31; --gm-rd1c: #2a0300; --gm-rd2: #9b2e25; --gm-rd2c: #1c0200; --gm-rd3: #65201a; --gm-rd3c: #160100;
+  --gm-st: #4d1711; --gm-stc: #150100; --gm-stl: #3d100b;
   --gm-text: #ff5a4d; --gm-halo: rgba(0,0,0,.9); --gm-muted: #b83a30; --gm-county-text: #8e2c24;
   --gm-route: #ff9d92; --gm-route-c: #000000; --gm-me: #ff6a5c; --gm-sel: #ff8a7e; --gm-a: #ff6a5c; --gm-b: #ff4a3d; --gm-badge-line: #000000;
   --gm-shield: #8a1d16; --gm-shield-t: #ffb3aa; --gm-shield2: #2c0705; --gm-shield2-t: #ff7a6e; --gm-shield2-l: #ff4a3d;
@@ -205,11 +209,12 @@ html.gm-lock main#view { padding: 0; min-height: 0; max-width: none; }
   .gm-compact .gm-actions, .gm-compact .gm-chips { display: none; }
 }
 .gm-noctrl .gm-ctrl { display: none; }
+.gm-nostrip .gm-strip { display: none; }
 /* short screens (phone on its side): layers behind a button */
 @media (max-height: 520px) {
   .gm-layers-btn { display: inline-flex; flex: 0 0 auto; }
-  .gm-chips { display: none; }
-  .gm-chips.open { display: flex; }
+  .gm-chips:not(.open) .gm-chip:not(.gm-chip-st) { display: none; } /* the Streets chip stays in view */
+  .gm-chips.gm-nost:not(.open) { display: none; }
 }
 /* wide screens: controls in a left column, the sheet becomes a card */
 @media (min-width: 900px), (max-height: 520px) and (min-width: 640px) {
@@ -242,3 +247,75 @@ html.gm-lock main#view { padding: 0; min-height: 0; max-width: none; }
 .gm-btns.small { margin: .2rem 0 .5rem; }
 .gm-btns.small .btn { min-height: 44px; flex: 1 1 6rem; }
 .gm-end .btn:first-of-type:not(:last-of-type) { min-width: 44px; padding: .25rem .5rem; }
+
+/* ---- satellite view ---- */
+.gm-ctrl .gm-btn.gm-satbtn { width: auto; height: 46px; align-self: flex-end; padding: 0 .85rem 0 .7rem; gap: .4rem; font-size: 1rem; line-height: 1; }
+.gm-satic { display: inline-flex; }
+.gm-satic svg { display: block; }
+.gm-satbtn.on { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.gm-nosat .gm-satbtn { display: none; }
+.gm-satst { font-size: 1rem; }
+.gm-satretry { min-height: 44px; font-size: 1rem; }
+.gm-savecard { display: block; width: 100%; max-width: 22rem; padding: .6rem .75rem; border-radius: 12px; background: var(--surface); border: 1px solid var(--border); box-shadow: 0 1px 6px rgba(0,0,0,.3); }
+.gm-savecard .tt { font-weight: 700; font-size: 1rem; margin-bottom: .4rem; }
+.gm-savecard .gm-btn { margin-top: .5rem; }
+.gm-prog { height: 12px; border-radius: 6px; background: var(--surface-2); border: 1px solid var(--border); overflow: hidden; }
+.gm-prog > i { display: block; height: 100%; width: 0; background: var(--accent); }
+.gm-savebox { margin: .3rem 0; }
+.gm-satbox .gm-btns { margin: .4rem 0; }
+.gm-savedline { margin-top: .6rem; }
+.gm-modal { position: absolute; z-index: 20; left: 0; top: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: center; padding: 16px; background: rgba(0,0,0,.55); }
+.gm-dlg { width: 100%; max-width: 26rem; max-height: 100%; overflow-y: auto; padding: 1rem 1.1rem; border-radius: 16px; background: var(--surface); color: var(--text); border: 1px solid var(--border); box-shadow: 0 10px 40px rgba(0,0,0,.45); font-size: 1.05rem; -webkit-user-select: text; user-select: text; }
+.gm-dlg h2 { margin: 0 0 .5rem; font-size: 1.25rem; }
+.gm-dlg p { margin: .4rem 0; line-height: 1.45; }
+.gm-dlg .gm-btns .btn { min-height: 48px; }
+/* legend swatches while the satellite view is on: bright fill with a dark outline, as drawn over the pictures */
+.gm-satonly { display: none; }
+.gm-leg.sat .gm-satonly { display: block; }
+.gm-leg.sat .gm-sw.r0 { background: #ffb83d; border: 2px solid #111; }
+.gm-leg.sat .gm-sw.r1 { background: #ffe27a; border: 2px solid #111; }
+.gm-leg.sat .gm-sw.r2 { background: #ffffff; border: 2px solid #111; }
+.gm-leg.sat .gm-sw.r3 { background: #f1f1ea; border: 1.5px solid #111; }
+.gm-leg.sat .gm-sw.rt { background: #ff3d9a; border: 2px solid #ffffff; box-shadow: 0 0 0 1px #111; }
+.gm-sw.dl { height: 7px; background: repeating-linear-gradient(90deg, #ffffff 0 6px, #222222 6px 10px); border: 1px solid #222222; }
+.gm-ctrl { align-items: flex-end; } /* the wider satellite button must not push the round zoom buttons off the right edge */
+.gm-satbox .muted, .gm-satbox .gm-warn, .gm-satbox p { font-size: 1rem; }
+@media print { .gm-modal { display: none !important; } }
+
+/* ---- street maps: the Streets chip, the note under the buttons, the county list, the legend ---- */
+.gm-chip.gm-chip-st { border-color: var(--accent); font-size: 1rem; font-weight: 750; }
+.gm-chip-st .n { color: var(--accent); font-size: .95rem; font-weight: 700; }
+.gm-stchipw { display: flex; align-items: stretch; gap: 4px; max-width: 100%; }
+.gm-stchip { display: block; min-height: 44px; padding: .45rem .8rem; border-radius: 14px; text-align: left; font: inherit; font-size: 1rem; font-weight: 650; color: var(--text); cursor: pointer; white-space: normal; touch-action: manipulation; border-color: var(--accent); }
+.gm-stx { flex: none; width: 44px; min-height: 44px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); color: var(--muted); font-size: 1.1rem; cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,.2); }
+.gm-stul { margin: .3rem 0; padding-left: 1.2rem; }
+.gm-stul li { margin: .25rem 0; }
+.gm-find { margin: .6rem 0 .3rem; }
+.gm-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.gm-find input { width: 100%; height: 48px; padding: 0 12px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); color: var(--text); font: inherit; font-size: 1rem; -webkit-appearance: none; appearance: none; -webkit-user-select: text; user-select: text; }
+.gm-find input:focus { outline: 3px solid var(--accent); outline-offset: 1px; }
+.gm-chead { margin: .9rem 0 .2rem; font-size: 1.05rem; }
+.gm-crow { margin: .45rem 0; padding: .45rem .6rem; border: 1px solid var(--border); border-radius: 12px; background: var(--surface-2); }
+.gm-crow.hi { border: 2px solid var(--accent); padding: calc(.45rem - 1px) calc(.6rem - 1px); box-shadow: 0 0 0 3px var(--accent-2); }
+.gm-crow .main { display: flex; align-items: center; gap: .6rem; }
+.gm-crow .tx { flex: 1; min-width: 0; }
+.gm-crow .nm { display: block; font-size: 1.08rem; font-weight: 750; overflow-wrap: anywhere; }
+.gm-crow .sb { display: block; font-size: 1rem; color: var(--muted); }
+.gm-crow .stt { display: block; font-size: 1rem; font-weight: 700; }
+.gm-crow .stt.ok { color: var(--accent); }
+.gm-crow .stt.warn { color: var(--danger); }
+.gm-crow .act { flex: none; }
+.gm-crow .act .btn { min-height: 48px; min-width: 6rem; }
+.gm-crow .gm-prog { margin-top: .4rem; }
+.gm-crow .gm-warn, .gm-crow .sb { margin-top: .4rem; }
+.gm-crow .gm-btns { margin: .4rem 0 .1rem; }
+.gm-sw.s1 { height: 4px; background: var(--gm-st); border: 1px solid var(--gm-stc); }
+.gm-sw.s2 { height: 3px; background: var(--gm-st); border: 1px solid var(--gm-stc); opacity: .85; }
+.gm-leg.sat .gm-sw.s1, .gm-leg.sat .gm-sw.s2 { background: #ffffff; border: 1.5px solid #111; }
+.gm-crow .act .btn { font-size: 1rem; }
+.gm-pb .gm-btns .btn { font-size: 1rem; }
+
+.gm-intro { margin: .3rem 0; }
+.gm-intro summary { display: flex; align-items: center; min-height: 44px; font-weight: 750; font-size: 1rem; cursor: pointer; }
+.gm-intro p { margin: .1rem 0 .4rem; }
+#gm-st-store, #gm-st-bulk .muted, #gm-st-list .muted, #gm-st-note .muted, #gm-st-note small { font-size: 1rem; }

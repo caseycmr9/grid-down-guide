@@ -4,6 +4,8 @@ import fs from 'node:fs';
 import { simplify, hav, U, inBBox, CA_BBOX } from './geo.mjs';
 
 import readline from 'node:readline';
+import crypto from 'node:crypto';
+import { streetInfo, BASE_OPTS } from './ways.mjs';
 const args = process.argv.slice(2);
 const noUnrefPrimary = args.includes('--no-unref-primary');
 const secondaryRefOnly = args.includes('--secondary-ref');   // keep secondary roads only when they carry a route number
@@ -58,6 +60,19 @@ for (const w of ways.values()) {
   cnt.set(n[0], cnt.get(n[0]) + 1); cnt.set(n[n.length - 1], cnt.get(n[n.length - 1]) + 1);
 }
 console.log('usable ways', good.length, 'distinct nodes', cnt.size);
+
+// ---- nodes where a smaller street meets one of these roads must also be junctions, so the street packs can attach to the highway network
+{
+  const shared = new Set();
+  const mark = (nodes) => { for (const id of nodes) if (cnt.has(id)) shared.add(id); };
+  for (const w of ways.values()) if (!w.info && streetInfo(w.tags || {}, BASE_OPTS)) mark(w.nodes); // primary and secondary roads without a route number
+  if (fs.existsSync('raw/pbf/streets.jsonl')) {
+    const rl2 = readline.createInterface({ input: fs.createReadStream('raw/pbf/streets.jsonl', 'utf8'), crlfDelay: Infinity });
+    for await (const line of rl2) { if (!line) continue; const j = JSON.parse(line); if (streetInfo(j.t, BASE_OPTS)) mark(j.n); }
+  }
+  for (const id of shared) cnt.set(id, cnt.get(id) + 1);
+  console.log('junctions added where streets meet these roads:', shared.size);
+}
 
 // ---- split ways at junctions into edges
 const nodeIdx = new Map(); const nodes = []; // nodes: x,y pairs
@@ -141,5 +156,10 @@ const roads = { labels, nodes: outNodes, edges: outEdges, exits };
 fs.mkdirSync('out', { recursive: true });
 const json = JSON.stringify(roads);
 fs.writeFileSync('out/roads.json', json);
-fs.writeFileSync('out/roads-meta.json', JSON.stringify({ osmTimestamp: stamp, nodes: outNodes.length / 2, edges: outEdges.length, labels: labels.length, byClass: stats.byClass, km: stats.km.map(Math.round) }));
+// OpenStreetMap id of every graph node (never shipped): the street packs use it to attach to this network
+const osmIds = new Array(outNodes.length / 2).fill(0);
+for (const [id, i] of nodeIdx) if (remap[i] >= 0) osmIds[remap[i]] = id;
+fs.writeFileSync('out/roads-osmids.json', JSON.stringify(osmIds));
+const hash = crypto.createHash('sha1').update(json).digest('hex').slice(0, 10);
+fs.writeFileSync('out/roads-meta.json', JSON.stringify({ hash, osmTimestamp: stamp, nodes: outNodes.length / 2, edges: outEdges.length, labels: labels.length, byClass: stats.byClass, km: stats.km.map(Math.round) }));
 console.log('roads.json', (json.length / 1e6).toFixed(2), 'MB;', outNodes.length / 2, 'nodes;', outEdges.length, 'edges; per class', JSON.stringify(stats.byClass), 'km', JSON.stringify(stats.km.map(Math.round)));
