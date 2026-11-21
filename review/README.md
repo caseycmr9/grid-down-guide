@@ -25,6 +25,12 @@ These logs record how the guides were checked on **2026-11-16**. They are meant 
 | [household-1-soap.md](household-1-soap.md) | Soap, Candles & Cleaning: lye safety, rendering fat, cold and hot process soap, plant cleansers (6, new, single pass) | 17 |
 | [household-2-candles-cleaning.md](household-2-candles-cleaning.md) | Soap, Candles & Cleaning: candles, lamps, salves, cleaners, disinfecting, laundry, hygiene and hand sanitizer (7, new, single pass) | 33 |
 | [home-antimicrobials.md](home-antimicrobials.md) | Home antimicrobials and why antibiotics cannot be brewed (1, new, single pass) | 2 (see log) |
+| [garden-2-problems.md](garden-2-problems.md) | Growing Food, added 2026-11-19: problem finder, nutrient/water problems, diseases, pests and beneficials (4, new, single pass) | 11 |
+| [garden-3-harvest-planning.md](garden-3-harvest-planning.md) | Growing Food, added 2026-11-19: how to harvest, ripeness tests, crop rotation and journal, gardening in California's climates including wildfire ash, rain barrels and greywater (4, new, single pass) | 21 (greywater and rain-barrel text needs a plumbing inspector) |
+| [garden-4-seeds.md](garden-4-seeds.md) | Growing Food, added 2026-11-19: seed saving crop by crop, processing and testing seed, hand pollination, saving tubers, slips, cloves and cuttings (4, new, single pass) | 7 |
+| [garden-5-crops.md](garden-5-crops.md) | Growing Food, added 2026-11-19: tomatoes and peppers, cabbage family/peas/greens, onions and garlic, cucumbers and melons (4, new, single pass) | 20 |
+
+After the four new Growing Food logs were written (2026-11-19), the older garden guides in `data/garden.js` were edited to match their findings: greywater wording (California excludes kitchen-sink and dishwasher water), grain moisture, apple harvest sign, rabbit fence height, soap-spray and diatomaceous-earth cautions, a herbicide-residue warning for manure, hay and straw, shade-cloth percentage, onion sets and days-to-harvest values in the quick-reference table, corn isolation distance, sweet potato slips, bean-weevil freezing time, and silica gel. Those edits were not separately re-checked.
 
 ## Highest-priority items for a human reviewer
 1. **First aid:** the 2025 AHA changes (infant compressions with two thumbs or the heel of one hand; alternating back blows and abdominal thrusts for choking), chest-seal wording, coral-snake wording, second epinephrine dose timing, epinephrine for babies under 15 kg.

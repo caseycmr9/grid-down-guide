@@ -50,7 +50,7 @@ These are rough home-garden figures. Your soil, climate, and skill change them a
 - **Rotate:** do not grow the same family in the same bed more than once every 3–4 years (see [[compost-fertilizer]]).
 
 ## Keep a garden journal
-Write down what you planted, when, where, what died, and when the first and last frosts were. After three years it is worth more than any book. See [[frost-dates-calendar]] and [[veg-quick-reference]].
+Write down what you planted, when, where, what died, and when the first and last frosts were. After three years it is worth more than any book. See [[frost-dates-calendar]], [[veg-quick-reference]] and [[crop-rotation-garden-journal]].
 
 ## Save seed from the start
 Grow open-pollinated varieties and learn to save their seed ([[seed-saving]]). Store extra seed packets cool and dry.
@@ -130,6 +130,7 @@ Manure from plant-eaters (cow, horse, goat, sheep, rabbit, chicken) is excellent
 - **Chicken manure** is "hot" (very high nitrogen): compost it at least 6 months.
 - **Rabbit manure** is gentler and will not burn plants, but still follow the waiting periods below on food crops.
 - **Safety waiting periods (USDA organic rule):** work raw manure into the soil at least **90 days before harvest** for crops whose edible part does not touch the soil and **120 days** for crops that do (lettuce, carrots, strawberries).
+- **Herbicide warning:** manure, hay, straw and compost from animals that ate treated hay or pasture can carry herbicide residue (aminopyralid, clopyralid) that curls and ruins tomatoes, beans, peas and potatoes for years. Ask the source, and see [[plant-nutrient-water-problems]] for the pot test.
 - Do not use dog, cat, or human waste on food. See [[human-waste]].
 
 ## Wood ash
@@ -155,7 +156,7 @@ Grow the same family in the same bed only every 3–4 years. A simple 4-bed cycl
 3. Roots (potatoes, carrots, beets, onions)
 4. Cover crop or rest, then repeat
 
-Rotation reduces disease and pests and balances nutrients. See [[garden-pests]] and [[soil-basics]].
+Rotation reduces disease and pests and balances nutrients. Group by plant family, not only by feeding level: keep tomatoes and potatoes (same family) at least 3 years apart. See [[crop-rotation-garden-journal]], [[garden-pests]] and [[soil-basics]].
 `
   },
   {
@@ -236,7 +237,7 @@ In a long crisis, seed is life. Buy a variety of **open-pollinated or heirloom s
 ## Crops that cross with their neighbors
 Insects and wind swap pollen between plants of the same species. Seed from crossed plants is unpredictable.
 - **Squash, pumpkin, zucchini:** may cross with others of the same species. Hand-pollinate: tape a female flower shut the evening before, in the morning rub a freshly picked male flower on it, tape it shut again, and mark it.
-- **Corn:** wind-pollinated; separate varieties by at least half a mile (0.8 km), or plant so they flower two weeks apart.
+- **Corn:** wind-pollinated; sources say to separate varieties by ½ mile to 2 miles (0.8–3.2 km): use a mile or more if you can. Planting so they flower well apart also helps ([[seed-saving-by-crop]]).
 - **Cabbage family (kale, broccoli, cabbage, turnip):** separate varieties by about half a mile, or grow one variety per year.
 
 ## Biennials
@@ -252,13 +253,15 @@ Save cucumbers from fully ripe, yellow-orange fruit.
 
 ## Drying and storing
 - Seeds must be **bone dry**. A dry bean should shatter if hit with a hammer, not mash.
-- Store in sealed glass jars with a label (variety and year). Add a packet of silica gel or dry rice.
+- Store in sealed glass jars with a label (variety and year). Add a packet of silica gel.
 - Keep **cool, dark, and dry.** A refrigerator or freezer works if seeds are truly dry and kept sealed.
 - Check germination yearly ([[seeds-starting]]).
 
 > TIP: Save seed from your **best** plants: strongest, earliest, most productive. Over years your seed adapts to your garden.
 
 Related: [[garden-planning]], [[harvest-curing]].
+
+Go deeper: [[seed-saving-by-crop]] (isolation, plants needed and seed life for each crop), [[seed-processing-storage-testing]], [[hand-pollination-pure-seed]], [[saving-tubers-slips-cloves-cuttings]].
 `
   },
   {
@@ -354,7 +357,7 @@ Potatoes give more calories per square foot than almost any other garden crop. T
 
 ## Sweet potatoes
 Warm-season crop; need 100–120 frost-free days.
-1. Grow **slips** (sprouts): half-bury a sweet potato in damp sand or suspend it in water in a warm place. Break off 6-in (15 cm) slips when they have a few leaves (4–6 weeks).
+1. Grow **slips** (sprouts): half-bury a sweet potato in damp sand or suspend it in water in a warm place. Cut or twist off 6–12 in (15–30 cm) slips when they have a few leaves (about 6–8 weeks).
 2. Plant slips about 2 weeks after the last frost, when soil is above 65 °F (18 °C), 12 in (30 cm) apart on ridges.
 3. Harvest before frost, handling gently (they bruise). Vines blackened by frost: dig soon.
 4. **Cure** 5–7 days at 80–85 °F (27–29 °C) and high humidity, then store at 55–60 °F (13–15 °C). Never refrigerate. Keeps 6–10 months.
@@ -480,9 +483,9 @@ Timing is relative to your **last spring frost (LSF)**; see [[frost-dates-calend
 | Broccoli (T) | Transplant 2–4 wk before LSF | 18 in | 55–80 | Tight green buds, before yellow flowers | Days; freeze |
 | Swiss chard | 2–3 wk before LSF | 1/2 in / 6–12 in | 50–60 | Outer leaves; cut and come again | Days |
 | Radish | 4 wk before LSF onward | 1/2 in / 1–2 in | 25–30 | Round and firm | 1–2 weeks cool |
-| Onion | Sets or plants 4 wk before LSF | 1 in / 4 in | 90–120 | Tops fall over | Cured: 3–8 months |
+| Onion | Transplants (sets often bolt) 4 wk before LSF | 1 in / 4 in | 90–120 | Tops fall over | Cured: 3–8 months |
 | Garlic | Fall, 4–6 wk before ground freezes | 2 in / 4–6 in | Next July | Lower leaves 1/3–1/2 brown | Cured: softneck 6–8 months, hardneck 3–4 |
-| Leeks (T) | Transplant 4 wk before LSF | 6 in deep / 6 in | 100–120 | Thumb thick | Weeks in ground |
+| Leeks (T) | Transplant 4 wk before LSF | 6 in deep / 6 in | 100–150 | Thumb thick | Weeks in ground |
 
 ## Warm-season crops (after last frost)
 | Crop | Plant | Depth / spacing | Days | Harvest signs | Storage |
@@ -495,7 +498,7 @@ Timing is relative to your **last spring frost (LSF)**; see [[frost-dates-calend
 | Dry beans | 1–2 wk after LSF | 1 in / 2–4 in | 90–120 | Pods dry and rattle | Years |
 | Sweet corn | 1–2 wk after LSF | 1–2 in / 8–12 in | 70–90 | Silks brown; milky juice | Days; can, freeze |
 | Cucumbers | 1–2 wk after LSF | 1 in / 12 in on trellis | 50–70 | Pick young and firm | Pickle |
-| Summer squash | 1–2 wk after LSF | 1 in / 24–36 in | 45–60 | Pick at 6–8 in | About 1 week; dry |
+| Summer squash | 1–2 wk after LSF | 1 in / 24–36 in | 50–65 | Pick at 6–8 in | About 1 week; dry |
 | Winter squash | 1–2 wk after LSF | 1 in / 3–4 ft | 80–120 | Hard rind, dry stem | Months at 50–55 °F |
 | Melons | 2 wk after LSF | 1 in / 3 ft | 80–100 | Slips from vine | Days |
 | Okra | 2 wk after LSF, warm soil | 1 in / 12 in | 55–65 | Pods 3–4 in | Dry, pickle |
@@ -512,6 +515,8 @@ Timing is relative to your **last spring frost (LSF)**; see [[frost-dates-calend
 | Parsnips | 2–3 wk before LSF | 1/2 in / 3–4 in | 100–130 | After frost | In ground or cool |
 
 > TIP: Tomatoes, peppers, eggplant, beans, squash, cucumbers, sweet potatoes, melons, and basil die at the first frost. Cabbage family, peas, spinach, kale, carrots, and beets tolerate light frost. Details in [[harvest-curing]] and [[seeds-starting]].
+
+Full grow guides: [[growing-tomatoes-peppers]], [[growing-brassicas-greens-peas]], [[growing-alliums]], [[growing-cucumbers-melons]], [[growing-potatoes-roots]], [[growing-beans-corn-squash]]. California calendar differences: [[garden-california-climates]].
 `
   },
   {
@@ -543,19 +548,19 @@ A layer of organic mulch 3–4 in (7–10 cm) deep:
 - stops most weeds
 - keeps soil cool and feeds soil life as it rots
 
-Use straw, dry leaves, grass clippings (from lawns that were not sprayed), or wood chips on paths. Keep mulch a few inches away from plant stems. Hay can carry weed seed; straw carries less. Mulch beds after the soil warms in spring.
+Use straw, dry leaves, grass clippings (from lawns that were not sprayed), or wood chips on paths. Keep mulch a few inches away from plant stems. Hay can carry weed seed; straw carries less. Hay or straw from sprayed fields can carry herbicide residue that harms tomatoes, beans and peas ([[plant-nutrient-water-problems]]). Mulch beds after the soil warms in spring.
 
 ## Low-power watering
 - **Watering can or buckets:** best for small gardens.
 - **Gravity drip:** punch small holes in a bucket or use drip line from a raised barrel.
 - **Olla:** bury an unglazed clay pot to its neck beside plants, fill with water, cap it. Water seeps out slowly where roots are. Bottles with holes also work.
 - **Rain barrels:** fill from roofs (see [[rain-catchment]]).
-- **Greywater** (mild-soap dishwater) may be used on soil around ornamental and fruit-tree roots, never on leaves or on root crops eaten raw.
+- **Greywater** (shower, bathroom sink, and clothes-washer water with plant-safe soap) may be used on soil around ornamental and fruit-tree roots. Never spray it, and never use it on root crops or edible parts that touch the soil. In California, kitchen sink and dishwasher water do not count as greywater; see [[garden-california-climates]].
 
 ## Gardening in drought
 1. Choose drought-tough crops: sweet potatoes, okra, cowpeas, tepary beans, sorghum, amaranth, melons, squash, garlic.
 2. Plant farther apart, and mulch heavily.
-3. Use shade cloth (30–50%) in extreme heat.
+3. Use shade cloth (about 30–40%) in extreme heat.
 4. Grow in trenches or sunken beds in dry climates so water pools at roots; in wet climates use raised beds.
 5. Hoe weeds early: weeds steal water.
 6. Build soil with compost; it acts like a sponge ([[soil-basics]]).
@@ -578,8 +583,8 @@ Use straw, dry leaves, grass clippings (from lawns that were not sprayed), or wo
 
 ## Barriers and fences
 - **Deer:** a fence 8 ft (2.4 m) tall, or two 4-ft fences about 3–4 ft apart. Single 4-ft fences are jumped.
-- **Rabbits:** wire fence 2 ft (60 cm) high, with the bottom 6 in (15 cm) bent outward or buried.
-- **Gophers and moles:** line beds with 1/2-in hardware cloth underneath.
+- **Rabbits:** wire fence at least 2 ft (60 cm) high for cottontails (3–4 ft / 1–1.2 m where jackrabbits live), with the bottom 6 in (15 cm) bent outward or buried.
+- **Gophers and moles:** line beds with 1/2–3/4-in hardware cloth underneath.
 - **Birds:** netting over berries and seedlings.
 - **Row cover:** lightweight fabric over crops stops flying insects (cabbage moths, flea beetles, squash vine borers). Remove it when squash and cucumbers flower so bees can pollinate.
 
@@ -594,7 +599,7 @@ Use straw, dry leaves, grass clippings (from lawns that were not sprayed), or wo
 | Aphids | Blast with a water spray; spray insecticidal soap. |
 | Slugs and snails | Handpick at dusk; set boards to trap; shallow dish of beer; keep mulch thin. |
 
-**Soap spray:** mix 1–2 teaspoons of plain liquid soap (no degreaser or bleach) in a quart (1 L) of water. Spray in the evening on aphids and mites, and rinse after a few hours. Test on one leaf first.
+**Soap spray:** a labeled insecticidal soap is safer for plants than a homemade mix, because household soaps can burn leaves. Last resort only: 1–2 teaspoons of plain liquid soap (no degreaser or bleach) in a quart (1 L) of water. Test on one leaf and wait a day, spray in the evening on aphids and mites, and rinse after a few hours.
 
 > WARNING: Never mix household chemicals (bleach, ammonia, vinegar, drain cleaner) to make a garden spray. Follow the label on any store-bought pesticide. Wear gloves, keep it in its original container away from children, pets, and food, and wash vegetables before eating.
 
@@ -610,9 +615,11 @@ Use straw, dry leaves, grass clippings (from lawns that were not sprayed), or wo
 Strong evidence: flowers that attract beneficial insects; mixing crops so pests cannot find one big patch; using trap crops. Many other folk pairings have little proof. Do not rely on them, but mixed plantings are harmless and often helpful.
 
 ## Other tools
-- Diatomaceous earth dusted lightly on soil kills soft-bodied insects but also helpful ones; use sparingly and avoid breathing the dust.
+- Diatomaceous earth dusted lightly on soil kills soft-bodied insects but also helpful ones; use sparingly. Use garden-grade only (never pool-grade) and wear a dust mask and goggles, because the dust harms lungs and eyes.
 - Chickens eat many pests but also scratch up crops ([[chickens]]).
 - Remove or relocate what you cannot beat; no garden is perfect.
+
+Go deeper: [[garden-problem-finder]] (start from what you see), [[garden-pests-beneficials]], [[garden-diseases-guide]], [[plant-nutrient-water-problems]].
 `
   },
   {
@@ -643,12 +650,12 @@ Tender crops (tomatoes, peppers, beans, squash, sweet potatoes, basil) die at 32
 | Winter squash | Hard rind, dry stem, before frost | 10 days at 80–85 °F | 50–55 °F, dry, 3–6 months |
 | Carrots, beets | Roots full size | None | Damp sand, 32–40 °F; or in ground under mulch |
 | Cabbage | Heads firm | None | 32–40 °F, humid; pull whole plant, roots on |
-| Apples | Seeds brown, twist off easily | None | 30–35 °F, humid |
+| Apples | Background color turns from green to yellow-green, lifts and twists off easily, tastes sweet | None | 30–35 °F, humid |
 
 ## Dry beans and corn
 - **Beans:** pull plants when most pods are dry. Hang or lay on a tarp in a dry airy place. When pods crack, shell them. Beans should be so hard a hammer shatters them; if they dent, they need more drying.
-- **Weevil prevention:** freeze dried beans in a sealed container for 3–4 days before long-term storage.
-- **Dry corn:** leave on stalk until husks are brown. Pull back husks, hang ears or braid them, and dry until kernels are rock hard and rub off the cob easily. Dry grain below about 14% moisture for storage ([[bulk-dry-storage]]).
+- **Weevil prevention:** freeze dried beans in a sealed container for at least 4 days before long-term storage.
+- **Dry corn:** leave on stalk until husks are brown. Pull back husks, hang ears or braid them, and dry until kernels are rock hard and rub off the cob easily. Dry grain to about 13% moisture or less for storage into warm weather (12% or less for wheat, oats or barley kept over a year) ([[bulk-dry-storage]]).
 
 ## Tomatoes, peppers and greens at frost
 - Pick mature green tomatoes (full size, pale green or with a pink blush) before frost. Ripen them in a single layer in a paper bag or box at 55–70 °F (13–21 °C). Check often. Or pull whole plants and hang them upside-down in a cool shed.
@@ -661,6 +668,8 @@ Tender crops (tomatoes, peppers, beans, squash, sweet potatoes, basil) die at 32
 
 ## Preserve the surplus
 What cannot be stored fresh: [[canning-basics]], [[drying-dehydrating]], [[fermenting-pickling]].
+
+How to pick each crop and how to tell it is ready: [[how-to-harvest-crops]], [[ripeness-harvest-signs]].
 `
   },
   {
